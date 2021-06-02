@@ -13859,13 +13859,11 @@ msgstr "科目摘要"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:9
 #: gnucash/gtkbuilder/assistant-stock-split.glade:37
-#, fuzzy
 msgid "Stock Split Assistant"
-msgstr "股票分割詳情"
+msgstr "股票分割精靈"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:31
-#, fuzzy
-msgid "This assistant will help you record a stock split or stock merger.\n"
+msgid "This assistant will help you record a stock split or stock merger."
 msgstr "這個精靈會幫助您記錄股票的分割或合併(像是除權、增減資等情況)。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:53
@@ -13874,9 +13872,8 @@ msgid ""
 msgstr "選擇您要記錄股票分割或合併的科目。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:86
-#, fuzzy
 msgid "Stock Split Account"
-msgstr "股票科目"
+msgstr "股票分科科目"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:101
 msgid ""
@@ -13915,17 +13912,15 @@ msgid "Stock Split Details"
 msgstr "股票分割詳情"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:265
-#, fuzzy
 msgid ""
 "If you received a cash disbursement as a result of the stock split, enter "
 "the details of that payment here. Otherwise, just click \"Next\"."
-msgstr "如果您股票分割結果有收到現金，在此輸入撥款的詳情。否則請按「向前」。"
+msgstr "如果您股票分割結果有收到現金，在此輸入撥款的詳情。否則請按「下一步」。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:286
 #: gnucash/import-export/aqb/dialog-ab.glade:1212
-#, fuzzy
 msgid "_Amount"
-msgstr "總額(_A):"
+msgstr "金額(_A):"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:300
 #: gnucash/gtkbuilder/dialog-print-check.glade:1129
@@ -13952,28 +13947,25 @@ msgid "Cash In Lieu"
 msgstr "現金發放"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:419
-#, fuzzy
 msgid ""
 "If you are finished creating the stock split or merger, press \"Apply\". You "
 "may also press \"Back\" to review your choices, or \"Cancel\" to quit "
 "without making any changes."
 msgstr ""
-"如果您已完成建立股票分割或合併，按「套用」。您也可以按「向後」來檢查您的選"
+"如果您已完成建立股票分割或合併，按下「套用」。您也可以按「反迴」來檢查您的選"
 "擇，或「取消」不做任何變更而離開。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:424
-#, fuzzy
 msgid "Stock Split Finish"
-msgstr "股票分割"
+msgstr "完成股票分割"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:25
 msgid "Introduction placeholder"
-msgstr ""
+msgstr "簡介佔位符號"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:30
-#, fuzzy
 msgid "Title placeholder"
-msgstr "Placeholder"
+msgstr "標題佔位符號"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:55
 msgid "_Edit list of encodings"
@@ -13984,18 +13976,16 @@ msgid "Default encoding"
 msgstr "預設編碼"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:148
-#, fuzzy
 msgid "Convert the file"
-msgstr "壓縮資料檔案。"
+msgstr "轉換檔案"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:157
-#, fuzzy
 msgid "finish placeholder"
-msgstr "Placeholder"
+msgstr "結束佔位符號"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:162
 msgid "Finish GnuCash Datafile Import"
-msgstr ""
+msgstr "完成 GnuCash 資料檔匯入"
 
 #: gnucash/gtkbuilder/assistant-xml-encoding.glade:184
 msgid "Edit the list of encodings"
