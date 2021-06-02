@@ -13848,14 +13848,12 @@ msgid "Update your GnuCash accounts"
 msgstr "更新您的 GnuCash 科目"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1387
-#, fuzzy
 msgid "Summary Text"
-msgstr "摘要列(_M)"
+msgstr "摘要文字"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1392
-#, fuzzy
 msgid "Qif Import Summary"
-msgstr "科目摘要"
+msgstr "QIF 匯入摘要"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:9
 #: gnucash/gtkbuilder/assistant-stock-split.glade:37
@@ -13863,7 +13861,8 @@ msgid "Stock Split Assistant"
 msgstr "股票分割精靈"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:31
-msgid "This assistant will help you record a stock split or stock merger."
+#, fuzzy
+msgid "This assistant will help you record a stock split or stock merger.\n"
 msgstr "這個精靈會幫助您記錄股票的分割或合併(像是除權、增減資等情況)。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:53
@@ -20807,9 +20806,8 @@ msgid "(split)"
 msgstr "(分割)"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1369
-#, fuzzy
 msgid "Are you sure you want to cancel?"
-msgstr "您確定要刪除「%s」？"
+msgstr "您確定要取消？"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1580
 msgid "Please select a file to load."
@@ -20842,9 +20840,8 @@ msgstr "已取消"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1827
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1831
-#, fuzzy
 msgid "An error occurred while loading the QIF file."
-msgstr "執行報表時發生錯誤。"
+msgstr "載入 QIF 檔案時發生錯誤。"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1828
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1846
@@ -20867,7 +20864,6 @@ msgstr "正在清理"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1906
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1910
-#, fuzzy
 msgid "A bug was detected while parsing the QIF file."
 msgstr "解析此 QIF 檔案時發生錯誤。"
 
@@ -20880,12 +20876,13 @@ msgid ""
 "When you press the Start Button, GnuCash will load your QIF file. If there "
 "are no errors or warnings, you will automatically proceed to the next step. "
 "Otherwise, the details will be shown below for your review."
-msgstr ""
+msgstr "當您按下開始按鈕，GnuCash 會載入你的 QIF 檔案。如果沒有任何錯誤或警"
+"告，會自動進入下一個步驟。"
+"否則的話，會顯示詳情供您檢查。"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2649
-#, fuzzy
 msgid "Choose the QIF file currency"
-msgstr "輸入 QIF 檔用的貨幣"
+msgstr "選擇 QIF 檔用的貨幣"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2866
 msgid "You must enter an existing national currency or enter a different type."
@@ -20903,7 +20900,7 @@ msgstr "正在取消"
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3153
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3157
 msgid "A bug was detected while detecting duplicates."
-msgstr ""
+msgstr "偵側重複時檢測到 BUG。"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3176
 msgid "Conversion completed"
@@ -20915,22 +20912,22 @@ msgid ""
 "are no errors or warnings, you will automatically proceed to the next step. "
 "Otherwise, the details will be shown below for your review."
 msgstr ""
+"當您按下開始按鈕，GnuCash 會匯入您的 QIF 資料。如果沒有任何錯誤或警告，"
+"會進動進入下一個步驟。"
+"否則的話，會顯示詳情供您檢查。"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3414
 msgid "GnuCash was unable to save your mapping preferences."
-msgstr ""
+msgstr "GnuCash 無法儲存您的對應的偏好設定"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3447
-#, fuzzy, c-format
 msgid "There was a problem with the import."
-msgstr ""
-"選項 %s:%s 有誤。\n"
-"%s"
+msgstr "匯入時發生問題"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3449
-#, fuzzy, c-format
+#, c-format
 msgid "QIF Import Completed."
-msgstr "QIF 匯入"
+msgstr "已完成 QIF 匯入。"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3667
 msgid "QIF account name"
@@ -20950,7 +20947,7 @@ msgstr "相符?"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:3886
 msgid "QIF import requires guile with regex support."
-msgstr ""
+msgstr "匯入 QIF 需要 guile 支援正規表示式 (regex)。"
 
 #: gnucash/import-export/qif-imp/dialog-account-picker.c:235
 msgid "Enter a name for the account"
@@ -20974,19 +20971,19 @@ msgstr "股利"
 
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:86
 msgid "Cap Return"
-msgstr "最高利潤"
+msgstr "投資利益"
 
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:92
 msgid "Cap. gain (long)"
-msgstr "獲益上限 (長期)"
+msgstr "資本利得 (長期)"
 
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:98
 msgid "Cap. gain (mid)"
-msgstr "獲益上限 (中期)"
+msgstr "資本利得 (中期)"
 
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:104
 msgid "Cap. gain (short)"
-msgstr "獲益上限 (短期)"
+msgstr "資本利得 (短期)"
 
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:110
 #: gnucash/import-export/qif-imp/qif-dialog-utils.scm:114
@@ -21020,9 +21017,8 @@ msgid "Reading"
 msgstr "讀取中"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:184
-#, fuzzy
 msgid "Some characters have been discarded."
-msgstr "某些交易可能會被丟棄。"
+msgstr "某些字元被忽略。"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:185
 #: gnucash/import-export/qif-imp/qif-file.scm:189
@@ -21031,11 +21027,11 @@ msgstr "轉換成: "
 
 #: gnucash/import-export/qif-imp/qif-file.scm:188
 msgid "Some characters have been converted according to your locale."
-msgstr ""
+msgstr "某些字元依照您的地區設定進行過轉換。"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:247
 msgid "Ignoring unknown option"
-msgstr ""
+msgstr "忽略未知的選項"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:385
 msgid "Date required."
@@ -21047,29 +21043,27 @@ msgstr "捨棄此交易。"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:418
 msgid "Ignoring class line"
-msgstr ""
+msgstr "忽略類別 (class) 行"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:486
-#, fuzzy
 msgid "Ignoring category line"
-msgstr "QIF 分類名稱"
+msgstr "忽略分類 (category) 行"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:517
 msgid "Ignoring security line"
-msgstr ""
+msgstr "忽略證券行"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:525
 msgid "File does not appear to be in QIF format"
-msgstr ""
+msgstr "此檔案似忽不是 QIF 格式"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:701
 msgid "Transaction date"
 msgstr "交易日期"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:702
-#, fuzzy
 msgid "Transaction amount"
-msgstr "交易日記帳(_T)"
+msgstr "交易金額"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:703
 msgid "Share price"
@@ -21097,76 +21091,68 @@ msgid "Account type"
 msgstr "科目類型"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:709
-#, fuzzy
 msgid "Tax class"
-msgstr "稅金表格"
+msgstr "稅務類別"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:710
-#, fuzzy
 msgid "Category budget amount"
-msgstr "以總額排序"
+msgstr "分類預算金額"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:711
-#, fuzzy
 msgid "Account budget amount"
-msgstr "科目刪除"
+msgstr "科目預算金額"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:712
 msgid "Credit limit"
 msgstr "信用額度"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:725
-#, fuzzy
 msgid "Parsing categories"
-msgstr "解析檔案中..."
+msgstr "解析分類"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:757
-#, fuzzy
 msgid "Parsing accounts"
-msgstr "已存在的科目"
+msgstr "解析科目"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:798
-#, fuzzy
 msgid "Parsing transactions"
-msgstr "建立交易中..."
+msgstr "解析交易"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:974
 msgid "Unrecognized or inconsistent format."
-msgstr ""
+msgstr "無法辨識或不一致的格式。"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:1016
-#, fuzzy
 msgid "Parsing failed."
-msgstr "解析檔案中..."
+msgstr "解解失敗。"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:1057
 msgid "Parse ambiguity between formats"
-msgstr ""
+msgstr "檔案格式不明確"
 
 #: gnucash/import-export/qif-imp/qif-file.scm:1059
 #, scheme-format
 msgid "Value '~a' could be ~a or ~a."
-msgstr ""
+msgstr "數值「~a」可能是「~a」或「~a」。"
 
 #: gnucash/import-export/qif-imp/qif-merge-groups.scm:105
-#, fuzzy
 msgid "Finding duplicate transactions"
-msgstr "尋找完全相同的交易..."
+msgstr "尋找重複的交易"
 
 #: gnucash/import-export/qif-imp/qif-parse.scm:172
 #, scheme-format
 msgid "Unrecognized account type '~s'. Defaulting to Bank."
-msgstr ""
+msgstr "無法辨識的科目類型「~s」。預設成銀行。"
 
 #: gnucash/import-export/qif-imp/qif-parse.scm:235
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Unrecognized action '~a'."
-msgstr "未實現獲利(虧損)"
+msgstr "無法辨識的行動「~a」。"
 
 #: gnucash/import-export/qif-imp/qif-parse.scm:254
 #, scheme-format
 msgid "Unrecognized status '~a'. Defaulting to uncleared."
-msgstr ""
+msgstr "無法辨識的狀態「~a」。預設成未結清。"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:213
 msgid "QIF import: Name conflict with another account."
@@ -21174,31 +21160,27 @@ msgstr "匯入 QIF ：名稱與其他科目衝突。"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:302
 msgid "Preparing to convert your QIF data"
-msgstr ""
+msgstr "準備轉換您的 QIF 資料"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:353
-#, fuzzy
 msgid "Creating accounts"
-msgstr "已存在的科目"
+msgstr "建立科目"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:402
-#, fuzzy
 msgid "Matching transfers between accounts"
-msgstr "沒有符合科目"
+msgstr "比對科目前的轉帳"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:420
-#, fuzzy
 msgid "Converting"
-msgstr "排序"
+msgstr "轉換中"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:501
 msgid "Missing transaction date."
 msgstr "缺少交易日期。"
 
 #: gnucash/price-quotes.scm:442
-#, fuzzy
 msgid "No commodities marked for quote retrieval."
-msgstr "沒有科目是標記為取回報價的。"
+msgstr "沒有商品是被標記為要取回報價的。"
 
 #: gnucash/price-quotes.scm:446 gnucash/price-quotes.scm:468
 msgid "Unable to get quotes or diagnose the problem."
@@ -21215,7 +21197,7 @@ msgstr ""
 #: gnucash/price-quotes.scm:455
 #, scheme-format
 msgid "ERROR: ALPHAVANTAGE_API_KEY must be set for currency and quotes; see ~A"
-msgstr ""
+msgstr "錯誤：貨幣與報價需要設定 ALPHAVANTAGE_API_KEY；請見 ~A"
 
 #: gnucash/price-quotes.scm:460
 msgid "There was a system error while retrieving the price quotes."
@@ -21245,7 +21227,7 @@ msgstr "加入剩餘的可靠報價？"
 #: gnucash/price-quotes.scm:535
 #, scheme-format
 msgid "Found Finance::Quote version ~A."
-msgstr ""
+msgstr "找到 Finance::Quote 版本 ~A。"
 
 #: gnucash/python/init.py:18
 #: gnucash/report/reports/example/welcome-to-gnucash.scm:49
@@ -21290,14 +21272,15 @@ msgid ""
 "Invalid Entry: You need to supply an account in the right currency for this "
 "position."
 msgstr ""
+"無效的分錄：在這個位位你應該輸入具有正確幣別的科目。"
 
 #: gnucash/register/ledger-core/gncEntryLedgerControl.c:184
 msgid "This account should usually be of type income."
-msgstr ""
+msgstr "這個科目一般來說應該是收入類型的科目。"
 
 #: gnucash/register/ledger-core/gncEntryLedgerControl.c:192
 msgid "This account should usually be of type expense or asset."
-msgstr ""
+msgstr "這個科目一般來說應該是支出或資產類型的科目。"
 
 #: gnucash/register/ledger-core/gncEntryLedgerControl.c:760
 #, c-format
@@ -21327,95 +21310,84 @@ msgid "X"
 msgstr "X"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:81
-#, fuzzy
 msgctxt "sample for 'Date'"
 msgid "12/12/2000"
-msgstr "sample:12/12/2000"
+msgstr "12/12/2000"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:86
-#, fuzzy
 msgctxt "sample for 'Description'"
 msgid "Description of an Entry"
-msgstr "sample:項目的描述"
+msgstr "項目的描述"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:92
-#, fuzzy
 msgctxt "sample"
 msgid "Action"
 msgstr "動作"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:96
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:104
-#, fuzzy
 msgctxt "sample"
 msgid "9,999.00"
-msgstr "sample:9,999.00"
+msgstr "9,999.00"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:100
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:145
-#, fuzzy
 msgctxt "sample"
 msgid "999,999.00"
-msgstr "sample:999,999.00"
+msgstr "999,999.00"
 
 #. Translators: Header for Discount Type
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:110
-#, fuzzy, no-c-format
+#, no-c-format
 msgctxt "sample for 'Discount Type'"
 msgid "+%"
-msgstr "%"
+msgstr "+%"
 
 #. Translators: Header for Discount How
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:116
-#, fuzzy, no-c-format
+#, no-c-format
 msgctxt "sample for Discount How'"
 msgid "+%"
-msgstr "%"
+msgstr "+%"
 
 #. Translators: Enter the longest expected path of an Account
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:122
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:127
 #: gnucash/register/ledger-core/split-register-layout.c:727
 #: gnucash/register/ledger-core/split-register-layout.c:735
-#, fuzzy
 msgctxt "sample"
 msgid "Expenses:Automobile:Gasoline"
-msgstr "sample:支出:汽車:汽油"
+msgstr "支出:日常:交通:公司:汽車:汽油"
 
 #. Translators: Abbreviation sample for Taxable?
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:132
-#, fuzzy
 msgctxt "sample for 'Taxable'"
 msgid "T?"
-msgstr "稅率"
+msgstr "應稅"
 
 #. Translators: Abbreviation sample for Tax Included
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:137
-#, fuzzy
 msgctxt "sample for 'Tax Included'"
 msgid "TI"
-msgstr "稅率"
+msgstr "含稅"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:141
-#, fuzzy
 msgctxt "sample for 'Tax Table'"
 msgid "Tax Table 1"
-msgstr "稅金表格: "
+msgstr "稅金表格 1"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:149
-#, fuzzy
 msgctxt "sample"
 msgid "999.00"
-msgstr "sample:999.00"
+msgstr "999.00"
 
 #. Translators: Abbreviation sample for Billable
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:154
 msgctxt "sample for 'Billable'"
 msgid "BI"
-msgstr ""
+msgstr "可計費"
 
 #: gnucash/register/ledger-core/gncEntryLedgerLayout.c:158
-#, fuzzy
 msgctxt "sample"
 msgid "Payment"
 msgstr "付款"
@@ -21571,7 +21543,6 @@ msgid "Is the tax already included in the price of this entry?"
 msgstr "稅金是否已經包含在這個項目的價格中？"
 
 #: gnucash/register/ledger-core/gncEntryLedgerModel.c:736
-#, fuzzy
 msgid "Is this entry invoiced?"
 msgstr "此項目已開發票？"
 
@@ -21616,15 +21587,14 @@ msgid ""
 msgstr ""
 
 #: gnucash/register/ledger-core/split-register.c:459
-#, fuzzy
 msgid "Save transaction before duplicating?"
-msgstr "匯入交易中具相同點者"
+msgstr "在重複相同交易之前先儲存交易？"
 
 #: gnucash/register/ledger-core/split-register.c:461
 msgid ""
 "The current transaction has been changed. Would you like to record the "
 "changes before duplicating the transaction, or cancel the duplication?"
-msgstr "目前的範本交易已經變更。您想要記錄它的變更嗎？"
+msgstr "目前的範本交易已經變更。您想要記錄它的變更，或是取消重複相同的交易？"
 
 #: gnucash/register/ledger-core/split-register.c:945
 msgid ""
@@ -21646,18 +21616,16 @@ msgid ""
 msgstr "您即將覆蓋一個既存的交易。您確定要這麼做？"
 
 #: gnucash/register/ledger-core/split-register-control.c:1351
-#, fuzzy
 msgid "You need to select a split in order to modify its exchange rate."
-msgstr "您需要展開這個交易才能修改它的匯率。"
+msgstr "您需要選擇分割以修改它的匯率。"
 
 #: gnucash/register/ledger-core/split-register-control.c:1378
-#, fuzzy
 msgid "The entered account could not be found."
-msgstr "找不到檔案 %s。"
+msgstr "無法找到輸入的科目。"
 
 #: gnucash/register/ledger-core/split-register-control.c:1477
 msgid "The split's amount is zero, so no exchange rate is needed."
-msgstr ""
+msgstr "此分割的金額為零，因此不需要匯率。"
 
 #: gnucash/register/ledger-core/split-register-control.c:1528
 msgid ""
@@ -21665,6 +21633,8 @@ msgid ""
 "changes before moving to a new transaction, discard the changes, or return "
 "to the changed transaction?"
 msgstr ""
+"目前的交易已經變更。在移動到新的交易前，您想要記錄他的變更，捨棄變更或是"
+"回到已變更的交易？"
 
 #. Translators: The 'sample:' items are
 #. strings which are not displayed, but only
@@ -21682,13 +21652,12 @@ msgstr "22/02/2000"
 #: gnucash/register/ledger-core/split-register-layout.c:671
 msgctxt "sample"
 msgid "99999"
-msgstr ""
+msgstr "99999"
 
 #: gnucash/register/ledger-core/split-register-layout.c:679
-#, fuzzy
 msgctxt "sample"
 msgid "Description of a transaction"
-msgstr "sample:交易的敘述"
+msgstr "交易的描述"
 
 #. Translators: 'L' is short for Linked Document
 #: gnucash/register/ledger-core/split-register-layout.c:703
@@ -21698,7 +21667,7 @@ msgstr "sample:交易的敘述"
 #: gnucash/report/trep-engine.scm:1237 gnucash/report/trep-engine.scm:1238
 msgctxt "Column header for 'Document Link'"
 msgid "L"
-msgstr ""
+msgstr "L"
 
 #: gnucash/register/ledger-core/split-register-layout.c:711
 #: gnucash/register/ledger-core/split-register-layout.c:751
@@ -21710,46 +21679,41 @@ msgstr ""
 #: gnucash/register/ledger-core/split-register-layout.c:801
 #: gnucash/register/ledger-core/split-register-layout.c:809
 #: gnucash/register/ledger-core/split-register-layout.c:857
-#, fuzzy
 msgctxt "sample"
 msgid "999,999.000"
-msgstr "sample:999,999.000"
+msgstr "999,999.000"
 
 #: gnucash/register/ledger-core/split-register-layout.c:743
-#, fuzzy
 msgctxt "sample"
 msgid "Memo field sample text string"
-msgstr "sample:備忘錄欄位範例文字字串"
+msgstr "備忘錄欄位範例文字字串"
 
 #: gnucash/register/ledger-core/split-register-layout.c:817
-#, fuzzy
 msgctxt "Column header for 'Type'"
 msgid "T"
-msgstr "稅率"
+msgstr "類型"
 
 #: gnucash/register/ledger-core/split-register-layout.c:825
-#, fuzzy
 msgctxt "sample"
 msgid "Notes field sample text string"
-msgstr "sample:筆記欄位範例文字字串"
+msgstr "筆記欄位範例文字字串"
 
 #: gnucash/register/ledger-core/split-register-layout.c:833
 msgctxt "sample"
 msgid "No Particular Reason"
-msgstr ""
+msgstr "沒有特別的原因"
 
 #: gnucash/register/ledger-core/split-register-layout.c:841
 #: gnucash/register/ledger-core/split-register-layout.c:849
-#, fuzzy
 msgctxt "sample"
 msgid "(x + 0.33 * y + (x+y) )"
-msgstr "sample:(x + 0.33 * y + (x+y) )"
+msgstr "(x + 0.33 * y + (x+y) )"
 
 #: gnucash/register/ledger-core/split-register-load.c:283
 msgid ""
 "Could not determine the account currency. Using the default currency "
 "provided by your system."
-msgstr ""
+msgstr "無法決定科目的貨幣別。使用您的系統所提供的貨幣別。"
 
 #: gnucash/register/ledger-core/split-register-model.c:253
 msgid "Ref"
@@ -21757,21 +21721,20 @@ msgstr "參照"
 
 #: gnucash/register/ledger-core/split-register-model.c:269
 msgid "T-Ref"
-msgstr ""
+msgstr "交易-參照"
 
 #: gnucash/register/ledger-core/split-register-model.c:278
 #: gnucash/report/reports/standard/register.scm:134
 msgid "T-Num"
-msgstr ""
+msgstr "交易-號碼"
 
 #: gnucash/register/ledger-core/split-register-model.c:404
-#, fuzzy
 msgid "Exch. Rate"
-msgstr "匯率："
+msgstr "匯率"
 
 #: gnucash/register/ledger-core/split-register-model.c:421
 msgid "Oth. Curr."
-msgstr ""
+msgstr "其他貨幣"
 
 #: gnucash/register/ledger-core/split-register-model.c:438
 #: gnucash/register/ledger-core/split-register-model.c:462
