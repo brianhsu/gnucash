@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-01 16:34+0000\n"
+"PO-Revision-Date: 2021-06-02 12:17+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -19,7 +19,7 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Weblate 4.7-dev\n"
+"X-Generator: Poedit 2.3.1\n"
 
 #: bindings/guile/commodity-table.scm:44
 msgid "ALL NON-CURRENCY"
@@ -1034,7 +1034,7 @@ msgstr "分割"
 
 #: gnucash/gnome/assistant-stock-split.c:408
 msgid "Error adding price."
-msgstr "加入價格時發生錯誤。"
+msgstr "加入報價時發生錯誤。"
 
 #: gnucash/gnome/assistant-stock-split.c:573
 #: gnucash/gnome/dialog-find-transactions2.c:111
@@ -2875,48 +2875,42 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Are you sure you want to delete the selected price?"
 msgid_plural "Are you sure you want to delete the %d selected prices?"
-msgstr[0] "您確定要刪除這 %d 個選擇的價格？"
-msgstr[1] "您確定要刪除這 %d 個選擇的價格？"
+msgstr[0] "您確定要刪除這 %d 個選擇的報價？"
+msgstr[1] "您確定要刪除這 %d 個選擇的報價？"
 
 #: gnucash/gnome/dialog-price-edit-db.c:201
 msgid "Delete prices?"
-msgstr "刪除價格？"
+msgstr "刪除報價？"
 
 #: gnucash/gnome/dialog-price-edit-db.c:427
 #: gnucash/gtkbuilder/dialog-invoice.glade:615
 #: gnucash/report/reports/standard/equity-statement.scm:85
 #: gnucash/report/reports/standard/income-statement.scm:116
 #: gnucash/report/reports/standard/trial-balance.scm:91
-#, fuzzy
 msgid "Entries"
-msgstr "訂單項目"
+msgstr "項目"
 
 #: gnucash/gnome/dialog-price-edit-db.c:457
-#, fuzzy
 msgid "Are you sure you want to delete these prices?"
-msgstr "您確定要刪除這 %d 個選擇的價格？"
+msgstr "您確定要刪除這些報價？"
 
 #: gnucash/gnome/dialog-price-editor.c:221
-#, fuzzy
 msgid "Are you sure you want to replace the existing price?"
-msgstr "您確定要刪除這 %d 個選擇的價格？"
+msgstr "您確定要取代原有的報價？"
 
 #: gnucash/gnome/dialog-price-editor.c:227
-#, fuzzy
 msgid "Replace price?"
-msgstr "刪除價格？"
+msgstr "取代報價？"
 
 #: gnucash/gnome/dialog-price-editor.c:233
 msgid "_Replace"
 msgstr "取代(_R)"
 
 #: gnucash/gnome/dialog-price-editor.c:263
-#, fuzzy
 msgid "You must select a Security."
-msgstr "您必須選擇貨幣。"
+msgstr "您必須選擇證券。"
 
 #: gnucash/gnome/dialog-price-editor.c:268
-#, fuzzy
 msgid "You must select a Currency."
 msgstr "您必須選擇貨幣。"
 
@@ -2926,14 +2920,13 @@ msgid "You must enter a valid amount."
 msgstr "您必須輸入有效的數量。"
 
 #: gnucash/gnome/dialog-print-check.c:824
-#, fuzzy
 msgid "Cannot save check format file."
-msgstr "您不能儲存此檔案。"
+msgstr "無法儲存支票格式檔案。"
 
 #: gnucash/gnome/dialog-print-check.c:826
-#, fuzzy, c-format
+#, c-format
 msgid "Cannot open file %s"
-msgstr "無法開啟目前的紀錄檔案: %s"
+msgstr "無法開啟檔案 %s"
 
 #: gnucash/gnome/dialog-print-check.c:1514
 msgid "There is a duplicate check format file."
@@ -3546,7 +3539,7 @@ msgstr "價格資料庫(_P)"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:192
 msgid "View and edit the prices for stocks and mutual funds"
-msgstr "檢視並編輯股票和共同基金的價格"
+msgstr "檢視並編輯股票和共同基金的報價"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:196
 msgid "_Security Editor"
@@ -13903,9 +13896,8 @@ msgstr ""
 "就輸入負數。您也可以輸入交易的敘述，或接受預設值。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:151
-#, fuzzy
 msgid "Desc_ription"
-msgstr "敘述(_R)："
+msgstr "描述(_R)："
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:166
 msgid "Stock Split"
@@ -13918,12 +13910,10 @@ msgid ""
 msgstr "如果您要記錄分割後的股票價格，可在下面輸入。您也可以留空不填。"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:205
-#, fuzzy
 msgid "New _Price"
 msgstr "新價格(_P)："
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:219
-#, fuzzy
 msgid "Currenc_y"
 msgstr "貨幣(_Y)："
 
@@ -16786,57 +16776,54 @@ msgid "Remove Old Prices"
 msgstr "移除舊的價格"
 
 #: gnucash/gtkbuilder/dialog-price.glade:431
-#, fuzzy
 msgid "Delete prices that meet the following criteria:"
-msgstr "根據以下條件刪除股票價格："
+msgstr "根據以下條件刪除報價："
 
 #: gnucash/gtkbuilder/dialog-price.glade:451
-#, fuzzy
 msgid "Remove all prices before date."
-msgstr "移除比使用者輸入日期早的價格"
+msgstr "刪除此日期之前的所有報價。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:465
 msgid "Last of _Week"
-msgstr ""
+msgstr "每週最後(_W)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:469
 msgid "Keep the last price of each week if present before date."
-msgstr ""
+msgstr "保留所選擇的日期前，每週最後一次的報價。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:482
-#, fuzzy
 msgid "Last of _Month"
-msgstr "月底"
+msgstr "每月後最(_M)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:486
 msgid "Keep the last price of each month if present before date."
-msgstr ""
+msgstr "保留所選擇的日期前，每月最後一次的報價。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:499
-#, fuzzy
 msgid "Last of _Quarter"
-msgstr "下一季初"
+msgstr "每季最後(_Q)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:503
 msgid ""
 "Keep the last price of each fiscal quarter if present before date. The "
 "fiscal quarter is derived from the accounting period end date."
-msgstr ""
+msgstr "保留所選擇的日期前，每個財務季度最後一次的報價。"
+"財務季度會由會計週期的結束時間推算出來。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:516
-#, fuzzy
 msgid "Last of _Period"
-msgstr "於期間"
+msgstr "會計期間的最後一個(_P)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:520
 msgid ""
 "Keep the last price of each fiscal period if present before date. The fiscal "
 "period is derived from the accounting period end date."
-msgstr ""
+msgstr "保留所選擇的日期前，每個會計期間最後一次的報價。"
+"會計時間會由會計週期的結束時間推算出來。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:533
 msgid "_Scaled"
-msgstr ""
+msgstr "依比例(_S)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:537
 msgid ""
@@ -16844,43 +16831,41 @@ msgid ""
 "'One a month' is used for dates older than a year and 'One a week' is used "
 "for dates older than six months to a year."
 msgstr ""
+"透過依比例的選項，報價將會相對於所選的日期的距離移除。超過一年以上的日期，會"
+"使用「每月保留一個」的方式，而超過六個月到一年間的日期，會使用「每週保留一個」"
+"的方式進行移除。\n"
 
 #: gnucash/gtkbuilder/dialog-price.glade:585
-#, fuzzy
 msgid "First Date"
-msgstr "張貼日期"
+msgstr "第一筆報價日期"
 
 #: gnucash/gtkbuilder/dialog-price.glade:616
-#, fuzzy
 msgid "From these Commodities"
-msgstr "商品"
+msgstr "刪除下列所選擇的商品"
 
 #: gnucash/gtkbuilder/dialog-price.glade:630
 msgid "Keeping the last available price for option"
-msgstr ""
+msgstr "使用下列選擇的方式保留最後報價"
 
 #: gnucash/gtkbuilder/dialog-price.glade:662
 msgid "Include _Fetched online prices"
-msgstr ""
+msgstr "刪除從線上取得的報價(_F)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:666
 msgid "If activated, prices added by Finance::Quote will be included."
-msgstr ""
+msgstr "如果啟用，則由 Finace::Quote 所新增的報價會被刪除。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:681
-#, fuzzy
 msgid "Include manually _Entered prices"
-msgstr "刪除手動輸入的價格(_M)"
+msgstr "刪除手動輸入的報價(_E)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:685
-#, fuzzy
 msgid "If activated, include manually entered prices."
-msgstr "刪除手動輸入的價格(_M)"
+msgstr "如果啟用，則手動輸入的報價會被刪除。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:702
-#, fuzzy
 msgid "_Added by the application"
-msgstr "離開本程式"
+msgstr "刪除由程式加入的報價(_A)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:706
 msgid ""
@@ -16891,11 +16876,14 @@ msgid ""
 "are able to correctly report values so removing them may make this less "
 "reliable."
 msgstr ""
+"如果啟用，則由程式加入的報價會被刪除。\n"
+"\n"
+"為了讓包含了多種貨幣的交易，在科目頁和報表中都有正確的「最接近時間」的價格，"
+"這個報價會由程式新增。移除此報價的話，可能會造成這些資料較不準確。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:752
-#, fuzzy
 msgid "Before _Date"
-msgstr "日期(_D)："
+msgstr "刪除此日期之前的報價(_D)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:795
 #: gnucash/report/reports/standard/price-scatter.scm:82
@@ -16904,25 +16892,23 @@ msgstr "價格資料庫"
 
 #: gnucash/gtkbuilder/dialog-price.glade:842
 msgid "Add a new price."
-msgstr "增加新價格。"
+msgstr "增加新報價。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:860
-#, fuzzy
 msgid "Remove the current price."
-msgstr "移除目前的價格"
+msgstr "移除目前的報價"
 
 #: gnucash/gtkbuilder/dialog-price.glade:878
 msgid "Edit the current price."
-msgstr "編輯目前的價格。"
+msgstr "編輯目前的報價。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:890
 msgid "Remove _Old"
 msgstr "移除舊的(_O)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:895
-#, fuzzy
 msgid "Remove prices older than a user-entered date."
-msgstr "移除比使用者輸入日期早的價格"
+msgstr "移除比使用者輸入日期早的報價。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:907
 msgid "_Get Quotes"
@@ -20080,24 +20066,24 @@ msgstr "縮小這個欄位(_N)"
 #, c-format
 msgid "%d added price"
 msgid_plural "%d added prices"
-msgstr[0] "新增 %d 筆新價格"
-msgstr[1] "新增 %d 筆新價格"
+msgstr[0] "新增 %d 筆新報價"
+msgstr[1] "新增 %d 筆新報價"
 
 #. Translators: This is a ngettext(3) message, %d is the number of duplicate prices
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1886
 #, c-format
 msgid "%d duplicate price"
 msgid_plural "%d duplicate prices"
-msgstr[0] "%d 筆重複的價格"
-msgstr[1] "%d 筆重複的價格"
+msgstr[0] "%d 筆重複的報價"
+msgstr[1] "%d 筆重複的報價"
 
 #. Translators: This is a ngettext(3) message, %d is the number of replaced prices
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1891
 #, c-format
 msgid "%d replaced price"
 msgid_plural "%d replaced prices"
-msgstr[0] "共有 %d 個價格被取代"
-msgstr[1] "共有 %d 個價格被取代"
+msgstr[0] "共有 %d 個報價被取代"
+msgstr[1] "共有 %d 個報價被取代"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1896
 #, c-format
@@ -21265,10 +21251,9 @@ msgstr "繼續使用已取回部分的報價？"
 
 #: gnucash/price-quotes.scm:513
 msgid "Unable to create prices for these items:"
-msgstr "無法為以下項目建立價格："
+msgstr "無法為以下項目建立報價："
 
 #: gnucash/price-quotes.scm:517
-#, fuzzy
 msgid "Add remaining good quotes?"
 msgstr "加入剩餘的可靠報價？"
 
@@ -23974,7 +23959,7 @@ msgstr "顯示上市/上櫃交易所"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:45
 msgid "Show prices"
-msgstr "顯示價格"
+msgstr "顯示報價"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:46
 msgid "Show number of shares"
@@ -23993,26 +23978,24 @@ msgid "How to report brokerage fees"
 msgstr "如何處理手續費"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:88
-#, fuzzy
 msgid "Basis calculation method."
-msgstr "成本計算方式"
+msgstr "成本計算方式。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:89
-#, fuzzy
 msgid "Average cost of all shares"
-msgstr "用平均股價當成本。"
+msgstr "平均價格"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:90
 msgid "First-in first-out"
-msgstr ""
+msgstr "先進先出"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:91
 msgid "Last-in first-out"
-msgstr ""
+msgstr "後進先出"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:96
 msgid "Prefer use of price editor pricing over transactions, where applicable."
-msgstr "當可行的時候，偏好用價格資料庫裡的價格而非交易價格。"
+msgstr "當可行的時候，偏好用價格資料庫裡的報價而非交易價格。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:102
 msgid "How to report commissions and other brokerage fees."
@@ -24023,14 +24006,12 @@ msgid "Include in basis"
 msgstr "包含在成本中"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:104
-#, fuzzy
 msgid "Include in gain/loss"
-msgstr "包含在獲利中"
+msgstr "包含在獲利 / 虧損中"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:105
-#, fuzzy
 msgid "Omit from report"
-msgstr "報表的標題"
+msgstr "不顯示在報表中"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:111
 msgid "Display the ticker symbols."
@@ -24118,7 +24099,7 @@ msgstr "報酬率"
 msgid ""
 "* this commodity data was built using transaction pricing instead of the "
 "price list."
-msgstr "* 此商品的資料使用的價格為交易時的價格，而非報價"
+msgstr "* 此商品的資料使用的價格為交易時的價格，而非報價。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:1174
 msgid ""
@@ -24127,7 +24108,7 @@ msgstr "如果您使用多種貨幣，則匯率有可能不正確。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:1179
 msgid "** this commodity has no price and a price of 1 has been used."
-msgstr "** 此商品沒有報價資料，將會使用 1 做為價格"
+msgstr "** 此商品沒有報價資料，將會使用 1 做為價格。"
 
 #: gnucash/report/reports/standard/balance-forecast.scm:35
 msgid "Balance Forecast"
@@ -24142,7 +24123,7 @@ msgstr "結餘預測"
 #: gnucash/report/reports/standard/trial-balance.scm:78
 #: gnucash/report/trep-engine.scm:636
 msgid "Report on these accounts."
-msgstr "提出這些科目的報表"
+msgstr "針這這些科目製作報表"
 
 #: gnucash/report/reports/standard/balance-forecast.scm:49
 #: gnucash/report/reports/standard/net-charts.scm:59
