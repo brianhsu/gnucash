@@ -4567,7 +4567,7 @@ msgstr "以描述排序"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:296
 msgid "_Print Invoice"
-msgstr "列印發票"
+msgstr "列印發票(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:297
 msgid "_Edit Invoice"
@@ -12578,7 +12578,7 @@ msgstr "選擇全部(_S)"
 #: gnucash/gtkbuilder/assistant-csv-export.glade:463
 #: gnucash/gtkbuilder/gnc-plugin-page-register.glade:141
 msgid "Select _Range"
-msgstr "選擇範圍"
+msgstr "選擇範圍(_R)"
 
 #. Filter By Dialog, Date Tab, Start section
 #: gnucash/gtkbuilder/assistant-csv-export.glade:490
@@ -13824,7 +13824,7 @@ msgstr "比對既存的交易"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1302
 msgid "_Imported transactions needing review"
-msgstr "匯入交易的第一個分割"
+msgstr "匯入交易的第一個分割(_I)"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1341
 #, fuzzy
@@ -14078,7 +14078,7 @@ msgstr "一般"
 
 #: gnucash/gtkbuilder/business-prefs.glade:67
 msgid "Enable extra _buttons"
-msgstr "啟用額外的按鈕"
+msgstr "啟用額外的按鈕(_B)"
 
 #: gnucash/gtkbuilder/business-prefs.glade:85
 msgid "_Open in new window"
@@ -15327,7 +15327,7 @@ msgstr "在科目列表中搜尋"
 
 #: gnucash/gtkbuilder/dialog-find-account.glade:38
 msgid "Close _on Jump"
-msgstr "跳至科目時關閉此視窗"
+msgstr "跳至科目時關閉此視窗(_O)"
 
 #: gnucash/gtkbuilder/dialog-find-account.glade:55
 msgid "_Jump To"
@@ -16144,7 +16144,7 @@ msgstr "<b>數字</b>"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:1208
 msgid "Force P_rices to display as decimals"
-msgstr "強制使用小數點顯示價格"
+msgstr "強制使用小數點顯示價格(_R)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:1226
 msgid "Display ne_gative amounts in red"
@@ -16178,7 +16178,7 @@ msgstr "數值、日期、時間"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:1403
 msgid "Perform account list _setup on new file"
-msgstr "新增檔案時使用科目列表設定"
+msgstr "新增檔案時使用科目列表設定(_S)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:1409
 msgid "Present the new account list dialog when you choose File->New File."
@@ -16534,7 +16534,7 @@ msgstr "排版"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2674
 msgid "_Future transactions after blank transaction"
-msgstr "未來的交易排在空排交易之後"
+msgstr "未來的交易排在空排交易之後(_F)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2680
 msgid ""
@@ -16775,7 +16775,7 @@ msgstr "價格編輯器"
 
 #: gnucash/gtkbuilder/dialog-price.glade:131
 msgid "_Namespace"
-msgstr "商品種類"
+msgstr "商品種類(_N)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:188
 msgid "S_ource"
@@ -18960,7 +18960,7 @@ msgstr "網路銀行"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:33
 msgid "_Close log window when finished"
-msgstr "完成後日誌視窗"
+msgstr "完成後日誌視窗(_C)"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:39
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:16
@@ -18973,7 +18973,7 @@ msgstr ""
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:51
 msgid "Remember the _PIN in memory"
-msgstr "在工作階段期間於記憶體中記住 PIN 碼"
+msgstr "在工作階段期間於記憶體中記住 PIN 碼(_P)"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:57
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:21
@@ -19504,7 +19504,7 @@ msgstr "將 DTAUS 文件匯入至 GnuCash 並使用網路銀行進行匯款。"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:170
 msgid "Show _log window"
-msgstr "顯示日誌視窗"
+msgstr "顯示日誌視窗(_L)"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:171
 msgid "Show the online banking log window."
