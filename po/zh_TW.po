@@ -5894,14 +5894,12 @@ msgid "Export the current report as a PDF document"
 msgstr "將這份報表匯出為 PDF 文件"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1234
-#, fuzzy
 msgid "Save _Report Configuration"
-msgstr "設定組態路徑"
+msgstr "儲存報表組態(_R)"
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1238
-#, fuzzy
 msgid "Save Report Configuration As..."
-msgstr "設定組態路徑"
+msgstr "另儲存報保組態..."
 
 #: gnucash/gnome/gnc-plugin-page-report.c:1242
 msgid "Export _Report"
@@ -10015,20 +10013,20 @@ msgid ""
 "  get: \tFetch current quotes for all foreign currencies and stocks in the "
 "given GnuCash datafile.\n"
 msgstr ""
-"執行報價相關的指令。目前只支援一個指令。\n"
+"執行報價相關的指令。目前只支援一\n"
+"個指令。"
 "\n"
-" get: \t在指定的 GnuCash 資料檔當中，擷取所有國外貨幣和股價的報價。\n"
+" get: \t在指定的 GnuCash 資料檔當中，擷取 所有國外貨幣和股價的報價。\n"
 
 #: gnucash/gnucash-cli.cpp:100
 msgid ""
 "Regular expression determining which namespace commodities will be retrieved "
 "for"
-msgstr ""
+msgstr "用來決定要擷取哪個命名空間的商品的 正規表示法"
 
 #: gnucash/gnucash-cli.cpp:104
-#, fuzzy
 msgid "Report Generation Options"
-msgstr "報表選項(_R)"
+msgstr "報表生成選項"
 
 #: gnucash/gnucash-cli.cpp:107
 msgid ""
@@ -10039,48 +10037,49 @@ msgid ""
 "be specified to describe some saved options.\n"
 "  run: \tRun the named report in the given GnuCash datafile.\n"
 msgstr ""
+"執行報表相關的指令。支援下列的\n"
+"指令。\n"
+"\n"
+"  list: \t列出可以使用的表報。\n"
+"  show: \t顯示指定的報表中被更動的選項。可以指定資料檔來顯示其儲存的選項。\n"
+"  run: \t使用指定的資料檔來執行報表。\n"
 
 #: gnucash/gnucash-cli.cpp:113
-#, fuzzy
 msgid "Name of the report to run\n"
-msgstr "公司的名稱"
+msgstr "要執行的報表名稱\n"
 
 #: gnucash/gnucash-cli.cpp:115
-#, fuzzy
 msgid "Specify export type\n"
-msgstr "2. 選擇匯入類別"
+msgstr "指定匯出類型\n"
 
 #: gnucash/gnucash-cli.cpp:117
-#, fuzzy
 msgid "Output file for report\n"
-msgstr "報表的背景圖片。"
+msgstr "輸出的報表檔案\n"
 
 #: gnucash/gnucash-cli.cpp:132
 msgid "Unknown quotes command '{1}'"
-msgstr ""
+msgstr "未知的線上報價指令 '{1}'"
 
 #: gnucash/gnucash-cli.cpp:139 gnucash/gnucash-cli.cpp:153
 #: gnucash/gnucash.cpp:367
 msgid "Missing data file parameter"
-msgstr ""
+msgstr "缺少資料檔案的參數"
 
 #: gnucash/gnucash-cli.cpp:177
 msgid "Missing --name parameter"
-msgstr ""
+msgstr "缺少 --name 參數"
 
 #: gnucash/gnucash-cli.cpp:185
 msgid "Unknown report command '{1}'"
-msgstr ""
+msgstr "未知的報表指令 '{1}'"
 
 #: gnucash/gnucash-cli.cpp:191
-#, fuzzy
 msgid "Missing command or option"
-msgstr "這是一個顏色選項"
+msgstr "缺少指令或選項"
 
 #: gnucash/gnucash-commands.cpp:91
-#, fuzzy
 msgid "No quotes retrieved. Finance::Quote isn't installed properly."
-msgstr "未取得任何報價。Finance::Quote 並未正確地安裝。\n"
+msgstr "未取得任何報價。Finance::Quote 並未正確地安裝。"
 
 #: gnucash/gnucash-core-app.cpp:81
 msgid "This is a development version. It may or may not work."
@@ -10092,14 +10091,13 @@ msgstr "請將程式錯誤或其他的問題回報到 gnucash-devel@gnucash.org"
 
 #. Translators: {1} will be replaced with an URL
 #: gnucash/gnucash-core-app.cpp:84
-#, fuzzy
 msgid "You can also lookup and file bug reports at {1}"
-msgstr "您也可以在 https://bugs.gnucash.org 查詢和回報錯誤"
+msgstr "您也可以在 {1} 查詢和回報錯誤"
 
 #. Translators: {1} will be replaced with an URL
 #: gnucash/gnucash-core-app.cpp:86
 msgid "To find the last stable version, please refer to {1}"
-msgstr ""
+msgstr "要找到最新的穩定版本，請參考 {1}"
 
 #: gnucash/gnucash-core-app.cpp:268
 msgid "- GnuCash, accounting for personal and small business finance"
@@ -10110,19 +10108,16 @@ msgid "{1} [options] [datafile]"
 msgstr "{1} [選項] [資料檔]"
 
 #: gnucash/gnucash-core-app.cpp:298
-#, fuzzy
 msgid "GnuCash {1}"
-msgstr "GnuCash"
+msgstr "GnuCash {1}"
 
 #: gnucash/gnucash-core-app.cpp:299
-#, fuzzy
 msgid "GnuCash {1} development version"
-msgstr "GnuCash %s 開發版"
+msgstr "GnuCash {1} 開發版"
 
 #: gnucash/gnucash-core-app.cpp:327
-#, fuzzy
 msgid "Common Options"
-msgstr "帳本選項"
+msgstr "通用選項"
 
 #: gnucash/gnucash-core-app.cpp:330
 msgid "Show this help message"
@@ -10137,6 +10132,9 @@ msgid ""
 "Enable debugging mode: provide deep detail in the logs.\n"
 "This is equivalent to: --log \"=info\" --log \"qof=info\" --log \"gnc=info\""
 msgstr ""
+"開啟除錯模式：在日誌檔中提供詳細\n"
+"的訊息。\n"
+"和以下選項相等： --log \"=info\" --log \"qof=info\" --log \"gnc=info\""
 
 #: gnucash/gnucash-core-app.cpp:336
 msgid "Enable extra/development/debugging features."
@@ -10149,23 +10147,30 @@ msgid ""
 "Examples: \"--log qof=debug\" or \"--log gnc.backend.file.sx=info\"\n"
 "This can be invoked multiple times."
 msgstr ""
+"覆寫記錄日誌的層級，型式為 \"modulename={debug,info,warn,crit,"
+"error}\"\n"
+"例如：\"--log qof=debug\" 或 \"--log gnc.backend.file.sx=info\"\n"
+"這個選項可以出現出次。"
 
 #: gnucash/gnucash-core-app.cpp:340
 msgid ""
 "File to log into; defaults to \"/tmp/gnucash.trace\"; can be \"stderr\" or "
 "\"stdout\"."
 msgstr ""
+"日誌寫入的檔案；預為為 \"/tmp/gnucash.trace\"；可以是 \"stderr\" 或"
+"\"stdout\"。"
 
 #: gnucash/gnucash-core-app.cpp:342
 msgid ""
 "Set the prefix for gsettings schemas for gsettings queries. This can be "
 "useful to have a different settings tree while debugging."
 msgstr ""
+"設定 gsettings 查詢時所使用的 schemas 前綴。可以在除錯時，需使用不同"
+"的設 定樹的時候使用這個選項。"
 
 #: gnucash/gnucash-core-app.cpp:344
-#, fuzzy
 msgid "Hidden Options"
-msgstr "預算選項"
+msgstr "隱藏選項"
 
 #: gnucash/gnucash-core-app.cpp:347
 msgid "[datafile]"
@@ -10180,23 +10185,20 @@ msgid "Loading data..."
 msgstr "載入資料..."
 
 #: gnucash/gnucash.cpp:332
-#, fuzzy
 msgid "Application Options"
-msgstr "應用程式"
+msgstr "應用程式選項"
 
 #: gnucash/gnucash.cpp:335
 msgid "Do not load the last file opened"
 msgstr "不載入最後一次開啟的檔案"
 
 #: gnucash/gnucash.cpp:337
-#, fuzzy
 msgid "Show help for gtk options"
-msgstr "第一選項說明"
+msgstr "顯示 GTK 的選項說明"
 
 #: gnucash/gnucash.cpp:339
-#, fuzzy
 msgid "Deprecated Options"
-msgstr "報表選項(_R)"
+msgstr "已被棄用的選項"
 
 #: gnucash/gnucash.cpp:342
 msgid ""
@@ -10216,6 +10218,9 @@ msgid ""
 "Please use 'gnucash-cli --quotes get --namespace <namespace> <datafile>' "
 "instead."
 msgstr ""
+"用來決定要取得哪個命名空間的商品的 正規表式法。\n"
+"請注意這個選項已被棄用，並且會在 GnuCash 5.0 中移除。\n"
+"請改用 'gnucash-cli --quotes get --namespace <namespace> <datafile>'。"
 
 #: gnucash/gnucash.cpp:363
 msgid ""
@@ -10223,10 +10228,12 @@ msgid ""
 "removed in GnuCash 5.0. Please use 'gnucash-cli --quotes get <datafile>' "
 "instead."
 msgstr ""
+"'--add-price-quotes' 的選項已經被棄用，並且會在 GnuCash 5.0 中移除。\n"
+"請改用 'gnucash-cli --quotes get <datafile>'"
 
 #: gnucash/gnucash.cpp:399
 msgid "Run '{1} --help' to see a full list of available command line options."
-msgstr ""
+msgstr "執行 '{1} --help' 以檢示該指令所有可以使用的命令列選項。"
 
 #. Translators: Do not translate $DISPLAY! It is an environment variable for X11
 #: gnucash/gnucash.cpp:402
@@ -10235,6 +10242,8 @@ msgid ""
 "quotes was not set.\n"
 "Perhaps you need to set the $DISPLAY environment variable?"
 msgstr ""
+"錯誤：無法初始化圖型使用者介面，且 add-price-quote 選項未被設定。\n"
+"也許您需要設定 $DISPLAY 環境變數？"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:17
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:32
@@ -10277,9 +10286,8 @@ msgstr ""
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.flicker.gschema.xml.in:6
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:5
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:64
-#, fuzzy
 msgid "Last window position and size"
-msgstr "視窗位置及大小"
+msgstr "視窗最後所在的位置及大小"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:18
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:33
