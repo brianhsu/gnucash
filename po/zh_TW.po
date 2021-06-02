@@ -24607,9 +24607,8 @@ msgid "Barchart"
 msgstr "長條圖"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1188
-#, fuzzy
 msgid " to "
-msgstr "%s 到 %s"
+msgstr " 到 "
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1251
 #: gnucash/report/reports/standard/trial-balance.scm:855
@@ -24617,38 +24616,35 @@ msgid "Net Income"
 msgstr "淨收入"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1287
-#, fuzzy
 msgid "Balance Sheet (Multicolumn)"
-msgstr "資產負債表日期"
+msgstr "資產負債表 (多欄)"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1288
-#, fuzzy
 msgid "Income Statement (Multicolumn)"
-msgstr "損益表"
+msgstr "損益表 (多欄)"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:38
 msgid "Budget Balance Sheet"
 msgstr "預算平衡表"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:97
-#, fuzzy
 msgid "Include new/existing totals"
-msgstr "收入 & 支出圖表"
+msgstr "包含現有及新增的總數"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:99
 msgid ""
 "Whether or not to include lines indicating change in totals introduced by "
 "budget."
 msgstr ""
+"是否在報表中新增幾行，用來顯示執行預算後重新計算的總數。"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:111
 #: gnucash/report/reports/standard/budget-barchart.scm:86
 #: gnucash/report/reports/standard/budget-flow.scm:56
 #: gnucash/report/reports/standard/budget-income-statement.scm:59
 #: gnucash/report/reports/standard/budget.scm:125
-#, fuzzy
 msgid "Budget to use."
-msgstr "預算選項"
+msgstr "使用的預算。"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:677
 msgid "Existing Assets"
@@ -24718,86 +24714,74 @@ msgstr "圖表類型"
 #: gnucash/report/reports/standard/budget-barchart.scm:50
 #: gnucash/report/reports/standard/budget-income-statement.scm:66
 #: gnucash/report/reports/standard/budget.scm:70
-#, fuzzy
 msgid "Range start"
-msgstr "範圍: "
+msgstr "起始範圍"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:52
 #: gnucash/report/reports/standard/budget.scm:72
-#, fuzzy
 msgid "Select a budget period type that starts the reporting range."
-msgstr "選擇提出報表的日期"
+msgstr "選擇此分報表所使用的起始預算週期的類型。"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:53
 #: gnucash/report/reports/standard/budget.scm:73
 msgid "Exact start period"
-msgstr ""
+msgstr "起始週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:55
 #: gnucash/report/reports/standard/budget.scm:75
-#, fuzzy
 msgid "Select exact period that starts the reporting range."
-msgstr "選擇提出報表的日期"
+msgstr "選擇報表起始的預算週期。"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:57
 #: gnucash/report/reports/standard/budget-income-statement.scm:70
 #: gnucash/report/reports/standard/budget.scm:77
-#, fuzzy
 msgid "Range end"
-msgstr "範圍: "
+msgstr "結束範圍"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:59
 #: gnucash/report/reports/standard/budget.scm:79
-#, fuzzy
 msgid "Select a budget period type that ends the reporting range."
-msgstr "選擇提出報表的日期"
+msgstr "選擇此分報表所使用的結束預算週期的類型"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:60
 #: gnucash/report/reports/standard/budget.scm:80
-#, fuzzy
 msgid "Exact end period"
-msgstr "付款週期"
+msgstr "結束週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:62
 #: gnucash/report/reports/standard/budget.scm:82
-#, fuzzy
 msgid "Select exact period that ends the reporting range."
-msgstr "選擇提出報表的日期"
+msgstr "選擇報表結束的預算週期。"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:65
 #: gnucash/report/reports/standard/budget.scm:111
-#, fuzzy
 msgid "First budget period"
-msgstr "預算週期:"
+msgstr "第一個預算週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:66
 #: gnucash/report/reports/standard/budget.scm:112
-#, fuzzy
 msgid "Previous budget period"
-msgstr "預算週期:"
+msgstr "前一個預算週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:67
 #: gnucash/report/reports/standard/budget.scm:113
-#, fuzzy
 msgid "Current budget period"
-msgstr "預算週期:"
+msgstr "目前的預算週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:68
 #: gnucash/report/reports/standard/budget.scm:114
-#, fuzzy
 msgid "Next budget period"
-msgstr "預算週期:"
+msgstr "下一個預算週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:69
 #: gnucash/report/reports/standard/budget.scm:115
-#, fuzzy
 msgid "Last budget period"
-msgstr "預算週期:"
+msgstr "最後的預算週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:70
 #: gnucash/report/reports/standard/budget.scm:116
 msgid "Manual period selection"
-msgstr ""
+msgstr "手動選取預算週期"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:136
 msgid "Calculate as running sum?"
@@ -24805,7 +24789,7 @@ msgstr "是否要計算當前總數？"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:142
 msgid "Select which chart type to use."
-msgstr ""
+msgstr "選擇要使用哪種圖表。"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:144
 #: gnucash/report/reports/standard/category-barchart.scm:156
@@ -24833,65 +24817,61 @@ msgid "Budget Flow"
 msgstr "預算金流"
 
 #: gnucash/report/reports/standard/budget-flow.scm:70
-#, fuzzy
 msgid "Period number."
-msgstr "訂單編號"
+msgstr "週編編號。"
 
 #: gnucash/report/reports/standard/budget-flow.scm:306
 #, scheme-format
 msgid "~a: ~a - ~a"
-msgstr ""
+msgstr "~a: ~a - ~a"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:62
 #: gnucash/report/reports/standard/budget.scm:66
 msgid "Report for range of budget periods"
-msgstr ""
+msgstr "指定預算週期區間的預算報表"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:64
 #: gnucash/report/reports/standard/budget.scm:68
 msgid "Create report for a budget period range instead of the entire budget."
-msgstr ""
+msgstr "只建立針對某個預算週期區間的報表，非區全預算全體。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:68
 msgid "Select a budget period that begins the reporting range."
-msgstr ""
+msgstr "選擇報表區間起始的預算週期。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:72
-#, fuzzy
 msgid "Select a budget period that ends the reporting range."
-msgstr "選擇提出報表的日期"
+msgstr "選擇報表區間結束的預算週期。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:101
 #: gnucash/report/reports/standard/income-statement.scm:88
-#, fuzzy
 msgid "Label the revenue section"
-msgstr "取消目前的交易"
+msgstr "標示收入區段"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:103
 #: gnucash/report/reports/standard/income-statement.scm:90
 msgid "Whether or not to include a label for the revenue section."
-msgstr ""
+msgstr "是否要在收入區段顯示標籤。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:104
 #: gnucash/report/reports/standard/income-statement.scm:91
 msgid "Include revenue total"
-msgstr ""
+msgstr "顯示總收入"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:106
 #: gnucash/report/reports/standard/income-statement.scm:93
 msgid "Whether or not to include a line indicating total revenue."
-msgstr ""
+msgstr "是否要在報表上納入一行以顯示總收入。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:107
 #: gnucash/report/reports/standard/income-statement.scm:100
-#, fuzzy
 msgid "Label the expense section"
-msgstr "取消目前的交易"
+msgstr "標示支出區段"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:109
 #: gnucash/report/reports/standard/income-statement.scm:102
 msgid "Whether or not to include a label for the expense section."
-msgstr ""
+msgstr "是否要在收入區段顯示標籤。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:110
 #: gnucash/report/reports/standard/income-statement.scm:103
@@ -24901,7 +24881,7 @@ msgstr "包含總支出"
 #: gnucash/report/reports/standard/budget-income-statement.scm:112
 #: gnucash/report/reports/standard/income-statement.scm:105
 msgid "Whether or not to include a line indicating total expense."
-msgstr ""
+msgstr "是否要在報表上納入一行以顯示總支出。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:124
 #: gnucash/report/reports/standard/income-statement.scm:129
@@ -24910,9 +24890,8 @@ msgstr "以雙欄方式顯示報表"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:126
 #: gnucash/report/reports/standard/income-statement.scm:131
-#, fuzzy
 msgid "Divides the report into an income column and an expense column."
-msgstr "設定所有收入與支出科目的稅務資訊"
+msgstr "將報表分成收入欄與支出欄。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:128
 #: gnucash/report/reports/standard/income-statement.scm:133
@@ -24921,7 +24900,6 @@ msgstr "以標準(收入在前)的順序顯示"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:130
 #: gnucash/report/reports/standard/income-statement.scm:135
-#, fuzzy
 msgid ""
 "Causes the report to display in the standard order, placing income before "
 "expenses."
@@ -24929,7 +24907,7 @@ msgstr "使報表以標準順序顯示，將收入放在支出之前"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:438
 msgid "Reporting range end period cannot be less than start period."
-msgstr ""
+msgstr "報表結束日期不能在開始日期之前。"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:506
 #: gnucash/report/reports/standard/income-statement.scm:504
@@ -24947,19 +24925,19 @@ msgid "Total Expenses"
 msgstr "總支出"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:527
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "for Budget ~a"
-msgstr "預算"
+msgstr "針對預算 ~a"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:529
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "for Budget ~a Period ~d"
-msgstr "預算週期:"
+msgstr "針對預預 ~a 週期 ~d"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:532
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "for Budget ~a Periods ~d - ~d"
-msgstr "預算週期:"
+msgstr "針對預算 ~a 週期 ~d - ~d"
 
 #: gnucash/report/reports/standard/budget-income-statement.scm:560
 #: gnucash/report/reports/standard/equity-statement.scm:455
@@ -24996,68 +24974,58 @@ msgid "Show Budget"
 msgstr "顯示預算"
 
 #: gnucash/report/reports/standard/budget.scm:50
-#, fuzzy
 msgid "Display a column for the budget values."
-msgstr "顯示項目的價值"
+msgstr "顯示預算金額於一欄。"
 
 #: gnucash/report/reports/standard/budget.scm:51
-#, fuzzy
 msgid "Show Budget Notes"
-msgstr "顯示預算"
+msgstr "顯示預算筆記"
 
 #: gnucash/report/reports/standard/budget.scm:52
-#, fuzzy
 msgid "Display a column for the budget notes."
-msgstr "顯示項目的價值"
+msgstr "顯示預算筆記於一欄。"
 
 #: gnucash/report/reports/standard/budget.scm:53
-#, fuzzy
 msgid "Show Actual"
-msgstr "顯示表格"
+msgstr "顯示實際金額"
 
 #: gnucash/report/reports/standard/budget.scm:54
-#, fuzzy
 msgid "Display a column for the actual values."
-msgstr "是否顯示所有的個別稅金？"
+msgstr "實顯實際發生的金額於一欄。"
 
 #: gnucash/report/reports/standard/budget.scm:55
 msgid "Show Difference"
 msgstr "顯示差額"
 
 #: gnucash/report/reports/standard/budget.scm:56
-#, fuzzy
 msgid "Display the difference as budget - actual."
-msgstr "顯示預算減實際值為差額"
+msgstr "顯示預算減實際值為差額於一欄"
 
 #: gnucash/report/reports/standard/budget.scm:57
 msgid "Use accumulated amounts"
-msgstr ""
+msgstr "使用累計的金額"
 
 #: gnucash/report/reports/standard/budget.scm:58
 msgid "Values are accumulated across periods."
-msgstr ""
+msgstr "金額將會從各個預算週期累計。"
 
 #: gnucash/report/reports/standard/budget.scm:59
-#, fuzzy
 msgid "Show Column with Totals"
 msgstr "顯示小計"
 
 #: gnucash/report/reports/standard/budget.scm:60
-#, fuzzy
 msgid "Display a column with the row totals."
-msgstr "顯示項目的價值"
+msgstr "顯示每一列的小計於一欄。"
 
 #: gnucash/report/reports/standard/budget.scm:61
-#, fuzzy
 msgid "Include accounts with zero total balances and budget values"
-msgstr "包含有零股份結算的科目。"
+msgstr "包括零結預與零預算的科目"
 
 #: gnucash/report/reports/standard/budget.scm:62
-#, fuzzy
 msgid ""
 "Include accounts with zero total (recursive) balances and budget values in "
 "this report."
-msgstr "包含有零股份結算的科目。"
+msgstr "在報表中包含結餘為零(遞迴計算)的預算為零的科目。"
 
 #: gnucash/report/reports/standard/budget.scm:84
 msgid "Include collapsed periods before selected."
@@ -25082,26 +25050,25 @@ msgstr ""
 #. Translators: Abbreviation for "Budget" amount
 #: gnucash/report/reports/standard/budget.scm:524
 msgid "Bgt"
-msgstr ""
+msgstr "預算"
 
 #. Translators: Abbreviation for "Actual" amount
 #: gnucash/report/reports/standard/budget.scm:529
 msgid "Act"
-msgstr "動作"
+msgstr "實際"
 
 #. Translators: Abbreviation for "Difference" amount
 #: gnucash/report/reports/standard/budget.scm:534
 msgid "Diff"
-msgstr ""
+msgstr "差額"
 
 #. Translators: using accumulated amounts mean
 #. budget will report on budgeted and actual
 #. amounts from the beginning of budget, instead
 #. of only using the budget-period amounts.
 #: gnucash/report/reports/standard/budget.scm:764
-#, fuzzy
 msgid "using accumulated amounts"
-msgstr "已存在的科目"
+msgstr "使用從所有預算週期累計的金額"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:40
 #, fuzzy
