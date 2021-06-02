@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-02 12:17+0800\n"
+"PO-Revision-Date: 2021-06-02 13:51+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -7544,9 +7544,8 @@ msgstr "開啟舊檔..."
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:103
 #: gnucash/gtkbuilder/dialog-customer-import-gui.glade:106
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:812
-#, fuzzy
 msgid "_Open"
-msgstr "開啟"
+msgstr "開啟(_O)"
 
 #: gnucash/gnome-utils/dialog-file-access.c:310
 msgid "Save As..."
@@ -7555,9 +7554,8 @@ msgstr "另存新檔..."
 #: gnucash/gnome-utils/dialog-file-access.c:311
 #: gnucash/gnome-utils/dialog-file-access.c:320
 #: gnucash/gtkbuilder/dialog-file-access.glade:40
-#, fuzzy
 msgid "_Save As"
-msgstr "另存新檔..."
+msgstr "另存新檔(_S)"
 
 #: gnucash/gnome-utils/dialog-options.c:225
 #: gnucash/gnome-utils/gnc-main-window.c:306
@@ -7595,9 +7593,8 @@ msgstr ""
 "目後，重新回到這個對話視窗。(透過檔案->內容選單)"
 
 #: gnucash/gnome-utils/dialog-options.c:701
-#, fuzzy
 msgid "Select no account"
-msgstr "選擇科目"
+msgstr "未選擇科目"
 
 #: gnucash/gnome-utils/dialog-options.c:734
 #: gnucash/gnome-utils/gnc-tree-view-account.c:989
@@ -7625,18 +7622,16 @@ msgid ""
 msgstr "科目 %s 是佔位符號並且不允許交易。請選擇另一個科目。"
 
 #: gnucash/gnome-utils/dialog-options.c:1278
-#, fuzzy
 msgid "Book currency"
-msgstr "貨幣："
+msgstr "帳本貨幣"
 
 #: gnucash/gnome-utils/dialog-options.c:1303
 msgid "Default lot tracking policy"
 msgstr "預設的分堆追踨策略"
 
 #: gnucash/gnome-utils/dialog-options.c:1326
-#, fuzzy
 msgid "Default gain/loss account"
-msgstr "刪除科目 %s"
+msgstr "預設獲利 / 虧損科目"
 
 #: gnucash/gnome-utils/dialog-options.c:1492
 #: gnucash/gnome-utils/dialog-options.c:1636
@@ -7653,9 +7648,8 @@ msgid "Clear All"
 msgstr "清除全部"
 
 #: gnucash/gnome-utils/dialog-options.c:1501
-#, fuzzy
 msgid "Clear the selection and unselect all accounts."
-msgstr "開啟選定的科目及其所有的子科目"
+msgstr "清除選擇並取消選擇所有的科目。"
 
 #: gnucash/gnome-utils/dialog-options.c:1506
 msgid "Select Children"
@@ -7753,9 +7747,8 @@ msgstr "路徑不存在， "
 
 #: gnucash/gnome-utils/dialog-preferences.c:955
 #: gnucash/gnome-utils/dialog-preferences.c:1462
-#, fuzzy
 msgid "Select a folder"
-msgstr "選擇預算"
+msgstr "選擇資料夾"
 
 #: gnucash/gnome-utils/dialog-tax-table.c:119
 msgid "You must provide a name for this Tax Table."
@@ -10014,8 +10007,7 @@ msgid ""
 "given GnuCash datafile.\n"
 msgstr ""
 "執行報價相關的指令。目前只支援一\n"
-"個指令。"
-"\n"
+"個指令。\n"
 " get: \t在指定的 GnuCash 資料檔當中，擷取 所有國外貨幣和股價的報價。\n"
 
 #: gnucash/gnucash-cli.cpp:100
@@ -10147,8 +10139,7 @@ msgid ""
 "Examples: \"--log qof=debug\" or \"--log gnc.backend.file.sx=info\"\n"
 "This can be invoked multiple times."
 msgstr ""
-"覆寫記錄日誌的層級，型式為 \"modulename={debug,info,warn,crit,"
-"error}\"\n"
+"覆寫記錄日誌的層級，型式為 \"modulename={debug,info,warn,crit,error}\"\n"
 "例如：\"--log qof=debug\" 或 \"--log gnc.backend.file.sx=info\"\n"
 "這個選項可以出現出次。"
 
@@ -10157,16 +10148,16 @@ msgid ""
 "File to log into; defaults to \"/tmp/gnucash.trace\"; can be \"stderr\" or "
 "\"stdout\"."
 msgstr ""
-"日誌寫入的檔案；預為為 \"/tmp/gnucash.trace\"；可以是 \"stderr\" 或"
-"\"stdout\"。"
+"日誌寫入的檔案；預為為 \"/tmp/gnucash.trace\"；可以是 \"stderr\" 或\"stdout"
+"\"。"
 
 #: gnucash/gnucash-core-app.cpp:342
 msgid ""
 "Set the prefix for gsettings schemas for gsettings queries. This can be "
 "useful to have a different settings tree while debugging."
 msgstr ""
-"設定 gsettings 查詢時所使用的 schemas 前綴。可以在除錯時，需使用不同"
-"的設 定樹的時候使用這個選項。"
+"設定 gsettings 查詢時所使用的 schemas 前綴。可以在除錯時，需使用不同的設 定樹"
+"的時候使用這個選項。"
 
 #: gnucash/gnucash-core-app.cpp:344
 msgid "Hidden Options"
@@ -12439,29 +12430,24 @@ msgid "Number of rows for the Header"
 msgstr "號碼"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:156
-#, fuzzy
 msgid "Comma Separated"
-msgstr "以逗號(,)分隔"
+msgstr "以逗號分隔"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:172
-#, fuzzy
 msgid "Semicolon Separated"
-msgstr "以分號(;)分隔"
+msgstr "以分號分隔"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:188
-#, fuzzy
 msgid "Custom regular Expression"
 msgstr "自訂正規表示式"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:204
-#, fuzzy
 msgid "Colon Separated"
-msgstr "以分號(;)分隔"
+msgstr "以冒號分隔"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:230
-#, fuzzy
 msgid "Select Separator Type"
-msgstr "2. 選擇匯入類別"
+msgstr "2. 選擇分隔符號類型"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:268
 msgid "Preview"
@@ -14525,22 +14511,22 @@ msgstr "2. 選擇匯入類別"
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:216
 #: gnucash/gtkbuilder/dialog-customer-import-gui.glade:217
 msgid "Semicolon separated"
-msgstr "以分號(;)分隔"
+msgstr "以分號分隔"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:234
 #: gnucash/gtkbuilder/dialog-customer-import-gui.glade:234
 msgid "Comma separated"
-msgstr "以逗號(,)分隔"
+msgstr "以逗號分隔"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:252
 #: gnucash/gtkbuilder/dialog-customer-import-gui.glade:252
 msgid "Semicolon separated with quotes"
-msgstr ""
+msgstr "以分號分隔並使用雙引號"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:270
 #: gnucash/gtkbuilder/dialog-customer-import-gui.glade:270
 msgid "Comma separated with quotes"
-msgstr ""
+msgstr "以逗號分隔並使用雙引號"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:288
 #: gnucash/gtkbuilder/dialog-customer-import-gui.glade:288
@@ -14559,25 +14545,24 @@ msgstr "4. 預覽"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:374
 msgid "Open imported documents in tabs"
-msgstr ""
+msgstr "在新頁籤中開啟匯入的文件"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:392
 msgid "Open not yet posted documents in tabs "
-msgstr ""
+msgstr "在新頁籤中開啟尚未張貼的文件"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:410
 msgid "Don't open imported documents in tabs"
-msgstr ""
+msgstr "不要在新頁籤中開啟匯入的文件"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:432
 msgid "5. Afterwards"
-msgstr ""
+msgstr "5. 匯入後"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:48
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:8
-#, fuzzy
 msgid "window1"
-msgstr "視窗 _1"
+msgstr "視窗1"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:72
 msgid "Due Days"
@@ -16815,8 +16800,9 @@ msgstr "每季最後(_Q)"
 msgid ""
 "Keep the last price of each fiscal quarter if present before date. The "
 "fiscal quarter is derived from the accounting period end date."
-msgstr "保留所選擇的日期前，每個財務季度最後一次的報價。"
-"財務季度會由會計週期的結束時間推算出來。"
+msgstr ""
+"保留所選擇的日期前，每個財務季度最後一次的報價。財務季度會由會計週期的結束時"
+"間推算出來。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:516
 msgid "Last of _Period"
@@ -16826,8 +16812,9 @@ msgstr "會計期間的最後一個(_P)"
 msgid ""
 "Keep the last price of each fiscal period if present before date. The fiscal "
 "period is derived from the accounting period end date."
-msgstr "保留所選擇的日期前，每個會計期間最後一次的報價。"
-"會計時間會由會計週期的結束時間推算出來。"
+msgstr ""
+"保留所選擇的日期前，每個會計期間最後一次的報價。會計時間會由會計週期的結束時"
+"間推算出來。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:533
 msgid "_Scaled"
@@ -16840,8 +16827,8 @@ msgid ""
 "for dates older than six months to a year."
 msgstr ""
 "透過依比例的選項，報價將會相對於所選的日期的距離移除。超過一年以上的日期，會"
-"使用「每月保留一個」的方式，而超過六個月到一年間的日期，會使用「每週保留一個」"
-"的方式進行移除。"
+"使用「每月保留一個」的方式，而超過六個月到一年間的日期，會使用「每週保留一"
+"個」的方式進行移除。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:585
 msgid "First Date"
@@ -26292,7 +26279,7 @@ msgstr ""
 #: gnucash/report/reports/standard/invoice.scm:787
 #, scheme-format
 msgid "~a #~a"
-msgstr ""
+msgstr "~a #~a"
 
 #: gnucash/report/reports/standard/job-report.scm:318
 #: gnucash/report/reports/standard/new-owner-report.scm:530
@@ -26589,7 +26576,7 @@ msgstr ""
 #: gnucash/report/reports/standard/new-owner-report.scm:349
 #, scheme-format
 msgid "~a History"
-msgstr ""
+msgstr "~a 歷史"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:351
 #, fuzzy
