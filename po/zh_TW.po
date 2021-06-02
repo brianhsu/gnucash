@@ -622,7 +622,7 @@ msgid ""
 "use. Click the triangle at the far right of the column headings to change "
 "the display."
 msgstr ""
-"你可以在證券編輯器裡顯示報價來原，讓你更清楚你的證券所使用的報價來源。按下欄"
+"你可以在證券編輯器裡顯示價格來原，讓你更清楚你的證券所使用的價格來源。按下欄"
 "位名稱最右邊的三角選，並且選擇你要顯示的欄位。"
 
 #: doc/tip_of_the_day.list.c:90
@@ -1034,7 +1034,7 @@ msgstr "分割"
 
 #: gnucash/gnome/assistant-stock-split.c:408
 msgid "Error adding price."
-msgstr "加入報價時發生錯誤。"
+msgstr "加入價格時發生錯誤。"
 
 #: gnucash/gnome/assistant-stock-split.c:573
 #: gnucash/gnome/dialog-find-transactions2.c:111
@@ -2875,12 +2875,12 @@ msgstr ""
 #, fuzzy, c-format
 msgid "Are you sure you want to delete the selected price?"
 msgid_plural "Are you sure you want to delete the %d selected prices?"
-msgstr[0] "您確定要刪除這 %d 個選擇的報價？"
-msgstr[1] "您確定要刪除這 %d 個選擇的報價？"
+msgstr[0] "您確定要刪除這 %d 個選擇的價格？"
+msgstr[1] "您確定要刪除這 %d 個選擇的價格？"
 
 #: gnucash/gnome/dialog-price-edit-db.c:201
 msgid "Delete prices?"
-msgstr "刪除報價？"
+msgstr "刪除價格？"
 
 #: gnucash/gnome/dialog-price-edit-db.c:427
 #: gnucash/gtkbuilder/dialog-invoice.glade:615
@@ -2892,15 +2892,15 @@ msgstr "項目"
 
 #: gnucash/gnome/dialog-price-edit-db.c:457
 msgid "Are you sure you want to delete these prices?"
-msgstr "您確定要刪除這些報價？"
+msgstr "您確定要刪除這些價格？"
 
 #: gnucash/gnome/dialog-price-editor.c:221
 msgid "Are you sure you want to replace the existing price?"
-msgstr "您確定要取代原有的報價？"
+msgstr "您確定要取代原有的價格？"
 
 #: gnucash/gnome/dialog-price-editor.c:227
 msgid "Replace price?"
-msgstr "取代報價？"
+msgstr "取代價格？"
 
 #: gnucash/gnome/dialog-price-editor.c:233
 msgid "_Replace"
@@ -3539,7 +3539,7 @@ msgstr "價格資料庫(_P)"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:192
 msgid "View and edit the prices for stocks and mutual funds"
-msgstr "檢視並編輯股票和共同基金的報價"
+msgstr "檢視並編輯股票和共同基金的價格"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:196
 msgid "_Security Editor"
@@ -9331,7 +9331,7 @@ msgstr "短期資本利得"
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2945
 #: gnucash/register/ledger-core/split-register.c:2640
 msgid "Dist"
-msgstr "配股"
+msgstr "分配"
 
 #: gnucash/gnome-utils/gnc-tree-util-split-reg.c:45
 #: gnucash/import-export/import-main-matcher.c:1396
@@ -12685,7 +12685,7 @@ msgstr ""
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:84
 msgid "Price Import Assistant"
-msgstr "報價匯入精靈"
+msgstr "價格匯入精靈"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:99
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:89
@@ -12770,14 +12770,14 @@ msgstr ""
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:534
 msgid "Allow existing prices to be over written."
-msgstr "允許舊有的報價被覆蓋。"
+msgstr "允許舊有的價格被覆蓋。"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:539
 msgid ""
 "Normally prices are not over written, select this to change that. This "
 "setting is not saved."
 msgstr ""
-"一般而言，報價不會被覆蓋，除非勾選此選項來改變這個行為。這個設定不會被儲存。"
+"一般而言，價格不會被覆蓋，除非勾選此選項來改變這個行為。這個設定不會被儲存。"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:563
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:564
@@ -12869,17 +12869,16 @@ msgid ""
 "<b>Press \"Apply\" to add the Prices.\n"
 "\"Cancel\" to abort.</b>"
 msgstr ""
-"<b>按下「套用」以新增報價。\n"
+"<b>按下「套用」以新增價格。\n"
 "按下「取消」以中止匯入。</b>"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:1041
 msgid "Import Prices Now"
-msgstr "匯入報價"
+msgstr "匯入價格"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:28
-#, fuzzy
 msgid "CSV Transaction Import"
-msgstr "交易報表"
+msgstr "CSV 匯入交易"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:56
 msgid ""
@@ -15672,15 +15671,15 @@ msgstr "新增分批(_N)"
 
 #: gnucash/gtkbuilder/dialog-lot-viewer.glade:40
 msgid "Scrub _Account"
-msgstr "清掃科目(_A)"
+msgstr "檢查和修復科目(_A)"
 
 #: gnucash/gtkbuilder/dialog-lot-viewer.glade:55
 msgid "_Scrub"
-msgstr "清掃(_S)"
+msgstr "檢查和修復(_S)"
 
 #: gnucash/gtkbuilder/dialog-lot-viewer.glade:61
 msgid "Scrub the highlighted lot"
-msgstr "清掃反白的分批"
+msgstr "檢查和修復反白的分批"
 
 #: gnucash/gtkbuilder/dialog-lot-viewer.glade:78
 msgid "Delete the highlighted lot"
@@ -16738,7 +16737,7 @@ msgstr "線上報價"
 
 #: gnucash/gtkbuilder/dialog-price.glade:12
 msgid "Bid"
-msgstr "委賣價"
+msgstr "委買價"
 
 #: gnucash/gtkbuilder/dialog-price.glade:15
 msgid "Ask"
@@ -16746,7 +16745,7 @@ msgstr "委賣價"
 
 #: gnucash/gtkbuilder/dialog-price.glade:18
 msgid "Last"
-msgstr "最後"
+msgstr "成交價"
 
 #: gnucash/gtkbuilder/dialog-price.glade:21
 msgid "Net Asset Value"
@@ -16770,11 +16769,11 @@ msgstr "移除舊的價格"
 
 #: gnucash/gtkbuilder/dialog-price.glade:431
 msgid "Delete prices that meet the following criteria:"
-msgstr "根據以下條件刪除報價："
+msgstr "根據以下條件刪除價格："
 
 #: gnucash/gtkbuilder/dialog-price.glade:451
 msgid "Remove all prices before date."
-msgstr "刪除此日期之前的所有報價。"
+msgstr "刪除此日期之前的所有價格。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:465
 msgid "Last of _Week"
@@ -16782,7 +16781,7 @@ msgstr "每週最後(_W)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:469
 msgid "Keep the last price of each week if present before date."
-msgstr "保留所選擇的日期前，每週最後一次的報價。"
+msgstr "保留所選擇的日期前，每週最後一次的價格。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:482
 msgid "Last of _Month"
@@ -16790,7 +16789,7 @@ msgstr "每月後最(_M)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:486
 msgid "Keep the last price of each month if present before date."
-msgstr "保留所選擇的日期前，每月最後一次的報價。"
+msgstr "保留所選擇的日期前，每月最後一次的價格。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:499
 msgid "Last of _Quarter"
@@ -16801,7 +16800,7 @@ msgid ""
 "Keep the last price of each fiscal quarter if present before date. The "
 "fiscal quarter is derived from the accounting period end date."
 msgstr ""
-"保留所選擇的日期前，每個財務季度最後一次的報價。財務季度會由會計週期的結束時"
+"保留所選擇的日期前，每個財務季度最後一次的價格。財務季度會由會計週期的結束時"
 "間推算出來。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:516
@@ -16813,7 +16812,7 @@ msgid ""
 "Keep the last price of each fiscal period if present before date. The fiscal "
 "period is derived from the accounting period end date."
 msgstr ""
-"保留所選擇的日期前，每個會計期間最後一次的報價。會計時間會由會計週期的結束時"
+"保留所選擇的日期前，每個會計期間最後一次的價格。會計時間會由會計週期的結束時"
 "間推算出來。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:533
@@ -16826,13 +16825,13 @@ msgid ""
 "'One a month' is used for dates older than a year and 'One a week' is used "
 "for dates older than six months to a year."
 msgstr ""
-"透過依比例的選項，報價將會相對於所選的日期的距離移除。超過一年以上的日期，會"
+"透過依比例的選項，價格將會相對於所選的日期的距離移除。超過一年以上的日期，會"
 "使用「每月保留一個」的方式，而超過六個月到一年間的日期，會使用「每週保留一"
 "個」的方式進行移除。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:585
 msgid "First Date"
-msgstr "第一筆報價日期"
+msgstr "第一筆價格日期"
 
 #: gnucash/gtkbuilder/dialog-price.glade:616
 msgid "From these Commodities"
@@ -16840,27 +16839,27 @@ msgstr "刪除下列所選擇的商品"
 
 #: gnucash/gtkbuilder/dialog-price.glade:630
 msgid "Keeping the last available price for option"
-msgstr "使用下列選擇的方式保留最後報價"
+msgstr "使用下列選擇的方式保留最後價格"
 
 #: gnucash/gtkbuilder/dialog-price.glade:662
 msgid "Include _Fetched online prices"
-msgstr "刪除從線上取得的報價(_F)"
+msgstr "刪除從線上取得的價格(_F)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:666
 msgid "If activated, prices added by Finance::Quote will be included."
-msgstr "如果啟用，則由 Finace::Quote 所新增的報價會被刪除。"
+msgstr "如果啟用，則由 Finace::Quote 所新增的價格會被刪除。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:681
 msgid "Include manually _Entered prices"
-msgstr "刪除手動輸入的報價(_E)"
+msgstr "刪除手動輸入的價格(_E)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:685
 msgid "If activated, include manually entered prices."
-msgstr "如果啟用，則手動輸入的報價會被刪除。"
+msgstr "如果啟用，則手動輸入的價格會被刪除。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:702
 msgid "_Added by the application"
-msgstr "刪除由程式加入的報價(_A)"
+msgstr "刪除由程式加入的價格(_A)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:706
 msgid ""
@@ -16871,14 +16870,14 @@ msgid ""
 "are able to correctly report values so removing them may make this less "
 "reliable."
 msgstr ""
-"如果啟用，則由程式加入的報價會被刪除。\n"
+"如果啟用，則由程式加入的價格會被刪除。\n"
 "\n"
 "為了讓包含了多種貨幣的交易，在科目頁和報表中都有正確的「最接近時間」的價格，"
-"這個報價會由程式新增。移除此報價的話，可能會造成這些資料較不準確。"
+"這個價格會由程式新增。移除此價格的話，可能會造成這些資料較不準確。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:752
 msgid "Before _Date"
-msgstr "刪除此日期之前的報價(_D)"
+msgstr "刪除此日期之前的價格(_D)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:795
 #: gnucash/report/reports/standard/price-scatter.scm:82
@@ -16887,15 +16886,15 @@ msgstr "價格資料庫"
 
 #: gnucash/gtkbuilder/dialog-price.glade:842
 msgid "Add a new price."
-msgstr "增加新報價。"
+msgstr "增加新的價格。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:860
 msgid "Remove the current price."
-msgstr "移除目前的報價"
+msgstr "移除目前的價格"
 
 #: gnucash/gtkbuilder/dialog-price.glade:878
 msgid "Edit the current price."
-msgstr "編輯目前的報價。"
+msgstr "編輯目前的價格。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:890
 msgid "Remove _Old"
@@ -16903,7 +16902,7 @@ msgstr "移除舊的(_O)"
 
 #: gnucash/gtkbuilder/dialog-price.glade:895
 msgid "Remove prices older than a user-entered date."
-msgstr "移除比使用者輸入日期早的報價。"
+msgstr "移除比使用者輸入日期早的價格。"
 
 #: gnucash/gtkbuilder/dialog-price.glade:907
 msgid "_Get Quotes"
@@ -20061,24 +20060,24 @@ msgstr "縮小這個欄位(_N)"
 #, c-format
 msgid "%d added price"
 msgid_plural "%d added prices"
-msgstr[0] "新增 %d 筆新報價"
-msgstr[1] "新增 %d 筆新報價"
+msgstr[0] "新增 %d 筆新價格"
+msgstr[1] "新增 %d 筆新價格"
 
 #. Translators: This is a ngettext(3) message, %d is the number of duplicate prices
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1886
 #, c-format
 msgid "%d duplicate price"
 msgid_plural "%d duplicate prices"
-msgstr[0] "%d 筆重複的報價"
-msgstr[1] "%d 筆重複的報價"
+msgstr[0] "%d 筆重複的價格"
+msgstr[1] "%d 筆重複的價格"
 
 #. Translators: This is a ngettext(3) message, %d is the number of replaced prices
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1891
 #, c-format
 msgid "%d replaced price"
 msgid_plural "%d replaced prices"
-msgstr[0] "共有 %d 個報價被取代"
-msgstr[1] "共有 %d 個報價被取代"
+msgstr[0] "共有 %d 個價格被取代"
+msgstr[1] "共有 %d 個價格被取代"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1896
 #, c-format
@@ -20090,7 +20089,7 @@ msgid ""
 "- %s\n"
 "- %s"
 msgstr ""
-"已從「%s」檔案匯入報價。\n"
+"已從「%s」檔案匯入價格。\n"
 "\n"
 "匯入摘要：\n"
 "- %s\n"
@@ -20106,7 +20105,7 @@ msgid ""
 "Error message:\n"
 "%s"
 msgstr ""
-"建立報價時產生非預期的錯誤。請將此回報為程式 BUG。\n"
+"建立價格時產生非預期的錯誤。請將此回報為程式 BUG。\n"
 "\n"
 "錯誤訊息:\n"
 "%s"
@@ -20461,11 +20460,11 @@ msgstr "從 CSV 檔案匯入交易"
 
 #: gnucash/import-export/csv-imp/gnc-plugin-csv-import.c:60
 msgid "Import _Prices from a CSV file..."
-msgstr "從 CSV 檔匯入報價(_P)..."
+msgstr "從 CSV 檔匯入價格(_P)..."
 
 #: gnucash/import-export/csv-imp/gnc-plugin-csv-import.c:61
 msgid "Import Prices from a CSV file"
-msgstr "從 CSV 檔匯入報價"
+msgstr "從 CSV 檔匯入價格"
 
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:139
 msgid "Shipping Name"
@@ -21246,7 +21245,7 @@ msgstr "繼續使用已取回部分的報價？"
 
 #: gnucash/price-quotes.scm:513
 msgid "Unable to create prices for these items:"
-msgstr "無法為以下項目建立報價："
+msgstr "無法為以下項目建立價格："
 
 #: gnucash/price-quotes.scm:517
 msgid "Add remaining good quotes?"
@@ -23951,7 +23950,7 @@ msgstr "顯示上市/上櫃交易所"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:45
 msgid "Show prices"
-msgstr "顯示報價"
+msgstr "顯示價格"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:46
 msgid "Show number of shares"
@@ -23987,7 +23986,7 @@ msgstr "後進先出"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:96
 msgid "Prefer use of price editor pricing over transactions, where applicable."
-msgstr "當可行的時候，偏好用價格資料庫裡的報價而非交易價格。"
+msgstr "當可行的時候，偏好用價格資料庫裡的價格而非交易價格。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:102
 msgid "How to report commissions and other brokerage fees."
@@ -24091,7 +24090,7 @@ msgstr "報酬率"
 msgid ""
 "* this commodity data was built using transaction pricing instead of the "
 "price list."
-msgstr "* 此商品的資料使用的價格為交易時的價格，而非報價。"
+msgstr "* 此商品的資料使用的價格為交易時的價格，而價格列表裡的價格。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:1174
 msgid ""
@@ -24100,7 +24099,7 @@ msgstr "如果您使用多種貨幣，則匯率有可能不正確。"
 
 #: gnucash/report/reports/standard/advanced-portfolio.scm:1179
 msgid "** this commodity has no price and a price of 1 has been used."
-msgstr "** 此商品沒有報價資料，將會使用 1 做為價格。"
+msgstr "** 此商品沒有價格資料，將會使用 1 做為價格。"
 
 #: gnucash/report/reports/standard/balance-forecast.scm:35
 msgid "Balance Forecast"
