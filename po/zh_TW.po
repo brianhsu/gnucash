@@ -23903,28 +23903,25 @@ msgid "Show the exchange rates used."
 msgstr "顯示使用的匯率。"
 
 #: gnucash/report/reports/standard/account-summary.scm:194
-#, fuzzy
 msgid "Recursive Balance"
-msgstr "一致化後結餘"
+msgstr "遞迴計算結餘"
 
 #: gnucash/report/reports/standard/account-summary.scm:195
-#, fuzzy
 msgid "Raise Accounts"
-msgstr "過濾器科目"
+msgstr "提升科目"
 
 #: gnucash/report/reports/standard/account-summary.scm:196
-#, fuzzy
 msgid "Omit Accounts"
-msgstr "編輯科目"
+msgstr "省略科目"
 
 #. Translators: This is part of the report title, which is capitalzed in English, but not all other languages
 #: gnucash/report/reports/standard/account-summary.scm:325
 #: gnucash/report/reports/standard/equity-statement.scm:302
 #: gnucash/report/reports/standard/income-statement.scm:406
 #: gnucash/report/reports/standard/trial-balance.scm:407
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "For Period Covering ~a to ~a"
-msgstr "包含 %s 至 %s 的會計期間"
+msgstr "包含 ~a 至 ~a 的會計期間"
 
 #: gnucash/report/reports/standard/account-summary.scm:410
 msgid "Account title"
@@ -25437,15 +25434,13 @@ msgstr "銷售"
 #: gnucash/report/reports/standard/customer-summary.scm:270
 #, scheme-format
 msgid "~a ~a - ~a"
-msgstr ""
+msgstr "~a ~a - ~a"
 
 #: gnucash/report/reports/standard/customer-summary.scm:290
-#, fuzzy
 msgid "No valid customer found."
-msgstr "沒有選定科目"
+msgstr "查無有效客戶"
 
 #: gnucash/report/reports/standard/customer-summary.scm:299
-#, fuzzy
 msgid "Markup"
 msgstr "標記"
 
@@ -25454,18 +25449,16 @@ msgid "No Customer"
 msgstr "沒有客戶"
 
 #: gnucash/report/reports/standard/customer-summary.scm:492
-#, fuzzy
 msgid "Customer Summary"
-msgstr "客戶編號: "
+msgstr "客戶摘要"
 
 #: gnucash/report/reports/standard/equity-statement.scm:55
 msgid "Equity Statement"
 msgstr "權益變動表"
 
 #: gnucash/report/reports/standard/equity-statement.scm:70
-#, fuzzy
 msgid "Report only on these accounts."
-msgstr "提出這些科目的報表"
+msgstr "只針對這些科目產生報表"
 
 #: gnucash/report/reports/standard/equity-statement.scm:86
 #: gnucash/report/reports/standard/income-statement.scm:117
