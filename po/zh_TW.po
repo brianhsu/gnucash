@@ -18728,14 +18728,12 @@ msgid ""
 msgstr ""
 
 #: gnucash/import-export/aqb/dialog-ab.glade:802
-#, fuzzy
 msgid "Con_firm Password"
-msgstr "確認密碼:"
+msgstr "確認密碼(_F)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:842
-#, fuzzy
 msgid "_Remember the PIN in memory"
-msgstr "在工作階段期間於記憶體中記住 PIN 碼"
+msgstr "在工作階段期間於記憶體中記住 PIN 碼(_R)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:848
 msgid ""
@@ -18749,12 +18747,10 @@ msgid "Name for new template"
 msgstr "新範本的名稱"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:948
-#, fuzzy
 msgid "_Name of the new template"
-msgstr "新範本的名稱"
+msgstr "新範本的名稱(_N)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:962
-#, fuzzy
 msgid "Enter a unique name for the new template."
 msgstr "輸入新範本的名稱:"
 
@@ -18763,14 +18759,12 @@ msgid "Online Transaction"
 msgstr "線上交易"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1010
-#, fuzzy
 msgid "Execute _later (unimpl.)"
-msgstr "稍後執行 (unimpl.)"
+msgstr "稍後執行(尚未實作)(_L)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1039
-#, fuzzy
 msgid "Execute _Now"
-msgstr "立刻執行"
+msgstr "立刻執行(_N)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1047
 msgid "Execute this online transaction now"
@@ -18781,19 +18775,16 @@ msgid "Enter an Online Transaction"
 msgstr "輸入線上交易"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1110
-#, fuzzy
 msgid "Recipient Account _Number"
-msgstr "接受者帳號號碼"
+msgstr "接受者帳號號碼(_N)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1139
-#, fuzzy
 msgid "Recipient _Bank Code"
-msgstr "接受者銀行代碼"
+msgstr "接受者銀行代碼(_B)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1169
-#, fuzzy
 msgid "_Recipient Name"
-msgstr "接受者姓名"
+msgstr "接受者姓名(_R)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1185
 #: gnucash/import-export/aqb/dialog-ab.glade:1285
@@ -18805,18 +18796,16 @@ msgid "(filled in automatically)"
 msgstr "(自動填寫)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1227
-#, fuzzy
 msgid "Payment _Purpose (only for recipient)"
-msgstr "付款用途（只用於接受者）"
+msgstr "付款用途（只用於接受者）(_P)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1243
 msgid "Payment Purpose continued"
 msgstr "續付款用途"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1257
-#, fuzzy
 msgid "_Originator Name"
-msgstr "發訊者姓名"
+msgstr "發訊者姓名(_O)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1309
 msgid "Originator Account Number"
@@ -18827,55 +18816,48 @@ msgid "Bank Code"
 msgstr "銀行代碼"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1494
-#, fuzzy
 msgid "_Add current"
-msgstr "新增條件"
+msgstr "新增目前的(_A)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1500
-#, fuzzy
 msgid "Add the current online transaction as a new transaction template"
-msgstr "以目前交易做為範本建立排程的交易"
+msgstr "將目前的線上交易新增成交易範本"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1512
 msgid "_Up"
-msgstr ""
+msgstr "上移(_U)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1518
-#, fuzzy
 msgid "Move the selected transaction template one row up"
-msgstr "複製選定的交易"
+msgstr "將選定的交易範本上移一列"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1530
 msgid "_Down"
-msgstr ""
+msgstr "下移(_D)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1536
-#, fuzzy
 msgid "Move the selected transaction template one row down"
-msgstr "複製選定的交易"
+msgstr "將選定的交易範本下移一列"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1548
-#, fuzzy
 msgid "_Sort"
-msgstr "排序"
+msgstr "排序(_S)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1554
 msgid "Sort the list of transaction templates alphabetically"
-msgstr ""
+msgstr "根據文字順序排序交易範本"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1566
-#, fuzzy
 msgid "D_elete"
-msgstr "刪除"
+msgstr "刪除(_E)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1572
 msgid "Delete the currently selected transaction template"
 msgstr "刪除目前選定的交易範本"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:1621
-#, fuzzy
 msgid "_Templates"
-msgstr "模板(_T):"
+msgstr "模板(_T)"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:21
 #: gnucash/import-export/aqb/gncmod-aqbanking.c:70
@@ -18949,29 +18931,24 @@ msgstr "(未知)"
 #. from the import-export/hbci
 #. subdirectory.
 #: gnucash/import-export/aqb/dialog-ab-trans.c:377
-#, fuzzy
 msgid "Enter a SEPA Online Transfer"
-msgstr "輸入線上交易"
+msgstr "輸入 SEPA 線上交易"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:379
-#, fuzzy
 msgid "Recipient IBAN (International Account Number)"
-msgstr "接受者帳號號碼"
+msgstr "接受者國際帳戶號碼 (IBAN)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:381
-#, fuzzy
 msgid "Recipient BIC (Bank Code)"
-msgstr "接受者銀行代碼"
+msgstr "接受者銀行代碼 (BIC)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:384
-#, fuzzy
 msgid "Originator IBAN (International Account Number)"
-msgstr "接受者帳號號碼"
+msgstr "發送者國際帳戶號碼 (IBAN)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:386
-#, fuzzy
 msgid "Originator BIC (Bank Code)"
-msgstr "接受者銀行代碼"
+msgstr "發送者銀行代碼 (BIC)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:395
 #, fuzzy
