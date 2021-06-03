@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-03 22:31+0800\n"
+"PO-Revision-Date: 2021-06-03 23:08+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -7356,13 +7356,12 @@ msgid "Please select an Equity account to hold the total Period Expense."
 msgstr "請選擇一個「財產淨值」類型的科目，來存放總支出。"
 
 #: gnucash/gnome-utils/dialog-commodity.c:160
-#, fuzzy
 msgid ""
 "\n"
 "Please select a commodity to match"
 msgstr ""
 "\n"
-"請選擇要比對的商品:"
+"請選擇要比對的商品"
 
 #: gnucash/gnome-utils/dialog-commodity.c:167
 msgid ""
@@ -7749,14 +7748,12 @@ msgstr "請輸入新的名稱"
 
 #: gnucash/gnome-utils/dialog-tax-table.c:635
 #: gnucash/gtkbuilder/dialog-tax-table.glade:74
-#, fuzzy
 msgid "_Rename"
-msgstr "重編號(_R)"
+msgstr "重新命名(_R)"
 
 #: gnucash/gnome-utils/dialog-tax-table.c:641
-#, fuzzy, c-format
 msgid "Tax table name \"%s\" already exists."
-msgstr "此商品已經存在。"
+msgstr "稅金表格「%s」已經存在。"
 
 #: gnucash/gnome-utils/dialog-tax-table.c:665
 #, c-format
@@ -10447,7 +10444,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:5
 msgid "GUID of predefined check format to use"
-msgstr ""
+msgstr "要使用的預定義的支票格式 GUID"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:6
 msgid ""
@@ -10728,7 +10725,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:219
 msgid "New hierarchy window on \"New File\""
-msgstr ""
+msgstr "「新增檔案」時顯示新科目體系設定"
 
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:220
 msgid ""
@@ -12369,11 +12366,12 @@ msgid "Import Account Assistant"
 msgstr "匯出科目(_A)"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:78
-#, fuzzy
 msgid ""
 "\n"
 "Enter file name and location for the Import...\n"
-msgstr "這個報表沒有可用的選項。"
+msgstr ""
+"\n"
+"選擇要匯入的檔案...\n"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:91
 msgid "Choose File to Import"
@@ -12409,7 +12407,7 @@ msgstr "預覽"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:281
 msgid "Import Account Preview, first 10 rows only"
-msgstr ""
+msgstr "匯入科目預覽，僅顯示前十筆"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:290
 #: gnucash/gtkbuilder/assistant-csv-export.glade:728
@@ -12900,9 +12898,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:833
-#, fuzzy
 msgid "<b>Account</b>"
-msgstr "<b>科目(_A)</b>"
+msgstr "<b>科目</b>"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:960
 msgid "Select a row to change the mappings"
@@ -13704,7 +13701,7 @@ msgstr "匯入(_I)"
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:1733
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2986
 msgid "P_ause"
-msgstr ""
+msgstr "暫停(_a)"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1229
 #: gnucash/gtkbuilder/dialog-account-picker.glade:21
@@ -13713,7 +13710,6 @@ msgstr "QIF 匯入"
 
 #. Run the assistant in your language to see GTK's translation of the button labels.
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1243
-#, fuzzy
 msgid ""
 "\n"
 "If you are importing a QIF file from a bank or other financial institution, "
@@ -13728,6 +13724,7 @@ msgid ""
 "\n"
 "Click \"Next\" to review the possible matches."
 msgstr ""
+"\n"
 "如果您正匯入從銀行或其他金融機構下載的 QIF 檔案，QIF 檔案中的一些資訊可能與已"
 "經在您的 GnuCash 科目中的資訊相同。為了避免重複，GnuCash 會嘗試比對既存的相同"
 "交易並需要您來幫忙確認。\n"
@@ -13736,7 +13733,7 @@ msgstr ""
 "在下方。若您在其中發現有相符的交易，請點選它。您可以透過 \"相符?\" 這個欄位來"
 "確認所選的交易。\n"
 "\n"
-"點選「向前」以檢視相同的交易。"
+"點選「下一步」以檢視相同的交易。"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1259
 msgid "Match existing transactions"
@@ -15422,9 +15419,8 @@ msgid "\"U+C\""
 msgstr "\"更新+結清\""
 
 #: gnucash/gtkbuilder/dialog-import.glade:678
-#, fuzzy
 msgid "\"C\""
-msgstr "\"A\""
+msgstr "\"C\""
 
 #: gnucash/gtkbuilder/dialog-import.glade:690
 #, fuzzy
@@ -15508,7 +15504,7 @@ msgstr "(所有者)"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:418
 msgid "Open Document Link"
-msgstr ""
+msgstr "開啟文件連結"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:535
 #: gnucash/gtkbuilder/dialog-invoice.glade:1113
@@ -16614,8 +16610,8 @@ msgid ""
 "If the text in the tab is longer than this value (the test is approximate) "
 "then the tab label will have the middle cut and replaced with an ellipsis."
 msgstr ""
-"如果頁籤中的文字長度超過這個數值(使用近似值)，則該頁籤的標籤將會被截斷並且"
-"以省略符號代替。"
+"如果頁籤中的文字長度超過這個數值(使用近似值)，則該頁籤的標籤將會被截斷並且以"
+"省略符號代替。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3557
 msgid "characters"
@@ -16829,8 +16825,8 @@ msgid ""
 "format\" selector of the Print Check dialog. Using the title of an existing "
 "custom format will cause that format to be overwritten."
 msgstr ""
-"輸入此自訂格式的標題。此標題會顯示在列印支票對話框中的「支票格式」下拉選單中。"
-"若輸入已經存在的自訂格式標題，則會覆蓋掉原有的格式。"
+"輸入此自訂格式的標題。此標題會顯示在列印支票對話框中的「支票格式」下拉選單"
+"中。若輸入已經存在的自訂格式標題，則會覆蓋掉原有的格式。"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:244
 msgid "Inches"
@@ -16885,8 +16881,7 @@ msgid ""
 "Check format must have an\n"
 "ADDRESS item defined in order\n"
 "to print an address on the check."
-msgstr ""
-"選擇的支票格式必須填寫地址，以便列印在支票上。"
+msgstr "選擇的支票格式必須填寫地址，以便列印在支票上。"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:535
 #: gnucash/gtkbuilder/dialog-print-check.glade:1084
@@ -17049,8 +17044,8 @@ msgid ""
 "re-enable any of these dialogs, select the check box next to the dialog, "
 "then click OK."
 msgstr ""
-"您要求不要顯示以下的警告對話框。若要重新啟用以下任何對話框，勾選這些對話框"
-"旁的核取方塊並按下「確定」。"
+"您要求不要顯示以下的警告對話框。若要重新啟用以下任何對話框，勾選這些對話框旁"
+"的核取方塊並按下「確定」。"
 
 #: gnucash/gtkbuilder/dialog-reset-warnings.glade:120
 msgid "_Unselect All"
@@ -17363,13 +17358,12 @@ msgid "<b>Tax Table Entries</b>"
 msgstr "<b>稅金表格項目</b>"
 
 #: gnucash/gtkbuilder/dialog-tax-table.glade:199
-#, fuzzy
 msgid "De_lete"
-msgstr "刪除"
+msgstr "刪除(_l)"
 
 #: gnucash/gtkbuilder/dialog-tax-table.glade:214
 msgid "Ne_w"
-msgstr ""
+msgstr "新增(_W)"
 
 #: gnucash/gtkbuilder/dialog-tax-table.glade:291
 msgid "Value $"
@@ -18311,7 +18305,7 @@ msgstr "月底"
 
 #: gnucash/gtkbuilder/gnc-recurrence.glade:148
 msgid "Always use the last day (or day of week) in the month?"
-msgstr ""
+msgstr "永遠使用每月或每週最後一天？"
 
 #: gnucash/gtkbuilder/gnc-recurrence.glade:160
 msgid "same week & day"
@@ -18549,9 +18543,8 @@ msgid "Online Banking Connection Window"
 msgstr "網路銀行連線視窗"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:26
-#, fuzzy
 msgid "_Abort"
-msgstr "關於(_A)"
+msgstr "中止(_A)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:82
 #: gnucash/import-export/aqb/dialog-ab.glade:147
@@ -18569,9 +18562,8 @@ msgid "Current _Action"
 msgstr "目前動作"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:210
-#, fuzzy
 msgid "<b>_Log Messages</b>"
-msgstr "<b>日誌訊息</b>"
+msgstr "<b>日誌訊息(_L)</b>"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:253
 #, fuzzy
@@ -19118,7 +19110,7 @@ msgstr ""
 msgid ""
 "No Online Banking account found for this gnucash account. These transactions "
 "will not be executed by Online Banking."
-msgstr ""
+msgstr "未找到此 GnuCash 科目的線上銀行帳號。此轉帳將不會由線上銀行進行。"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1042
 msgid ""
@@ -19194,12 +19186,12 @@ msgstr ""
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:295
 #, c-format
 msgid "Job %d status %d - %s\n"
-msgstr ""
+msgstr "工作 %d 狀態 %d - %s\n"
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:297
 #, c-format
 msgid "Job %d status %d - %s: %s\n"
-msgstr ""
+msgstr "工作 %d 狀態 %d - %s: %s\n"
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:317
 msgid "...\n"
@@ -19216,7 +19208,7 @@ msgstr ""
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:348
 msgid "No jobs to be sent."
-msgstr ""
+msgstr "沒有要送出的工作。"
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:354
 #, c-format
@@ -19487,11 +19479,13 @@ msgid "Error(s) in invoice without id, all rows of this invoice ignored.\n"
 msgstr "無 ID 的發票有誤，忽略此發票中所有項目。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:647
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "\n"
 "Processing...\n"
-msgstr "定期付款"
+msgstr ""
+"\n"
+"處理中...\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:716
 #, fuzzy, c-format
@@ -19506,7 +19500,7 @@ msgstr "您確定要張貼這張發票？"
 #: gnucash/import-export/bi-import/dialog-bi-import.c:739
 #, c-format
 msgid "Invoice %s not updated because it already exists.\n"
-msgstr ""
+msgstr "「未」更新發票 %s，該發票已存在。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:754
 #, c-format
@@ -19526,17 +19520,17 @@ msgstr "發票備註"
 #: gnucash/import-export/bi-import/dialog-bi-import.c:890
 #, c-format
 msgid "Invoice %s NOT posted because currencies don't match.\n"
-msgstr ""
+msgstr "「未」張貼發票 %s，貨幣不符合。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:896
 #, c-format
 msgid "Invoice %s NOT posted because it requires currency conversion.\n"
-msgstr ""
+msgstr "「未」張貼發票 %s，需要進行貨幣轉換。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:920
 #, c-format
 msgid "Nothing to process.\n"
-msgstr ""
+msgstr "沒有東西需要處理。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:142
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:128
@@ -19618,6 +19612,15 @@ msgid ""
 "- invoices created: %u\n"
 "- invoices updated: %u"
 msgstr ""
+"匯入:\n"
+"- 忽略行數：%i\n"
+"- 匯入行數：%i\n"
+"\n"
+"驗證與處理：\n"
+"- 修正行數：%u\n"
+"- 忽略行數：%u\n"
+"- 建立發票數量：%u\n"
+"- 更新發票數量：%u"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:229
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:205
@@ -19992,6 +19995,10 @@ msgid ""
 "Error message:\n"
 "%s"
 msgstr ""
+"對應科目時發生不預期的錯誤。請將此回報為 BUG。\n"
+"\n"
+"錯誤訊息：\n"
+"%s"
 
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:2059
 #, c-format
@@ -20002,6 +20009,10 @@ msgid ""
 "Error message:\n"
 "%s"
 msgstr ""
+"建立交易時發生不預期的錯誤。請將此回報為 BUG。\n"
+"\n"
+"錯誤訊息：\n"
+"%s"
 
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:2068
 msgid "Double click on rows to change, then click on Apply to Import"
@@ -20079,14 +20090,14 @@ msgstr "「來源商品」和「報價幣值」不能是相同的。"
 msgid ""
 "No valid data found in the selected file. It may be empty or the selected "
 "encoding is wrong."
-msgstr ""
+msgstr "選擇的檔案中無有效的資料。也許該檔案是空白的，或是選擇的編碼有誤。"
 
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:510
 #: gnucash/import-export/csv-imp/gnc-import-tx.cpp:532
 msgid ""
 "No lines are selected for importing. Please reduce the number of lines to "
 "skip."
-msgstr ""
+msgstr "沒有可用以匯入的資料列。請減少跳過的行數。"
 
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:529
 #: gnucash/import-export/csv-imp/gnc-import-tx.cpp:551
@@ -20282,7 +20293,7 @@ msgstr ""
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:596
 msgid "No deposit or withdrawal column."
-msgstr ""
+msgstr "沒有存入或提出欄位。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:602
 msgid "Split is reconciled but reconcile date column is missing or invalid."
@@ -21755,7 +21766,7 @@ msgstr "字型"
 
 #: gnucash/report/html-fonts.scm:106
 msgid "Font info for the report title."
-msgstr "報表標題所使用的字型"
+msgstr "報表標題所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:111
 msgid "Account link"
@@ -24104,7 +24115,7 @@ msgstr "字體"
 
 #: gnucash/report/reports/standard/balsheet-eg.scm:166
 msgid "Font definition in CSS font-family format."
-msgstr "以 CSS font-family 格式表示的字體名稱"
+msgstr "以 CSS font-family 格式表示的字體名稱。"
 
 #: gnucash/report/reports/standard/balsheet-eg.scm:167
 msgid "Font size"
@@ -25091,7 +25102,7 @@ msgstr "客戶編號"
 
 #: gnucash/report/reports/standard/customer-summary.scm:118
 msgid "Markup (which is profit amount divided by sales)"
-msgstr ""
+msgstr "利潤率 (獲利除以銷售額)"
 
 #: gnucash/report/reports/standard/customer-summary.scm:119
 #: gnucash/report/reports/standard/customer-summary.scm:300
@@ -26089,7 +26100,7 @@ msgstr "要取回的交易的日期範圍:"
 #: gnucash/report/reports/standard/new-aging.scm:362
 #, scheme-format
 msgid "Invalid Txn Type ~a"
-msgstr ""
+msgstr "無效的交易類型 ~a"
 
 #: gnucash/report/reports/standard/new-aging.scm:372
 msgid "Payment has no owner"
@@ -26536,12 +26547,12 @@ msgstr ""
 #: gnucash/report/reports/standard/receipt.scm:88
 #: gnucash/report/reports/standard/taxinvoice.scm:156
 msgid "Font to use for the main heading."
-msgstr "主要標題所用的字型"
+msgstr "主要標題所用的字型。"
 
 #: gnucash/report/reports/standard/receipt.scm:91
 #: gnucash/report/reports/standard/taxinvoice.scm:159
 msgid "Font to use for everything else."
-msgstr "其他所有地方用到的字型"
+msgstr "其他所有地方用到的字型。"
 
 #: gnucash/report/reports/standard/receipt.scm:94
 msgid "Name of a file containing a logo to be used on the header of the report"
@@ -27507,7 +27518,7 @@ msgstr "於底部顯示製作者資訊"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:109
 msgid "Per default the preparer info will be shown before the report data."
-msgstr "預設會在報表上方顯示製作者資訊"
+msgstr "預設會在報表上方顯示製作者資訊。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:114
 msgid "Show receiver info at bottom"
@@ -27919,7 +27930,7 @@ msgstr "反轉某些科目類型的總額顯示"
 
 #: gnucash/report/trep-engine.scm:1158
 msgid "Num/T-Num"
-msgstr ""
+msgstr "號碼/交易號碼"
 
 #: gnucash/report/trep-engine.scm:1207
 msgid "Transfer from/to"
@@ -28338,7 +28349,7 @@ msgstr "本季會計週期的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1035
 msgid "First day of the previous quarterly accounting period."
-msgstr "前一季會計週期的第一天"
+msgstr "前一季會計週期的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1042
 msgid "Last day of previous quarterly accounting period."
