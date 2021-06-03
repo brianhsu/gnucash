@@ -14360,9 +14360,8 @@ msgid "<b>Initial Balance Transfer</b>"
 msgstr "<b>期初餘額轉帳</b>"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1778
-#, fuzzy
 msgid "_Use equity 'Opening Balances' account"
-msgstr "使用起始結餘淨值科目"
+msgstr "使用起始結餘淨值科目(_U)"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1795
 msgid "_Select transfer account"
