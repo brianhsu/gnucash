@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-03 20:27+0800\n"
+"PO-Revision-Date: 2021-06-03 22:31+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -1657,7 +1657,7 @@ msgstr "總筆數"
 
 #: gnucash/gnome/dialog-doclink.c:650
 msgid "Business item can not be modified."
-msgstr "此商務項目無法被修改"
+msgstr "此商務項目無法被修改。"
 
 #: gnucash/gnome/dialog-doclink.c:659 gnucash/gnome/dialog-doclink.c:760
 #: gnucash/gnome/gnc-plugin-page-invoice.c:382
@@ -2131,9 +2131,8 @@ msgstr "使用 '%s' 過濾，以檢視無效的對應。"
 
 #: gnucash/gnome/dialog-imap-editor.c:367
 #: gnucash/gnome/dialog-imap-editor.c:604
-#, fuzzy
 msgid "Map Account NOT found"
-msgstr "科目代碼"
+msgstr "「未」找到對應的科目"
 
 #: gnucash/gnome/dialog-imap-editor.c:369
 msgid "(Note, if there is a large number, it may take a while)"
@@ -2159,14 +2158,12 @@ msgid "CSV Account Map"
 msgstr "科目名稱"
 
 #: gnucash/gnome/dialog-imap-editor.c:764
-#, fuzzy
 msgid "Online Id"
-msgstr "線上交易"
+msgstr "線上 ID"
 
 #: gnucash/gnome/dialog-imap-editor.c:790
-#, fuzzy
 msgid "Online HBCI"
-msgstr "線上交易"
+msgstr "線上 HBCI"
 
 #. Translators: In this context,
 #. 'Billing information' maps to the
@@ -2971,7 +2968,7 @@ msgstr "自訂"
 #: gnucash/gtkbuilder/dialog-preferences.glade:3449
 #: gnucash/gtkbuilder/dialog-print-check.glade:264
 msgid "Top"
-msgstr "上"
+msgstr "上方"
 
 #: gnucash/gnome/dialog-progress.c:484 gnucash/gnome/dialog-progress.c:533
 msgid "(paused)"
@@ -3239,9 +3236,8 @@ msgid "Created Transactions"
 msgstr "已建立交易"
 
 #: gnucash/gnome/dialog-tax-info.c:289
-#, fuzzy
 msgid "Last Valid Year: "
-msgstr "去年"
+msgstr "上一個有效年："
 
 #: gnucash/gnome/dialog-tax-info.c:290
 #, fuzzy
@@ -4850,9 +4846,8 @@ msgid ""
 msgstr "重設所有員工的憑證和貸項通知單的排版到內建的預設值，並更新目前的頁面"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:436
-#, fuzzy
 msgid "Make a printable credit note"
-msgstr "製作可列印的發票"
+msgstr "製作可列印的貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:437
 #, fuzzy
@@ -6082,9 +6077,8 @@ msgid "_General Journal"
 msgstr "一般日記帳(_G)"
 
 #: gnucash/gnome/gnc-plugin-register2.c:58
-#, fuzzy
 msgid "Open a general journal window"
-msgstr "開啟總分類帳視窗"
+msgstr "開啟一般日記帳視窗"
 
 #: gnucash/gnome/gnc-plugin-register2.c:66
 #: gnucash/gnome/gnc-plugin-register2.c:67
@@ -6093,9 +6087,8 @@ msgid "Register2 Open GL Account"
 msgstr "開啟科目(_O)"
 
 #: gnucash/gnome/gnc-plugin-register.c:54
-#, fuzzy
 msgid "Old St_yle General Journal"
-msgstr "總分類帳(_G)"
+msgstr "老式風格的一般日記帳(_Y)"
 
 #: gnucash/gnome/gnc-plugin-register.c:55
 #, fuzzy
@@ -8894,9 +8887,8 @@ msgstr "手動結算(_M)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:289
 #: gnucash/register/ledger-core/split-register-control.c:140
-#, fuzzy
 msgid "Let GnuCash _add an adjusting split"
-msgstr "讓 GnuCash 新增調整分割"
+msgstr "讓 GnuCash 新增或調整分割 (_A)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:294
 #: gnucash/register/ledger-core/split-register-control.c:145
@@ -8967,9 +8959,8 @@ msgstr ""
 #. Translators: This message will be presented when a user
 #. attempts to record a transaction without splits
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1723
-#, fuzzy
 msgid "Not enough information for Blank Transaction?"
-msgstr "每個交易顯示兩行資訊"
+msgstr "空白交的易資訊不足？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1725
 #, fuzzy
@@ -10335,7 +10326,7 @@ msgstr "稅是否包含在此類型的分錄中。此設定將會被新的客戶
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:112
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:154
 msgid "Auto pay when posting."
-msgstr ""
+msgstr "張貼時自動付款。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:113
 #: gnucash/gtkbuilder/business-prefs.glade:198
@@ -10466,7 +10457,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:10
 msgid "Which check position to print"
-msgstr ""
+msgstr "支票列印的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:11
 msgid ""
@@ -10603,9 +10594,8 @@ msgid "Rotation angle"
 msgstr "旋轉(_R)"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:76
-#, fuzzy
 msgid "Number of degrees to rotate the check."
-msgstr "號碼"
+msgstr "要將支票旋轉幾度。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:80
 #, fuzzy
@@ -10898,7 +10888,7 @@ msgstr "刪除交易"
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:11
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:16
 msgid "Default status for QIF transaction when not specified in QIF file."
-msgstr ""
+msgstr "當 QIF 檔中未指定時的預設交易狀態"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:15
 #: gnucash/gtkbuilder/dialog-account-picker.glade:58
@@ -11210,7 +11200,7 @@ msgstr "這欄位指定自動小數功能所填入的位數多寡。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:70
 msgid "Force prices to display as decimals even if they must be rounded."
-msgstr ""
+msgstr "就算價格必須四捨五入，也強制使用小數點方式顯示。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:71
 #: gnucash/gtkbuilder/dialog-preferences.glade:1214
@@ -11336,7 +11326,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:130
 msgid "Width of notebook tabs"
-msgstr ""
+msgstr "頁籤的寬度"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:131
 msgid ""
@@ -11718,9 +11708,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:310
-#, fuzzy
 msgid "Only display leaf account names."
-msgstr "顯示科目名稱？"
+msgstr "只顯示最底層科目的名稱。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:311
 msgid ""
@@ -11775,9 +11764,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:335
-#, fuzzy
 msgid "Number of transactions to show in a register."
-msgstr "交易數量(_T):"
+msgstr "登記簿中所顯示的交易數量。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:336
 #: gnucash/gtkbuilder/dialog-preferences.glade:2827
@@ -11787,9 +11775,8 @@ msgid ""
 msgstr "在登記簿中顯示多少交易，0 表示顯示所有交易。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:340
-#, fuzzy
 msgid "Number of characters for auto complete."
-msgstr "號碼"
+msgstr "自動補齊前所需的字元數。"
 
 #. Register2 feature
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:341
@@ -12393,9 +12380,8 @@ msgid "Choose File to Import"
 msgstr "選擇匯入檔"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:111
-#, fuzzy
 msgid "Number of rows for the Header"
-msgstr "號碼"
+msgstr "標頭的列數"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:156
 msgid "Comma Separated"
@@ -12882,9 +12868,8 @@ msgid "Transaction Import Assistant"
 msgstr "交易報表"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:530
-#, fuzzy
 msgid "Multi-split"
-msgstr "多行"
+msgstr "多個分割"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:534
 msgid ""
@@ -12941,9 +12926,8 @@ msgid "Change GnuCash _Account..."
 msgstr "改變 GnuCash 科目(_A)..."
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1061
-#, fuzzy
 msgid "Match Import and GnuCash accounts"
-msgstr "以 GnuCash 科目比對 QIF 科目"
+msgstr "比對匯入的科目與 GnuCash 的科目"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1077
 msgid ""
@@ -12974,9 +12958,8 @@ msgid "Transaction Information"
 msgstr "交易資訊"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1129
-#, fuzzy
 msgid "Match Transactions"
-msgstr "貼上交易"
+msgstr "比對交易"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:30
 msgid ""
@@ -13590,9 +13573,8 @@ msgstr "選擇要比較的科目"
 #: gnucash/gtkbuilder/assistant-qif-import.glade:608
 #: gnucash/gtkbuilder/assistant-qif-import.glade:740
 #: gnucash/gtkbuilder/assistant-qif-import.glade:870
-#, fuzzy
 msgid "Matchings selected"
-msgstr "沒有選定科目"
+msgstr "已選擇的配對"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:656
 msgid "Match QIF accounts with GnuCash accounts"
@@ -13680,7 +13662,7 @@ msgstr ""
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1001
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2642
 msgid "Choose the QIF file currency and select Book Options"
-msgstr ""
+msgstr "選擇 QIF 檔案貨幣與帳本選項"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1022
 msgid ""
@@ -13707,7 +13689,7 @@ msgstr "輸入關於「%s」的資訊"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1066
 msgid "All fields must be complete to continue..."
-msgstr ""
+msgstr "所有的欄位都要完成才能繼續..."
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1083
 msgid "Tradable commodities"
@@ -14640,9 +14622,8 @@ msgstr "<b>新增支付條款</b>"
 #: gnucash/gtkbuilder/dialog-billterms.glade:1133
 #: gnucash/gtkbuilder/dialog-report.glade:796
 #: gnucash/gtkbuilder/dialog-tax-table.glade:465
-#, fuzzy
 msgid "_Name"
-msgstr "名稱(_N)："
+msgstr "名稱(_N)"
 
 #: gnucash/gtkbuilder/dialog-book-close.glade:97
 msgid "Income Total"
@@ -15258,7 +15239,7 @@ msgstr "科目名稱"
 
 #: gnucash/gtkbuilder/dialog-find-account.glade:215
 msgid "Case insensitive searching is available on 'Account Full Name'."
-msgstr "科目名稱可以不分大小寫搜尋"
+msgstr "科目名稱可以不分大小寫搜尋。"
 
 #: gnucash/gtkbuilder/dialog-find-account.glade:258
 msgid "Sea_rch"
@@ -15695,9 +15676,8 @@ msgid "_Open the new user tutorial"
 msgstr "開啟新使用者教學(_O)"
 
 #: gnucash/gtkbuilder/dialog-object-references.glade:8
-#, fuzzy
 msgid "Object references"
-msgstr "偏好設定"
+msgstr "物件參照"
 
 #: gnucash/gtkbuilder/dialog-object-references.glade:52
 msgid "Explanation"
@@ -15705,11 +15685,11 @@ msgstr "說明"
 
 #: gnucash/gtkbuilder/dialog-options.glade:44
 msgid "Close dialog and make no changes."
-msgstr ""
+msgstr "關閉對話框並不做變更。"
 
 #: gnucash/gtkbuilder/dialog-options.glade:61
 msgid "Apply changes but do not close dialog."
-msgstr ""
+msgstr "套用變更但不要關閉對話框。"
 
 #: gnucash/gtkbuilder/dialog-options.glade:78
 #, fuzzy
@@ -15805,27 +15785,23 @@ msgstr "轉帳科目"
 
 #. Date format label for 07/31/2013
 #: gnucash/gtkbuilder/dialog-preferences.glade:50
-#, fuzzy
 msgid "US"
-msgstr "美式(_U):"
+msgstr "美式"
 
 #. Date format label for 31/07/2013
 #: gnucash/gtkbuilder/dialog-preferences.glade:54
-#, fuzzy
 msgid "UK"
-msgstr "英式(_K):"
+msgstr "英式"
 
 #. Date format label for 31.07.2013
 #: gnucash/gtkbuilder/dialog-preferences.glade:58
-#, fuzzy
 msgid "Europe"
 msgstr "歐洲"
 
 #. Date format label for 2013-07-31
 #: gnucash/gtkbuilder/dialog-preferences.glade:62
-#, fuzzy
 msgid "ISO"
-msgstr "_ISO:"
+msgstr "ISO"
 
 #. Label for locale settings of formats, …
 #: gnucash/gtkbuilder/dialog-preferences.glade:66
@@ -15833,12 +15809,11 @@ msgstr "_ISO:"
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:59
 #: gnucash/import-export/csv-imp/gnc-import-tx.cpp:56
 msgid "Locale"
-msgstr ""
+msgstr "系統地區設定"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:133
-#, fuzzy
 msgid "_Reset"
-msgstr "恢復(_R)"
+msgstr "重設(_R)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:178
 #: gnucash/gtkbuilder/dialog-preferences.glade:583
@@ -15851,6 +15826,8 @@ msgid ""
 "window\n"
 "Press 'Close' to return to the preference window\n"
 msgstr ""
+"按下「重設」按鈕以使用原來的科目分隔字元並關閉此對話框\n"
+"按下「關閉」按鈕回到偏好設定視窗\n"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:240
 msgid "GnuCash Preferences"
@@ -16515,9 +16492,8 @@ msgstr ""
 
 #. Register2 feature
 #: gnucash/gtkbuilder/dialog-preferences.glade:2902
-#, fuzzy
 msgid "Number of _characters for auto complete"
-msgstr "號碼"
+msgstr "自動補齊前所需的字元數(_C)"
 
 #. Register2 feature
 #: gnucash/gtkbuilder/dialog-preferences.glade:2936
@@ -16617,7 +16593,7 @@ msgstr "<b>摘要列位置</b>"
 #: gnucash/gtkbuilder/dialog-preferences.glade:3468
 #: gnucash/gtkbuilder/dialog-print-check.glade:270
 msgid "Bottom"
-msgstr "下"
+msgstr "下方"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3500
 msgid "<b>Tabs</b>"
@@ -16638,6 +16614,8 @@ msgid ""
 "If the text in the tab is longer than this value (the test is approximate) "
 "then the tab label will have the middle cut and replaced with an ellipsis."
 msgstr ""
+"如果頁籤中的文字長度超過這個數值(使用近似值)，則該頁籤的標籤將會被截斷並且"
+"以省略符號代替。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3557
 msgid "characters"
@@ -16649,11 +16627,11 @@ msgstr "寬度(_W)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3587
 msgid "Open new tabs _adjacent to current tab"
-msgstr ""
+msgstr "將新頁籤開啟在目前的頁籤旁邊(_A)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3593
 msgid "Opens new tab adjacent to current tab instead of at the end."
-msgstr ""
+msgstr "將新頁籤開啟在目前的頁籤旁邊，而不是在最後方。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3632
 msgid "Windows"
@@ -16851,59 +16829,56 @@ msgid ""
 "format\" selector of the Print Check dialog. Using the title of an existing "
 "custom format will cause that format to be overwritten."
 msgstr ""
+"輸入此自訂格式的標題。此標題會顯示在列印支票對話框中的「支票格式」下拉選單中。"
+"若輸入已經存在的自訂格式標題，則會覆蓋掉原有的格式。"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:244
 msgid "Inches"
-msgstr ""
+msgstr "英吋"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:247
-#, fuzzy
 msgid "Centimeters"
-msgstr "中"
+msgstr "公分"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:250
 msgid "Millimeters"
-msgstr ""
+msgstr "毫米"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:253
 msgid "Points"
-msgstr ""
+msgstr "點"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:267
 msgid "Middle"
-msgstr ""
+msgstr "中間"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:284
 msgid "Quicken/QuickBooks (tm) US-Letter"
-msgstr ""
+msgstr "Quicken/QuickBooks (tm) 美制-Letter"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:287
 msgid "Deluxe(tm) Personal Checks US-Letter"
-msgstr ""
+msgstr "Deluxe(tm) 個人支票 美制-Letter"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:290
 msgid "Quicken(tm) Wallet Checks w/ side stub"
-msgstr ""
+msgstr "具有存根的 Quicken(tm) Wallet 支票"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:347
-#, fuzzy
 msgid "_Print"
-msgstr "列印"
+msgstr "列印(_P)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:386
-#, fuzzy
 msgid "Check _format"
-msgstr "支票格式(_F)："
+msgstr "支票格式(_F)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:401
-#, fuzzy
 msgid "Check po_sition"
-msgstr "支票位置(_S)："
+msgstr "支票位置(_S)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:417
-#, fuzzy
 msgid "_Date format"
-msgstr "日期格式(_D)："
+msgstr "日期格式(_D)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:531
 msgid ""
@@ -16911,6 +16886,7 @@ msgid ""
 "ADDRESS item defined in order\n"
 "to print an address on the check."
 msgstr ""
+"選擇的支票格式必須填寫地址，以便列印在支票上。"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:535
 #: gnucash/gtkbuilder/dialog-print-check.glade:1084
@@ -16919,7 +16895,7 @@ msgstr "地址(_A)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:562
 msgid "Checks on first _page"
-msgstr ""
+msgstr "第一頁的支票數(_P)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:661
 msgid "x"
@@ -16930,24 +16906,20 @@ msgid "y"
 msgstr "y"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:686
-#, fuzzy
 msgid "Pa_yee"
-msgstr "收款人(_Y)："
+msgstr "收款人(_Y)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:716
-#, fuzzy
 msgid "Amount (_words)"
-msgstr "總額(國字)(_W)："
+msgstr "總額(文字)(_W)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:731
-#, fuzzy
 msgid "Amount (_numbers)"
-msgstr "總額(數字)(_N)："
+msgstr "總額(數字)(_N)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:939
-#, fuzzy
 msgid "_Units"
-msgstr "單位(_U)："
+msgstr "單位(_U)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:970
 msgid "_Translation"
@@ -16970,24 +16942,20 @@ msgid "Degrees"
 msgstr "度"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:1067
-#, fuzzy
 msgid "_Save Format"
-msgstr "存檔格式(_S)"
+msgstr "儲存格式(_S)"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:1176
-#, fuzzy
 msgid "Splits Memo"
-msgstr "偶數分割"
+msgstr "分割備註"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:1191
-#, fuzzy
 msgid "Splits Amount"
-msgstr "貸方科目:"
+msgstr "分割金額"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:1206
-#, fuzzy
 msgid "Splits Account"
-msgstr "選擇科目"
+msgstr "分割科目"
 
 #: gnucash/gtkbuilder/dialog-print-check.glade:1368
 msgid "Custom format"
@@ -17081,6 +17049,8 @@ msgid ""
 "re-enable any of these dialogs, select the check box next to the dialog, "
 "then click OK."
 msgstr ""
+"您要求不要顯示以下的警告對話框。若要重新啟用以下任何對話框，勾選這些對話框"
+"旁的核取方塊並按下「確定」。"
 
 #: gnucash/gtkbuilder/dialog-reset-warnings.glade:120
 msgid "_Unselect All"
@@ -17088,12 +17058,11 @@ msgstr "取消選擇全部(_U)"
 
 #: gnucash/gtkbuilder/dialog-reset-warnings.glade:146
 msgid "No warnings to reset."
-msgstr ""
+msgstr "沒有需要重設的警告。"
 
 #: gnucash/gtkbuilder/dialog-reset-warnings.glade:164
-#, fuzzy
 msgid "Permanent Warnings"
-msgstr "保留收入"
+msgstr "永遠警告"
 
 #: gnucash/gtkbuilder/dialog-reset-warnings.glade:205
 msgid "Temporary Warnings"
@@ -17159,7 +17128,6 @@ msgid "Account Deletion"
 msgstr "科目刪除"
 
 #: gnucash/gtkbuilder/dialog-sx.glade:55
-#, fuzzy
 msgid ""
 "The following Scheduled Transactions reference the deleted account and must "
 "now be corrected. Press OK to edit them."
@@ -17338,7 +17306,7 @@ msgstr "所得稅資訊"
 
 #: gnucash/gtkbuilder/dialog-tax-info.glade:144
 msgid "Click to change Tax Name and/or Tax Type."
-msgstr ""
+msgstr "點選以變更稅務名稱與稅務類型"
 
 #: gnucash/gtkbuilder/dialog-tax-info.glade:243
 msgid "<b>_Accounts</b>"
@@ -18142,9 +18110,8 @@ msgstr "號碼(_N)"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-register2.glade:148
 #: gnucash/gtkbuilder/gnc-plugin-page-register.glade:691
-#, fuzzy
 msgid "_Transaction Number"
-msgstr "交易日記帳(_T)"
+msgstr "交易號碼(_T)"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-register2.glade:163
 #: gnucash/gtkbuilder/gnc-plugin-page-register.glade:721
@@ -18319,13 +18286,12 @@ msgid "week(s)"
 msgstr "週"
 
 #: gnucash/gtkbuilder/gnc-recurrence.glade:18
-#, fuzzy
 msgid "month(s)"
-msgstr "月。"
+msgstr "月"
 
 #: gnucash/gtkbuilder/gnc-recurrence.glade:21
 msgid "year(s)"
-msgstr ""
+msgstr "年"
 
 #: gnucash/gtkbuilder/gnc-recurrence.glade:50
 msgid "Every "
@@ -18465,12 +18431,11 @@ msgstr "匯出成 PDF 檔"
 #: gnucash/import-export/aqb/assistant-ab-initial.c:537
 #, c-format
 msgid "Bank code %s (%s), Account %s (%s)"
-msgstr ""
+msgstr "銀行代碼  %s (%s)，帳號 %s (%s)"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.c:858
-#, fuzzy
 msgid "Online Banking Account Name"
-msgstr "其他帳號名稱"
+msgstr "線上銀行帳戶名稱"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.c:863
 msgid "GnuCash Account Name"
@@ -18484,7 +18449,7 @@ msgstr "新的？"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:8
 msgid "AqBanking Initial Assistant"
-msgstr ""
+msgstr "AqBanking 初始化精靈"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:35
 msgid ""
@@ -19021,9 +18986,8 @@ msgstr "您確定要刪除這個名為「%s」的交易範本？"
 #: gnucash/import-export/aqb/gnc-ab-getbalance.c:86
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:137
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:113
-#, fuzzy
 msgid "No valid online banking account assigned."
-msgstr "其他帳號名稱"
+msgstr "未指定有效的線上銀行帳戶"
 
 #: gnucash/import-export/aqb/gnc-ab-getbalance.c:100
 msgid "Online action \"Get Balance\" not available for this account."
@@ -19036,6 +19000,9 @@ msgid ""
 "\n"
 "Status: %s"
 msgstr ""
+"執行工作時發生錯誤。\n"
+"\n"
+"狀態：%s"
 
 #: gnucash/import-export/aqb/gnc-ab-getbalance.c:154
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:234
@@ -19045,6 +19012,9 @@ msgid ""
 "\n"
 "Status: %s - %s"
 msgstr ""
+"執行工作時發生錯誤。\n"
+"\n"
+"狀態：%s - %s"
 
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:160
 #, fuzzy
@@ -19058,6 +19028,9 @@ msgid ""
 "\n"
 "Status: %s (%d)"
 msgstr ""
+"執行工作時發生錯誤。\n"
+"\n"
+"狀態：%s (%d)"
 
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:253
 #, fuzzy
@@ -19508,12 +19481,12 @@ msgstr ""
 #: gnucash/import-export/bi-import/dialog-bi-import.c:533
 #, c-format
 msgid "Error(s) in invoice %s, all rows of this invoice ignored.\n"
-msgstr ""
+msgstr "發票 %s 有誤，忽略此發票中所有項目。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:539
 #, c-format
 msgid "Error(s) in invoice without id, all rows of this invoice ignored.\n"
-msgstr ""
+msgstr "無 ID 的發票有誤，忽略此發票中所有項目。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:647
 #, fuzzy, c-format
@@ -19663,7 +19636,7 @@ msgstr "輸入檔無法開啟。"
 #: gnucash/import-export/csv-imp/assistant-csv-account-import.c:304
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:325
 msgid "Adjust regular expression used for import"
-msgstr ""
+msgstr "調整匯入時使用的正規表示式"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:357
 #: gnucash/import-export/csv-imp/assistant-csv-account-import.c:305
@@ -20003,9 +19976,8 @@ msgstr ""
 "%s"
 
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:1751
-#, fuzzy
 msgid "No Linked Account"
-msgstr "新增科目"
+msgstr "沒有連結的科目"
 
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:1973
 msgid ""
@@ -20183,7 +20155,7 @@ msgstr "商品命名空間"
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:122
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:216
 msgid "Value doesn't appear to contain a valid number."
-msgstr ""
+msgstr "數值裡顯然不包含有效的數字。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:83
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:88
@@ -20192,7 +20164,7 @@ msgstr ""
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:140
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:145
 msgid "Value can't be parsed into a number using the selected currency format."
-msgstr ""
+msgstr "無法以選擇的貨幣格式將數值解析成有效的數字。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:125
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:202
@@ -20287,7 +20259,7 @@ msgstr "上次對帳日期"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:165
 msgid "Value can't be parsed into a valid reconcile state."
-msgstr ""
+msgstr "無法將數值解析成有效的對帳狀態。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:228
 #, fuzzy
@@ -22051,18 +22023,16 @@ msgid "Choose the method for sorting accounts."
 msgstr "請選擇排序科目的方法。"
 
 #: gnucash/report/options-utilities.scm:203
-#, fuzzy
 msgid "Alphabetical by account code"
 msgstr "以科目代碼做字母排序。"
 
 #: gnucash/report/options-utilities.scm:204
-#, fuzzy
 msgid "Alphabetical by account name"
 msgstr "以科目名稱做字母排序。"
 
 #: gnucash/report/options-utilities.scm:205
 msgid "Numerical by descending amount"
-msgstr ""
+msgstr "根據金額進行遞減排序"
 
 #: gnucash/report/options-utilities.scm:223
 msgid "How to show the balances of parent accounts."
@@ -22664,7 +22634,7 @@ msgstr "在圖例中顯示全部結餘？"
 #: libgnucash/app-utils/date-utilities.scm:187
 #, scheme-format
 msgid "~a to ~a"
-msgstr ""
+msgstr "~a 到 ~a"
 
 #: gnucash/report/reports/example/hello-world.scm:57
 #: gnucash/report/reports/example/hello-world.scm:67
@@ -23463,7 +23433,7 @@ msgstr "公司/個人的名字"
 
 #: gnucash/report/reports/standard/account-summary.scm:91
 msgid "Depth limit behavior"
-msgstr ""
+msgstr "深度限制的行為"
 
 #: gnucash/report/reports/standard/account-summary.scm:95
 msgid "How to treat accounts which exceed the specified depth limit (if any)."
@@ -23481,9 +23451,8 @@ msgid "Raise accounts deeper than the depth limit to the depth limit."
 msgstr "顯示科目至此深度，無視其他任何選項。"
 
 #: gnucash/report/reports/standard/account-summary.scm:98
-#, fuzzy
 msgid "Omit any accounts deeper than the depth limit."
-msgstr "顯示科目至此深度，無視其他任何選項。"
+msgstr "略過所有超過此深度的科目"
 
 #: gnucash/report/reports/standard/account-summary.scm:100
 #: gnucash/report/reports/standard/balance-sheet.scm:96
@@ -24261,7 +24230,7 @@ msgstr ""
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:72
 msgid "Disable amount indenting"
-msgstr ""
+msgstr "不使用金額縮排"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:73
 msgid ""
@@ -24311,9 +24280,8 @@ msgid "Shows each amounts in the table as a hyperlink to a register or report."
 msgstr ""
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:106
-#, fuzzy
 msgid "Label sections"
-msgstr "取消目前的交易"
+msgstr "區段標籤"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:107
 msgid "Whether or not to include a label for sections."
@@ -24396,9 +24364,8 @@ msgid "Liability"
 msgstr "債務"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1097
-#, fuzzy
 msgid "Liability and Equity"
-msgstr "債務/淨值(_L)"
+msgstr "債務/淨值"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1115
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1258
@@ -25185,7 +25152,7 @@ msgstr "結帳分錄模式區分大小寫"
 #: gnucash/report/reports/standard/income-statement.scm:123
 #: gnucash/report/reports/standard/trial-balance.scm:110
 msgid "Causes the Closing Entries Pattern match to be case-sensitive."
-msgstr "比對結帳分錄模式與交易描述時，區分大小寫"
+msgstr "比對結帳分錄模式與交易描述時，區分大小寫。"
 
 #: gnucash/report/reports/standard/equity-statement.scm:94
 #: gnucash/report/reports/standard/income-statement.scm:125
@@ -25824,9 +25791,8 @@ msgid "Display the payments applied to this invoice?"
 msgstr "是否顯示此發票的付款？"
 
 #: gnucash/report/reports/standard/invoice.scm:324
-#, fuzzy
 msgid "Job Details"
-msgstr "工作對話盒"
+msgstr "工作詳情"
 
 #: gnucash/report/reports/standard/invoice.scm:325
 #, fuzzy
@@ -26034,24 +26000,20 @@ msgid "Show Net Profit"
 msgstr "顯示收益淨額"
 
 #: gnucash/report/reports/standard/net-charts.scm:50
-#, fuzzy
 msgid "Show Asset & Liability"
-msgstr "顯示資產&債務長條"
+msgstr "顯示資產與債務"
 
 #: gnucash/report/reports/standard/net-charts.scm:51
-#, fuzzy
 msgid "Show Net Worth"
-msgstr "顯示價值淨額長條"
+msgstr "顯示淨值"
 
 #: gnucash/report/reports/standard/net-charts.scm:56
-#, fuzzy
 msgid "Line Width"
-msgstr "發票寬度"
+msgstr "線條寬度"
 
 #: gnucash/report/reports/standard/net-charts.scm:57
-#, fuzzy
 msgid "Set line width in pixels."
-msgstr "製圖高度(像素)。"
+msgstr "線圖的像素寬度。"
 
 #: gnucash/report/reports/standard/net-charts.scm:62
 msgid "Grid"
@@ -26063,7 +26025,7 @@ msgstr "顯示收入與支出？"
 
 #: gnucash/report/reports/standard/net-charts.scm:117
 msgid "Show the Asset and the Liability bars?"
-msgstr "顯示資產與債務長條？"
+msgstr "顯示資產與債務？"
 
 #: gnucash/report/reports/standard/net-charts.scm:126
 msgid "Show the net profit?"
@@ -26071,7 +26033,7 @@ msgstr "顯示收益淨額？"
 
 #: gnucash/report/reports/standard/net-charts.scm:127
 msgid "Show a Net Worth bar?"
-msgstr "顯示價值淨額長條？"
+msgstr "顯示淨值？"
 
 #: gnucash/report/reports/standard/net-charts.scm:153
 msgid "Add grid lines."
@@ -26085,31 +26047,28 @@ msgstr "收益淨額"
 #: gnucash/report/reports/standard/net-charts.scm:389
 #: gnucash/report/reports/standard/net-charts.scm:422
 msgid "Net Worth"
-msgstr "價值淨額"
+msgstr "淨值"
 
 #: gnucash/report/reports/standard/net-charts.scm:484
 msgid "Net Worth Barchart"
-msgstr "價值淨額長條圖"
+msgstr "淨值長條圖"
 
 #: gnucash/report/reports/standard/net-charts.scm:495
 msgid "Income/Expense Chart"
 msgstr "收入/支出圖表"
 
 #: gnucash/report/reports/standard/net-charts.scm:497
-#, fuzzy
 msgid "Income & Expense Barchart"
-msgstr "收入 & 支出圖表"
+msgstr "收入 & 支出長條圖"
 
 #: gnucash/report/reports/standard/net-charts.scm:507
-#, fuzzy
 msgid "Net Worth Linechart"
-msgstr "價值淨額長條圖"
+msgstr "淨值折線圖"
 
 #: gnucash/report/reports/standard/net-charts.scm:520
 #: gnucash/report/reports/standard/net-charts.scm:522
-#, fuzzy
 msgid "Income & Expense Linechart"
-msgstr "收入 & 支出圖表"
+msgstr "收入 & 支出折線圖"
 
 #: gnucash/report/reports/standard/new-aging.scm:61
 msgid ""
@@ -26141,7 +26100,7 @@ msgstr "付款沒有所有者"
 #: gnucash/report/reports/standard/new-aging.scm:402
 #: gnucash/report/reports/standard/receivables.scm:65
 msgid "Address source."
-msgstr "地址來源："
+msgstr "地址來源。"
 
 #: gnucash/report/reports/standard/new-aging.scm:404
 #: gnucash/report/reports/standard/receivables.scm:68
@@ -26270,9 +26229,8 @@ msgid "Show linked transactions"
 msgstr "只顯示無效的交易"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:951
-#, fuzzy
 msgid "Linked transactions are hidden."
-msgstr "以搜尋來找到交易"
+msgstr "連結的交易已被隱藏"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:952
 msgid "Invoices show if paid, payments show invoice numbers."
@@ -26299,9 +26257,8 @@ msgid "Display document link?"
 msgstr "以超連結顯示科目"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1082
-#, fuzzy
 msgid "No valid account found"
-msgstr "找不到相符的交易"
+msgstr "找不到有效的科目"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1083
 #, fuzzy
@@ -26319,9 +26276,8 @@ msgid "No matching transactions found"
 msgstr "找不到相符的交易"
 
 #: gnucash/report/reports/standard/owner-report.scm:84
-#, fuzzy
 msgid "No valid company selected."
-msgstr "選取了無效的編碼"
+msgstr "未選擇有效的公司"
 
 #: gnucash/report/reports/standard/owner-report.scm:91
 #, fuzzy
@@ -26329,9 +26285,8 @@ msgid "This report requires a company to be selected."
 msgstr "這個報表需要有選定的科目。"
 
 #: gnucash/report/reports/standard/owner-report.scm:107
-#, fuzzy
 msgid "No valid account selected"
-msgstr "沒有選定科目"
+msgstr "末選擇有效的科目"
 
 #: gnucash/report/reports/standard/owner-report.scm:108
 #, fuzzy
@@ -27096,9 +27051,8 @@ msgid "Number of columns"
 msgstr "欄數"
 
 #: gnucash/report/reports/standard/view-column.scm:51
-#, fuzzy
 msgid "Number of columns before wrapping to a new row."
-msgstr "繞到新一列前的欄數"
+msgstr "繞到新一列前的欄數。"
 
 #: gnucash/report/reports/standard/view-column.scm:155
 msgid "Edit Options"
@@ -27947,9 +27901,8 @@ msgid "One split per line"
 msgstr ""
 
 #: gnucash/report/trep-engine.scm:979
-#, fuzzy
 msgid "One transaction per line"
-msgstr "取得線上交易"
+msgstr "一行一筆交易"
 
 #: gnucash/report/trep-engine.scm:991
 #, fuzzy
@@ -27988,7 +27941,7 @@ msgstr "分割交易(_P)"
 
 #: gnucash/report/trep-engine.scm:1823
 msgid "CSV disabled for double column amounts"
-msgstr ""
+msgstr "CSV 不支援雙欄金額"
 
 #. Translators: Both ~a's are dates
 #: gnucash/report/trep-engine.scm:2215
@@ -28270,7 +28223,7 @@ msgstr ""
 msgid ""
 "Check to have trading accounts used for transactions involving more than one "
 "currency or commodity."
-msgstr ""
+msgstr "勾選這個選項，以使含有多種貨幣或商品的交易中使用交易科目。"
 
 #: libgnucash/app-utils/business-prefs.scm:167
 msgid "Budget to be used when none has been otherwise specified."
@@ -28286,241 +28239,212 @@ msgid ""
 "Tried to look up an undefined date symbol '~a'. This report was probably "
 "saved by a later version of GnuCash. Defaulting to today."
 msgstr ""
+"試著找尋未定義的日期符號「~a」，這份報表可能是由較新版本的 GnuCash 所儲存。預"
+"設成今天。"
 
 #: libgnucash/app-utils/date-utilities.scm:923
-#, fuzzy
 msgid "First day of the current calendar year."
-msgstr "目前日曆年的第一天"
+msgstr "目前日曆年的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:930
-#, fuzzy
 msgid "Last day of the current calendar year."
-msgstr "目前日曆年的最後一天"
+msgstr "目前日曆年的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:937
-#, fuzzy
 msgid "First day of the previous calendar year."
-msgstr "前一日曆年的第一天"
+msgstr "前一日曆年的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:944
-#, fuzzy
 msgid "Last day of the previous calendar year."
-msgstr "前一日曆年的最後一天"
+msgstr "前一日曆年的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:948
 msgid "Start of next year"
 msgstr "明年初"
 
 #: libgnucash/app-utils/date-utilities.scm:951
-#, fuzzy
 msgid "First day of the next calendar year."
-msgstr "下一日曆年的第一天"
+msgstr "下一日曆年的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:955
 msgid "End of next year"
 msgstr "明年底"
 
 #: libgnucash/app-utils/date-utilities.scm:958
-#, fuzzy
 msgid "Last day of the next calendar year."
-msgstr "下個日曆年的最後一天"
+msgstr "下個日曆年的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:962
 msgid "Start of accounting period"
 msgstr "會計期間的起點"
 
 #: libgnucash/app-utils/date-utilities.scm:965
-#, fuzzy
 msgid "First day of the accounting period, as set in the global preferences."
-msgstr "於全域偏好設定的，會計期間的第一天"
+msgstr "於全域偏好設定的，會計期間的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:969
 msgid "End of accounting period"
 msgstr "會計期間的期末"
 
 #: libgnucash/app-utils/date-utilities.scm:972
-#, fuzzy
 msgid "Last day of the accounting period, as set in the global preferences."
-msgstr "於全域偏好設定的，會計期間的最後一天"
+msgstr "於全域偏好設定的，會計期間的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:979
-#, fuzzy
 msgid "First day of the current month."
-msgstr "本月份的第一天"
+msgstr "本月份的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:986
-#, fuzzy
 msgid "Last day of the current month."
-msgstr "本月份的最後一天"
+msgstr "本月份的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:993
-#, fuzzy
 msgid "First day of the previous month."
-msgstr "前一月份的第一天"
+msgstr "前一月份的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1000
-#, fuzzy
 msgid "Last day of previous month."
-msgstr "前一月份的最後一天"
+msgstr "前一月份的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1004
 msgid "Start of next month"
 msgstr "下個月月初"
 
 #: libgnucash/app-utils/date-utilities.scm:1007
-#, fuzzy
 msgid "First day of the next month."
-msgstr "下個月的第一天"
+msgstr "下個月的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1011
 msgid "End of next month"
 msgstr "下個月月底"
 
 #: libgnucash/app-utils/date-utilities.scm:1014
-#, fuzzy
 msgid "Last day of next month."
-msgstr "下個月的最後一天"
+msgstr "下個月的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1018
 msgid "Start of current quarter"
 msgstr "本季初"
 
 #: libgnucash/app-utils/date-utilities.scm:1021
-#, fuzzy
 msgid "First day of the current quarterly accounting period."
-msgstr "本季會計週期的第一天"
+msgstr "本季會計週期的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1025
 msgid "End of current quarter"
 msgstr "本季末"
 
 #: libgnucash/app-utils/date-utilities.scm:1028
-#, fuzzy
 msgid "Last day of the current quarterly accounting period."
-msgstr "本季會計週期的最後一天"
+msgstr "本季會計週期的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1035
-#, fuzzy
 msgid "First day of the previous quarterly accounting period."
 msgstr "前一季會計週期的第一天"
 
 #: libgnucash/app-utils/date-utilities.scm:1042
-#, fuzzy
 msgid "Last day of previous quarterly accounting period."
-msgstr "前一季會計週期的最後一天"
+msgstr "前一季會計週期的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1046
 msgid "Start of next quarter"
 msgstr "下一季初"
 
 #: libgnucash/app-utils/date-utilities.scm:1049
-#, fuzzy
 msgid "First day of the next quarterly accounting period."
-msgstr "下一季會計週期的第一天"
+msgstr "下一季會計週期的第一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1053
 msgid "End of next quarter"
 msgstr "下一季末"
 
 #: libgnucash/app-utils/date-utilities.scm:1056
-#, fuzzy
 msgid "Last day of next quarterly accounting period."
-msgstr "下一季會計週期的最後一天"
+msgstr "下一季會計週期的最後一天。"
 
 #: libgnucash/app-utils/date-utilities.scm:1062
-#, fuzzy
 msgid "The current date."
-msgstr "目前的日期"
+msgstr "目前的日期。"
 
 #: libgnucash/app-utils/date-utilities.scm:1066
 msgid "One Month Ago"
 msgstr "一個月以前"
 
 #: libgnucash/app-utils/date-utilities.scm:1068
-#, fuzzy
 msgid "One Month Ago."
-msgstr "一個月以前"
+msgstr "一個月以前。"
 
 #: libgnucash/app-utils/date-utilities.scm:1072
 msgid "One Week Ago"
 msgstr "一星期以前"
 
 #: libgnucash/app-utils/date-utilities.scm:1074
-#, fuzzy
 msgid "One Week Ago."
-msgstr "一星期以前"
+msgstr "一星期以前。"
 
 #: libgnucash/app-utils/date-utilities.scm:1078
 msgid "Three Months Ago"
 msgstr "三個月以前"
 
 #: libgnucash/app-utils/date-utilities.scm:1080
-#, fuzzy
 msgid "Three Months Ago."
-msgstr "三個月以前"
+msgstr "三個月以前。"
 
 #: libgnucash/app-utils/date-utilities.scm:1084
 msgid "Six Months Ago"
 msgstr "六個月以前"
 
 #: libgnucash/app-utils/date-utilities.scm:1086
-#, fuzzy
 msgid "Six Months Ago."
-msgstr "六個月以前"
+msgstr "六個月以前。"
 
 #: libgnucash/app-utils/date-utilities.scm:1089
 msgid "One Year Ago"
 msgstr "一年以前"
 
 #: libgnucash/app-utils/date-utilities.scm:1091
-#, fuzzy
 msgid "One Year Ago."
-msgstr "一年以前"
+msgstr "一年以前。"
 
 #: libgnucash/app-utils/date-utilities.scm:1095
 msgid "One Month Ahead"
 msgstr "一個月以後"
 
 #: libgnucash/app-utils/date-utilities.scm:1097
-#, fuzzy
 msgid "One Month Ahead."
-msgstr "一個月以後"
+msgstr "一個月以後。"
 
 #: libgnucash/app-utils/date-utilities.scm:1101
 msgid "One Week Ahead"
 msgstr "一星期以後"
 
 #: libgnucash/app-utils/date-utilities.scm:1103
-#, fuzzy
 msgid "One Week Ahead."
-msgstr "一星期以後"
+msgstr "一星期以後。"
 
 #: libgnucash/app-utils/date-utilities.scm:1107
 msgid "Three Months Ahead"
 msgstr "三個月以後"
 
 #: libgnucash/app-utils/date-utilities.scm:1109
-#, fuzzy
 msgid "Three Months Ahead."
-msgstr "三個月以後"
+msgstr "三個月以後。"
 
 #: libgnucash/app-utils/date-utilities.scm:1113
 msgid "Six Months Ahead"
 msgstr "六個月以後"
 
 #: libgnucash/app-utils/date-utilities.scm:1115
-#, fuzzy
 msgid "Six Months Ahead."
-msgstr "六個月以後"
+msgstr "六個月以後。"
 
 #: libgnucash/app-utils/date-utilities.scm:1118
 msgid "One Year Ahead"
 msgstr "一年以後"
 
 #: libgnucash/app-utils/date-utilities.scm:1120
-#, fuzzy
 msgid "One Year Ahead."
-msgstr "一年以後"
+msgstr "一年以後。"
 
 #: libgnucash/app-utils/gnc-exp-parser.c:622
 msgid "Illegal variable in expression."
@@ -28563,40 +28487,39 @@ msgstr "數值的錯誤"
 #: libgnucash/app-utils/gnc-sx-instance-model.c:1018
 #, c-format
 msgid "Unknown account for guid [%s], cancelling SX [%s] creation."
-msgstr ""
+msgstr "未知的科目 GUID [%s]，取消排程交易 [%s] 的建立。"
 
 #: libgnucash/app-utils/gnc-sx-instance-model.c:1071
 #, c-format
 msgid "Error parsing SX [%s] key [%s]=formula [%s] at [%s]: %s."
-msgstr ""
+msgstr "排程交易 [%s] 解析錯誤。鍵值 [%s]=公式 [%s] 於 [%s]: %s。"
 
 #: libgnucash/app-utils/gnc-sx-instance-model.c:1125
 #: libgnucash/app-utils/gnc-sx-instance-model.c:1789
 #, c-format
 msgid "Error %d in SX [%s] final gnc_numeric value, using 0 instead."
-msgstr ""
+msgstr "錯誤 %d。排程交易 [%s] 的 gnc_numeric 計算值有誤，改用 0。"
 
 #: libgnucash/app-utils/gnc-sx-instance-model.c:1798
 #, c-format
 msgid "No exchange rate available in SX [%s] for %s -> %s, value is zero."
-msgstr ""
+msgstr "排程交易 [%s] 中沒有從 %s 到 %s 的可用匯率，該值將為零"
 
 #: libgnucash/app-utils/gnc-ui-balances.c:409
 msgid "Account is already at Auto-Clear Balance."
-msgstr ""
+msgstr "該科目已在自動結清的結束結餘。"
 
 #: libgnucash/app-utils/gnc-ui-balances.c:455
 msgid "Too many uncleared splits"
-msgstr ""
+msgstr "太多未結清的分割"
 
 #: libgnucash/app-utils/gnc-ui-balances.c:471
-#, fuzzy
 msgid "The selected amount cannot be cleared."
-msgstr "利率不能為零。"
+msgstr "輸入的金額無法被結清。"
 
 #: libgnucash/app-utils/gnc-ui-balances.c:477
 msgid "Cannot uniquely clear splits. Found multiple possibilities."
-msgstr ""
+msgstr "無法辨視出唯一的結清分割組合。有多種的可能性。"
 
 #. Translators: This and the following strings appear on
 #. the account tab if the Tax Info column is displayed,
@@ -28670,12 +28593,12 @@ msgstr "%s 和選定的子科目"
 #: libgnucash/app-utils/gnc-ui-util.c:871
 msgctxt "Reconciled flag 'not cleared'"
 msgid "n"
-msgstr ""
+msgstr "n"
 
 #: libgnucash/app-utils/gnc-ui-util.c:873
 msgctxt "Reconciled flag 'cleared'"
 msgid "c"
-msgstr ""
+msgstr "c"
 
 #: libgnucash/app-utils/gnc-ui-util.c:875
 msgctxt "Reconciled flag 'reconciled'"
@@ -28685,22 +28608,22 @@ msgstr "y"
 #: libgnucash/app-utils/gnc-ui-util.c:877
 msgctxt "Reconciled flag 'frozen'"
 msgid "f"
-msgstr ""
+msgstr "f"
 
 #: libgnucash/app-utils/gnc-ui-util.c:879
 msgctxt "Reconciled flag 'void'"
 msgid "v"
-msgstr ""
+msgstr "v"
 
 #: libgnucash/app-utils/gnc-ui-util.c:919
 msgctxt "Document Link flag for 'web'"
 msgid "w"
-msgstr ""
+msgstr "w"
 
 #: libgnucash/app-utils/gnc-ui-util.c:921
 msgctxt "Document Link flag for 'file'"
 msgid "f"
-msgstr ""
+msgstr "f"
 
 #: libgnucash/app-utils/gnc-ui-util.c:950
 msgid "Opening Balances"
@@ -28715,6 +28638,8 @@ msgid ""
 "This report was saved using a later version of GnuCash. One of the newer ~a "
 "options '~a' is not available, fallback to the option '~a'."
 msgstr ""
+"此報表是使用較新的 GnuCash 版本建立的。其中較新的 ~a 選項「~a」此版本無法使"
+"用，改回使用「~a」。"
 
 #: libgnucash/app-utils/option-util.c:1630
 #, c-format
@@ -28726,35 +28651,31 @@ msgstr ""
 "%s"
 
 #: libgnucash/app-utils/option-util.c:1631
-#, fuzzy
 msgid "Invalid option value"
-msgstr "選取了無效的編碼"
+msgstr "無效的選項值"
 
 #. Translators: this string refers to a file name that gets renamed
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:648
-#, fuzzy
 msgid "Renamed to:"
-msgstr "重新命名本頁 (_N)"
+msgstr "重新命名成："
 
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:673
 msgid "Notice"
-msgstr ""
+msgstr "通知"
 
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:678
 msgid "Your gnucash metadata has been migrated."
-msgstr ""
+msgstr "您的 GnuCash 後設資料已被遷移。"
 
 #. Translators: this refers to a directory name.
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:680
-#, fuzzy
 msgid "Old location:"
-msgstr "訂單資訊"
+msgstr "舊的位置："
 
 #. Translators: this refers to a directory name.
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:682
-#, fuzzy
 msgid "New location:"
-msgstr "<b>分割資訊</b>"
+msgstr "新的位址："
 
 #. Translators {1} will be replaced with the package name (typically Gnucash) at runtime
 #: libgnucash/core-utils/gnc-filepath-utils.cpp:684
@@ -28802,6 +28723,11 @@ msgid ""
 "Below you will find the list of invalid account names:\n"
 "%s"
 msgstr ""
+"已經有一個或多個科目名稱使用了選定的分隔符號字元「%s」。\n"
+"\n"
+"這會造成無法預期的行為。請更改科目名稱，或選擇其他分隔符號字元。\n"
+"下方為這些科目的列表：\n"
+"%s"
 
 #: libgnucash/engine/Account.cpp:4396
 msgid "Credit Card"
@@ -28834,13 +28760,13 @@ msgstr "無主的獲利"
 #: libgnucash/engine/Account.cpp:4871 libgnucash/engine/cap-gains.c:806
 #: libgnucash/engine/cap-gains.c:811 libgnucash/engine/cap-gains.c:812
 msgid "Realized Gain/Loss"
-msgstr "已實現獲利(虧損)"
+msgstr "已實現獲利 / 虧損"
 
 #: libgnucash/engine/Account.cpp:4873
 msgid ""
 "Realized Gains or Losses from Commodity or Trading Accounts that haven't "
 "been recorded elsewhere."
-msgstr ""
+msgstr "商品或交易帳戶中，尚未在其他地方被記錄的已實現獲利 / 虧損"
 
 #: libgnucash/engine/gnc-commodity.h:118
 msgid "All non-currency"
