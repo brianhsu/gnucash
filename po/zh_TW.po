@@ -19030,18 +19030,21 @@ msgid ""
 "You did not enter a recipient name. A recipient name is required for an "
 "online transfer.\n"
 msgstr ""
+"您沒有輸入收款人名稱。線上轉帳的收款人名稱是必填欄位。\n"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:584
 msgid ""
 "You did not enter a recipient account. A recipient account is required for "
 "an online transfer.\n"
 msgstr ""
+"您沒有輸入收款帳號。線上轉帳的收款帳號是必填欄位。\n"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:600
 msgid ""
 "You did not enter a recipient bank. A recipient bank is required for an "
 "online transfer.\n"
 msgstr ""
+"您沒有輸入收款銀行。線上轉帳的收款銀行是必填欄位。\n"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:618
 msgid ""
@@ -19049,17 +19052,21 @@ msgid ""
 "You might have mixed up decimal point and comma, compared to your locale "
 "settings. This does not result in a valid online transfer job."
 msgstr ""
+"金額為零或是金額欄位無法被正確解析。您可能將小數點和逗號搞混了，請與您的"
+"區域設定比較以確定是否相同。無法產生有效的線上轉帳作業。"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:635
 msgid ""
 "You did not enter any transaction purpose. A purpose is required for an "
 "online transfer.\n"
 msgstr ""
+"您並未輸入交易的目的。線上轉帳的目是必填欄位。\n"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:1047
 msgid ""
 "A template with the given name already exists. Please enter another name."
 msgstr ""
+"已經有相同名稱的模板存在。請輸入其他的名稱。"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:1182
 #, c-format
