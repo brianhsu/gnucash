@@ -2571,9 +2571,8 @@ msgstr[0] "下列的 %d 份客戶文件已到期："
 msgstr[1] "下列的 %d 份客戶文件已到期："
 
 #: gnucash/gnome/dialog-invoice.c:3730
-#, fuzzy
 msgid "Due Invoices Reminder"
-msgstr "帳單到期提醒"
+msgstr "發票到期提醒"
 
 #: gnucash/gnome/dialog-job.c:139
 msgid "The Job must be given a name."
@@ -9111,9 +9110,8 @@ msgstr "索價"
 #: gnucash/report/reports/standard/receipt.scm:210
 #: gnucash/report/reports/support/receipt.eguile.scm:278
 #: gnucash/report/reports/support/receipt.eguile.scm:285
-#, fuzzy
 msgid "Receipt"
-msgstr "收到"
+msgstr "收據"
 
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2857
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2871
@@ -20529,26 +20527,23 @@ msgid "Destination account for the auto-balance split."
 msgstr "自動結餘分割的目標科目。"
 
 #: gnucash/import-export/import-main-matcher.c:931
-#, fuzzy
 msgid "Assign a transfer account to the selection."
 msgstr "您必須自科目體系選擇轉帳科目。"
 
 #: gnucash/import-export/import-main-matcher.c:1094
-#, fuzzy
 msgctxt "Column header for 'Adding transaction'"
 msgid "A"
-msgstr "A"
+msgstr "新增"
 
 #: gnucash/import-export/import-main-matcher.c:1097
-#, fuzzy
 msgctxt "Column header for 'Updating plus Clearing transaction'"
 msgid "U+C"
-msgstr "U+R"
+msgstr "更新+結清"
 
 #: gnucash/import-export/import-main-matcher.c:1101
 msgctxt "Column header for 'Clearing transaction'"
 msgid "C"
-msgstr ""
+msgstr "結清"
 
 #: gnucash/import-export/import-main-matcher.c:1108
 msgid "Info"
@@ -20556,9 +20551,8 @@ msgstr "訊息"
 
 #: gnucash/import-export/import-main-matcher.c:1115
 #: gnucash/report/stylesheets/head-or-tail.scm:102
-#, fuzzy
 msgid "Additional Comments"
-msgstr "外加到卡片的:"
+msgstr "額外備註"
 
 #: gnucash/import-export/import-main-matcher.c:1479
 msgid "New, already balanced"
@@ -21858,24 +21852,20 @@ msgid "Font info for the report title."
 msgstr "匯出 HTML 格式的報表至檔案"
 
 #: gnucash/report/html-fonts.scm:111
-#, fuzzy
 msgid "Account link"
-msgstr "科目刪除"
+msgstr "科目連結"
 
 #: gnucash/report/html-fonts.scm:111
-#, fuzzy
 msgid "Font info for account name."
-msgstr "列印科目全名"
+msgstr "科目名稱所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:116
-#, fuzzy
 msgid "Number cell"
-msgstr "號碼"
+msgstr "數字欄位"
 
 #: gnucash/report/html-fonts.scm:116
-#, fuzzy
 msgid "Font info for regular number cells."
-msgstr "列印科目全名"
+msgstr "一般的數字欄位所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:121
 msgid "Negative Values in Red"
@@ -21886,24 +21876,20 @@ msgid "Display negative values in red."
 msgstr "負數以紅色顯示。"
 
 #: gnucash/report/html-fonts.scm:126
-#, fuzzy
 msgid "Number header"
-msgstr "號碼"
+msgstr "數字標頭"
 
 #: gnucash/report/html-fonts.scm:126
-#, fuzzy
 msgid "Font info for number headers."
-msgstr "列印科目全名"
+msgstr "數字的標頭所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:131
-#, fuzzy
 msgid "Text cell"
-msgstr "只有文字(_T)"
+msgstr "文字欄位"
 
 #: gnucash/report/html-fonts.scm:131
-#, fuzzy
 msgid "Font info for regular text cells."
-msgstr "匯出 HTML 格式的報表至檔案"
+msgstr "一般的文字欄位所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:136
 #, fuzzy
@@ -23100,35 +23086,34 @@ msgid "A sample report with examples."
 msgstr "具有範例的樣本報表。"
 
 #: gnucash/report/reports/example/sample-graphs.scm:42
-#, fuzzy
 msgid "Sample Graphs"
-msgstr "範例："
+msgstr "範例圖表"
 
 #: gnucash/report/reports/example/sample-graphs.scm:142
 msgid "Pie:"
-msgstr ""
+msgstr "圓餅圖："
 
 #: gnucash/report/reports/example/sample-graphs.scm:147
 msgid "Bar, normal:"
-msgstr ""
+msgstr "一般柱狀圖："
 
 #: gnucash/report/reports/example/sample-graphs.scm:152
 msgid "Bar, stacked:"
-msgstr ""
+msgstr "堆疊柱狀圖："
 
 #: gnucash/report/reports/example/sample-graphs.scm:157
 msgid "Scatter:"
-msgstr ""
+msgstr "散佈圖："
 
 #: gnucash/report/reports/example/welcome-to-gnucash.scm:41
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Welcome to GnuCash ~a !"
-msgstr "歡迎使用 GnuCash"
+msgstr "歡迎使用 GnuCash ~a ！"
 
 #: gnucash/report/reports/example/welcome-to-gnucash.scm:44
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "GnuCash ~a has lots of nice features. Here are a few."
-msgstr "GnuCash 2.4 有許多優秀的功能。這裡只是其中一部分。"
+msgstr "GnuCash ~a 有許多優秀的功能。這裡只是其中一部分。"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:79
 msgid "Tax Report / TXF Export"
@@ -23141,9 +23126,8 @@ msgstr "替代週期"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:152
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:182
-#, fuzzy
 msgid "Override or modify From: & To:."
-msgstr "無視或修改 從： & 到："
+msgstr "覆蓋或修改 從： & 到："
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:154
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:184
@@ -23152,30 +23136,26 @@ msgstr "使用 從 - 到"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:155
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:185
-#, fuzzy
 msgid "1st Est Tax Quarter (Jan 1 - Mar 31)"
-msgstr "第一稅季"
+msgstr "第一預估稅季 (1 月 1 號 - 3 月 31 號)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:156
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:186
-#, fuzzy
 msgid "2nd Est Tax Quarter (Apr 1 - May 31)"
-msgstr "第二稅季"
+msgstr "第二預估稅季 (4 月 1 號 - 5 月 31 號)"
 
 #. Translators: The US tax quarters are different from
 #. actual year's quarters! See the definition of
 #. tax-qtr-real-qtr-year variable above.
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:157
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:190
-#, fuzzy
 msgid "3rd Est Tax Quarter (Jun 1 - Aug 31)"
-msgstr "第三稅季"
+msgstr "第三預估稅季 (6 月 1 號 - 8 月 31 號)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:158
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:191
-#, fuzzy
 msgid "4th Est Tax Quarter (Sep 1 - Dec 31)"
-msgstr "第四稅季"
+msgstr "第四預估稅季 (9 月 1 號 - 12 月 31 號)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:159
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:192
@@ -23184,30 +23164,26 @@ msgstr "去年"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:160
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:193
-#, fuzzy
 msgid "Last Yr 1st Est Tax Qtr (Jan 1 - Mar 31)"
-msgstr "去年第一稅季"
+msgstr "去年第一預估稅季 (1 月 1 號 - 3 月 31 號)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:161
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:194
-#, fuzzy
 msgid "Last Yr 2nd Est Tax Qtr (Apr 1 - May 31)"
-msgstr "去年第二稅季"
+msgstr "去年第二預估稅季 (4 月 1 號 - 5 月 31 號)"
 
 #. Translators: The US tax quarters are different from
 #. actual year's quarters! See the definition of
 #. tax-qtr-real-qtr-year variable above.
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:162
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:198
-#, fuzzy
 msgid "Last Yr 3rd Est Tax Qtr (Jun 1 - Aug 31)"
-msgstr "去年第三稅季"
+msgstr "去年第三預估稅季 (6 月 1 號 - 8 月 31 號)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:163
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:199
-#, fuzzy
 msgid "Last Yr 4th Est Tax Qtr (Sep 1 - Dec 31)"
-msgstr "去年第四稅季"
+msgstr "去年第四預估稅季 (9 月 1 號 - 12 月 31 號)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:167
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:203
@@ -23216,9 +23192,8 @@ msgstr "選擇科目 (無=全選)"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:168
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:204
-#, fuzzy
 msgid "Select accounts."
-msgstr "選擇科目"
+msgstr "選擇科目。"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:174
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:210
@@ -23234,9 +23209,8 @@ msgid "Print Full account names"
 msgstr "列印科目全名"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:180
-#, fuzzy
 msgid "Print all Parent account names."
-msgstr "列印所有母科目的名稱"
+msgstr "列印所有母科目的名稱。"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:258
 msgid ""
@@ -23245,9 +23219,9 @@ msgid ""
 msgstr "警告：某些科目分配到相同的 TXF 碼。只有具付款人來源的 TXF 碼會被重複。"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:808
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Period from ~a to ~a"
-msgstr "從 %s 到 %s 期間"
+msgstr "從 ~a 到 ~a 期間"
 
 #: gnucash/report/reports/locale-specific/de_DE/taxtxf.scm:845
 msgid "Tax Report & XML Export"
@@ -23287,84 +23261,73 @@ msgid "Do not print full account names"
 msgstr "不列印科目全名"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:216
-#, fuzzy
 msgid "Do not print all Parent account names."
-msgstr "不列印所有母科目的名稱"
+msgstr "不列印所有母科目的名稱。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:220
-#, fuzzy
 msgid "Print all Transfer To/From Accounts"
-msgstr "轉帳科目"
+msgstr "顯示所有來源/目的科目"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:221
-#, fuzzy
 msgid "Print all split details for multi-split transactions."
 msgstr "印出含有多分割交易的明細"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:225
 msgid "Print TXF export parameters"
-msgstr ""
+msgstr "列印 TXF 匯出參數"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:226
 msgid "Show TXF export parameters for each TXF code/account on report."
-msgstr ""
+msgstr "針對報表中的每個 TXF 代碼 / 科目顯示匯出參數。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:231
-#, fuzzy
 msgid "Do not print T-Num:Memo data"
-msgstr "不顯示 Action:Memo"
+msgstr "不列印交易-編號:備忘錄的內容"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:232
-#, fuzzy
 msgid "Do not print T-Num:Memo data for transactions."
-msgstr "要搜尋交易的科目"
+msgstr "不列印交易的編號:備忘錄的內容。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:235
 msgid "Do not print Action:Memo data"
-msgstr "不顯示 Action:Memo"
+msgstr "不列印動作:備忘錄內容"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:236
-#, fuzzy
 msgid "Do not print Action:Memo data for transactions."
-msgstr "要搜尋交易的科目"
+msgstr "不列印示交易的動作:備忘錄內容。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:240
 msgid "Do not print transaction detail"
 msgstr "不要列印交易明細"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:241
-#, fuzzy
 msgid "Do not print transaction detail for accounts."
 msgstr "不要列印帳戶交易明細"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:245
 msgid "Do not use special date processing"
-msgstr ""
+msgstr "不要針對日期進行特殊處理"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:246
-#, fuzzy
 msgid "Do not print transactions out of specified dates."
-msgstr "不要列印帳戶交易明細"
+msgstr "不要列印超過指定日期的交易。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:250
 msgid "Currency conversion date"
 msgstr "貨幣轉換日期"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:251
-#, fuzzy
 msgid "Select date to use for PriceDB lookups."
-msgstr "選擇提出報表的日期"
+msgstr "請選擇要用來查詢價格資料庫的日期。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:254
-#, fuzzy
 msgid "Nearest to transaction date"
 msgstr "最接近交易的日期"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:256
 #: gnucash/report/reports/standard/advanced-portfolio.scm:83
-#, fuzzy
 msgid "Nearest to report date"
-msgstr "時間上最接近"
+msgstr "最接近報表產生時間的日期"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:3326
 msgid "Tax Schedule Report & TXF Export"
@@ -23379,7 +23342,6 @@ msgstr "應納稅的收入 / 可減免的支出 / 匯出至 .TXF 檔案"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:3332
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:3340
-#, fuzzy
 msgid "Taxable Income/Deductible Expenses"
 msgstr "應納稅的收入 / 可減免的支出"
 
@@ -23408,9 +23370,8 @@ msgid "Asset Piechart"
 msgstr "資產圓餅圖"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:39
-#, fuzzy
 msgid "Security Piechart"
-msgstr "資產圓餅圖"
+msgstr "證券圓餅圖"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:40
 msgid "Liability Piechart"
@@ -26717,24 +26678,20 @@ msgid "Text font"
 msgstr "文字字型"
 
 #: gnucash/report/reports/standard/receipt.scm:49
-#, fuzzy
 msgid "Header logo filename"
-msgstr "Logo 檔名"
+msgstr "標頭商標檔名"
 
 #: gnucash/report/reports/standard/receipt.scm:50
-#, fuzzy
 msgid "Header logo width"
-msgstr "Logo 寬度"
+msgstr "標頭商標寬度"
 
 #: gnucash/report/reports/standard/receipt.scm:51
-#, fuzzy
 msgid "Footer logo filename"
-msgstr "Logo 檔名"
+msgstr "註腳商標檔名"
 
 #: gnucash/report/reports/standard/receipt.scm:52
-#, fuzzy
 msgid "Footer logo width"
-msgstr "Logo 寬度"
+msgstr "註腳商標寬度"
 
 #: gnucash/report/reports/standard/receipt.scm:54
 #: gnucash/report/reports/standard/receipt.scm:119
@@ -26773,9 +26730,8 @@ msgstr "小計"
 
 #: gnucash/report/reports/standard/receipt.scm:64
 #: gnucash/report/reports/standard/taxinvoice.scm:120
-#, fuzzy
 msgid "Payment received text"
-msgstr "付款，謝謝您"
+msgstr "已收款文字"
 
 #: gnucash/report/reports/standard/receipt.scm:65
 #: gnucash/report/reports/standard/taxinvoice.scm:121
@@ -26783,9 +26739,8 @@ msgid "Extra notes"
 msgstr "額外備註"
 
 #: gnucash/report/reports/standard/receipt.scm:66
-#, fuzzy
 msgid "Today date format"
-msgstr "今天日期格式"
+msgstr "今日日期格式"
 
 #: gnucash/report/reports/standard/receipt.scm:81
 #: gnucash/report/reports/standard/taxinvoice.scm:149
@@ -26805,19 +26760,17 @@ msgstr ""
 
 #: gnucash/report/reports/standard/receipt.scm:88
 #: gnucash/report/reports/standard/taxinvoice.scm:156
-#, fuzzy
 msgid "Font to use for the main heading."
 msgstr "主要標題所用的字型"
 
 #: gnucash/report/reports/standard/receipt.scm:91
 #: gnucash/report/reports/standard/taxinvoice.scm:159
-#, fuzzy
 msgid "Font to use for everything else."
 msgstr "其他所有地方用到的字型"
 
 #: gnucash/report/reports/standard/receipt.scm:94
 msgid "Name of a file containing a logo to be used on the header of the report"
-msgstr ""
+msgstr "在此報表的標頭所使用的商標的檔案位址"
 
 #: gnucash/report/reports/standard/receipt.scm:97
 msgid ""
@@ -26825,10 +26778,12 @@ msgid ""
 "display the logo at its natural width. The height of the logo will be scaled "
 "accordingly."
 msgstr ""
+"標頭的商標的寬度，以 CSS 的型式來表示，例如 10% 或 32px。"
+"若留白則會使用預設的寬度，高度將會自動依照寬度進行調整。"
 
 #: gnucash/report/reports/standard/receipt.scm:100
 msgid "Name of a file containing a logo to be used on the footer of the report"
-msgstr ""
+msgstr "在此報表的註腳所使用的商標的檔案位址"
 
 #: gnucash/report/reports/standard/receipt.scm:103
 msgid ""
@@ -26836,6 +26791,8 @@ msgid ""
 "display the logo at its natural width. The height of the logo will be scaled "
 "accordingly."
 msgstr ""
+"註腳的商標的寬度，以 CSS 的型式來表示，例如 10% 或 32px。"
+"若留白則會使用預設的寬度，高度將會自動依照寬度進行調整。"
 
 #: gnucash/report/reports/standard/receipt.scm:107
 msgid "The format for the date->string conversion for today's date."
@@ -26845,28 +26802,26 @@ msgstr "日期的格式->將今天的日期轉換為字串。"
 #. "%l:%M %P, %e %B %Y" means " 9:56 pm, 19 June 2019"
 #: gnucash/report/reports/standard/receipt.scm:110
 msgid "%l:%M %P, %e %B %Y"
-msgstr ""
+msgstr "%Y %B %e %P %l:%M"
 
 #: gnucash/report/reports/standard/receipt.scm:140
 #: gnucash/report/reports/standard/taxinvoice.scm:198
-#, fuzzy
 msgid "Payment received, thank you!"
-msgstr "付款已收到，謝謝您"
+msgstr "已收到付款，謝謝您！"
 
 #: gnucash/report/reports/standard/receipt.scm:144
 msgid "Notes added at end of invoice -- may contain HTML markup"
-msgstr ""
+msgstr "在收據結尾的筆記 -- 可包含 HTML 標記"
 
 #: gnucash/report/reports/standard/receipt.scm:211
 msgid "Display a customer invoice as receipt, cash voucher"
-msgstr ""
+msgstr "將客戶發票顯示成收據"
 
 #: gnucash/report/reports/standard/receivables.scm:36
 msgid "Receivables Account"
 msgstr "應收科目"
 
 #: gnucash/report/reports/standard/receivables.scm:48
-#, fuzzy
 msgid "The receivables account you wish to examine."
 msgstr "您希望檢驗的應收科目"
 
@@ -26876,6 +26831,8 @@ msgid ""
 "tool. Please select the account from Report Options. Please note the dates "
 "specified in the options will apply to the Reconciliation Date."
 msgstr ""
+"對帳報表設計成和正式的對帳功能類似。請從報表選項中選取科目。"
+"請注意在選項中選取的日期，也會被套用到對帳日期上。"
 
 # src/gnome/glade-gnc-dialogs.c:1476
 #: gnucash/report/reports/standard/reconcile-report.scm:103
@@ -27086,41 +27043,35 @@ msgstr "內嵌 CSS"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:107
 msgid "Logo filename"
-msgstr "Logo 檔名"
+msgstr "商標檔名"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:108
 msgid "Logo width"
-msgstr "Logo 寬度"
+msgstr "商標寬度"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:136
-#, fuzzy
 msgid "Display the Tax Rate?"
-msgstr "是否顯示日期？"
+msgstr "是否顯示稅率？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:137
-#, fuzzy
 msgid "Display the Units?"
-msgstr "是否顯示合計？"
+msgstr "是否顯示單位？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:138
-#, fuzzy
 msgid "Display the contact?"
-msgstr "是否顯示科目？"
+msgstr "是否顯示連絡人？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:139
-#, fuzzy
 msgid "Display the address?"
-msgstr "是否顯示日期？"
+msgstr "是否顯示地址？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:140
-#, fuzzy
 msgid "Display the Invoice Number?"
-msgstr "是否顯示支票號碼？"
+msgstr "是否顯示發票號碼？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:141
-#, fuzzy
 msgid "Display the Company Name?"
-msgstr "顯示科目名稱？"
+msgstr "是否顯示公司名稱？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:142
 msgid "Invoice Number next to title?"
@@ -27756,111 +27707,100 @@ msgid "Technicolor"
 msgstr "鮮明色彩"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:71
-#, fuzzy
 msgid "Show receiver info"
-msgstr "顯示製作者資訊"
+msgstr "顯示收件人資訊"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:72
-#, fuzzy
 msgid "Name of organization or company the report is prepared for."
-msgstr "製作對象公司團體的名稱"
+msgstr "製作對象的公司或團體名稱"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:77
-#, fuzzy
 msgid "Show date"
-msgstr "顯示表格"
+msgstr "顯示日期"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:78
-#, fuzzy
 msgid "The creation date for this report."
-msgstr "此報表的公司"
+msgstr "此報表的製作日期。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:83
 msgid "Show time in addition to date"
-msgstr ""
+msgstr "除製作日期外也顯示時間"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:84
 msgid ""
 "The creation time for this report can only be shown if the date is shown."
 msgstr ""
+"報表的製作時間只有在有顯示報表製作日期時才會出現。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:89
-#, fuzzy
 msgid "Show GnuCash Version"
 msgstr "顯示 GnuCash 版本"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:90
-#, fuzzy
 msgid "Show the currently used GnuCash version."
-msgstr "顯示 GnuCash 版本"
+msgstr "顯示目前所使用的 GnuCash 版本"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:103
 msgid "String for additional report information."
-msgstr ""
+msgstr "報表的額外資訊。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:108
-#, fuzzy
 msgid "Show preparer info at bottom"
-msgstr "顯示製作者資訊"
+msgstr "於底部顯示製作者資訊"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:109
 msgid "Per default the preparer info will be shown before the report data."
-msgstr ""
+msgstr "預設會在報表上方顯示製作者資訊"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:114
-#, fuzzy
 msgid "Show receiver info at bottom"
-msgstr "顯示製作者資訊"
+msgstr "於底部顯示收件者資訊"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:115
 msgid "Per default the receiver info will be shown before the report data."
-msgstr ""
+msgstr "預設會在報表上方顯示收件者資訊。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:120
 msgid "Show date/time at bottom"
-msgstr ""
+msgstr "於底部顯示日期 / 時間"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:121
 msgid "Per default the date/time info will be shown before the report data."
-msgstr ""
+msgstr "預設會在報表上方顯示日期 / 時間。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:126
-#, fuzzy
 msgid "Show comments at bottom"
-msgstr "顯示說明文件"
+msgstr "於底部顯示備註"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:127
 msgid ""
 "Per default the additional comments text will be shown before the report "
 "data."
-msgstr ""
+msgstr "預設會在報表上方顯示備註。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:132
-#, fuzzy
 msgid "Show GnuCash version at bottom"
-msgstr "顯示 GnuCash 版本"
+msgstr "在底部顯示 GnuCash 版本"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:133
 msgid "Per default the GnuCash version will be shown before the report data."
-msgstr ""
+msgstr "預設會在報表上方顯示 GnuCash 版本。"
 
 #: gnucash/report/stylesheets/head-or-tail.scm:442
 #: gnucash/report/stylesheets/head-or-tail.scm:449
 #: gnucash/report/stylesheets/head-or-tail.scm:536
 #: gnucash/report/stylesheets/head-or-tail.scm:543
-#, fuzzy
 msgid "Report Creation Date: "
-msgstr "報表錯誤"
+msgstr "報表建立日期： "
 
 #: gnucash/report/stylesheets/head-or-tail.scm:551
-#, fuzzy
 msgid "GnuCash "
-msgstr "GnuCash"
+msgstr "GnuCash "
 
 #: gnucash/report/stylesheets/head-or-tail.scm:566
 #: gnucash/report/stylesheets/head-or-tail.scm:570
 msgid "Head or Tail"
-msgstr ""
+msgstr "標頭或註腳"
 
 #: gnucash/report/stylesheets/plain.scm:47
 msgid "Background color for reports."
