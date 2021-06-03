@@ -6065,22 +6065,20 @@ msgstr "刪除選擇的排程交易"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:441
 #: gnucash/gtkbuilder/dialog-account.glade:554
-#, fuzzy
 msgid "Transactions"
 msgstr "交易"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:507
-#, fuzzy
 msgid "Upcoming Transactions"
-msgstr "無效的交易"
+msgstr "接下來的交易"
 
 #. Translators: This is a ngettext(3) message, %d is the number of scheduled transactions deleted
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:871
-#, fuzzy, c-format
+#, c-format
 msgid "Do you really want to delete this scheduled transaction?"
 msgid_plural "Do you really want to delete %d scheduled transactions?"
 msgstr[0] "您確定要刪除這個排程交易？"
-msgstr[1] "您確定要刪除這個排程交易？"
+msgstr[1] "您確定要刪除 %d 個排程交易？"
 
 #: gnucash/gnome/gnc-plugin-register2.c:57
 #: gnucash/gnome/gnc-plugin-register.c:58
@@ -14162,18 +14160,16 @@ msgid "<b>Sub-accounts</b>"
 msgstr "<b>子科目</b>"
 
 #: gnucash/gtkbuilder/dialog-account.glade:470
-#, fuzzy
 msgid "This account has a sub-account. What would you like to do with it?"
-msgstr "這個科目包含子科目。您決定如何處理這些子科目?"
+msgstr "這個科目包含子科目。您決定如何處理這些子科目？"
 
 #: gnucash/gtkbuilder/dialog-account.glade:481
 msgid "_Move to"
 msgstr "移到(_M)"
 
 #: gnucash/gtkbuilder/dialog-account.glade:499
-#, fuzzy
 msgid "Delete the _subaccount"
-msgstr "刪除全部子科目(_S)"
+msgstr "刪除子科目(_S)"
 
 #: gnucash/gtkbuilder/dialog-account.glade:574
 #: gnucash/gtkbuilder/dialog-account.glade:692
@@ -14201,11 +14197,10 @@ msgid "<b>Sub-account Transactions</b>"
 msgstr "<b>子科目交易</b>"
 
 #: gnucash/gtkbuilder/dialog-account.glade:729
-#, fuzzy
 msgid ""
 "You've said to delete the subaccount and it contains transactions. What "
 "would you like to do with these transactions?"
-msgstr "這個科目的一或數個子科目包含數筆交易。您決定如何處理這些交易?"
+msgstr "您打算要刪含有交易的除子科目。您要如何處理這些交易？"
 
 #: gnucash/gtkbuilder/dialog-account.glade:743
 msgid ""
@@ -14233,9 +14228,8 @@ msgid "Show _hidden accounts"
 msgstr "顯示被隱藏的科目(_H)"
 
 #: gnucash/gtkbuilder/dialog-account.glade:974
-#, fuzzy
 msgid "Show accounts which have the option \"Hidden\" checked."
-msgstr "顯示被標記為隱藏的科目。"
+msgstr "顯示被標記為「隱藏」的科目。"
 
 #: gnucash/gtkbuilder/dialog-account.glade:988
 msgid "Show _unused accounts"
@@ -14250,7 +14244,6 @@ msgid "Show _zero total accounts"
 msgstr "顯示結餘為零的科目(_Z)"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1010
-#, fuzzy
 msgid "Show accounts which have a zero total value."
 msgstr "隱藏結算值為零的科目。"
 
@@ -24386,14 +24379,12 @@ msgid "Whether or not to include a line indicating total amounts."
 msgstr "取消目前的交易"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:113
-#, fuzzy
 msgid "Enable chart"
-msgstr "價值淨額長條圖"
+msgstr "啟用圖表"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:114
-#, fuzzy
 msgid "Enable link to chart"
-msgstr "啟動鏈結"
+msgstr "啟用鏈結"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:116
 #: gnucash/report/trep-engine.scm:103
@@ -27692,9 +27683,8 @@ msgid "Filter Type"
 msgstr "過濾器類型"
 
 #: gnucash/report/trep-engine.scm:74
-#, fuzzy
 msgid "Subtotal Table"
-msgstr "小計"
+msgstr "小計表格"
 
 #: gnucash/report/trep-engine.scm:84 gnucash/report/trep-engine.scm:1078
 msgid "Show Account Description"
@@ -27705,9 +27695,8 @@ msgid "Show Informal Debit/Credit Headers"
 msgstr "顯示口語化的借/貸標頭"
 
 #: gnucash/report/trep-engine.scm:87
-#, fuzzy
 msgid "Show subtotals only (hide transactional data)"
-msgstr "只顯示無效的交易"
+msgstr "只顯示小計(隱藏交易資料)"
 
 #: gnucash/report/trep-engine.scm:88
 msgid "Add indenting columns"
@@ -27943,17 +27932,14 @@ msgid "Subtotal according to the primary key?"
 msgstr "根據主鍵小計？"
 
 #: gnucash/report/trep-engine.scm:812 gnucash/report/trep-engine.scm:851
-#, fuzzy
 msgid "Do a date subtotal."
-msgstr "進行日期小計"
+msgstr "進行日期小計。"
 
 #: gnucash/report/trep-engine.scm:822
-#, fuzzy
 msgid "Order of primary sorting."
 msgstr "主要排序的順序"
 
 #: gnucash/report/trep-engine.scm:831
-#, fuzzy
 msgid "Sort by this criterion second."
 msgstr "以此準則排序次之"
 
@@ -27962,48 +27948,40 @@ msgid "Subtotal according to the secondary key?"
 msgstr "根據次關鍵小計？"
 
 #: gnucash/report/trep-engine.scm:861
-#, fuzzy
 msgid "Order of Secondary sorting."
-msgstr "次要排序的順序"
+msgstr "次要排序的順序。"
 
 #: gnucash/report/trep-engine.scm:916
 msgid "Display the reconciled date?"
 msgstr "是否顯示對帳日期？"
 
 #: gnucash/report/trep-engine.scm:921
-#, fuzzy
 msgid "Display the notes if the memo is unavailable?"
-msgstr "是否顯示此發票的付款？"
+msgstr "如果沒有備忘錄，是否要顯示筆記？"
 
 #: gnucash/report/trep-engine.scm:923 gnucash/report/trep-engine.scm:926
-#, fuzzy
 msgid "Display the full account name?"
-msgstr "顯示科目全名"
+msgstr "顯示科目全名？"
 
 #: gnucash/report/trep-engine.scm:924
-#, fuzzy
 msgid "Display the account code?"
-msgstr "顯示科目代碼"
+msgstr "顯示科目代碼？"
 
 #: gnucash/report/trep-engine.scm:927
-#, fuzzy
 msgid "Display the other account code?"
-msgstr "顯示其他科目代碼"
+msgstr "顯示其他科目代碼？"
 
 #: gnucash/report/trep-engine.scm:929
-#, fuzzy
 msgid "Display the transaction linked document"
-msgstr "是否顯示交易日期？"
+msgstr "顯示交易連結文件"
 
 #: gnucash/report/trep-engine.scm:932
-#, fuzzy
 msgid "Display a subtotal summary table."
-msgstr "是否顯示小計？"
+msgstr "顯示小計摘要表格"
 
 #: gnucash/report/trep-engine.scm:940
-#, fuzzy
 msgid "Display the trans number?"
-msgstr "是否顯示支票號碼？"
+msgstr "顯示交易號碼？"
 
 #: gnucash/report/trep-engine.scm:957
 msgid "Display the account name?"
