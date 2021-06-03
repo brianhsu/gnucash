@@ -22346,9 +22346,8 @@ msgstr "顯示零結餘的項目"
 #: gnucash/report/reports/standard/new-aging.scm:43
 #: gnucash/report/reports/standard/new-owner-report.scm:46
 #: gnucash/report/reports/standard/owner-report.scm:41
-#, fuzzy
 msgid "Due or Post Date"
-msgstr "張貼日期"
+msgstr "到期或張貼日期"
 
 #: gnucash/report/reports/aging.scm:47
 #: gnucash/report/reports/standard/new-aging.scm:46
@@ -22359,62 +22358,53 @@ msgstr "地址: "
 
 #: gnucash/report/reports/aging.scm:53
 #: gnucash/report/reports/standard/new-aging.scm:56
-#, fuzzy
 msgid "Address Phone"
-msgstr "地址: "
+msgstr "地址電話"
 
 #: gnucash/report/reports/aging.scm:54
 #: gnucash/report/reports/standard/new-aging.scm:57
-#, fuzzy
 msgid "Address Fax"
-msgstr "地址: "
+msgstr "地址傳真"
 
 #: gnucash/report/reports/aging.scm:55
 #: gnucash/report/reports/standard/new-aging.scm:58
-#, fuzzy
 msgid "Address Email"
-msgstr "地址: "
+msgstr "地址電子郵件"
 
 #: gnucash/report/reports/aging.scm:205
-#, fuzzy, scheme-format
+#, scheme-format
 msgid ""
 "Transactions relating to '~a' contain more than one currency. This report is "
 "not designed to cope with this possibility."
 msgstr ""
-"與 %s 的相關交易包含一種以上的貨幣。這個報表並不是被設計來處理這種情形的。"
+"與「~a」的相關交易包含一種以上的貨幣。這個報表並不是被設計來處理這種情形的。"
 
 #: gnucash/report/reports/aging.scm:345
 #: gnucash/report/reports/standard/new-aging.scm:93
-#, fuzzy
 msgid "Sort companies by."
-msgstr "排序公司依"
+msgstr "依此排序公司。"
 
 #: gnucash/report/reports/aging.scm:348
 #: gnucash/report/reports/standard/new-aging.scm:95
-#, fuzzy
 msgid "Name of the company"
 msgstr "公司的名稱"
 
 #: gnucash/report/reports/aging.scm:349
 #: gnucash/report/reports/standard/new-aging.scm:96
-#, fuzzy
 msgid "Total amount owed to/from Company"
-msgstr "與公司間的負債總額"
+msgstr "該公司的未付/未收總額"
 
 #: gnucash/report/reports/aging.scm:350
 #: gnucash/report/reports/standard/new-aging.scm:97
-#, fuzzy
 msgid "Bracket Total Owed"
 msgstr "階層負債總計"
 
 #: gnucash/report/reports/aging.scm:357
 #: gnucash/report/reports/standard/new-aging.scm:101
-#, fuzzy
 msgid "Sort order."
-msgstr "排列順序"
+msgstr "排列順序。"
 
 #: gnucash/report/reports/aging.scm:368
-#, fuzzy
 msgid ""
 "Show multi-currency totals. If not selected, convert all totals to report "
 "currency."
@@ -22424,15 +22414,14 @@ msgstr ""
 #: gnucash/report/reports/aging.scm:377
 #: gnucash/report/reports/standard/new-aging.scm:109
 msgid "Show all vendors/customers even if they have a zero balance."
-msgstr ""
+msgstr "顯示所有廠商 / 客戶，即便他們的結餘為零。"
 
 #: gnucash/report/reports/aging.scm:385
 #: gnucash/report/reports/standard/new-aging.scm:114
 #: gnucash/report/reports/standard/new-owner-report.scm:968
 #: gnucash/report/reports/standard/owner-report.scm:609
-#, fuzzy
 msgid "Leading date."
-msgstr "載入資料..."
+msgstr "交付週期。"
 
 #: gnucash/report/reports/aging.scm:401
 #: gnucash/report/reports/standard/new-aging.scm:50
@@ -22440,62 +22429,55 @@ msgid ""
 "Display Address Name. This, and other fields, may be useful if copying this "
 "report to a spreadsheet for use in a mail merge."
 msgstr ""
+"顯示地址名稱。這個選項以及其他選項，可能會對於將此報表貼到試算表中有不同程度"
+"的幫助。"
 
 #: gnucash/report/reports/aging.scm:410
 #: gnucash/report/reports/standard/new-aging.scm:52
-#, fuzzy
 msgid "Display Address 1."
-msgstr "是否顯示日期？"
+msgstr "顯示地址 1。"
 
 #: gnucash/report/reports/aging.scm:418
 #: gnucash/report/reports/standard/new-aging.scm:53
-#, fuzzy
 msgid "Display Address 2."
-msgstr "是否顯示日期？"
+msgstr "顯示地址 2。"
 
 #: gnucash/report/reports/aging.scm:426
 #: gnucash/report/reports/standard/new-aging.scm:54
-#, fuzzy
 msgid "Display Address 3."
-msgstr "是否顯示日期？"
+msgstr "顯示地址 3。"
 
 #: gnucash/report/reports/aging.scm:434
 #: gnucash/report/reports/standard/new-aging.scm:55
-#, fuzzy
 msgid "Display Address 4."
-msgstr "是否顯示日期？"
+msgstr "顯示地址 4。"
 
 #: gnucash/report/reports/aging.scm:442
 #: gnucash/report/reports/standard/new-aging.scm:56
-#, fuzzy
 msgid "Display Phone."
-msgstr "顯示"
+msgstr "顯示電話。"
 
 #: gnucash/report/reports/aging.scm:450
 #: gnucash/report/reports/standard/new-aging.scm:57
-#, fuzzy
 msgid "Display Fax."
-msgstr "顯示"
+msgstr "顯示傳真。"
 
 #: gnucash/report/reports/aging.scm:458
 #: gnucash/report/reports/standard/new-aging.scm:58
-#, fuzzy
 msgid "Display Email."
-msgstr "顯示股票代碼"
+msgstr "顯示電子郵件。"
 
 #: gnucash/report/reports/aging.scm:466
 #: gnucash/report/reports/standard/new-aging.scm:59
-#, fuzzy
 msgid "Display Active status."
-msgstr "是否顯示合計？"
+msgstr "是否顯示作用中狀態。"
 
 #: gnucash/report/reports/aging.scm:539
 #: gnucash/report/reports/standard/new-aging.scm:181
 #: gnucash/report/reports/standard/new-owner-report.scm:322
 #: gnucash/report/reports/standard/owner-report.scm:259
-#, fuzzy
 msgid "Current"
-msgstr "貨幣"
+msgstr "現在"
 
 #: gnucash/report/reports/aging.scm:540
 #: gnucash/report/reports/standard/job-report.scm:159
@@ -22533,11 +22515,10 @@ msgstr "91+ 天"
 #: gnucash/report/reports/standard/new-aging.scm:150
 msgctxt "One-letter indication for 'yes'"
 msgid "Y"
-msgstr ""
+msgstr "是"
 
 #: gnucash/report/reports/aging.scm:774
 #: gnucash/report/reports/standard/new-aging.scm:150
-#, fuzzy
 msgctxt "One-letter indication for 'no'"
 msgid "N"
 msgstr "否"
@@ -22548,6 +22529,7 @@ msgid ""
 "No valid account selected. Click on the Options button and select the "
 "account to use."
 msgstr ""
+"未選擇有效的科目。請點選「選項」按鈕並選擇要使用的科目。"
 
 #: gnucash/report/reports/example/average-balance.scm:38
 msgid "Average Balance"
@@ -24968,72 +24950,59 @@ msgid "using accumulated amounts"
 msgstr "使用從所有預算週期累計的金額"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:40
-#, fuzzy
 msgid "Cash Flow Barchart"
-msgstr "現金流量"
+msgstr "現金流量柱狀圖"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:46
 #: gnucash/report/reports/standard/cash-flow.scm:53
-#, fuzzy
 msgid "Include Trading Accounts in report"
-msgstr "包含總合(_G)"
+msgstr "包含交易科目"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:48
-#, fuzzy
 msgid "Show Money In"
-msgstr "金錢流入"
+msgstr "顯示金錢流入"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:49
-#, fuzzy
 msgid "Show Money Out"
-msgstr "金錢流出"
+msgstr "顯示金錢流出"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:50
-#, fuzzy
 msgid "Show Net Flow"
-msgstr "顯示價值淨額長條"
+msgstr "顯示淨流入 / 流出"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:51
-#, fuzzy
 msgid "Show Table"
 msgstr "顯示表格"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:100
 #: gnucash/report/reports/standard/cash-flow.scm:102
-#, fuzzy
 msgid "Include transfers to and from Trading Accounts in the report."
-msgstr "只包含 流進/流出 過濾器所指定科目的交易"
+msgstr "報表中包含從交易科目的轉入轉出"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:107
-#, fuzzy
 msgid "Show money in?"
-msgstr "顯示圖表"
+msgstr "顯示流入金額？"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:113
-#, fuzzy
 msgid "Show money out?"
-msgstr "顯示圖表"
+msgstr "顯示流出金額？"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:119
-#, fuzzy
 msgid "Show net money flow?"
-msgstr "顯示圖表"
+msgstr "顯示淨流入 / 流出？"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:303
 #: gnucash/report/reports/standard/cashflow-barchart.scm:339
-#, fuzzy
 msgid "Net Flow"
-msgstr "淨虧損"
+msgstr "淨流入 / 流出"
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:342
-#, fuzzy
 msgid "Overview:"
-msgstr "概觀"
+msgstr "概觀："
 
 #: gnucash/report/reports/standard/cashflow-barchart.scm:368
-#, fuzzy
 msgid "Shows a barchart with cash flow over time"
-msgstr "顯示資產隨時間變化長條圖"
+msgstr "顯示現金流量時間變化長條圖"
 
 #: gnucash/report/reports/standard/cash-flow.scm:38
 msgid "Cash Flow"
@@ -25044,19 +25013,18 @@ msgid "Show Full Account Names"
 msgstr "顯示完整的科目名稱"
 
 #: gnucash/report/reports/standard/cash-flow.scm:83
-#, fuzzy
 msgid "Show full account names (including parent accounts)."
 msgstr "顯示完整的科目名稱（包含母科目）"
 
 #: gnucash/report/reports/standard/cash-flow.scm:205
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a and subaccounts"
-msgstr "及子科目"
+msgstr "~a 及子科目"
 
 #: gnucash/report/reports/standard/cash-flow.scm:206
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "~a and selected subaccounts"
-msgstr "%s 和選定的子科目"
+msgstr "~a 和選定的子科目"
 
 #: gnucash/report/reports/standard/cash-flow.scm:270
 msgid "Money into selected accounts comes from"
@@ -25087,24 +25055,20 @@ msgid "Liability Chart"
 msgstr "債務圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:49
-#, fuzzy
 msgid "Shows a chart with the Income per interval developing over time"
-msgstr "顯示每段期間收入隨時間變化長條圖"
+msgstr "顯示每段期間收入隨時間變化的長條圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:52
-#, fuzzy
 msgid "Shows a chart with the Expenses per interval developing over time"
-msgstr "顯示每段期間支出隨時間變化長條圖"
+msgstr "顯示每段期間支出隨時間變的化長條圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:55
-#, fuzzy
 msgid "Shows a chart with the Assets developing over time"
-msgstr "顯示資產隨時間變化長條圖"
+msgstr "顯示資產隨時間變化的長條圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:57
-#, fuzzy
 msgid "Shows a chart with the Liabilities developing over time"
-msgstr "顯示債務隨時間變化長條圖"
+msgstr "顯示債務隨時間變化的長條圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:63
 msgid "Income Over Time"
@@ -25280,31 +25244,31 @@ msgstr "只針對這些科目產生報表"
 #: gnucash/report/reports/standard/income-statement.scm:117
 #: gnucash/report/reports/standard/trial-balance.scm:104
 msgid "Closing Entries pattern"
-msgstr ""
+msgstr "結帳分錄模式"
 
 #: gnucash/report/reports/standard/equity-statement.scm:88
 #: gnucash/report/reports/standard/income-statement.scm:119
 #: gnucash/report/reports/standard/trial-balance.scm:106
 msgid "Any text in the Description column which identifies closing entries."
-msgstr ""
+msgstr "交易的描述欄位裡，用來標示該分錄為結帳分錄的文字。"
 
 #: gnucash/report/reports/standard/equity-statement.scm:90
 #: gnucash/report/reports/standard/income-statement.scm:121
 #: gnucash/report/reports/standard/trial-balance.scm:108
 msgid "Closing Entries pattern is case-sensitive"
-msgstr ""
+msgstr "結帳分錄模式區分大小寫"
 
 #: gnucash/report/reports/standard/equity-statement.scm:92
 #: gnucash/report/reports/standard/income-statement.scm:123
 #: gnucash/report/reports/standard/trial-balance.scm:110
 msgid "Causes the Closing Entries Pattern match to be case-sensitive."
-msgstr ""
+msgstr "比對結帳分錄模式與交易描述時，區分大小寫"
 
 #: gnucash/report/reports/standard/equity-statement.scm:94
 #: gnucash/report/reports/standard/income-statement.scm:125
 #: gnucash/report/reports/standard/trial-balance.scm:112
 msgid "Closing Entries Pattern is regular expression"
-msgstr ""
+msgstr "結帳分錄模式採用正規表示式"
 
 #: gnucash/report/reports/standard/equity-statement.scm:96
 #: gnucash/report/reports/standard/income-statement.scm:127
@@ -25312,6 +25276,7 @@ msgstr ""
 msgid ""
 "Causes the Closing Entries Pattern to be treated as a regular expression."
 msgstr ""
+"將「結帳分錄模式」視為式規表示式。"
 
 #: gnucash/report/reports/standard/equity-statement.scm:423
 #: gnucash/report/reports/standard/income-statement.scm:480
@@ -25345,9 +25310,8 @@ msgstr "資本減少"
 #: gnucash/report/reports/standard/register.scm:135
 #: gnucash/report/reports/standard/register.scm:359
 #: gnucash/report/trep-engine.scm:918 gnucash/report/trep-engine.scm:1042
-#, fuzzy
 msgid "Num/Action"
-msgstr "動作"
+msgstr "號碼/動作"
 
 #: gnucash/report/reports/standard/general-journal.scm:102
 #: gnucash/report/reports/standard/general-ledger.scm:82
@@ -25379,17 +25343,15 @@ msgstr "排序"
 #: gnucash/report/reports/standard/general-ledger.scm:69
 #: gnucash/report/trep-engine.scm:939 gnucash/report/trep-engine.scm:1157
 #: gnucash/report/trep-engine.scm:1166
-#, fuzzy
 msgid "Trans Number"
-msgstr "稅號"
+msgstr "交易號碼"
 
 #: gnucash/report/reports/standard/general-ledger.scm:73
 #: gnucash/report/reports/standard/general-ledger.scm:93
 #: gnucash/report/trep-engine.scm:876 gnucash/report/trep-engine.scm:923
 #: gnucash/report/trep-engine.scm:1065
-#, fuzzy
 msgid "Use Full Account Name"
-msgstr "使用科目全名？"
+msgstr "使用科目全名"
 
 #: gnucash/report/reports/standard/general-ledger.scm:75
 #: gnucash/report/reports/standard/general-ledger.scm:95
@@ -25402,9 +25364,8 @@ msgstr "其他科目名稱"
 #: gnucash/report/reports/standard/general-ledger.scm:96
 #: gnucash/report/trep-engine.scm:896 gnucash/report/trep-engine.scm:926
 #: gnucash/report/trep-engine.scm:1073
-#, fuzzy
 msgid "Use Full Other Account Name"
-msgstr "使用完整的其他科目名稱？"
+msgstr "使用完整的其他科目名稱"
 
 #: gnucash/report/reports/standard/general-ledger.scm:77
 #: gnucash/report/reports/standard/general-ledger.scm:97
@@ -25423,7 +25384,7 @@ msgstr "改變正負號"
 #: gnucash/report/reports/standard/general-ledger.scm:111
 #: gnucash/report/trep-engine.scm:73
 msgid "Detail Level"
-msgstr ""
+msgstr "詳情等級"
 
 #: gnucash/report/reports/standard/general-ledger.scm:124
 #: gnucash/report/trep-engine.scm:78
@@ -26138,37 +26099,32 @@ msgstr "工作報表"
 #: gnucash/report/reports/standard/job-report.scm:580
 #: gnucash/report/reports/standard/new-owner-report.scm:90
 #: gnucash/report/reports/standard/owner-report.scm:80
-#, fuzzy
 msgid "No valid customer selected."
-msgstr "沒有選定科目"
+msgstr "未選取有效的客戶。"
 
 #: gnucash/report/reports/standard/job-report.scm:582
 #: gnucash/report/reports/standard/new-owner-report.scm:100
-#, fuzzy
 msgid "No valid job selected."
-msgstr "選取了無效的編碼"
+msgstr "未選取有效的工作。"
 
 #: gnucash/report/reports/standard/job-report.scm:584
 #: gnucash/report/reports/standard/new-owner-report.scm:105
-#, fuzzy
 msgid "No valid vendor selected."
-msgstr "沒有選定科目"
+msgstr "未選取有效的廠商。"
 
 #: gnucash/report/reports/standard/job-report.scm:586
 #: gnucash/report/reports/standard/new-owner-report.scm:95
 #: gnucash/report/reports/standard/owner-report.scm:81
-#, fuzzy
 msgid "No valid employee selected."
-msgstr "選取了無效的編碼"
+msgstr "未選取有效的員工。"
 
 #: gnucash/report/reports/standard/job-report.scm:589
 msgid "Click on the \"Options\" button to select a company."
-msgstr ""
+msgstr "請點選「選項」以選擇公司。"
 
 #: gnucash/report/reports/standard/lot-viewer.scm:60
-#, fuzzy
 msgid "The account to search for lots."
-msgstr "要搜尋交易的科目"
+msgstr "要搜尋分批的科目"
 
 #: gnucash/report/reports/standard/net-charts.scm:48
 msgid "Show Net Profit"
@@ -26257,11 +26213,13 @@ msgid ""
 "No valid A/Payable or A/Receivable account found. Please ensure valid AP/AR "
 "account exists."
 msgstr ""
+"沒有有效的應付帳款或應收帳款科目。請確認科目體系裡有應收或應付帳款科目。"
 
 #: gnucash/report/reports/standard/new-aging.scm:64
 msgid ""
 "A/Payable or A/Receivable accounts exist but have no suitable transactions."
 msgstr ""
+"有應收或應付帳款科目，但沒有適合的交易。"
 
 #: gnucash/report/reports/standard/new-aging.scm:329
 #: gnucash/report/reports/standard/new-owner-report.scm:546
@@ -26275,25 +26233,21 @@ msgid "Invalid Txn Type ~a"
 msgstr ""
 
 #: gnucash/report/reports/standard/new-aging.scm:372
-#, fuzzy
 msgid "Payment has no owner"
-msgstr "付款，謝謝您"
+msgstr "付款沒有所有者"
 
 #: gnucash/report/reports/standard/new-aging.scm:402
 #: gnucash/report/reports/standard/receivables.scm:65
-#, fuzzy
 msgid "Address source."
-msgstr "地址: "
+msgstr "地址來源："
 
 #: gnucash/report/reports/standard/new-aging.scm:404
 #: gnucash/report/reports/standard/receivables.scm:68
-#, fuzzy
 msgid "Billing address"
 msgstr "帳單地址"
 
 #: gnucash/report/reports/standard/new-aging.scm:405
 #: gnucash/report/reports/standard/receivables.scm:69
-#, fuzzy
 msgid "Shipping address"
 msgstr "出貨地址"
 
@@ -26307,7 +26261,6 @@ msgstr "應收帳款帳齡"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:54
 #: gnucash/report/reports/standard/owner-report.scm:55
-#, fuzzy
 msgid "Sale"
 msgstr "銷售"
 
@@ -26323,46 +26276,39 @@ msgid "Debits"
 msgstr "借方"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:59
-#, fuzzy
 msgid "Document Links"
-msgstr "調整"
+msgstr "文件連結"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:60
-#, fuzzy
 msgid "Transaction Links"
-msgstr "交易"
+msgstr "交易連結"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:91
 #: gnucash/report/reports/standard/owner-report.scm:87
-#, fuzzy
 msgid "This report requires a customer to be selected."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有選定的客戶。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:96
 #: gnucash/report/reports/standard/owner-report.scm:88
-#, fuzzy
 msgid "This report requires a employee to be selected."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有選定的員工。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:101
-#, fuzzy
 msgid "This report requires a job to be selected."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有選定的工作。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:106
-#, fuzzy
 msgid "This report requires a vendor to be selected."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有選定的廠商。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:246
-#, fuzzy
 msgid "Partial Amount"
-msgstr "母科目(_P)"
+msgstr "剩餘金額"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:299
 #: gnucash/report/trep-engine.scm:929 gnucash/report/trep-engine.scm:1051
 msgid "Link"
-msgstr ""
+msgstr "連結"
 
 #. Translators: ~a History refers to main details table in owner
 #. report. ~a will be replaced with Customer, Vendor or Employee.
@@ -26372,21 +26318,18 @@ msgid "~a History"
 msgstr "~a 歷史"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:351
-#, fuzzy
 msgid "Linked Details"
-msgstr "工作對話盒"
+msgstr "相關詳情"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:510
 #: gnucash/report/reports/standard/owner-report.scm:463
-#, fuzzy
 msgid "Period Totals"
-msgstr "週期開始"
+msgstr "期間總額"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:882
 #: gnucash/report/reports/standard/owner-report.scm:535
-#, fuzzy
 msgid "The company for this report."
-msgstr "此報表的公司"
+msgstr "此報表的公司。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:922
 #: gnucash/report/reports/standard/owner-report.scm:582
@@ -26873,20 +26816,17 @@ msgstr "是否顯示總額？"
 
 #: gnucash/report/reports/standard/register.scm:402
 #: gnucash/report/trep-engine.scm:992
-#, fuzzy
 msgid "Single Column"
 msgstr "單欄顯示"
 
 #: gnucash/report/reports/standard/register.scm:403
 #: gnucash/report/trep-engine.scm:993
-#, fuzzy
 msgid "Two Columns"
 msgstr "雙欄顯示"
 
 #: gnucash/report/reports/standard/register.scm:408
-#, fuzzy
 msgid "Display the value in transaction currency?"
-msgstr "是否顯示交易參照？"
+msgstr "是否以交易貨幣顯示價值？"
 
 #: gnucash/report/reports/standard/register.scm:418
 #: gnucash/report/trep-engine.scm:934
@@ -26902,27 +26842,24 @@ msgid "Total Credits"
 msgstr "合計貸"
 
 #: gnucash/report/reports/standard/register.scm:561
-#, fuzzy
 msgid "Total Value Debits"
-msgstr "合計借"
+msgstr "合計借值"
 
 #: gnucash/report/reports/standard/register.scm:563
-#, fuzzy
 msgid "Total Value Credits"
-msgstr "合計貸"
+msgstr "合計貸值"
 
 #: gnucash/report/reports/standard/register.scm:566
 msgid "Net Change"
 msgstr "淨變動"
 
 #: gnucash/report/reports/standard/register.scm:568
-#, fuzzy
 msgid "Value Change"
-msgstr "淨變動"
+msgstr "值變動"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:70
 msgid "n/a"
-msgstr "n/a"
+msgstr "不適用"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:80
 msgid "Elements"
@@ -26945,74 +26882,64 @@ msgid "row: Address"
 msgstr "列：地址"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:86
-#, fuzzy
 msgid "row: Contact"
-msgstr "連絡人"
+msgstr "列：連絡人"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:87
-#, fuzzy
 msgid "row: Invoice Number"
-msgstr "發票號碼"
+msgstr "列：發票號碼"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:88
-#, fuzzy
 msgid "row: Company Name"
-msgstr "公司名稱"
+msgstr "列：公司名稱"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:89
-#, fuzzy
 msgid "Invoice number text"
-msgstr "發票編號"
+msgstr "發票編號標頭"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:90
 msgid "To text"
-msgstr ""
+msgstr "收件人標頭"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:91
 msgid "Ref text"
-msgstr ""
+msgstr "參照標頭"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:92
-#, fuzzy
 msgid "Job Name text"
-msgstr "工作名稱"
+msgstr "工作名稱標頭"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:93
-#, fuzzy
 msgid "Job Number text"
-msgstr "工作編號"
+msgstr "工作編號標頭"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:94
-#, fuzzy
 msgid "Show Job name"
-msgstr "工作名稱"
+msgstr "顯示工作名稱"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:95
-#, fuzzy
 msgid "Show Job number"
-msgstr "工作編號"
+msgstr "顯示工作編號"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:96
-#, fuzzy
 msgid "Show net price"
-msgstr "顯示價格"
+msgstr "顯示淨價格"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:97
-#, fuzzy
 msgid "Invoice number next to title"
-msgstr "發票編號格式"
+msgstr "標題旁顯示發票編號"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:98
 msgid "table-border-collapse"
-msgstr ""
+msgstr "表格邊框合併"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:99
 msgid "table-header-border-color"
-msgstr ""
+msgstr "表格標頭邊框顏色"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:100
 msgid "table-cell-border-color"
-msgstr ""
+msgstr "表格欄位邊框顏色"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:101
 msgid "Embedded CSS"
@@ -27068,7 +26995,7 @@ msgstr "顯示淨額？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:162
 msgid "Name of a file containing a logo to be used on the report."
-msgstr "此份報表中所使用的 LOGO 檔案。"
+msgstr "此份報表中所使用的標商檔案。"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:165
 msgid ""
@@ -27076,10 +27003,12 @@ msgid ""
 "the logo at its natural width. The height of the logo will be scaled "
 "accordingly."
 msgstr ""
+"以 CSS 型式表示的商標寬度，例如 10% 或 32px，若留白則會使用預設寬度。"
+"高度會依照寬度自動調整。"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:166
 msgid "Border-collapse?"
-msgstr ""
+msgstr "合併邊框？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:167
 #: gnucash/report/reports/standard/taxinvoice.scm:168
@@ -27092,11 +27021,11 @@ msgstr "發票編號： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:202
 msgid "To: "
-msgstr ""
+msgstr "收件人："
 
 #: gnucash/report/reports/standard/taxinvoice.scm:204
 msgid "Your ref: "
-msgstr ""
+msgstr "您的參照： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:206
 msgid "Job number: "
@@ -27139,9 +27068,8 @@ msgid "Reference: "
 msgstr "參照： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:316
-#, fuzzy
 msgid "Engagement: "
-msgstr "投資"
+msgstr "參與： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:322
 #: gnucash/report/reports/standard/taxinvoice.scm:324
