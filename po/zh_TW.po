@@ -29158,18 +29158,17 @@ msgid ""
 msgstr ""
 
 #: libgnucash/engine/gnc-commodity.h:118
-#, fuzzy
 msgid "All non-currency"
-msgstr "選擇貨幣"
+msgstr "所有非貨幣"
 
 #: libgnucash/engine/gnc-date.cpp:79
 msgid "%B %#d, %Y"
-msgstr ""
+msgstr "%B %#d, %Y"
 
 #. Translators: call "man strftime" for possible values.
 #: libgnucash/engine/gnc-date.cpp:83
 msgid "%B %e, %Y"
-msgstr ""
+msgstr "%B %e, %Y"
 
 #: libgnucash/engine/gnc-datetime.cpp:92
 msgid "y-m-d"
@@ -29192,27 +29191,25 @@ msgid "m-d"
 msgstr "m-d"
 
 #: libgnucash/engine/gnc-datetime.cpp:565
-#, fuzzy
 msgid "Unknown date format specifier passed as argument."
-msgstr "使用系統區域化設定的日期格式。"
+msgstr "傳入的參數是未知的日期格式。"
 
 #: libgnucash/engine/gnc-datetime.cpp:570
 msgid "Value can't be parsed into a date using the selected date format."
-msgstr ""
+msgstr "無法使用指定的日期格式將輸入的值轉換成日期。"
 
 #: libgnucash/engine/gnc-datetime.cpp:575
 msgid "Value appears to contain a year while the selected format forbids this."
-msgstr ""
+msgstr "輸入的值包含年份，但指定的日期格式不允許年份。"
 
 #: libgnucash/engine/gnc-features.c:119
-#, fuzzy
 msgid ""
 "This Dataset contains features not supported by this version of GnuCash. You "
 "must use a newer version of GnuCash in order to support the following "
 "features:"
 msgstr ""
-"此檔案/URL 似乎來自較新版的 GnuCash。您必須升級您的 GnuCash 版本以便處理這個"
-"資料。"
+"此資料檔包含了這個版本的 GnuCash 所不支援的功能。您需要使用舊新版的 GnuCash 來"
+"支援以下的功能："
 
 #: libgnucash/engine/gncInvoice.c:1696
 msgid "Extra to Charge Card"
@@ -29232,59 +29229,55 @@ msgstr " (已關閉)"
 
 #: libgnucash/engine/gncOwner.c:1015
 msgid "Offset between documents: "
-msgstr ""
+msgstr "文件間的位移："
 
 #: libgnucash/engine/gncOwner.c:1127
 msgid "Lot Link"
-msgstr ""
+msgstr "分堆連結"
 
 #: libgnucash/engine/policy.c:52
 msgid "First In, First Out"
-msgstr ""
+msgstr "先進先出"
 
 #: libgnucash/engine/policy.c:53
 msgid "Use oldest lots first."
-msgstr ""
+msgstr "先使用最舊的分堆。"
 
 #: libgnucash/engine/policy.c:55
 msgid "Last In, First Out"
-msgstr ""
+msgstr "後進先出"
 
 #: libgnucash/engine/policy.c:56
-#, fuzzy
 msgid "Use newest lots first."
-msgstr "很接近"
+msgstr "先使用最新的分堆。"
 
 #: libgnucash/engine/policy.c:59
 msgid "Average cost of open lots."
-msgstr ""
+msgstr "使用未關閉的分堆的均價。"
 
 #: libgnucash/engine/policy.c:62
 msgid "Manually select lots."
-msgstr ""
+msgstr "手動選擇分堆。"
 
 #: libgnucash/engine/qofbookslots.h:66
 msgid "Use Trading Accounts"
 msgstr "使用交易科目"
 
 #: libgnucash/engine/qofbookslots.h:67
-#, fuzzy
 msgid "Currency Accounting"
-msgstr "目前科目(_U)"
+msgstr "貨幣會計"
 
 #: libgnucash/engine/qofbookslots.h:68
-#, fuzzy
 msgid "Book Currency"
-msgstr "選擇貨幣"
+msgstr "帳本貨幣"
 
 #: libgnucash/engine/qofbookslots.h:69
 msgid "Default Gains Policy"
-msgstr ""
+msgstr "預設獲利策略"
 
 #: libgnucash/engine/qofbookslots.h:70
-#, fuzzy
 msgid "Default Gain or Loss Account"
-msgstr "用於新科目的預設貨幣"
+msgstr "預設的獲利 / 虧損科目"
 
 #: libgnucash/engine/qofbookslots.h:71
 msgid "Day Threshold for Read-Only Transactions (red line)"
@@ -29327,50 +29320,53 @@ msgstr "最後一個%s"
 #. Translators: %s is the string 1st, 2nd, 3rd and so on, and
 #. %s is an already-localized form of the day of the week.
 #: libgnucash/engine/Recurrence.c:675
-#, fuzzy, c-format
+#, c-format
 msgid "%s %s"
-msgstr "%s %s - %s"
+msgstr "%s %s"
 
 #. Translators: %d is the number of Recurrences in the list.
 #: libgnucash/engine/Recurrence.c:727
 #, c-format
 msgid "Unknown, %d-size list."
-msgstr ""
+msgstr "不明，大小為 %d 的列表。"
 
 #: libgnucash/engine/ScrubBusiness.c:549
 msgid ""
 "Please delete this transaction. Explanation at https://wiki.gnucash.org/wiki/"
 "Business_Features_Issues#Double_posting"
 msgstr ""
+"請刪除此交易。詳細的說明請見：https://wiki.gnucash.org/wiki/"
+"Business_Features_Issues#Double_posting"
 
 #: libgnucash/engine/ScrubBusiness.c:565
 msgid ""
 "Please delete this transaction. Explanation at https://wiki.gnucash.org/wiki/"
 "Business_Features_Issues#I_can.27t_delete_a_transaction_of_type_.22I.22_from_the_AR.2FAP_account"
 msgstr ""
+"請刪除此交易。詳細的說明請見：https://wiki.gnucash.org/wiki/"
+"Business_Features_Issues#I_can.27t_delete_a_transaction_of_type_.22I.22_from_the_AR.2FAP_account"
 
 #: libgnucash/engine/ScrubBusiness.c:616
 #, c-format
 msgid "Checking business lots in account %s: %u of %u"
-msgstr ""
+msgstr "檢查科目 %s 中的商務分堆：%u / %u"
 
 #: libgnucash/engine/ScrubBusiness.c:670
 #, c-format
 msgid "Checking business splits in account %s: %u of %u"
-msgstr ""
+msgstr "檢查科目 %s 中的商務分割：%u / %u"
 
 #: libgnucash/engine/Scrub.c:144
 #, c-format
 msgid "Looking for orphans in account %s: %u of %u"
-msgstr ""
+msgstr "檢查科目 %s 中的無主交易：%u / %u"
 
 #: libgnucash/engine/Scrub.c:354
 #, c-format
 msgid "Looking for imbalances in account %s: %u of %u"
-msgstr ""
+msgstr "檢查科目 %s 的失衡：%u / %u"
 
 #: libgnucash/engine/Split.c:1636
-#, fuzzy
 msgctxt ""
 "Displayed account code of the other account in a multi-split transaction"
 msgid "Split"
