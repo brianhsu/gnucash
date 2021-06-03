@@ -21686,9 +21686,9 @@ msgid "Tot Shares"
 msgstr "合計股份"
 
 #: gnucash/register/ledger-core/split-register-model.c:536
-#, fuzzy, c-format
+#, c-format
 msgid "Reconciled on %s"
-msgstr "已對帳"
+msgstr "已於 %s 對帳"
 
 #: gnucash/register/ledger-core/split-register-model.c:1020
 msgid "Scheduled"
@@ -21869,33 +21869,28 @@ msgid "Font info for regular text cells."
 msgstr "一般的文字欄位所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:136
-#, fuzzy
 msgid "Total number cell"
-msgstr "總計到期"
+msgstr "總計數字欄位"
 
 #: gnucash/report/html-fonts.scm:137
-#, fuzzy
 msgid "Font info for number cells containing a total."
-msgstr "匯出 HTML 格式的報表至檔案"
+msgstr "總計數字欄位所使用的字型。"
 
 #: gnucash/report/html-fonts.scm:142
-#, fuzzy
 msgid "Total label cell"
-msgstr "總債務"
+msgstr "總計標籤欄位"
 
 #: gnucash/report/html-fonts.scm:143
-#, fuzzy
 msgid "Font info for cells containing total labels."
-msgstr "列印科目全名"
+msgstr "總計標籤欄位的字型。"
 
 #: gnucash/report/html-fonts.scm:148
 msgid "Centered label cell"
-msgstr ""
+msgstr "置中標籤欄位"
 
 #: gnucash/report/html-fonts.scm:148
-#, fuzzy
 msgid "Font info for centered label cells."
-msgstr "列印科目全名"
+msgstr "置中的標籤欄位的字型。"
 
 #: gnucash/report/html-style-sheet.scm:149
 msgid "Can't save style sheet"
@@ -21914,23 +21909,20 @@ msgstr "沒有已存在的預算。你必須至少建立一個預算。"
 #: gnucash/report/html-utilities.scm:337
 #: gnucash/report/reports/standard/balsheet-pnl.scm:154
 #: gnucash/report/reports/standard/new-owner-report.scm:956
-#, fuzzy
 msgid "Disabled"
-msgstr "啟用"
+msgstr "禁用"
 
 #: gnucash/report/html-utilities.scm:390
-#, fuzzy
 msgid "This report requires you to specify certain report options."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要您選定某些特定的選項。"
 
 #: gnucash/report/html-utilities.scm:397
 msgid "No accounts selected"
 msgstr "沒有選定科目"
 
 #: gnucash/report/html-utilities.scm:398
-#, fuzzy
 msgid "This report requires accounts to be selected in the report options."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要在選項中有選定的科目。"
 
 #: gnucash/report/html-utilities.scm:405
 #: gnucash/report/reports/standard/price-scatter.scm:260
