@@ -15106,18 +15106,17 @@ msgstr "<b>資料庫連線</b>"
 #: gnucash/gtkbuilder/dialog-fincalc.glade:12
 #: gnucash/gtkbuilder/dialog-fincalc.glade:53
 msgid "Annual"
-msgstr ""
+msgstr "每年"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:15
 #: gnucash/gtkbuilder/dialog-fincalc.glade:56
-#, fuzzy
 msgid "Semi-annual"
-msgstr "每半月"
+msgstr "每半年"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:18
 #: gnucash/gtkbuilder/dialog-fincalc.glade:59
 msgid "Tri-annual"
-msgstr ""
+msgstr "每年三次"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:21
 #: gnucash/gtkbuilder/dialog-fincalc.glade:62
@@ -15127,9 +15126,8 @@ msgstr "一季"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:24
 #: gnucash/gtkbuilder/dialog-fincalc.glade:65
-#, fuzzy
 msgid "Bi-monthly"
-msgstr "每半月"
+msgstr "每兩個月"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:27
 #: gnucash/gtkbuilder/dialog-fincalc.glade:68
@@ -15151,9 +15149,8 @@ msgstr "每半月"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:33
 #: gnucash/gtkbuilder/dialog-fincalc.glade:74
-#, fuzzy
 msgid "Bi-weekly"
-msgstr "每週"
+msgstr "每兩週"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:36
 #: gnucash/gtkbuilder/dialog-fincalc.glade:77
@@ -15168,24 +15165,21 @@ msgstr "每週"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:39
 #: gnucash/gtkbuilder/dialog-fincalc.glade:80
-#, fuzzy
 msgid "Daily (360)"
-msgstr "每日"
+msgstr "每日 (360)"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:42
 #: gnucash/gtkbuilder/dialog-fincalc.glade:83
-#, fuzzy
 msgid "Daily (365)"
-msgstr "每日"
+msgstr "每日 (365)"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:90
 msgid "Loan Repayment Calculator"
 msgstr "貸款償還計算機"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:136
-#, fuzzy
 msgid "_Schedule"
-msgstr "已排程(_S)"
+msgstr "排程(_S)"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:171
 msgid "<b>Calculations</b>"
@@ -15229,7 +15223,7 @@ msgstr "計算"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:367
 msgid "Recalculate the (single) blank entry in the above fields."
-msgstr ""
+msgstr "重新計算上述某個留白的欄位。"
 
 #: gnucash/gtkbuilder/dialog-fincalc.glade:503
 msgid "<b>Payment Options</b>"
@@ -26990,28 +26984,24 @@ msgid "n/a"
 msgstr "n/a"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:80
-#, fuzzy
 msgid "Elements"
-msgstr "投資"
+msgstr "項目"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:82
-#, fuzzy
 msgid "column: Date"
-msgstr "到期日"
+msgstr "欄：日期"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:83
-#, fuzzy
 msgid "column: Tax Rate"
-msgstr "稅率"
+msgstr "欄：稅率"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:84
 msgid "column: Units"
-msgstr ""
+msgstr "欄：單位"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:85
-#, fuzzy
 msgid "row: Address"
-msgstr "地址(_A)"
+msgstr "列：地址"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:86
 #, fuzzy
@@ -27085,7 +27075,7 @@ msgstr ""
 
 #: gnucash/report/reports/standard/taxinvoice.scm:101
 msgid "Embedded CSS"
-msgstr ""
+msgstr "內嵌 CSS"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:107
 msgid "Logo filename"
@@ -27126,28 +27116,24 @@ msgid "Display the Company Name?"
 msgstr "顯示科目名稱？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:142
-#, fuzzy
 msgid "Invoice Number next to title?"
-msgstr "發票號碼"
+msgstr "在標題旁顯示發票號碼？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:143
-#, fuzzy
 msgid "Display Job name?"
-msgstr "顯示科目名稱？"
+msgstr "顯示工作名稱？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:144
-#, fuzzy
 msgid "Invoice Job number?"
-msgstr "發票編號"
+msgstr "顯示發票的工作編號？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:145
-#, fuzzy
 msgid "Show net price?"
-msgstr "顯示價格"
+msgstr "顯示淨額？"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:162
 msgid "Name of a file containing a logo to be used on the report."
-msgstr ""
+msgstr "此份報表中所使用的 LOGO 檔案。"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:165
 msgid ""
@@ -27162,14 +27148,12 @@ msgstr ""
 
 #: gnucash/report/reports/standard/taxinvoice.scm:167
 #: gnucash/report/reports/standard/taxinvoice.scm:168
-#, fuzzy
 msgid "CSS color."
-msgstr "顏色"
+msgstr "CSS 顏色。"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:200
-#, fuzzy
 msgid "Invoice number: "
-msgstr "發票編號"
+msgstr "發票編號： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:202
 msgid "To: "
@@ -27180,52 +27164,44 @@ msgid "Your ref: "
 msgstr ""
 
 #: gnucash/report/reports/standard/taxinvoice.scm:206
-#, fuzzy
 msgid "Job number: "
-msgstr "工作編號"
+msgstr "工作編號： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:208
-#, fuzzy
 msgid "Job name: "
-msgstr "工作名稱"
+msgstr "工作名稱： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:216
 msgid "Embedded CSS."
-msgstr ""
+msgstr "內嵌 CSS。"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:298
 msgid "Display a customer invoice with tax columns (using eguile template)"
-msgstr ""
+msgstr "顯示含有稅務資訊欄的客戶發票 (使用 eguile 模板)"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:310
-#, fuzzy
 msgid "Unit"
 msgstr "單位"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:311
-#, fuzzy
 msgid "GST Rate"
-msgstr "稅率"
+msgstr "GST 稅率"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:312
-#, fuzzy
 msgid "GST Amount"
-msgstr "總額："
+msgstr "GST 金額"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:313
-#, fuzzy
 msgid "Amount Due (inc GST)"
-msgstr "到期總數"
+msgstr "到期總數 (含 GST)"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:314
-#, fuzzy
 msgid "Invoice #: "
-msgstr "發票"
+msgstr "發票編號： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:315
-#, fuzzy
 msgid "Reference: "
-msgstr "參照"
+msgstr "參照： "
 
 #: gnucash/report/reports/standard/taxinvoice.scm:316
 #, fuzzy
@@ -27234,15 +27210,15 @@ msgstr "投資"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:322
 #: gnucash/report/reports/standard/taxinvoice.scm:324
-#, fuzzy
 msgid "Australian Tax Invoice"
-msgstr "稅務發票"
+msgstr "澳洲稅務發票"
 
 #: gnucash/report/reports/standard/taxinvoice.scm:325
 msgid ""
 "Display an Australian customer invoice with tax columns (using eguile "
 "template)"
 msgstr ""
+"顯示含有稅務資訊欄的澳洲顧客戶發票(使用 eguile 模板)"
 
 #: gnucash/report/reports/standard/trial-balance.scm:61
 #: gnucash/report/reports/standard/trial-balance.scm:564
@@ -27491,7 +27467,7 @@ msgstr "直到："
 
 #: gnucash/report/stylesheets/css.scm:119
 msgid "CSS code. This field specifies the CSS code for styling reports."
-msgstr "CSS 程式碼。這個欄位用來指定報告的風格的 CSS 程式碼。"
+msgstr "CSS 程式碼。這個欄位用來指定報表的風格的 CSS 程式碼。"
 
 #: gnucash/report/stylesheets/css.scm:209
 msgid "&lt;/style is disallowed in CSS. Using default CSS."
