@@ -1948,7 +1948,7 @@ msgstr "金額"
 #: gnucash/report/reports/standard/register.scm:158
 #: gnucash/report/reports/standard/register.scm:407
 msgid "Value"
-msgstr "價值"
+msgstr "值"
 
 #: gnucash/gnome/dialog-find-transactions2.c:128
 #: gnucash/gnome/dialog-find-transactions.c:126
@@ -4313,12 +4313,12 @@ msgstr "編輯此預算的選項。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:169
 msgid "Esti_mate Budget..."
-msgstr "估計預算(_M)..."
+msgstr "推測預算(_M)..."
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:171
 msgid ""
 "Estimate a budget value for the selected accounts from past transactions."
-msgstr "根據選定科目過去的交易紀錄估計預算值。"
+msgstr "根據選定科目過去的交易紀錄推測預算值。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:175
 msgid "_All Periods..."
@@ -4359,7 +4359,7 @@ msgstr "選項"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:223
 msgid "Estimate"
-msgstr "估計"
+msgstr "推測"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:224
 msgid "All Periods"
@@ -4396,7 +4396,7 @@ msgstr "刪除 %s?"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:1028
 msgid "You must select at least one account to estimate."
-msgstr "您必須選擇至少一個科目以進行估計。"
+msgstr "您必須選擇至少一個科目以進行推測。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:1154
 msgid "You must select at least one account to edit."
@@ -18052,20 +18052,19 @@ msgstr ""
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:133
 msgid "Add"
-msgstr "新增"
+msgstr "相加"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:137
 msgid "Add 'value' to current budget for each period"
-msgstr ""
+msgstr "針對目前預算的每個週期，加上「值」裡的數值"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:151
-#, fuzzy
 msgid "Multiply"
-msgstr "多來源(_M):"
+msgstr "相乘"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:155
 msgid "Multiply current budget for each period by 'value'"
-msgstr ""
+msgstr "針對目前預算的每個週期，乘上「值」裡的數值"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:177
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:316
@@ -18079,22 +18078,21 @@ msgstr "有效位數"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:208
 msgid "Use a fixed value or apply transformation for all periods."
-msgstr ""
+msgstr "針對有所預算週期使用固定的值或進行轉換。"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:240
 msgid "Estimate Budget Values"
-msgstr "估計預算值"
+msgstr "推測預算值"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:303
 msgid "Use the average value over all actual periods for all projected periods"
 msgstr ""
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:372
-#, fuzzy
 msgid ""
 "GnuCash will estimate budget values for the selected accounts from past "
 "transactions."
-msgstr "顯示已選資料的表格。"
+msgstr "GnuCash 將會從過往的交易記錄中，推測所選的科目的預算。"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:389
 msgid "Use Average"
