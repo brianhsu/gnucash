@@ -18556,11 +18556,14 @@ msgid ""
 "\n"
 "Please press the button below to start it."
 msgstr ""
+"您的網路銀行連線，是由「AqBanking Setup Wizard」此外部程式進行設定。\n"
+"您必須至少設定一個連線才能繼續。\n"
+"\n"
+"請點選下方的按鈕以啟動該程式。"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:104
-#, fuzzy
 msgid "_Start AqBanking Wizard"
-msgstr "初始化 HBCI 設定已完成"
+msgstr "啟動 AqBanking Wizard (_S)"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:121
 msgid "Start Online Banking Wizard"
@@ -18574,12 +18577,10 @@ msgid ""
 msgstr ""
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:177
-#, fuzzy
 msgid "_Delete selected matches"
-msgstr "刪除選定的科目"
+msgstr "刪除選定的符合項目(_D)"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:200
-#, fuzzy
 msgid "Match Online accounts with GnuCash accounts"
 msgstr "以 GnuCash 科目比對網路銀行帳號"
 
@@ -18688,7 +18689,7 @@ msgstr "輸入日期(_R):"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:512
 msgid "No_w"
-msgstr ""
+msgstr "現在(_W)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:572
 msgid "Enter Password"
@@ -18699,19 +18700,17 @@ msgid "Enter your password"
 msgstr "輸入您的密碼"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:652
-#, fuzzy
 msgid "Bar_width"
-msgstr "寬度(_W)"
+msgstr "條碼寬度(_W)"
 
 #. TAN generator with flicker interface common in DE only
 #: gnucash/import-export/aqb/dialog-ab.glade:670
 msgid "Setting the bar width, adapting to the size of the TAN generator."
-msgstr ""
+msgstr "設定條碼寬度，根據 TAN 產生器的大小進行調整。"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:685
-#, fuzzy
 msgid "_Delay"
-msgstr "刪除(_D)"
+msgstr "延遲(_D)"
 
 #. TAN generator with flicker interface common in DE only
 #: gnucash/import-export/aqb/dialog-ab.glade:700
@@ -18719,6 +18718,7 @@ msgid ""
 "Setting the delay time, with small values the flicker graphic is repeated "
 "faster."
 msgstr ""
+"設定延遲時間，數值愈小則閃爍圖型的重複速度越快。"
 
 #. TAN generator with flicker interface common in DE only
 #: gnucash/import-export/aqb/dialog-ab.glade:758
@@ -18888,7 +18888,7 @@ msgid ""
 "during a session. Otherwise it will have to be entered again each time "
 "during a session when it is needed."
 msgstr ""
-"如果勾選，則 HBCI/AqBaking 所使用的 PIN 碼會在工作階段中被儲存在記憶體中。不"
+"如果勾選，則 HBCI/AqBanking 所使用的 PIN 碼會在工作階段中被儲存在記憶體中。不"
 "然的話，你必須在工作階段期中，每次需要的時候都輸入 PIN 碼。"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:69
