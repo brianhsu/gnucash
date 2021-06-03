@@ -12794,7 +12794,7 @@ msgstr "略過結尾多少行"
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:719
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:785
 msgid "Skip alternate lines"
-msgstr "每兩行才進行匯入"
+msgstr "跳過交替行"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:731
 msgid ""
@@ -21695,55 +21695,47 @@ msgid "Scheduled"
 msgstr "已排程"
 
 #: gnucash/register/ledger-core/split-register-model.c:1069
-#, fuzzy
 msgid ""
 "Enter a reference, such as an invoice or check number, common to all entry "
 "lines (splits)"
-msgstr "輸入交易參照，像是發票或支票號碼"
+msgstr "輸入屬於交易的參照，像是發票或支票號碼，所有分割共用(各行共用)。"
 
 #: gnucash/register/ledger-core/split-register-model.c:1071
-#, fuzzy
 msgid ""
 "Enter a reference, such as an invoice or check number, unique to each entry "
 "line (split)"
-msgstr "輸入交易參照，像是發票或支票號碼"
+msgstr "輸入屬於分割的參照，像是發票或支票號碼，只屬於特定分割(各行獨立)。"
 
 #: gnucash/register/ledger-core/split-register-model.c:1076
-#, fuzzy
 msgid ""
 "Enter a reference, such as a check number, common to all entry lines (splits)"
-msgstr "輸入交易參照，像是發票或支票號碼"
+msgstr "輸入屬於交易的參照，像是支票號碼，所有分割共用(各行共用)。"
 
 #: gnucash/register/ledger-core/split-register-model.c:1078
-#, fuzzy
 msgid ""
 "Enter a reference, such as a check number, unique to each entry line (split)"
-msgstr "輸入交易參照，像是發票或支票號碼"
+msgstr "輸入屬於分割的參照，像是支票號碼，只屬於特定分割(各行獨立)。"
 
 #: gnucash/register/ledger-core/split-register-model.c:1099
-#, fuzzy
 msgid ""
 "Enter a transaction reference, such as an invoice or check number, common to "
 "all entry lines (splits)"
-msgstr "輸入交易參照，像是發票或支票號碼"
+msgstr "輸入屬於交易的參照，像是發票或支票號碼，所有分割共用(各行共用)。"
 
 #: gnucash/register/ledger-core/split-register-model.c:1103
-#, fuzzy
 msgid ""
 "Enter a transaction reference that will be common to all entry lines (splits)"
-msgstr "輸入交易參照，像是發票或支票號碼"
+msgstr "輸入將會成為該筆交易所有分割共用的參照"
 
 #: gnucash/register/ledger-core/split-register-model.c:1308
-#, fuzzy
 msgid "Enter an action type, or choose one from the list"
 msgstr "輸入交易的類型，或從列表中選擇一個"
 
 #: gnucash/register/ledger-core/split-register-model.c:1309
-#, fuzzy
 msgid ""
 "Enter a reference number, such as the next check number, or choose an action "
 "type from the list"
-msgstr "輸入此項目的收入/支出科目，或從清單中選擇一個"
+msgstr "輸入參照號碼，例如下一張支票編號。或是從動作列表中選擇。"
 
 #: gnucash/register/ledger-core/split-register-model.c:1576
 msgid ""
@@ -21763,34 +21755,38 @@ msgid ""
 "\n"
 "'%s'"
 msgstr ""
+"無法修改或刪除此交易。此交易因為已下的原因被標示成唯讀：\n"
+"\n"
+"「%s」"
 
 #: gnucash/register/ledger-core/split-register-model.c:2222
-#, fuzzy
 msgid "Change transaction containing a reconciled split?"
-msgstr "變更已對帳的分割？"
+msgstr "變更含有已對帳分割的交易？"
 
 #: gnucash/register/ledger-core/split-register-model.c:2224
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "The transaction you are about to change contains reconciled splits in the "
 "following accounts:\n"
 "%s\n"
 "\n"
 "Are you sure you want to continue with this change?"
-msgstr "您即將要修改已對帳的交易。這麼做可能使未來的對帳很困難！繼續這個修改？"
+msgstr "您即將修改的交易，具有屬於以下科目的已對帳分割：\n"
+"%s\n"
+"\n"
+"您確定要繼續嗎？"
 
 #: gnucash/register/ledger-core/split-register-model.c:2235
-#, fuzzy
 msgid ""
 "You are about to change a protected field of a reconciled split. If you "
 "continue editing this split it will be unreconciled. This might make future "
 "reconciliation difficult! Continue with this change?"
-msgstr "您即將要修改已對帳的交易。這麼做可能使未來的對帳很困難！繼續這個修改？"
+msgstr "您即將要修改已對帳分割的保護欄位。如果您繼續編輯，則此分割會取消對帳，"
+"這麼做可能使未來的對帳很困難！繼續這個修改？"
 
 #: gnucash/register/ledger-core/split-register-model.c:2260
-#, fuzzy
 msgid "Chan_ge Transaction"
-msgstr "取消交易(_N)"
+msgstr "變更交易(_G)"
 
 #: gnucash/register/register-gnome/datecell-gnome.c:104
 msgid ""
@@ -21802,18 +21798,17 @@ msgstr ""
 "「檔案->內容->科目」中變更。"
 
 #: gnucash/register/register-gnome/gnucash-item-list.c:530
-#, fuzzy
 msgid "List"
-msgstr "List"
+msgstr "列表"
 
 #: gnucash/report/eguile.scm:150
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Template file \"~a\" can not be read"
-msgstr "範本檔「%s」無法讀取"
+msgstr "範本檔「~a」無法讀取"
 
 #: gnucash/report/html-chart.scm:463
 msgid "Load"
-msgstr ""
+msgstr "載入"
 
 #: gnucash/report/html-fonts.scm:105 gnucash/report/html-fonts.scm:110
 #: gnucash/report/html-fonts.scm:115 gnucash/report/html-fonts.scm:120
@@ -21824,9 +21819,8 @@ msgid "Fonts"
 msgstr "字型"
 
 #: gnucash/report/html-fonts.scm:106
-#, fuzzy
 msgid "Font info for the report title."
-msgstr "匯出 HTML 格式的報表至檔案"
+msgstr "報表標題所使用的字型"
 
 #: gnucash/report/html-fonts.scm:111
 msgid "Account link"
@@ -22030,22 +22024,19 @@ msgstr "價格資訊來源。"
 
 #: gnucash/report/options-utilities.scm:144
 msgid "Average cost of purchases weighted by volume"
-msgstr ""
+msgstr "依照過去採購的數量的加權平均"
 
 #: gnucash/report/options-utilities.scm:145
-#, fuzzy
 msgid "Weighted average of all transactions in the past"
-msgstr "過去所有貨幣交易的加權平均數"
+msgstr "過去所有交易的加權平均數"
 
 #: gnucash/report/options-utilities.scm:146
-#, fuzzy
 msgid "Last up through report date"
-msgstr "很接近"
+msgstr "截至報告日"
 
 #: gnucash/report/options-utilities.scm:147
-#, fuzzy
 msgid "Closest to report date"
-msgstr "很接近"
+msgstr "與報表時間最接近的"
 
 #: gnucash/report/options-utilities.scm:148
 #: gnucash/report/reports/standard/advanced-portfolio.scm:82
@@ -24315,9 +24306,8 @@ msgid "Period order is most recent first"
 msgstr ""
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:68
-#, fuzzy
 msgid "Enable dual columns"
-msgstr "個別稅金"
+msgstr "使用雙欄"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:69
 msgid "Selecting this option will enable double-column reporting."
@@ -24336,27 +24326,27 @@ msgstr ""
 #: gnucash/report/reports/standard/balsheet-pnl.scm:75
 #: gnucash/report/trep-engine.scm:98
 msgid "Add options summary"
-msgstr ""
+msgstr "加入可選的摘要"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:76
 #: gnucash/report/trep-engine.scm:546
 msgid "Add summary of options."
-msgstr ""
+msgstr "加入可選的摘要。"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:78
 msgid "Account full name instead of indenting"
-msgstr ""
+msgstr "使用科目全名而非縮排"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:79
 msgid ""
 "Selecting this option enables full account name instead, and disables "
 "indenting account names."
 msgstr ""
+"若選擇了此項目，則會使用科目全名並且不縮排。"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:87
-#, fuzzy
 msgid "Parent account amounts include children"
-msgstr "母科目"
+msgstr "母科目金額包含子科目金額"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:88
 msgid ""
@@ -25424,15 +25414,13 @@ msgid "Secondary Sort Order"
 msgstr "次要排序順序"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:39
-#, fuzzy
 msgid "Income and GST Statement"
-msgstr "損益表"
+msgstr "損益與商品及服務稅報表"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:41
 #: gnucash/report/trep-engine.scm:108
-#, fuzzy
 msgid "Filter"
-msgstr "過濾器類型"
+msgstr "過濾器"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:48
 msgid ""
@@ -25469,74 +25457,66 @@ msgstr ""
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:71
 msgid "This message will be removed when tax accounts are specified."
-msgstr ""
+msgstr "此訊息將會在指定稅務科目後消失。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:106
-#, fuzzy
 msgid "Individual sales columns"
-msgstr "個別稅金"
+msgstr "個別銷售欄"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:107
 msgid "Display individual sales columns rather than their sum"
-msgstr ""
+msgstr "於獨立的欄位顯示個別銷售額而非總計"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:108
-#, fuzzy
 msgid "Individual purchases columns"
-msgstr "個別稅金"
+msgstr "個別採購欄"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:109
 msgid "Display individual purchases columns rather than their sum"
-msgstr ""
+msgstr "於獨立的欄位顯示採購額而非總計"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:110
-#, fuzzy
 msgid "Individual tax columns"
-msgstr "個別稅金"
+msgstr "個別稅金欄"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:111
 msgid "Display individual tax columns rather than their sum"
-msgstr ""
+msgstr "於獨立的欄位顯示稅金，而非顯示總計"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:112
 #: gnucash/report/reports/standard/income-gst-statement.scm:352
-#, fuzzy
 msgid "Gross Balance"
-msgstr "取得結餘(_B)"
+msgstr "總餘額"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:113
 msgid "Display the gross balance (gross sales - gross purchases)"
-msgstr ""
+msgstr "顯示總餘額(總銷售 - 總採購)"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:114
 #: gnucash/report/reports/standard/income-gst-statement.scm:360
-#, fuzzy
 msgid "Net Balance"
-msgstr "取得結餘(_B)"
+msgstr "淨餘額"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:115
 msgid "Display the net balance (sales without tax - purchases without tax)"
-msgstr ""
+msgstr "顯示淨餘額(未稅銷售額 - 未稅採購額)"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:117
 #: gnucash/report/reports/standard/income-gst-statement.scm:367
-#, fuzzy
 msgid "Tax payable"
-msgstr "稅金表格"
+msgstr "顯示應付稅額"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:118
 msgid "Display the tax payable (tax on sales - tax on purchases)"
-msgstr ""
+msgstr "顯示應付稅額(銷售稅 - 採購稅)"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:137
-#, fuzzy
 msgid "Purchases"
-msgstr "新價格(_P)："
+msgstr "採購"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:146
-#, fuzzy
 msgid "Tax Accounts"
-msgstr "稅金總額"
+msgstr "稅務科目"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:147
 msgid ""
@@ -25572,54 +25552,46 @@ msgstr ""
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:172
 msgid "Australia BAS"
-msgstr ""
+msgstr "澳洲商務報表"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:173
-#, fuzzy
 msgid "UK VAT Return"
-msgstr "總報酬"
+msgstr "英國增值稅申報"
 
 #. Translators: "Gross Sales" refer to Net Sales + GST/VAT on Sales
 #: gnucash/report/reports/standard/income-gst-statement.scm:312
-#, fuzzy
 msgid "Gross Sales"
-msgstr "銷售"
+msgstr "銷總額售"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:319
-#, fuzzy
 msgid "Net Sales"
-msgstr "銷售"
+msgstr "淨銷售"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:326
-#, fuzzy
 msgid "Tax on Sales"
-msgstr "稅金表格"
+msgstr "銷售稅額"
 
 #. Translators: "Gross Purchases" refer to Net Purchase +
 #. GST/VAT on Purchase
 #: gnucash/report/reports/standard/income-gst-statement.scm:330
 msgid "Gross Purchases"
-msgstr ""
+msgstr "總採購額"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:338
-#, fuzzy
 msgid "Net Purchases"
-msgstr "新價格(_P)："
+msgstr "淨採購額"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:346
-#, fuzzy
 msgid "Tax on Purchases"
-msgstr "稅金表格"
+msgstr "採購稅額"
 
 #: gnucash/report/reports/standard/income-statement.scm:94
-#, fuzzy
 msgid "Label the trading accounts section"
-msgstr "取消目前的交易"
+msgstr "標示交易科目區段"
 
 #: gnucash/report/reports/standard/income-statement.scm:96
-#, fuzzy
 msgid "Whether or not to include a label for the trading accounts section."
-msgstr "取消目前的交易"
+msgstr "是否要有交易科目區段加上標籤"
 
 #: gnucash/report/reports/standard/income-statement.scm:97
 #, fuzzy
@@ -27708,9 +27680,8 @@ msgid "Background Pixmap"
 msgstr "背景照片"
 
 #: gnucash/report/stylesheets/plain.scm:63
-#, fuzzy
 msgid "Background color for alternate lines."
-msgstr "報表的背景顏色。"
+msgstr "交替行的背景顏色。"
 
 #: gnucash/report/stylesheets/plain.scm:227
 msgid "Plain"
@@ -27726,13 +27697,12 @@ msgid "Subtotal Table"
 msgstr "小計"
 
 #: gnucash/report/trep-engine.scm:84 gnucash/report/trep-engine.scm:1078
-#, fuzzy
 msgid "Show Account Description"
-msgstr "科目描述"
+msgstr "顯示科目描述"
 
 #: gnucash/report/trep-engine.scm:85
 msgid "Show Informal Debit/Credit Headers"
-msgstr ""
+msgstr "顯示口語化的借/貸標頭"
 
 #: gnucash/report/trep-engine.scm:87
 #, fuzzy
@@ -27740,41 +27710,36 @@ msgid "Show subtotals only (hide transactional data)"
 msgstr "只顯示無效的交易"
 
 #: gnucash/report/trep-engine.scm:88
-#, fuzzy
 msgid "Add indenting columns"
-msgstr "擴大這個欄位(_W)"
+msgstr "加入縮排欄位"
 
 #: gnucash/report/trep-engine.scm:97
 msgid "Table for Exporting"
 msgstr "使用便於匯出的表格格式"
 
 #: gnucash/report/trep-engine.scm:109
-#, fuzzy
 msgid "Account Name Filter"
-msgstr "科目名稱"
+msgstr "過濾科目名稱"
 
 #: gnucash/report/trep-engine.scm:111
 msgid "Use regular expressions for account name filter"
-msgstr ""
+msgstr "使用正規表示式過濾科目名稱"
 
 #: gnucash/report/trep-engine.scm:112
-#, fuzzy
 msgid "Transaction Filter"
-msgstr "交易日期"
+msgstr "過濾交易"
 
 #: gnucash/report/trep-engine.scm:114
-#, fuzzy
 msgid "Use regular expressions for transaction filter"
-msgstr "使用是最接近交易的日期"
+msgstr "使用正規表示式過濾科目交易"
 
 #: gnucash/report/trep-engine.scm:116
 msgid "Transaction Filter excludes matched strings"
-msgstr ""
+msgstr "反向過濾"
 
 #: gnucash/report/trep-engine.scm:118
-#, fuzzy
 msgid "Transaction Filter is case insensitive"
-msgstr "交易日期"
+msgstr "過濾交易時不區分大小寫"
 
 #: gnucash/report/trep-engine.scm:119 gnucash/report/trep-engine.scm:194
 msgid "Reconciled Status"
@@ -27785,9 +27750,8 @@ msgid "Void Transactions"
 msgstr "無效的交易"
 
 #: gnucash/report/trep-engine.scm:121
-#, fuzzy
 msgid "Closing transactions"
-msgstr "建立交易中..."
+msgstr "關帳交易"
 
 #: gnucash/report/trep-engine.scm:131
 msgid ""
@@ -27800,7 +27764,6 @@ msgid "Register Order"
 msgstr "登記簿順序"
 
 #: gnucash/report/trep-engine.scm:339
-#, fuzzy
 msgid "Do not do any filtering"
 msgstr "不使用任何過濾器"
 
@@ -27821,52 +27784,42 @@ msgid "Void only"
 msgstr "只有無效的"
 
 #: gnucash/report/trep-engine.scm:359
-#, fuzzy
 msgid "Both (and include void transactions in totals)"
 msgstr "兩者都顯示（並且在總計中包含無效的交易）"
 
 #: gnucash/report/trep-engine.scm:364
-#, fuzzy
 msgid "Exclude closing transactions"
-msgstr "建立交易中..."
+msgstr "排除關帳交易"
 
 #: gnucash/report/trep-engine.scm:368
-#, fuzzy
 msgid "Show both closing and regular transactions"
-msgstr "只顯示無效的交易"
+msgstr "只顯示普通和關帳交易"
 
 #: gnucash/report/trep-engine.scm:372
-#, fuzzy
 msgid "Show closing transactions only"
-msgstr "找不到相符的交易"
+msgstr "只顯示關帳交易"
 
 #: gnucash/report/trep-engine.scm:382
-#, fuzzy
 msgid "Show All Transactions"
-msgstr "所有交易(_A)"
+msgstr "顯示所有交易"
 
 #: gnucash/report/trep-engine.scm:386
-#, fuzzy
 msgid "Unreconciled only"
-msgstr "未對帳(_U)"
+msgstr "只顯示未對帳的交易"
 
 #: gnucash/report/trep-engine.scm:390
-#, fuzzy
 msgid "Cleared only"
-msgstr "已結清"
+msgstr "只顯示已結清的交易"
 
 #: gnucash/report/trep-engine.scm:394
-#, fuzzy
 msgid "Reconciled only"
-msgstr "已對帳"
+msgstr "只顯示已對帳的交易"
 
 #: gnucash/report/trep-engine.scm:408
-#, fuzzy
 msgid "Use Global Preference"
-msgstr "GnuCash 偏好設定"
+msgstr "使用全域偏好設定"
 
 #: gnucash/report/trep-engine.scm:411
-#, fuzzy
 msgid "Don't change any displayed amounts"
 msgstr "不要變更任何已顯示的總額"
 
@@ -27879,18 +27832,16 @@ msgid "Credit Accounts"
 msgstr "貸方科目"
 
 #: gnucash/report/trep-engine.scm:517
-#, fuzzy
 msgid "Convert all transactions into a common currency."
-msgstr "轉換全部的交易使用統一的貨幣單位"
+msgstr "轉換全部的交易到統一的貨幣單位。"
 
 #: gnucash/report/trep-engine.scm:540
 msgid "Formats the table suitable for cut & paste exporting with extra cells."
-msgstr ""
+msgstr "使用額外的欄位排版，以使表格適合使用複製與貼上的方式匯出。"
 
 #: gnucash/report/trep-engine.scm:551
-#, fuzzy
 msgid "If no transactions matched"
-msgstr "通用匯入交易比對器"
+msgstr "如果沒有符合的交易"
 
 #: gnucash/report/trep-engine.scm:560
 msgid ""
@@ -27924,13 +27875,14 @@ msgstr ""
 
 #: gnucash/report/trep-engine.scm:596
 msgid "If this option is selected, transactions matching filter are excluded."
-msgstr ""
+msgstr "如果勾選此選項，則符合過濾規則的交易將被排除。"
 
 #: gnucash/report/trep-engine.scm:603
 msgid ""
 "If this option is selected, transactions matching filter is not case "
 "sensitive."
 msgstr ""
+"如果勾選此選項，則過濾交易時不區分大小寫。"
 
 #: gnucash/report/trep-engine.scm:609
 #, fuzzy
@@ -27951,48 +27903,40 @@ msgid ""
 msgstr ""
 
 #: gnucash/report/trep-engine.scm:649
-#, fuzzy
 msgid "Filter on these accounts."
-msgstr "這些科目的過濾器"
+msgstr "過濾這些科目。"
 
 #: gnucash/report/trep-engine.scm:657
-#, fuzzy
 msgid "Filter account."
-msgstr "過濾器科目"
+msgstr "過濾科目。"
 
 #: gnucash/report/trep-engine.scm:750
-#, fuzzy
 msgid "Sort by this criterion first."
 msgstr "優先以此準則排序"
 
 #: gnucash/report/trep-engine.scm:761
-#, fuzzy
 msgid "Show the full account name for subtotals and subheadings?"
 msgstr "顯示小計與小標題的科目全名？"
 
 #: gnucash/report/trep-engine.scm:768
-#, fuzzy
 msgid "Show the account code for subtotals and subheadings?"
 msgstr "顯示小計與小標題的科目代碼？"
 
 #: gnucash/report/trep-engine.scm:775
-#, fuzzy
 msgid "Show the account description for subheadings?"
-msgstr "顯示小計與小標題的科目代碼？"
+msgstr "顯示小計與小標題的科目描述？"
 
 #: gnucash/report/trep-engine.scm:782
-#, fuzzy
 msgid "Show the informal headers for debit/credit accounts?"
-msgstr "顯示收入與支出科目"
+msgstr "顯示借貸科目的口語標頭？"
 
 #: gnucash/report/trep-engine.scm:789
 msgid "Add indenting columns with grouping and subtotals?"
 msgstr ""
 
 #: gnucash/report/trep-engine.scm:796
-#, fuzzy
 msgid "Show subtotals only, hiding transactional detail?"
-msgstr "不要列印交易明細"
+msgstr "只顯示小計，不顯示交易細節？"
 
 #: gnucash/report/trep-engine.scm:803
 msgid "Subtotal according to the primary key?"
