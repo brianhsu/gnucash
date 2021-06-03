@@ -4292,59 +4292,49 @@ msgid "Open _Subaccounts"
 msgstr "開啟子科目(_S)"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:153
-#, fuzzy
 msgid "Open the selected account and all its subaccounts."
-msgstr "開啟選定的科目及其所有的子科目"
+msgstr "開啟選定的科目及其所有的子科目。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:159
-#, fuzzy
 msgid "_Delete Budget..."
-msgstr "刪除預算(_D)"
+msgstr "刪除預算(_D)..."
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:160
 msgid "Select this or another budget and delete it."
 msgstr "刪除所選擇的預算"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:164
-#, fuzzy
 msgid "Budget _Options..."
-msgstr "預算選項"
+msgstr "預算選項(_O)..."
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:165
-#, fuzzy
 msgid "Edit this budget's options."
-msgstr "編輯預算檢視選項"
+msgstr "編輯此預算的選項。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:169
-#, fuzzy
 msgid "Esti_mate Budget..."
-msgstr "估計預算"
+msgstr "估計預算(_M)..."
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:171
-#, fuzzy
 msgid ""
 "Estimate a budget value for the selected accounts from past transactions."
-msgstr "根據選定科目過去的交易紀錄估計預算值"
+msgstr "根據選定科目過去的交易紀錄估計預算值。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:175
-#, fuzzy
 msgid "_All Periods..."
-msgstr "週期"
+msgstr "所有週期(_A)..."
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:177
-#, fuzzy
 msgid "Edit budget for all periods for the selected accounts."
-msgstr "編輯選定的科目"
+msgstr "編輯選定的科目的所有週期的預算。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:181
-#, fuzzy
 msgid "Edit Note"
-msgstr "貸方科目"
+msgstr "編輯筆記"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:183
-#, fuzzy
 msgid "Edit note for the selected account and period."
-msgstr "編輯選定的科目"
+msgstr "編輯選定的科目及週期的筆記。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:187
 #: gnucash/report/reports/standard/budget.scm:39
@@ -4352,14 +4342,12 @@ msgid "Budget Report"
 msgstr "預算報表"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:189
-#, fuzzy
 msgid "Run the budget report."
-msgstr "列印目前的報表"
+msgstr "建立預算報表。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:199
-#, fuzzy
 msgid "Refresh this window."
-msgstr "重新整理此視窗"
+msgstr "重新整理此視窗。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:222
 #: gnucash/gnome/gnc-plugin-page-report.c:1135
@@ -4374,19 +4362,16 @@ msgid "Estimate"
 msgstr "估計"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:224
-#, fuzzy
 msgid "All Periods"
-msgstr "週期"
+msgstr "所有週期"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:225
-#, fuzzy
 msgid "Note"
 msgstr "筆記"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:226
-#, fuzzy
 msgid "Run Report"
-msgstr "科目報表"
+msgstr "建立報表"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:310
 #: gnucash/gnome/gnc-plugin-page-budget.c:351
@@ -4410,14 +4395,12 @@ msgid "Delete %s?"
 msgstr "刪除 %s?"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:1028
-#, fuzzy
 msgid "You must select at least one account to estimate."
-msgstr "您必須選擇科目類型。"
+msgstr "您必須選擇至少一個科目以進行估計。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:1154
-#, fuzzy
 msgid "You must select at least one account to edit."
-msgstr "您必須選擇科目類型。"
+msgstr "您必須選擇至少一個科目以進行編輯。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:1252
 #, fuzzy
@@ -18091,9 +18074,8 @@ msgstr "當四捨五入時保留前幾位"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:196
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:334
-#, fuzzy
 msgid "Significant Digits"
-msgstr "有效位數："
+msgstr "有效位數"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:208
 msgid "Use a fixed value or apply transformation for all periods."
@@ -18115,9 +18097,8 @@ msgid ""
 msgstr "顯示已選資料的表格。"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:389
-#, fuzzy
 msgid "Use Average"
-msgstr "平均"
+msgstr "平均值"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:422
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:683
@@ -18143,13 +18124,12 @@ msgid "Show Account Code"
 msgstr "顯示科目代碼"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:658
-#, fuzzy
 msgid "Show Description"
-msgstr "描述"
+msgstr "顯示描述"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:700
 msgid "Note: Use View->'Filter By...' to control visible accounts."
-msgstr ""
+msgstr "註：使用「檢視->過濾依...」來控制顯示哪些科目。"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:721
 msgid "Budget List"
@@ -24787,7 +24767,7 @@ msgstr "折線圖"
 #: gnucash/report/reports/standard/budget-barchart.scm:200
 #, scheme-format
 msgid "Bgt: ~a Act: ~a"
-msgstr "預算: ~a 實花: ~a"
+msgstr "預算: ~a 實際: ~a"
 
 #: gnucash/report/reports/standard/budget-barchart.scm:206
 msgid "Actual"
