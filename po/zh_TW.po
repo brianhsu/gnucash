@@ -4783,13 +4783,13 @@ msgstr "開啟此帳單所屬的廠商的廠商報表視窗"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:409
 msgid "Use the current layout as default for all vendor bills and credit notes"
-msgstr "使用現在的排版，做為所有廠商帳單和借項通知單的預設排版"
+msgstr "使用現在的排版，做為所有廠商帳單和貸項通知單的預設排版"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:410
 msgid ""
 "Reset default layout for all vendor bills and credit notes back to built-in "
 "defaults and update the current page accordingly"
-msgstr "重設所有廠商的帳單和借項通知單的排版到內建的預設值，並更新目前的頁面"
+msgstr "重設所有廠商的帳單和貸項通知單的排版到內建的預設值，並更新目前的頁面"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:415
 msgid "Make a printable voucher"
@@ -10401,7 +10401,7 @@ msgid ""
 msgstr ""
 "在張貼時，自動嘗試在未清預付款和沖銷單據中支付供應商單據。當然，預付款和文件"
 "必須來自同一供應商。沖銷單據是具有相反符號的文件。例如，對於供應商帳單而言，"
-"供應商貸項單或負金額的供應商帳單是沖銷單據。"
+"供應商貸項通知單或負金額的供應商帳單是沖銷單據。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:159
 msgid "Show bills due reminder at startup"
