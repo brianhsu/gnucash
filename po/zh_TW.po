@@ -3043,12 +3043,12 @@ msgstr "這個排程交易已經改變了；您確定要取消？"
 #: gnucash/gnome/dialog-sx-editor2.c:635
 #, c-format
 msgid "Couldn't parse credit formula for split \"%s\"."
-msgstr "無法解析分割「%s」中的借方公式。"
+msgstr "無法解析分割「%s」中的貸方公式。"
 
 #: gnucash/gnome/dialog-sx-editor2.c:657
 #, c-format
 msgid "Couldn't parse debit formula for split \"%s\"."
-msgstr "無法解析分割「%s」中貸方的公式。"
+msgstr "無法解析分割「%s」中借方的公式。"
 
 #: gnucash/gnome/dialog-sx-editor2.c:690 gnucash/gnome/dialog-sx-editor.c:873
 #: gnucash/gnome/dialog-sx-from-trans.c:261
@@ -9148,7 +9148,7 @@ msgstr "電報"
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2867
 #: gnucash/register/ledger-core/split-register.c:2562
 msgid "Direct Debit"
-msgstr "自動扣款"
+msgstr "直接債務備註"
 
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2873
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2877
@@ -18873,37 +18873,32 @@ msgid "Originator BIC (Bank Code)"
 msgstr "發送者銀行代碼 (BIC)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:395
-#, fuzzy
 msgid "Enter a SEPA Online Direct Debit Note"
-msgstr "輸入線上直接債務備註"
+msgstr "輸入 SEPA 線上直接債務備註"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:398
 msgid "Debited Account Owner"
 msgstr "借方帳號所有人"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:400
-#, fuzzy
 msgid "Debited IBAN (International Account Number)"
-msgstr "借方帳號號碼"
+msgstr "借方國際銀行帳號號碼 (IBAN)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:402
-#, fuzzy
 msgid "Debited BIC (Bank Code)"
-msgstr "借方帳號銀行代碼"
+msgstr "借方帳號銀行代碼 (BIC)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:405
 msgid "Credited Account Owner"
 msgstr "貸方帳號所有人"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:407
-#, fuzzy
 msgid "Credited IBAN (International Account Number)"
-msgstr "借方帳號號碼"
+msgstr "貸方國際銀行帳號號碼 (IBAN)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:409
-#, fuzzy
 msgid "Credited BIC (Bank Code)"
-msgstr "借方帳號銀行代碼"
+msgstr "貸方帳號銀行代碼 (BIC)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:494
 #, c-format
@@ -18999,9 +18994,8 @@ msgstr ""
 "狀態：%s - %s"
 
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:160
-#, fuzzy
 msgid "Online action \"Get Transactions\" not available for this account."
-msgstr "進行此帳號的交易報表"
+msgstr "此帳號無法使用「取得交易」的線上功能。"
 
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:229
 #, c-format
@@ -19015,17 +19009,17 @@ msgstr ""
 "狀態：%s (%d)"
 
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:253
-#, fuzzy
 msgid ""
 "The Online Banking import returned no transactions for the selected time "
 "period."
-msgstr "HBCI 匯入傳回在此特定時間週期中沒有包含交易。"
+msgstr "網路銀行匯入回傳在此特定時間週期中沒有包含交易。"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:61
 msgid ""
 "You have changed the list of online transfer templates, but you cancelled "
 "the transfer dialog. Do you nevertheless want to store the changes?"
 msgstr ""
+"您變更了線上轉帳的範本列表，但您取消了轉帳對話盒。您仍然要儲存這些變更嗎？"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:184
 msgid ""
@@ -19046,23 +19040,20 @@ msgstr ""
 "您要重新輸入此項工作嗎？"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:210
-#, fuzzy
 msgid "Online Banking Direct Debit Note"
-msgstr "線上 HBCI 直接債務備註"
+msgstr "網路銀行直接債務備註"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:215
 msgid "Online Banking Bank-Internal Transfer"
 msgstr "網路銀行行內轉帳"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:220
-#, fuzzy
 msgid "Online Banking European (SEPA) Transfer"
-msgstr "網路銀行設定完畢"
+msgstr "網路銀行歐洲 (SEPA) 轉帳"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:225
-#, fuzzy
 msgid "Online Banking European (SEPA) Debit Note"
-msgstr "線上 HBCI 直接債務備註"
+msgstr "網路銀行歐洲 (SEPA) 直接債務備註"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:231
 msgid "Online Banking Transaction"
@@ -19146,14 +19137,13 @@ msgstr ""
 "完成後，再重新下載網路銀行結餘。"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1156
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Result of Online Banking job:\n"
 "Account booked balance is %s"
 msgstr ""
-"HBCI 工作的結果：\n"
-"帳號登記的結餘是 %s%s\n"
-"要現在一致化帳號嗎？"
+"線上銀行工作的結果：\n"
+"帳號登記的結餘是 %s"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1162
 #, c-format
@@ -19237,10 +19227,9 @@ msgstr ""
 "您是否要再試一次？"
 
 #: gnucash/import-export/aqb/gnc-gwen-gui.c:1676
-#, fuzzy
 msgid ""
 "The Online Banking job is still running; are you sure you want to cancel?"
-msgstr "這個 SX 已經改變了；您確定要取消？"
+msgstr "這個網路銀行工作仍在執行；您確定要取消？"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:92
 msgid "_Online Actions"
@@ -19263,53 +19252,45 @@ msgid "Get _Balance"
 msgstr "取得結餘(_B)"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:102
-#, fuzzy
 msgid "Get the account balance online through Online Banking"
-msgstr "透過 HBCI 取得線上帳號結餘"
+msgstr "透過網路銀行取得線上帳號結餘"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:106
 msgid "Get _Transactions..."
 msgstr "取得交易(_T)..."
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:107
-#, fuzzy
 msgid "Get the transactions online through Online Banking"
-msgstr "透過 HBCI 取得線上的交易"
+msgstr "透過網路銀行取得線上的交易"
 
 #. Translators: https://en.wikipedia.org/wiki/Single_Euro_Payments_Area
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:113
-#, fuzzy
 msgid "Issue _SEPA Transaction..."
-msgstr "發布交易(_I)..."
+msgstr "發布 SEPA 交易(_S)..."
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:114
-#, fuzzy
 msgid ""
 "Issue a new international European (SEPA) transaction online through Online "
 "Banking"
-msgstr "透過 HBCI 在線上發布新的交易"
+msgstr "透過網路銀行在線上發布新歐洲 (SEPA) 交易"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:118
-#, fuzzy
 msgid "_Internal Transaction..."
-msgstr "內部交易(_N)..."
+msgstr "行內交易(_N)..."
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:119
-#, fuzzy
 msgid "Issue a new bank-internal transaction online through Online Banking"
-msgstr "透過 HBCI 在線上發布新的交易"
+msgstr "透過網路在線上發布新的行內交易"
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:123
-#, fuzzy
 msgid "Issue SEPA Direct _Debit..."
-msgstr "自動扣款(_D)..."
+msgstr "發動 SEPA 直接債務備註 (_D)..."
 
 #: gnucash/import-export/aqb/gnc-plugin-aqbanking.c:124
-#, fuzzy
 msgid ""
 "Issue a new international European (SEPA) direct debit note online through "
 "Online Banking"
-msgstr "透過 HBCI 在線上發布新的直接債務"
+msgstr "透過網路銀行在線上發布新的歐洲 (SEPA) 直接債務備註"
 
 #. Translators: Message types MTxxxx are exchange formats used by the SWIFT network
 #. https://en.wikipedia.org/wiki/Society_for_Worldwide_Interbank_Financial_Telecommunication
