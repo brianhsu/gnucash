@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-04 12:51+0800\n"
+"PO-Revision-Date: 2021-06-04 15:43+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -3719,7 +3719,7 @@ msgstr "處理付款(_P)..."
 #: gnucash/gnome/gnc-plugin-business.c:239
 #: gnucash/gnome/gnc-plugin-business.c:272
 msgid "Open the Process Payment dialog"
-msgstr "開啟處理付款對話視窗"
+msgstr "開啟處理付款對話盒"
 
 #: gnucash/gnome/gnc-plugin-business.c:202
 msgid "Vendors Overview"
@@ -7557,7 +7557,7 @@ msgid ""
 "default gain/loss account."
 msgstr ""
 "由於目前你並未設定任何科目，如果您想要設定預設的獲利/虧損科目，需要在設定好科"
-"目後，重新回到這個對話視窗。(透過檔案->內容選單)"
+"目後，重新回到這個對話盒。(透過檔案->內容選單)"
 
 #: gnucash/gnome-utils/dialog-options.c:701
 msgid "Select no account"
@@ -7577,7 +7577,7 @@ msgid ""
 "default gain/loss account."
 msgstr ""
 "針對所選擇的記帳貨幣，沒有相對應的收入與開支科目。\n"
-"你需要在設定好科目後，重新回到這個對話視窗(透過檔案->內容)，\n"
+"你需要在設定好科目後，重新回到這個對話盒(透過檔案->內容)，\n"
 "來選擇預設的獲利/虧損科目。"
 
 #: gnucash/gnome-utils/dialog-options.c:869
@@ -10378,11 +10378,11 @@ msgstr ""
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:132
 #: gnucash/gtkbuilder/business-prefs.glade:320
 msgid "The invoice report to be used for printing."
-msgstr ""
+msgstr "用以列印的發票報表。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:133
 msgid "The name of the report to be used for invoice printing."
-msgstr ""
+msgstr "用以列印的發票報表的名稱。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:137
 msgid "Open new invoice in new window"
@@ -10786,7 +10786,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:20
 msgid "Minimum score to be displayed"
-msgstr ""
+msgstr "最低顯示分數"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:21
 #, fuzzy
@@ -10829,7 +10829,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:35
 msgid "Maximum ATM fee amount in your area"
-msgstr ""
+msgstr "您所在的地區 ATM 手續費最高金額"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:36
 #, fuzzy
@@ -10991,7 +10991,7 @@ msgstr ""
 msgid ""
 "Set \"Review Created Transactions\" as the default for the \"since last run"
 "\" dialog."
-msgstr ""
+msgstr "在「自上次執行後」對話盒中，預設勾選「核對已建立的交易」。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.sxs.gschema.xml.in:28
 msgid ""
@@ -11072,7 +11072,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:10
 msgid "The version of these settings"
-msgstr ""
+msgstr "這些設定的版本"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:11
 msgid ""
@@ -11589,7 +11589,7 @@ msgstr "在輸入時自動跳出科目列表或動作列表"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:260
 msgid "Move to Transfer field when memorised transaction auto filled"
-msgstr ""
+msgstr "當自動填入記憶的交易後移到轉帳欄位"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:261
 msgid ""
@@ -11659,6 +11659,9 @@ msgid ""
 "bottom of the register after the blank transaction. Otherwise the blank "
 "transaction will be at the bottom of the register after all transactions."
 msgstr ""
+"登記簿中未來的交易排在空白交易之後。如果啟用，則日期為未來的交易，將會顯示在"
+"登記簿的最下方，空白交易之後。否則的話，則空白交易會在登記簿的最下方，所有交"
+"易之後。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:290
 #: gnucash/gtkbuilder/dialog-preferences.glade:2758
@@ -11705,6 +11708,9 @@ msgid ""
 "register is first opened. The setting can be changed at any time via the "
 "\"View->Double Line\" menu item."
 msgstr ""
+"在登記簿中的每筆交易裡，增加第二行以顯示「動作」、「筆記」以及「連結的文"
+"件」。這是任何登記簿第一次被打開時的預設值。此設定可以在任意時間點透過選單列"
+"上的「檢視->雙行」選項進行變更。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:310
 msgid "Only display leaf account names."
@@ -11732,7 +11738,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:320
 msgid "Show entered and reconciled dates on selection"
-msgstr ""
+msgstr "於所選擇的項目上顯示輸入與對帳日期"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:321
 #: gnucash/gtkbuilder/dialog-preferences.glade:2988
@@ -14008,7 +14014,7 @@ msgid ""
 "changed in the Post dialog."
 msgstr ""
 "如果發票中有多筆分錄都是轉帳到同一個科目，則預設在張貼時，將其整合至同一個分"
-"割中。這個設定可以在「張貼」的對話視窗中更動。"
+"割中。這個設定可以在「張貼」的對話盒中更動。"
 
 #: gnucash/gtkbuilder/business-prefs.glade:134
 msgid "<b>Invoices</b>"
@@ -14281,8 +14287,8 @@ msgid ""
 "allow you to select the account and reopen this dialog."
 msgstr ""
 "這個科目(以及其所有的子科目)，將會在科目體系中隱藏，也不會在登錄簿中的科目選"
-"單中出現。要重設這個選項，你必須先打開「過濾依...」對話視窗，並且在勾選「顯示"
-"被隱藏的科目」的選項。透過這個方式，你可以選擇這個科目並且重新打開這個對話視"
+"單中出現。要重設這個選項，你必須先打開「過濾依...」對話盒，並且在勾選「顯示被"
+"隱藏的科目」的選項。透過這個方式，你可以選擇這個科目並且重新打開這個對話視"
 "窗。"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1480
@@ -16500,12 +16506,12 @@ msgstr "顯示名稱欄位"
 #. Register2 feature
 #: gnucash/gtkbuilder/dialog-preferences.glade:2968
 msgid "_Move the selection to the blank split on expand"
-msgstr ""
+msgstr "在展開交易時自動移至空白的分割(_M)"
 
 #. Register2 feature
 #: gnucash/gtkbuilder/dialog-preferences.glade:2984
 msgid "_Show entered and reconciled dates on selection"
-msgstr ""
+msgstr "於所選擇的項目上顯示輸入與對帳日期(_S)"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:3047
 msgid "Register Defaults"
@@ -17215,15 +17221,14 @@ msgid "R_emind in advance"
 msgstr "幾天前提醒(_E)"
 
 #: gnucash/gtkbuilder/dialog-sx.glade:724
-#, fuzzy
 msgid "Set 'Re_view Created Transactions' as default"
-msgstr "核對已建立的交易(_R)"
+msgstr "預設勾選「核對已建立的交易」(_V)"
 
 #: gnucash/gtkbuilder/dialog-sx.glade:728
 msgid ""
 "Set 'Review Created Transactions' as the default in the 'Since Last Run' "
 "dialog."
-msgstr ""
+msgstr "在「自上次執行後」對話盒中，預設勾選「核對已建立的交易」。"
 
 #: gnucash/gtkbuilder/dialog-sx.glade:765
 msgid "Edit Scheduled Transaction"
@@ -18912,7 +18917,7 @@ msgstr "借方帳號銀行代碼"
 msgid ""
 "The internal check of the destination IBAN '%s' failed. This means the "
 "account number might contain an error."
-msgstr ""
+msgstr "針對目的 IBAN 「%s」的內部檢查失敗了。這代表帳號很可能有誤。"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:549
 #, c-format
@@ -19054,7 +19059,7 @@ msgstr "線上 HBCI 直接債務備註"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:215
 msgid "Online Banking Bank-Internal Transfer"
-msgstr ""
+msgstr "線上銀行行內轉帳"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:220
 #, fuzzy
@@ -19225,7 +19230,10 @@ msgid_plural ""
 "All %d jobs were executed successfully, but as a precaution please check the "
 "log window for potential errors."
 msgstr[0] ""
+"成功執行此工作，但為了小心起見，請檢查日誌視窗是否有任何可能的錯誤。"
 msgstr[1] ""
+"成功執行所有的 %d 件工作，但為了小心起見，請檢查日誌視窗是否有任何可能的錯"
+"誤。"
 
 #: gnucash/import-export/aqb/gnc-gwen-gui.c:1113
 #, c-format
@@ -19631,7 +19639,7 @@ msgstr ""
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:229
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:205
 msgid "These lines were ignored during import"
-msgstr ""
+msgstr "以下這幾行在匯入時被忽略"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:236
 #: gnucash/import-export/csv-imp/assistant-csv-account-import.c:462
@@ -24155,6 +24163,8 @@ msgid ""
 "this file should be in your .gnucash directory, or else in its proper place "
 "within the GnuCash installation directories."
 msgstr ""
+"此份報表所要使用的 CSS 樣式表檔案名稱。如果有指定，則此檔案應位於您的 ."
+"gnucash 資料夾，或是 GnuCash 所安裝的資料夾裡適當的位置。"
 
 #: gnucash/report/reports/standard/balsheet-eg.scm:175
 #: gnucash/report/reports/standard/invoice.scm:329
@@ -24238,7 +24248,7 @@ msgstr "使用雙欄"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:69
 msgid "Selecting this option will enable double-column reporting."
-msgstr ""
+msgstr "選擇此選項會啟用雙欄報表。"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:72
 msgid "Disable amount indenting"
@@ -25349,6 +25359,10 @@ msgid ""
 "liability, A/Payable or A/Receivable accounts, a split to a tax account, e."
 "g. Income:Sales -$1000, A/Receivable $1100, Liability:GST on Sales -$100."
 msgstr ""
+"此報報可用於計算當局應繳/應收的定期營業稅。請從「編輯報表選項」中選取您的業"
+"業銷售與採購科目。每筆交易除了在資產、負債、應付帳款與應收帳款之外，也可以"
+"含有與稅務相關的科目的分割。例如收入:銷售 -$1000, 應收帳款 $1000，負債:銷售"
+"商品和服務稅 -$100。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:56
 msgid ""
@@ -25356,6 +25370,8 @@ msgid ""
 "from Business Invoices and Bills which will require Tax Tables to be set up "
 "correctly. Please see the documentation."
 msgstr ""
+"這些稅務科目可以從一般的登記簿中填寫，但在稅務表格有正確設定的情況下，也可以"
+"從商務發票或帳單中擷取。請見文件說明。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:60
 msgid ""
@@ -25366,6 +25382,10 @@ msgid ""
 "ASSET for taxes paid on expenses, and type LIABILITY for taxes collected on "
 "sales."
 msgstr ""
+"您必須在報表選項中選取記錄了已收和已付的商品與服務稅 / 加值稅的科目。"
+"這些科目必須含有在商品與服務稅 / 加值稅申報期間中，已繳納或應扣除"
+"的稅金金額。對於支出時所付的稅金，必須是「資產」科目，對於銷售時收取"
+"的稅金，則必須是「負債」科目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:66
 msgid ""
@@ -25373,6 +25393,8 @@ msgid ""
 "in the VAT account description. EU Goods sales and purchase accounts may be "
 "tagged with *EUGOODS* in the account description."
 msgstr ""
+"注意英國的格式中，可能指定了歐盟加值稅科目的描述中必須標上 *EUVAT* 的標籤。"
+"歐盟貨物銷售或採購科目可以在科目的描述中標上 *EUGOODS* 標籤。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:71
 msgid "This message will be removed when tax accounts are specified."
@@ -25445,6 +25467,9 @@ msgid ""
 "These accounts must be of type ASSET for taxes paid on expenses, and type "
 "LIABILITY for taxes collected on sales."
 msgstr ""
+"請選取記錄了已收和已付的商品與服務稅 / 加值稅的科目。這些科目必須含有在商品與"
+"服務稅 / 加值稅申報期間中，已繳納或應扣除的稅金金額。對於支出時所付的稅金，必"
+"須是「資產」科目，對於銷售時收取的稅金，則必須是「負債」科目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:157
 #: gnucash/report/reports/standard/income-gst-statement.scm:161
@@ -25461,6 +25486,7 @@ msgid ""
 "Australia Business Activity Statement. Specify sales, purchase and tax "
 "accounts."
 msgstr ""
+"澳洲商業活動報表。指定銷售、採購和稅務科目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:165
 msgid ""
@@ -25468,6 +25494,9 @@ msgid ""
 "used. Denote EU VAT accounts *EUVAT* in account description, and denote EU "
 "goods sales and purchases accounts with *EUGOODS* in the account description."
 msgstr ""
+"英國加值稅申報。指定銷售、採購和稅務科目。可使用歐盟規則。"
+"在科目描述中標記 *EUVAT* 代表歐盟加值稅科目，標記 *EUGOODS* 代表"
+"貨物銷售或採購科目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:172
 msgid "Australia BAS"
@@ -25513,14 +25542,14 @@ msgid "Whether or not to include a label for the trading accounts section."
 msgstr "是否要有交易科目區段加上標籤"
 
 #: gnucash/report/reports/standard/income-statement.scm:97
-#, fuzzy
 msgid "Include trading accounts total"
-msgstr "包含總合(_G)"
+msgstr "包含交易科目結餘"
 
 #: gnucash/report/reports/standard/income-statement.scm:99
 msgid ""
 "Whether or not to include a line indicating total trading accounts balance."
 msgstr ""
+"是否在報表中包括交易科目結餘。"
 
 #: gnucash/report/reports/standard/income-statement.scm:517
 #: libgnucash/engine/Account.cpp:4407 libgnucash/engine/Scrub.c:486
@@ -25528,9 +25557,8 @@ msgid "Trading"
 msgstr "交易"
 
 #: gnucash/report/reports/standard/income-statement.scm:520
-#, fuzzy
 msgid "Total Trading"
-msgstr "總獲利"
+msgstr "交易總額"
 
 #: gnucash/report/reports/standard/income-statement.scm:571
 #: gnucash/report/reports/standard/trial-balance.scm:567
@@ -26515,6 +26543,8 @@ msgid ""
 "either be in your .gnucash directory, or else in its proper place within the "
 "GnuCash installation directories."
 msgstr ""
+"此份報表所要使用的 eguile 模板檔案名稱。此檔案應位於您的 .gnucash 資料夾，或"
+"是 GnuCash 所安裝的資料夾裡適當的位置。"
 
 #: gnucash/report/reports/standard/receipt.scm:84
 #: gnucash/report/reports/standard/taxinvoice.scm:152
@@ -26523,6 +26553,8 @@ msgid ""
 "should either be in your .gnucash directory, or else in its proper place "
 "within the GnuCash installation directories."
 msgstr ""
+"此份報表所要使用的 CSS 樣式表檔案名稱。此檔案應位於您的 .gnucash 資料夾，或"
+"是 GnuCash 所安裝的資料夾裡適當的位置。"
 
 #: gnucash/report/reports/standard/receipt.scm:88
 #: gnucash/report/reports/standard/taxinvoice.scm:156
@@ -26961,8 +26993,9 @@ msgstr "總額調整科目"
 msgid ""
 "Do not net, but show gross debit/credit adjustments to these accounts. "
 "Merchandising businesses will normally select their inventory accounts here."
-msgstr "不進行淨額計算，但顯示針對這些科目的借方、貸方調整總額。"
-"銷售業通常會在此選擇他們的庫存科目。"
+msgstr ""
+"不進行淨額計算，但顯示針對這些科目的借方、貸方調整總額。銷售業通常會在此選擇"
+"他們的庫存科目。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:87
 msgid "Income summary accounts"
@@ -26974,8 +27007,8 @@ msgid ""
 "Adjustments, Adjusted Trial Balance, and Income Statement columns. Mostly "
 "useful for merchandising businesses."
 msgstr ""
-"在調整表、經調整試算表與損益表的欄位中，這些科目的調整，是經過總額調整的（見上方）。"
-"主要用於銷售業。"
+"在調整表、經調整試算表與損益表的欄位中，這些科目的調整，是經過總額調整的（見"
+"上方）。主要用於銷售業。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:92
 msgid "Adjusting Entries pattern"
