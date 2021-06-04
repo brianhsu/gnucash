@@ -25114,7 +25114,7 @@ msgstr "查無有效客戶"
 
 #: gnucash/report/reports/standard/customer-summary.scm:299
 msgid "Markup"
-msgstr "標記"
+msgstr "純益率"
 
 #: gnucash/report/reports/standard/customer-summary.scm:378
 msgid "No Customer"
