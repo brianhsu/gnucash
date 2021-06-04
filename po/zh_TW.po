@@ -3235,9 +3235,8 @@ msgid "Last Valid Year: "
 msgstr "上一個有效年："
 
 #: gnucash/gnome/dialog-tax-info.c:290
-#, fuzzy
 msgid "Form Line Data: "
-msgstr "格式："
+msgstr "表單行資料："
 
 #. Translators: Tax Code
 #: gnucash/gnome/dialog-tax-info.c:292
