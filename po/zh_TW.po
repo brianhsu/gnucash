@@ -602,7 +602,7 @@ msgid ""
 "reconciled. You can also press Tab and Shift-Tab to move between deposits "
 "and withdrawals."
 msgstr ""
-"在對帳視窗中，您可以按空白鍵把交易標示為已對帳。您也可以按 Tab 與 Shift-Tab "
+"在對帳視窗中，您可以按空白鍵把交易標記為已對帳。您也可以按 Tab 與 Shift-Tab "
 "在存款與提款間移動。"
 
 #: doc/tip_of_the_day.list.c:80
@@ -1178,7 +1178,7 @@ msgstr "沒有這個實體： %s"
 #: gnucash/gnome/business-urls.c:171
 #, c-format
 msgid "No such owner entity: %s"
-msgstr "沒有這個所有人實體： %s"
+msgstr "沒有這個所有者實體： %s"
 
 #: gnucash/gnome/business-urls.c:289
 #, c-format
@@ -2111,7 +2111,7 @@ msgstr "對帳日期"
 
 #. Translators: This is a ngettext(3) message, %d is the number of maps missing
 #: gnucash/gnome/dialog-imap-editor.c:362
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "There is %d invalid mapping,\n"
 "\n"
@@ -2120,8 +2120,12 @@ msgid_plural ""
 "There are %d invalid mappings,\n"
 "\n"
 "Would you like to remove them now?"
-msgstr[0] "稅金表格 %s 不存在。您想要建立它嗎？"
-msgstr[1] "稅金表格 %s 不存在。您想要建立它嗎？"
+msgstr[0] "總有有 %d 筆無效的對應\n。"
+"\n"
+"您想要立刻移除它嗎？"
+msgstr[1] "總有有 %d 筆無效的對應\n。"
+"\n"
+"您想要立刻移除它們嗎？"
 
 #: gnucash/gnome/dialog-imap-editor.c:367
 #, c-format
@@ -2398,7 +2402,7 @@ msgstr "檢視/編輯憑證"
 
 #: gnucash/gnome/dialog-invoice.c:3367
 msgid "Invoice Owner"
-msgstr "發票所有人"
+msgstr "發票所有者"
 
 #: gnucash/gnome/dialog-invoice.c:3370
 #: gnucash/report/reports/standard/invoice.scm:314
@@ -2443,7 +2447,7 @@ msgstr "發票 ID"
 
 #: gnucash/gnome/dialog-invoice.c:3401
 msgid "Bill Owner"
-msgstr "帳單所有人"
+msgstr "帳單所有者"
 
 #: gnucash/gnome/dialog-invoice.c:3404
 msgid "Bill Notes"
@@ -2451,7 +2455,7 @@ msgstr "帳單備註"
 
 #: gnucash/gnome/dialog-invoice.c:3435
 msgid "Voucher Owner"
-msgstr "憑證所有人"
+msgstr "憑證所有者"
 
 #: gnucash/gnome/dialog-invoice.c:3438
 msgid "Voucher Notes"
@@ -2567,7 +2571,7 @@ msgstr "您必須給工作一個名稱。"
 
 #: gnucash/gnome/dialog-job.c:149
 msgid "You must choose an owner for this job."
-msgstr "您必須選擇這個工作的所有人。"
+msgstr "您必須選擇這個工作的所有者。"
 
 #: gnucash/gnome/dialog-job.c:250
 msgid "Edit Job"
@@ -2587,7 +2591,7 @@ msgstr "檢視發票"
 
 #: gnucash/gnome/dialog-job.c:571
 msgid "Owner's Name"
-msgstr "所有人姓名"
+msgstr "所有者姓名"
 
 #: gnucash/gnome/dialog-job.c:573
 msgid "Only Active?"
@@ -2707,7 +2711,7 @@ msgstr "是否關閉？"
 
 #: gnucash/gnome/dialog-order.c:878
 msgid "Owner Name"
-msgstr "所有人姓名"
+msgstr "所有者姓名"
 
 #: gnucash/gnome/dialog-order.c:880 gnucash/gtkbuilder/dialog-order.glade:122
 #: gnucash/gtkbuilder/dialog-order.glade:520
@@ -4825,9 +4829,8 @@ msgid "Edit this credit note"
 msgstr "編輯此貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:438
-#, fuzzy
 msgid "Create a new credit note as a duplicate of the current one"
-msgstr "為每個報表或科目體系建立新的頂端層級視窗"
+msgstr "建立一張和目前內容相同的貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:439
 msgid "Post this credit note to your Chart of Accounts"
@@ -4838,24 +4841,20 @@ msgid "Unpost this credit note and make it editable"
 msgstr "取消張貼這張貸項通知單並且讓它變為可編輯的"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:441
-#, fuzzy
 msgid "Create a new credit note for the same owner as the current one"
-msgstr "為每個報表或科目體系建立新的頂端層級視窗"
+msgstr "為目前的貸項通知單的所有者建立一張新的貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:442
-#, fuzzy
 msgid "Move to the blank entry at the bottom of the credit note"
-msgstr "移至此發票底端的空白項目處"
+msgstr "移至此貸項通知單底端的空白項目處"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:443
-#, fuzzy
 msgid "Enter a payment for the owner of this credit note"
-msgstr "輸入此發票所有人的付款"
+msgstr "輸入此貸項通知單所有者的付款"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:444
-#, fuzzy
 msgid "Open a company report window for the owner of this credit note"
-msgstr "開啟此發票所有人的公司報表視窗"
+msgstr "開啟此貸項通知單所有者的公司報表視窗"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:445
 msgid "Manage Document Link..."
@@ -4944,9 +4943,8 @@ msgid "Create a new invoice"
 msgstr "建立新發票"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:206
-#, fuzzy
 msgid "New _Voucher..."
-msgstr "新增消費憑證(_E)..."
+msgstr "新增消費憑證(_V)..."
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:207
 msgid "Create a new voucher"
@@ -4979,9 +4977,8 @@ msgid "Vendor Report"
 msgstr "廠商報表"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:222
-#, fuzzy
 msgid "Show vendor report"
-msgstr "廠商報表"
+msgstr "顯示廠商報表"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:226
 #: gnucash/report/reports/standard/job-report.scm:505
@@ -4990,9 +4987,8 @@ msgid "Customer Report"
 msgstr "客戶報表"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:227
-#, fuzzy
 msgid "Show customer report"
-msgstr "客戶報表"
+msgstr "顯示客戶報表"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:231
 #: gnucash/report/reports/standard/job-report.scm:514
@@ -5010,7 +5006,7 @@ msgstr "新消費憑證"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:445
 msgid "Owners"
-msgstr "所有人"
+msgstr "所有者"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:626
 msgid "Customers"
@@ -5437,14 +5433,13 @@ msgstr "儲存改變到 %s?"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:1624
 #: gnucash/gnome/gnc-plugin-page-register.c:2008
-#, fuzzy
 msgid ""
 "This register has pending changes to a transaction. Would you like to save "
 "the changes to this transaction, discard the transaction, or cancel the "
 "operation?"
 msgstr ""
-"目前的範本交易已經變更。\n"
-"您想要記錄它的變更嗎？"
+"此登記簿有等待儲存的交易更動。您想要儲存這個交易的更動，丟棄此筆交易，或是"
+"取消這個操作？"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:1627
 #: gnucash/gnome/gnc-plugin-page-register.c:2011
@@ -5630,9 +5625,8 @@ msgid "_Go to Date"
 msgstr "跳到指定日期(_G)"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:501
-#, fuzzy
 msgid "Move to the split at the specified date"
-msgstr "不要列印帳戶交易明細"
+msgstr "移到指定日期的分割"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:828
 msgid ""
@@ -5641,18 +5635,16 @@ msgid ""
 msgstr "您試著在一個科目已經被舊的登記簿打開時，在新的登記簿中打開這個科目。"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3406
-#, fuzzy
 msgid "Filter By:"
-msgstr "過濾依..."
+msgstr "過濾依："
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3420
 msgid "Start Date:"
 msgstr "開始日期："
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3426
-#, fuzzy
 msgid "Show previous number of days:"
-msgstr "顯示股份數量"
+msgstr "顯示之前幾天："
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3433
 msgid "End Date:"
@@ -5660,9 +5652,8 @@ msgstr "結束日期:"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3443
 #: gnucash/report/trep-engine.scm:146
-#, fuzzy
 msgid "Unreconciled"
-msgstr "未對帳(_U)"
+msgstr "未對帳"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3445
 #: gnucash/gnome-search/search-reconciled.c:224
@@ -5717,21 +5708,18 @@ msgstr "這個交易被標記為唯讀，其註解: '%s'"
 #: gnucash/gnome/gnc-plugin-page-register.c:4078
 #: gnucash/gnome/gnc-split-reg.c:1131
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1121
-#, fuzzy
 msgid "A reversing entry has already been created for this transaction."
-msgstr "檢閱已建立交易"
+msgstr "此交易已經建立過反向交易。"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:4085
-#, fuzzy
 msgid "Reverse Transaction"
-msgstr "新增反向交易(_R)"
+msgstr "反向交易"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:4086
 #: gnucash/gtkbuilder/gnc-plugin-page-register2.glade:73
 #: gnucash/gtkbuilder/gnc-plugin-page-register.glade:624
-#, fuzzy
 msgid "New Transaction Information"
-msgstr "交易資訊"
+msgstr "新的交易資訊"
 
 #. Translators: The %s is the name of the plugin page
 #: gnucash/gnome/gnc-plugin-page-register.c:4174
@@ -5990,28 +5978,24 @@ msgid "Create a new scheduled transaction"
 msgstr "建立新的排程交易"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:145
-#, fuzzy
 msgid "_New 2"
-msgstr "新增(_N)"
+msgstr "新增 2(_N)"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:146
-#, fuzzy
 msgid "Create a new scheduled transaction 2"
-msgstr "建立新的排程交易"
+msgstr "建立新的排程交易 2"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:152
 msgid "Edit the selected scheduled transaction"
 msgstr "編輯選擇的排程交易"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:157
-#, fuzzy
 msgid "_Edit 2"
-msgstr "編輯(_E)"
+msgstr "編輯 2(_E)"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:158
-#, fuzzy
 msgid "Edit the selected scheduled transaction 2"
-msgstr "編輯選擇的排程交易"
+msgstr "編輯選擇的排程交易 2"
 
 #: gnucash/gnome/gnc-plugin-page-sx-list.c:164
 msgid "Delete the selected scheduled transaction"
@@ -6045,32 +6029,28 @@ msgstr "開啟一般日記帳視窗"
 
 #: gnucash/gnome/gnc-plugin-register2.c:66
 #: gnucash/gnome/gnc-plugin-register2.c:67
-#, fuzzy
 msgid "Register2 Open GL Account"
-msgstr "開啟科目(_O)"
+msgstr "登記簿 v2 OpenGL 科目"
 
 #: gnucash/gnome/gnc-plugin-register.c:54
 msgid "Old St_yle General Journal"
 msgstr "老式風格的一般日記帳(_Y)"
 
 #: gnucash/gnome/gnc-plugin-register.c:55
-#, fuzzy
 msgid "Open an old style general journal window"
-msgstr "開啟總分類帳視窗"
+msgstr "開啟舊式風格的一般日記帳視窗"
 
 #: gnucash/gnome/gnc-plugin-register.c:59
-#, fuzzy
 msgid "Open general journal window"
-msgstr "開啟總分類帳視窗"
+msgstr "開啟一般日記帳視窗"
 
 #: gnucash/gnome/gnc-plugin-report-system.c:57
 msgid "St_yle Sheets"
 msgstr "樣式表(_Y)"
 
 #: gnucash/gnome/gnc-plugin-report-system.c:58
-#, fuzzy
 msgid "Edit report style sheets"
-msgstr "編輯報表樣式表。"
+msgstr "編輯報表樣式表"
 
 #: gnucash/gnome/gnc-plugin-report-system.c:148
 #: gnucash/report/reports/standard/view-column.scm:127
@@ -6126,9 +6106,8 @@ msgid "Current Value:"
 msgstr "目前價值："
 
 #: gnucash/gnome/gnc-split-reg2.c:886
-#, fuzzy
 msgid "Account Payable / Receivable Register"
-msgstr "科目應收"
+msgstr "應收 / 應付帳款登記簿"
 
 #: gnucash/gnome/gnc-split-reg2.c:888
 msgid ""
@@ -6368,14 +6347,13 @@ msgstr ""
 "您必須打開各自的科目並且編輯交易。"
 
 #: gnucash/gnome/gnc-split-reg.c:2524
-#, fuzzy
 msgid ""
 "The transactions of this account may not be edited.\n"
 "If you want to edit transactions in this register, please open the account "
 "options and turn off the placeholder checkbox."
 msgstr ""
-"這個科目不能被編輯。如果您要編輯這個登記簿的交易，請開啟科目選項並且關閉 "
-"placeholder 核取方塊。"
+"這個科目中的交易不能被編輯。\n"
+"如果您要編輯這個登記簿的交易，請開啟科目選項並且關閉佔位符號核取方塊。"
 
 #: gnucash/gnome/gnc-split-reg.c:2531
 #, fuzzy
@@ -6385,8 +6363,9 @@ msgid ""
 "account options and turn off the placeholder checkbox.\n"
 "You may also open an individual account instead of a set of accounts."
 msgstr ""
-"選擇的子科目中有一個不能被編輯。如果您要編輯這個登記簿的交易，請開啟子科目選"
-"項並且關閉 placeholder 核取方塊。您也可以開啟個別的科目而不是一次一組科目。"
+"選擇的子科目中有不編輯交易的子科目。\n"
+"如果您要編輯這個登記簿的交易，請開啟子科目選項並且關閉佔位符號核取方塊。"
+"您也可以開啟個別的科目而不是一次開啟一組科目。"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:5
 #: gnucash/gnome/gnucash.desktop.in.in:6
@@ -6445,7 +6424,7 @@ msgid ""
 "including Transaction Matching"
 msgstr ""
 "以 CSV/TinTS (前 HBCI) 交換資料，或從 SWIFT-MT9xx/QIF/OFX 匯入資料，並包括交"
-"易比對"
+"易配對"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:23
 msgid "Perform financial calculations, such as a loan repayment"
@@ -6491,7 +6470,7 @@ msgstr "您的會計資料的基本儀表板"
 
 #: gnucash/gnome/search-owner.c:136
 msgid "You have not selected an owner"
-msgstr "您尚未選擇所有人"
+msgstr "您尚未選擇所有者"
 
 #: gnucash/gnome/search-owner.c:214 gnucash/gnome-search/dialog-search.c:1093
 #: gnucash/gtkbuilder/dialog-invoice.glade:284
@@ -6826,12 +6805,11 @@ msgid "New Split"
 msgstr "新增分割"
 
 #: gnucash/gnome-search/dialog-search.c:1116
-#, fuzzy
 msgctxt ""
 "Item represents an unknown object type (in the sense of bill, customer, "
 "invoice, transaction, split,...)!"
 msgid "New item"
-msgstr "新增項目(_N)..."
+msgstr "新增項目"
 
 #: gnucash/gnome-search/dialog-search.c:1159
 #: gnucash/gnome-utils/gnc-recurrence.c:544
@@ -6875,7 +6853,7 @@ msgstr "選擇科目"
 
 #: gnucash/gnome-search/search-account.c:230
 msgid "Select Accounts to Match"
-msgstr "選擇要比對的科目"
+msgstr "選擇要配對的科目"
 
 #: gnucash/gnome-search/search-account.c:234
 msgid "Select the Accounts to Compare"
@@ -6983,9 +6961,8 @@ msgid "Not Cleared"
 msgstr "未結清"
 
 #: gnucash/gnome-search/search-string.c:169
-#, fuzzy
 msgid "You need to enter some search text."
-msgstr "您需要輸入字串值。"
+msgstr "您需要輸入要搜尋的文字。"
 
 #: gnucash/gnome-search/search-string.c:198
 #: gnucash/import-export/bi-import/dialog-bi-import.c:136
@@ -7199,9 +7176,8 @@ msgid "Could not create opening balance."
 msgstr "無法建立起始結餘。"
 
 #: gnucash/gnome-utils/dialog-account.c:739
-#, fuzzy
 msgid "Give the children the same type?"
-msgstr "取消目前的項目"
+msgstr "將子科目設定為相同類型？"
 
 #: gnucash/gnome-utils/dialog-account.c:750
 #, c-format
@@ -7260,11 +7236,10 @@ msgid "Cannot change currency"
 msgstr "無法變更貨幣"
 
 #: gnucash/gnome-utils/dialog-account.c:1416
-#, fuzzy
 msgid ""
 "This Account contains Transactions.\n"
 "Changing this option is not possible."
-msgstr "這個科目包含唯讀的交易。您不能刪除 %s。"
+msgstr "這個科目含有交易。\n無法變更此選項。"
 
 #: gnucash/gnome-utils/dialog-account.c:1606
 msgid "Edit Account"
@@ -7323,7 +7298,7 @@ msgid ""
 "Please select a commodity to match"
 msgstr ""
 "\n"
-"請選擇要比對的商品"
+"請選擇要配對的商品"
 
 #: gnucash/gnome-utils/dialog-commodity.c:167
 msgid ""
@@ -7436,7 +7411,7 @@ msgstr "此商品已經存在。"
 msgid ""
 "You must enter a non-empty \"Full name\", \"Symbol/abbreviation\", and \"Type"
 "\" for the commodity."
-msgstr "您必須為此商品輸入非空白的「全名」、「標記/縮寫」、「類型」。"
+msgstr "您必須為此商品輸入非空白的「全名」、「代碼/縮寫」、「類型」。"
 
 #: gnucash/gnome-utils/dialog-doclink-utils.c:237
 msgid "Path head for files is,"
@@ -7452,9 +7427,8 @@ msgid "Path head not set, using '%s' for relative paths"
 msgstr "預設路徑開頭不存在，使用「%s」做為相對路徑的開頭"
 
 #: gnucash/gnome-utils/dialog-doclink-utils.c:426
-#, fuzzy
 msgid "Existing"
-msgstr "使用現有的"
+msgstr "現有的"
 
 #: gnucash/gnome-utils/dialog-dup-trans.c:148
 msgid "You can type '+' or '-' to increment or decrement the number."
@@ -7700,9 +7674,8 @@ msgid "You must choose a Tax Account."
 msgstr "您必須選擇稅金科目。"
 
 #: gnucash/gnome-utils/dialog-tax-table.c:633
-#, fuzzy
 msgid "Rename"
-msgstr "使用者名稱"
+msgstr "重新命名"
 
 #: gnucash/gnome-utils/dialog-tax-table.c:634
 msgid "Please enter new name"
@@ -7748,9 +7721,8 @@ msgid ""
 msgstr "取得目前的線上報價。如果已經手動輸入今日假格，則此動作會失敗。"
 
 #: gnucash/gnome-utils/dialog-transfer.c:1325
-#, fuzzy
 msgid "Finance::Quote must be installed to enable this button."
-msgstr "警告：Finance::Quote 並未正確地安裝。"
+msgstr "需要安裝 Finance::Quote 以啟用此按鈕。"
 
 #: gnucash/gnome-utils/dialog-transfer.c:1427
 msgid ""
@@ -8102,14 +8074,14 @@ msgstr ""
 "它。您是否要繼續匯出此資料庫？"
 
 #: gnucash/gnome-utils/gnc-file.c:377
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "GnuCash could not write to %s. That database may be on a read-only file "
 "system, you may not have write permission for the directory or your anti-"
 "virus software is preventing this action."
 msgstr ""
 "GnuCash 無法寫入 %s。可能是資料庫放在唯讀的檔案系統，或是您沒有該目錄的寫入權"
-"限。"
+"限，又或者防毒軟體不允許這個操作。"
 
 #: gnucash/gnome-utils/gnc-file.c:385
 #, c-format
@@ -8160,9 +8132,9 @@ msgstr ""
 "這個檔案在歷史列表中，您要移除他嗎？"
 
 #: gnucash/gnome-utils/gnc-file.c:440
-#, fuzzy, c-format
+#, c-format
 msgid "The file/URI %s could not be found."
-msgstr "找不到檔案 %s。"
+msgstr "找不到檔案 / URI %s。"
 
 #: gnucash/gnome-utils/gnc-file.c:447
 msgid "This file is from an older version of GnuCash. Do you want to continue?"
@@ -8218,14 +8190,14 @@ msgstr ""
 "庫標記為唯讀。"
 
 #: gnucash/gnome-utils/gnc-file.c:496
-#, fuzzy
 msgid ""
 "This database is from a newer version of GnuCash. This version can read it, "
 "but cannot safely save to it. It will be marked read-only until you do File-"
 ">Save As, but data may be lost in writing to the old version."
 msgstr ""
 "這個資料庫來自較新版本的 GnuCash。現在這個版本能夠讀取，但無法安全的寫入。資"
-"料庫將被標記為唯讀，直到您執行 檔案->另存新檔。"
+"料庫將被標記為唯讀，直到您執行「檔案->另存新檔」，但資料可能會在寫入成舊的版"
+"本時移失。"
 
 #: gnucash/gnome-utils/gnc-file.c:505
 msgid ""
@@ -8366,11 +8338,11 @@ msgid ""
 msgstr "資料庫是以唯讀模式開啟。您想要存檔到不同的地方嗎？"
 
 #: gnucash/gnome-utils/gnc-file.c:1691
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Reverting will discard all unsaved changes to %s. Are you sure you want to "
 "proceed?"
-msgstr "檔案 %s 已存在。您確定要覆蓋它？"
+msgstr "還原會讓所有 %s 未儲存的變更遺失。您確定要繼續嗎？"
 
 #: gnucash/gnome-utils/gnc-file.c:1699
 #: gnucash/gnome-utils/gnc-main-window.c:1271
@@ -8393,9 +8365,8 @@ msgstr "這很有可能是因為 \"gnucash-docs\" 套件沒有被適當的安裝
 
 #. Translators: URI of missing help files
 #: gnucash/gnome-utils/gnc-gnome-utils.c:74
-#, fuzzy
 msgid "Expected location"
-msgstr "訂單資訊"
+msgstr "預期的位置"
 
 #: gnucash/gnome-utils/gnc-gnome-utils.c:510
 #: gnucash/gnome-utils/gnc-gnome-utils.c:550
@@ -8447,9 +8418,8 @@ msgid "_Print..."
 msgstr "列印(_P)..."
 
 #: gnucash/gnome-utils/gnc-main-window.c:290
-#, fuzzy
 msgid "Print the currently active page"
-msgstr "列印目前記事本頁面"
+msgstr "列印目前的頁面"
 
 #: gnucash/gnome-utils/gnc-main-window.c:296
 msgid "Pa_ge Setup..."
@@ -8806,9 +8776,8 @@ msgid ""
 msgstr "您無法更動筆交易，此帳本或登錄簿被設成唯讀。"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:131
-#, fuzzy
 msgid "Save Transaction before proceeding?"
-msgstr "匯入交易中具相同點者"
+msgstr "在繼續前儲存交易？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:133
 msgid ""
@@ -8849,21 +8818,18 @@ msgstr "讓 GnuCash 新增或調整分割 (_A)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:294
 #: gnucash/register/ledger-core/split-register-control.c:145
-#, fuzzy
 msgid "Adjust current account _split total"
-msgstr "調整目前科目分割加總"
+msgstr "調整目前科目分割加總(_S)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:300
 #: gnucash/register/ledger-core/split-register-control.c:151
-#, fuzzy
 msgid "Adjust _other account split total"
-msgstr "調整其他科目分割加總"
+msgstr "調整其他科目分割加總(_O)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:311
 #: gnucash/register/ledger-core/split-register-control.c:162
-#, fuzzy
 msgid "_Rebalance"
-msgstr "結餘："
+msgstr "重新平衡(_R)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:405
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:413
@@ -8920,17 +8886,16 @@ msgid "Not enough information for Blank Transaction?"
 msgstr "空白交的易資訊不足？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1725
-#, fuzzy
 msgid ""
 "The blank transaction does not have enough information to save it. Would you "
 "like to return to the transaction to update, or cancel the save?"
-msgstr "目前的範本交易已經變更。您想要記錄它的變更嗎？"
+msgstr ""
+"此空白的交易沒有足夠的資訊可以儲存。您想要反回交易以進行更新，或是取消儲存？"
 
 #. Translators: Return to the transaction to update
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1737
-#, fuzzy
 msgid "_Return"
-msgstr "最高利潤"
+msgstr "返回(_R)"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1780
 #: gnucash/register/ledger-core/split-register-control.c:1830
@@ -8939,7 +8904,6 @@ msgstr "將分割標記為未對帳？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1782
 #: gnucash/register/ledger-core/split-register-control.c:1832
-#, fuzzy
 msgid ""
 "You are about to mark a reconciled split as unreconciled. Doing so might "
 "make future reconciliation difficult! Continue with this change?"
@@ -8958,23 +8922,20 @@ msgid "Change reconciled split?"
 msgstr "變更已對帳的分割？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1913
-#, fuzzy
 msgid ""
 "You are about to change a reconciled split. Doing so might make future "
 "reconciliation difficult! Continue with this change?"
-msgstr "您即將要修改已對帳的交易。這麼做可能使未來的對帳很困難！繼續這個修改？"
+msgstr "您即將要修改已對帳的分割。這麼做可能使未來的對帳很困難！繼續這個修改？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1918
-#, fuzzy
 msgid "Change split linked to a reconciled split?"
-msgstr "變更已對帳的分割？"
+msgstr "變更連結到已對帳分割的分割？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1920
-#, fuzzy
 msgid ""
 "You are about to change a split that is linked to a reconciled split. Doing "
 "so might make future reconciliation difficult! Continue with this change?"
-msgstr "您即將要修改已對帳的交易。這麼做可能使未來的對帳很困難！繼續這個修改？"
+msgstr "您即將要修改連連到已對帳分割的分割。這麼做可能使未來的對帳很困難！繼續這個修改？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1934
 #: gnucash/register/ledger-core/split-register-model.c:2257
@@ -9818,18 +9779,15 @@ msgid "Reason the transaction was voided"
 msgstr "此交易被標為無效的原因"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3242
-#, fuzzy
 msgid "Enter the reconcile type"
-msgstr "以對帳日期排序"
+msgstr "輸入對帳狀態"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3252
-#, fuzzy
 msgid "Enter the type of transaction"
-msgstr "輸入項目的類別"
+msgstr "輸入交易類型"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3262
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3282
-#, fuzzy
 msgid "Enter the value of shares bought or sold"
 msgstr "輸入買或賣的股份數量"
 
@@ -9840,9 +9798,8 @@ msgid "Enter the number of shares bought or sold"
 msgstr "輸入買或賣的股份數量"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3294
-#, fuzzy
 msgid "* Indicates the transaction Commodity."
-msgstr "是否顯示交易日期？"
+msgstr "* 表示交易商品。"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3304
 msgid "Enter the rate"
@@ -10266,9 +10223,8 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:107
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:149
-#, fuzzy
 msgid "Is tax included in this type of business entry?"
-msgstr "稅金是否已經包含在這個項目的價格中？"
+msgstr "稅金是否已經包含在這個此類型的商務項目？"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:108
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:150
@@ -10308,9 +10264,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:122
-#, fuzzy
 msgid "Show invoices due within this many days"
-msgstr "顯示幾日內將到期的帳單"
+msgstr "顯示幾日內將到期的發票"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:123
 msgid ""
@@ -10354,9 +10309,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:142
-#, fuzzy
 msgid "Accumulate multiple splits into one"
-msgstr "股票分割"
+msgstr "將多筆分割整合成一份"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:143
 msgid ""
@@ -10492,9 +10446,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:50
-#, fuzzy
 msgid "Position of check amount in numbers"
-msgstr "以支票/交易號碼排序"
+msgstr "以數字表示的支票金額的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:51
 msgid ""
@@ -10504,7 +10457,6 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:55
-#, fuzzy
 msgid "Position of payee address"
 msgstr "收款人名字的位置"
 
@@ -10516,9 +10468,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:60
-#, fuzzy
 msgid "Position of notes line"
-msgstr "日期的位置"
+msgstr "備註欄的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:61
 msgid ""
@@ -10549,18 +10500,16 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:75
-#, fuzzy
 msgid "Rotation angle"
-msgstr "旋轉(_R)"
+msgstr "旋轉角度"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:76
 msgid "Number of degrees to rotate the check."
 msgstr "要將支票旋轉幾度。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:80
-#, fuzzy
 msgid "Position of split's amount in numbers"
-msgstr "以支票/交易號碼排序"
+msgstr "以數字表示的分割金額的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:81
 msgid ""
@@ -10570,9 +10519,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:85
-#, fuzzy
 msgid "Position of split's memo line"
-msgstr "備注的位置"
+msgstr "分割備忘錄的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:86
 msgid ""
@@ -10582,9 +10530,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:90
-#, fuzzy
 msgid "Position of split's account line"
-msgstr "日期的位置"
+msgstr "分割科目的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:91
 msgid ""
@@ -10663,9 +10610,8 @@ msgstr ""
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:103
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:184
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:185
-#, fuzzy
 msgid "Position of the horizontal pane divider."
-msgstr "以支票/交易號碼排序"
+msgstr "水平分隔線的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:135
 msgid ""
@@ -10675,9 +10621,8 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:189
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:190
-#, fuzzy
 msgid "Position of the vertical pane divider."
-msgstr "以支票/交易號碼排序"
+msgstr "垂直分隔線的位置"
 
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:204
 msgid "Show the new user window"
@@ -10700,9 +10645,8 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:227
 #: gnucash/gschemas/org.gnucash.dialogs.gschema.xml.in:228
-#, fuzzy
 msgid "Default to 'new search' if fewer than this number of items is returned"
-msgstr "預設如果傳回的項目少於這個數字時進行「重新搜尋」。"
+msgstr "預設如果傳回的項目少於這個數字時進行「重新搜尋」"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:5
 msgid "Enable SKIP transaction action"
@@ -10715,13 +10659,12 @@ msgid ""
 "whose best match's score is in the yellow zone (above the Auto-ADD threshold "
 "but below the Auto-CLEAR threshold) will be skipped by default."
 msgstr ""
-"在交易比對中啟用略過的動作。如果啟用，則一筆交易的最高比對分數如果在黃色區(比"
+"在交易配對中啟用略過的動作。如果啟用，則一筆交易的最高配對分數如果在黃色區(比"
 "自動新增門檻高低比自動結清門檻低)，則此筆交易則會被略過。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:10
-#, fuzzy
 msgid "Enable UPDATE match action"
-msgstr "通用匯入交易比對器"
+msgstr "啟用配對更新"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:11
 #: gnucash/gtkbuilder/dialog-preferences.glade:2063
@@ -10732,8 +10675,8 @@ msgid ""
 "transaction will cause the existing transaction to be updated and cleared by "
 "default."
 msgstr ""
-"在交易比對中啟用更新與對帳動作。如果啟用，若一筆交易的最佳比對分數比自動結清"
-"門檻高，並且合比對出的已存在交易中的日期或金額不符，則該筆已存在的交易會被更"
+"在交易配對中啟用更新與對帳動作。如果啟用，若一筆交易的最佳配對分數比自動結清"
+"門檻高，並且和配對出的已存在交易中的日期或金額不符，則該筆已存在的交易會被更"
 "新並且預設為已結清。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:15
@@ -10756,7 +10699,7 @@ msgstr "最低顯示分數"
 msgid ""
 "This field specifies the minimum matching score a potential matching "
 "transaction must have to be displayed in the match list."
-msgstr "可能的比對必須顯示在比對清單中的最小分數。"
+msgstr "可能的配對必須顯示在比對清單中的最小分數。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:25
 #, fuzzy
@@ -10771,13 +10714,12 @@ msgid ""
 "zone (above the display minimum score but below or equal to the Add match "
 "score) will be added to the GnuCash file by default."
 msgstr ""
-"其最高比對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
+"其最高配對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
 "已加入。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:30
-#, fuzzy
 msgid "Clear matching transactions above this score"
-msgstr "找不到相符的交易"
+msgstr "將超過此配對分數的交易結清"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:31
 #, fuzzy
@@ -10787,7 +10729,7 @@ msgid ""
 "green zone (above or equal to this Clear threshold) will be cleared by "
 "default."
 msgstr ""
-"其最高比對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
+"其最高配對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
 "已加入。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:35
@@ -10830,9 +10772,8 @@ msgstr ""
 "未知的商品，一個一個詢問要如何處理。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:58
-#, fuzzy
 msgid "Display or hide reconciled matches"
-msgstr "是否顯示對帳日期？"
+msgstr "顯示或隱藏已對帳的配對"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:59
 msgid ""
@@ -11710,7 +11651,7 @@ msgstr "於所選擇的項目上顯示輸入與對帳日期"
 #: gnucash/gtkbuilder/dialog-preferences.glade:2988
 #, fuzzy
 msgid "Show the entered date and reconciled date on transaction selection."
-msgstr "選擇比對既存的交易"
+msgstr "選擇配對既存的交易"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:325
 #, fuzzy
@@ -12912,7 +12853,7 @@ msgstr "改變 GnuCash 科目(_A)..."
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1061
 msgid "Match Import and GnuCash accounts"
-msgstr "比對匯入的科目與 GnuCash 的科目"
+msgstr "配對匯入的科目與 GnuCash 的科目"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1077
 msgid ""
@@ -12944,7 +12885,7 @@ msgstr "交易資訊"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1129
 msgid "Match Transactions"
-msgstr "比對交易"
+msgstr "配對交易"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:30
 msgid ""
@@ -13535,7 +13476,7 @@ msgid ""
 "alone.\n"
 msgstr ""
 "下一頁中，在您的 QIF 檔案中的科目與任何您持有的股票或共同基金將會與 GnuCash "
-"科目比對。如果 GnuCash 科目已經存有相同或近似名稱與適合的類型，那個科目將會被"
+"科目配對。如果 GnuCash 科目已經存有相同或近似名稱與適合的類型，那個科目將會被"
 "視為相符；否則 GnuCash 會用在 QIF 科目中相同的名稱與類型來建立新的科目。如果"
 "您不喜歡建議的 GnuCash科目，點選以改變它。\n"
 "\n"
@@ -13563,7 +13504,7 @@ msgstr "已選擇的配對"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:656
 msgid "Match QIF accounts with GnuCash accounts"
-msgstr "以 GnuCash 科目比對 QIF 科目"
+msgstr "以 GnuCash 科目配對 QIF 科目"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:670
 msgid ""
@@ -13582,8 +13523,8 @@ msgstr ""
 "GnuCash 使用個別的收入與支出科目而不是分類來歸類您的交易。您的 QIF 檔案中的每"
 "個分類將被轉換成 GnuCash 科目。\n"
 "\n"
-"下一頁中，您將有機會查看 QIF 分類與 GnuCash 科目之間的比對。您可以雙擊含有您"
-"不喜歡的分類名稱那一行來改變比對結果。\n"
+"下一頁中，您將有機會查看 QIF 分類與 GnuCash 科目之間的配對。您可以雙擊含有您"
+"不喜歡的分類名稱那一行來改變配對結果。\n"
 "\n"
 "假如您稍後改變心意，您也可以在 GnuCash 中安全地重新組織科目結構。"
 
@@ -13593,7 +13534,7 @@ msgstr "收入與支出分類"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:788
 msgid "Match QIF categories with GnuCash accounts"
-msgstr "比對 QIF 分類與 GnuCash 科目"
+msgstr "配對 QIF 分類與 GnuCash 科目"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:802
 #, fuzzy
@@ -13620,7 +13561,7 @@ msgstr "收款人與備忘錄"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:918
 msgid "Match payees/memos to GnuCash accounts"
-msgstr "比對 收款人/備忘錄 至 GnuCash 科目"
+msgstr "配對 收款人/備忘錄 至 GnuCash 科目"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:932
 msgid ""
@@ -13714,7 +13655,7 @@ msgid ""
 msgstr ""
 "\n"
 "如果您正匯入從銀行或其他金融機構下載的 QIF 檔案，QIF 檔案中的一些資訊可能與已"
-"經在您的 GnuCash 科目中的資訊相同。為了避免重複，GnuCash 會嘗試比對既存的相同"
+"經在您的 GnuCash 科目中的資訊相同。為了避免重複，GnuCash 會嘗試配對既存的相同"
 "交易並需要您來幫忙確認。\n"
 "\n"
 "下一頁中，您將會看到一個匯入交易的列表。當您每選一筆交易，可能相符的交易會列"
@@ -13725,7 +13666,7 @@ msgstr ""
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1259
 msgid "Match existing transactions"
-msgstr "比對既存的交易"
+msgstr "配對既存的交易"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1302
 msgid "_Imported transactions needing review"
@@ -13755,9 +13696,9 @@ msgid ""
 "Click \"Cancel\" to abort the QIF import process."
 msgstr ""
 "點選「套用」以自籌畫區匯入資料並更新您的 GnuCash 科目。您已經輸入的科目與分類"
-"比對資訊會被儲存並做為您下次使用QIF 匯入功能的預設值。\n"
+"配對資訊會被儲存並做為您下次使用QIF 匯入功能的預設值。\n"
 "\n"
-"點選「向後」以檢查您的科目與分類比對，您可以改變用於新科目的貨幣與證券設定，"
+"點選「向後」以檢查您的科目與分類配對，您可以改變用於新科目的貨幣與證券設定，"
 "或新增更多檔案至籌畫區。\n"
 "\n"
 "點選「取消」以放棄 QIF 匯入程序。"
@@ -14616,7 +14557,7 @@ msgstr "總支出"
 
 #: gnucash/gtkbuilder/dialog-choose-owner.glade:7
 msgid "Choose Owner Dialog"
-msgstr "選擇所有人對話盒"
+msgstr "選擇所有者對話盒"
 
 #: gnucash/gtkbuilder/dialog-commodities.glade:8
 #: gnucash/gtkbuilder/dialog-commodities.glade:27
@@ -15315,7 +15256,7 @@ msgstr "格式"
 
 #: gnucash/gtkbuilder/dialog-import.glade:302
 msgid "Select matching existing transaction"
-msgstr "選擇比對既存的交易"
+msgstr "選擇配對既存的交易"
 
 #. Dialog Select matching transactions
 #: gnucash/gtkbuilder/dialog-import.glade:319
@@ -15413,11 +15354,11 @@ msgstr "選擇「新增」以新增此交易。"
 #: gnucash/gtkbuilder/dialog-import.glade:702
 msgid ""
 "Select \"U+C\" to update a matching transaction and mark it as cleared (c)."
-msgstr "選擇「更新+結清」將比對到的交易更新並標示為已結清。"
+msgstr "選擇「更新+結清」將配對到的交易更新並標記為已結清。"
 
 #: gnucash/gtkbuilder/dialog-import.glade:714
 msgid "Select \"C\" to mark a matching transaction as cleared (c)."
-msgstr "選擇「結清」將比對到的交易標示為已更新。"
+msgstr "選擇「結清」將配對到的交易標記為已更新。"
 
 #: gnucash/gtkbuilder/dialog-import.glade:726
 msgid "Select neither to skip the transaction (it won't be imported at all)."
@@ -15442,7 +15383,7 @@ msgstr "綠色"
 #: gnucash/gtkbuilder/dialog-import.glade:888
 msgid ""
 "List of downloaded transactions (source split and matched information shown)"
-msgstr "已下載交易的清單（顯示來源分割與比對資訊）"
+msgstr "已下載交易的清單（顯示來源分割與配對資訊）"
 
 #: gnucash/gtkbuilder/dialog-import.glade:931
 msgid "Show _Account column"
@@ -15454,16 +15395,16 @@ msgstr "顯示備忘錄欄位(_M)"
 
 #: gnucash/gtkbuilder/dialog-import.glade:963
 msgid "Show _matched information"
-msgstr "顯示比對資訊(_M)"
+msgstr "顯示配對資訊(_M)"
 
 # src/gnome/glade-gnc-dialogs.c:1476
 #: gnucash/gtkbuilder/dialog-import.glade:978
 msgid "Reconcile after match"
-msgstr "比對後對帳"
+msgstr "配對後對帳"
 
 #: gnucash/gtkbuilder/dialog-import.glade:1001
 msgid "Generic import transaction matcher"
-msgstr "通用匯入交易比對器"
+msgstr "通用匯入交易配對器"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:119
 msgid "Posted Account"
@@ -15536,7 +15477,7 @@ msgstr "工作資訊"
 
 #: gnucash/gtkbuilder/dialog-job.glade:271
 msgid "Owner Information"
-msgstr "所有人資訊"
+msgstr "所有者資訊"
 
 #: gnucash/gtkbuilder/dialog-job.glade:289
 msgid "Job Active"
@@ -16174,7 +16115,7 @@ msgstr "啟用略過交易的動作"
 #. Preferences->Online Banking:Generic
 #: gnucash/gtkbuilder/dialog-preferences.glade:2057
 msgid "Enable update match action"
-msgstr "啟用更新比對動作"
+msgstr "啟用更新配對動作"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2096
 msgid ""
@@ -16197,7 +16138,7 @@ msgstr ""
 msgid ""
 "A transaction whose best match's score is in the green zone (above or equal "
 "to the Auto-CLEAR threshold) will be CLEARed by default."
-msgstr "其最高比對分數在綠色區（高於或等於自動結清門檻）的交易會預設為已結清。"
+msgstr "其最高配對分數在綠色區（高於或等於自動結清門檻）的交易會預設為已結清。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2141
 msgid ""
@@ -16205,14 +16146,14 @@ msgid ""
 "threshold but below or equal to the Auto-ADD threshold) will be ADDed by "
 "default."
 msgstr ""
-"其最高比對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
+"其最高配對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
 "已加入。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2163
 msgid ""
 "The minimum score a potential match must have to be displayed in the match "
 "list."
-msgstr "可能的比對必須顯示在比對清單中的最小分數。"
+msgstr "可能的配對可被顯示在配對清單中的最低分數。"
 
 #. Preferences->Online Banking:Generic
 #: gnucash/gtkbuilder/dialog-preferences.glade:2184
@@ -16232,7 +16173,7 @@ msgstr "自動新增門檻(_A)"
 #. Preferences->Online Banking:Generic
 #: gnucash/gtkbuilder/dialog-preferences.glade:2226
 msgid "Match _display threshold"
-msgstr "比對顯示門檻(_D)"
+msgstr "配對顯示門檻(_D)"
 
 #. Preferences->Online Banking:Generic
 #: gnucash/gtkbuilder/dialog-preferences.glade:2237
@@ -16242,7 +16183,7 @@ msgstr "使用貝氏(_bayesian)比對"
 #: gnucash/gtkbuilder/dialog-preferences.glade:2243
 msgid ""
 "Use bayesian algorithms to match new transactions with existing accounts."
-msgstr "使用貝氏(bayesian)演算法進行新交易與現有科目的比對。"
+msgstr "使用貝氏(bayesian)演算法進行新交易與現有科目的配對。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2301
 msgid "<b>Checks</b>"
@@ -17053,7 +16994,7 @@ msgstr "搜尋項目位於"
 
 #: gnucash/gtkbuilder/dialog-search.glade:228
 msgid "<b>Match all entries</b>"
-msgstr "<b>比對所有項目</b>"
+msgstr "<b>配對所有項目</b>"
 
 #: gnucash/gtkbuilder/dialog-search.glade:298
 msgid "Search Criteria"
@@ -18484,7 +18425,7 @@ msgstr "刪除選定的符合項目(_D)"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:200
 msgid "Match Online accounts with GnuCash accounts"
-msgstr "以 GnuCash 科目比對網路銀行帳號"
+msgstr "以 GnuCash 科目配對網路銀行帳號"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:215
 msgid ""
@@ -18496,10 +18437,10 @@ msgid ""
 "\n"
 "Press \"Apply\" now."
 msgstr ""
-"現在所有用來比對 GnuCash 科目的 HBCI 帳號的設定已經完成。您現在可以在那些科目"
-"上調用 HBCI 動作。\n"
+"現在所有用來配對 GnuCash 科目的網路銀行帳號的設定已經完成。您現在可以在那些科目"
+"上使用網路銀行的功能。\n"
 "\n"
-"如果您想要增加別的 HBCI 銀行、使用者或帳號，您隨時可以再次啟動這個精靈。\n"
+"如果您想要增加別的銀行、使用者或帳號，您隨時可以再次啟動這個精靈。\n"
 "\n"
 "現在請按「套用」。"
 
@@ -18852,7 +18793,7 @@ msgstr "輸入 SEPA 線上直接債務備註"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:398
 msgid "Debited Account Owner"
-msgstr "借方帳號所有人"
+msgstr "借方帳號所有者"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:400
 msgid "Debited IBAN (International Account Number)"
@@ -18864,7 +18805,7 @@ msgstr "借方帳號銀行代碼 (BIC)"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:405
 msgid "Credited Account Owner"
-msgstr "貸方帳號所有人"
+msgstr "貸方帳號所有者"
 
 #: gnucash/import-export/aqb/dialog-ab-trans.c:407
 msgid "Credited IBAN (International Account Number)"
@@ -19116,7 +19057,7 @@ msgid ""
 "Result of Online Banking job:\n"
 "Account booked balance is %s"
 msgstr ""
-"線上銀行工作的結果：\n"
+"網路銀行工作的結果：\n"
 "帳號登記的結餘是 %s"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1162
@@ -19502,7 +19443,7 @@ msgstr "ID #"
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:144
 #, fuzzy
 msgid "Owner-ID"
-msgstr "所有人姓名"
+msgstr "所有者姓名"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:145
 msgid "Billing-ID"
@@ -20573,7 +20514,7 @@ msgstr "未知的 OFX 投資科目"
 #, c-format
 msgid ""
 "OFX file '%s' imported, %d transactions processed, no transactions to match"
-msgstr "已匯入 OSF 檔案「%s」，處理 %d 筆交易，沒有需要比對的交易"
+msgstr "已匯入 OSF 檔案「%s」，處理 %d 筆交易，沒有需要配對的交易"
 
 #: gnucash/import-export/ofx/gnc-ofx-import.c:1242
 msgid "Open/Quicken Financial Exchange file (*.ofx, *.qfx)"
@@ -20994,7 +20935,7 @@ msgstr "建立科目"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:402
 msgid "Matching transfers between accounts"
-msgstr "比對科目前的轉帳"
+msgstr "配對科目間的轉帳"
 
 #: gnucash/import-export/qif-imp/qif-to-gnc.scm:420
 msgid "Converting"
@@ -21649,7 +21590,7 @@ msgid ""
 "\n"
 "'%s'"
 msgstr ""
-"無法修改或刪除此交易。此交易因為已下的原因被標示成唯讀：\n"
+"無法修改或刪除此交易。此交易因為已下的原因被標記成唯讀：\n"
 "\n"
 "「%s」"
 
@@ -25097,7 +25038,7 @@ msgstr "結帳分錄模式"
 #: gnucash/report/reports/standard/income-statement.scm:119
 #: gnucash/report/reports/standard/trial-balance.scm:106
 msgid "Any text in the Description column which identifies closing entries."
-msgstr "交易的描述欄位裡，用來標示該分錄為結帳分錄的文字。"
+msgstr "交易的描述欄位裡，用來標記該分錄為結帳分錄的文字。"
 
 #: gnucash/report/reports/standard/equity-statement.scm:90
 #: gnucash/report/reports/standard/income-statement.scm:121
@@ -25734,7 +25675,7 @@ msgstr "是否顯示記帳 id？"
 
 #: gnucash/report/reports/standard/invoice.scm:309
 msgid "Invoice owner ID"
-msgstr "發票所有人 ID"
+msgstr "發票所有者 ID"
 
 #: gnucash/report/reports/standard/invoice.scm:310
 msgid "Display the customer/vendor id?"
@@ -26940,7 +26881,7 @@ msgstr "調整分錄模式"
 
 #: gnucash/report/reports/standard/trial-balance.scm:94
 msgid "Any text in the Description column which identifies adjusting entries."
-msgstr "交易描述的欄位裡，用來標示該分錄為調整分錄的文字。"
+msgstr "交易描述的欄位裡，用來標記該分錄為調整分錄的文字。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:96
 msgid "Adjusting Entries pattern is case-sensitive"
