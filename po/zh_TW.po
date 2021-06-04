@@ -1957,7 +1957,7 @@ msgstr "價值"
 #: gnucash/gtkbuilder/dialog-invoice.glade:93
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:161
 msgid "Date Posted"
-msgstr "張貼的日期"
+msgstr "過帳的日期"
 
 #: gnucash/gnome/dialog-find-transactions2.c:132
 #: gnucash/gnome/dialog-find-transactions2.c:171
@@ -2207,11 +2207,11 @@ msgstr "到期日"
 #: gnucash/report/reports/standard/new-owner-report.scm:971
 #: gnucash/report/reports/standard/owner-report.scm:613
 msgid "Post Date"
-msgstr "張貼日期"
+msgstr "過帳日期"
 
 #: gnucash/gnome/dialog-invoice.c:871
 msgid "Post to Account"
-msgstr "張貼到科目"
+msgstr "過帳到科目"
 
 #: gnucash/gnome/dialog-invoice.c:872
 msgid "Accumulate Splits?"
@@ -2223,7 +2223,7 @@ msgstr "發票必須有一個以上的項目。"
 
 #: gnucash/gnome/dialog-invoice.c:984
 msgid "Do you really want to post the invoice?"
-msgstr "您確定要張貼這張發票？"
+msgstr "您確定要過帳這張發票？"
 
 #: gnucash/gnome/dialog-invoice.c:1002
 msgid ""
@@ -2234,7 +2234,7 @@ msgstr ""
 
 #: gnucash/gnome/dialog-invoice.c:1135
 msgid "The post action was canceled because not all exchange rates were given."
-msgstr "張貼的動作被取消了，因為不是所有的匯率都有提供。"
+msgstr "過帳的動作被取消了，因為不是所有的匯率都有提供。"
 
 #: gnucash/gnome/dialog-invoice.c:1419
 msgid "Total:"
@@ -2360,12 +2360,12 @@ msgid ""
 "One or more selected invoices have already been posted.\n"
 "Re-check your selection."
 msgstr ""
-"一或多張發票已被張貼過了。\n"
+"一或多張發票已被過帳過了。\n"
 "請重新檢查您的選擇。"
 
 #: gnucash/gnome/dialog-invoice.c:3255
 msgid "Do you really want to post these invoices?"
-msgstr "您確定要張貼這些發票？"
+msgstr "您確定要過帳這些發票？"
 
 #: gnucash/gnome/dialog-invoice.c:3333 gnucash/gnome/dialog-invoice.c:3614
 msgid "View/Edit Invoice"
@@ -2383,7 +2383,7 @@ msgstr "複製"
 #: gnucash/gnome/dialog-invoice.c:3356
 #: gnucash/gnome/gnc-plugin-page-invoice.c:459
 msgid "Post"
-msgstr "張貼"
+msgstr "過帳"
 
 #: gnucash/gnome/dialog-invoice.c:3337 gnucash/gnome/dialog-invoice.c:3346
 #: gnucash/gnome/dialog-invoice.c:3357
@@ -2427,7 +2427,7 @@ msgstr "已支付？"
 #: gnucash/gnome/dialog-invoice.c:3382 gnucash/gnome/dialog-invoice.c:3416
 #: gnucash/gnome/dialog-invoice.c:3450
 msgid "Is Posted?"
-msgstr "是否張貼？"
+msgstr "是否過帳？"
 
 #: gnucash/gnome/dialog-invoice.c:3385 gnucash/gnome/dialog-invoice.c:3419
 #: gnucash/gnome/dialog-invoice.c:3453 gnucash/gnome/dialog-order.c:876
@@ -2493,7 +2493,7 @@ msgstr "支付"
 
 #: gnucash/gnome/dialog-invoice.c:3477
 msgid "Posted"
-msgstr "已張貼"
+msgstr "已過帳"
 
 #: gnucash/gnome/dialog-invoice.c:3482 gnucash/gnome/dialog-invoice.c:3635
 msgid "Due"
@@ -2724,7 +2724,7 @@ msgstr "尋找訂單"
 
 #: gnucash/gnome/dialog-payment.c:231
 msgid "You must enter a valid account name for posting."
-msgstr "您必須輸入有效的科目名稱來張貼。"
+msgstr "您必須輸入有效的科目名稱來過帳。"
 
 #: gnucash/gnome/dialog-payment.c:240
 msgid "You must select a company for payment processing."
@@ -4528,11 +4528,11 @@ msgstr "重複相同的發票(_D)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:299
 msgid "_Post Invoice"
-msgstr "張貼發票(_P)"
+msgstr "過帳發票(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:300
 msgid "_Unpost Invoice"
-msgstr "解除張貼發票(_U)"
+msgstr "解除過帳發票(_U)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:301
 msgid "New _Invoice"
@@ -4586,11 +4586,11 @@ msgstr "重複相同的帳單(_D)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:320
 msgid "_Post Bill"
-msgstr "張貼帳單(_P)"
+msgstr "過帳帳單(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:321
 msgid "_Unpost Bill"
-msgstr "取消張貼帳單(_U)"
+msgstr "解除過帳帳單(_U)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:322
 msgid "New _Bill"
@@ -4622,11 +4622,11 @@ msgstr "重複相同的消費憑證(_D)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:341
 msgid "_Post Voucher"
-msgstr "張貼消費憑證(_P)"
+msgstr "過帳消費憑證(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:342
 msgid "_Unpost Voucher"
-msgstr "取消張貼消費憑證(_U)"
+msgstr "解除過帳消費憑證(_U)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:343
 msgid "New _Voucher"
@@ -4658,11 +4658,11 @@ msgstr "重複相同的貸項通知單(_D)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:362
 msgid "_Post Credit Note"
-msgstr "張貼貸項通知單(_P)"
+msgstr "過帳貸項通知單(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:363
 msgid "_Unpost Credit Note"
-msgstr "取消張貼貸項通知單(_U)"
+msgstr "解除過帳貸項通知單(_U)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:364
 msgid "New _Credit Note"
@@ -4686,11 +4686,11 @@ msgstr "建立一份和現在的發票相同內容的新發票"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:376
 msgid "Post this invoice to your Chart of Accounts"
-msgstr "將這張發票張貼到您的會計科目表"
+msgstr "將這張發票過帳到您的會計科目表"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:377
 msgid "Unpost this invoice and make it editable"
-msgstr "取消張貼這張發票並且讓它變為可編輯的"
+msgstr "解除過帳這張發票並且讓它變為可編輯的"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:378
 msgid "Create a new invoice for the same owner as the current one"
@@ -4741,11 +4741,11 @@ msgstr "建立一份和現在的帳單相同內容的新帳單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:397
 msgid "Post this bill to your Chart of Accounts"
-msgstr "將這張帳單張貼到您的會計科目表"
+msgstr "將這張帳單過帳到您的會計科目表"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:398
 msgid "Unpost this bill and make it editable"
-msgstr "取消張貼這張帳單並且讓它變為可編輯的"
+msgstr "解除過帳這張帳單並且讓它變為可編輯的"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:399
 msgid "Create a new bill for the same owner as the current one"
@@ -4787,11 +4787,11 @@ msgstr "建立一份和目前的憑證內容相同的消費憑證"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:418
 msgid "Post this voucher to your Chart of Accounts"
-msgstr "將這張消費憑證張貼到您的會計科目表"
+msgstr "將這張消費憑證過帳到您的會計科目表"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:419
 msgid "Unpost this voucher and make it editable"
-msgstr "取消張貼這張消費憑證並且讓它變為可編輯的"
+msgstr "解除過帳這張消費憑證並且讓它變為可編輯的"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:420
 msgid "Create a new voucher for the same owner as the current one"
@@ -4834,11 +4834,11 @@ msgstr "建立一張和目前內容相同的貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:439
 msgid "Post this credit note to your Chart of Accounts"
-msgstr "將這張貸項通知單張貼到您的會計科目表"
+msgstr "將這張貸項通知單過帳到您的會計科目表"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:440
 msgid "Unpost this credit note and make it editable"
-msgstr "取消張貼這張貸項通知單並且讓它變為可編輯的"
+msgstr "解除過帳這張貸項通知單並且讓它變為可編輯的"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:441
 msgid "Create a new credit note for the same owner as the current one"
@@ -4884,7 +4884,7 @@ msgstr "空白"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:460
 msgid "Unpost"
-msgstr "取消張貼"
+msgstr "解除過帳"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:461
 msgid "Pay"
@@ -5733,7 +5733,7 @@ msgstr "排序 %s 依..."
 #: gnucash/gnome/gnc-plugin-page-register.c:4752
 #, c-format
 msgid "%s %s from %s, posted %s, amount %s"
-msgstr "%s %s 從 %s，張貼於 %s，金額 %s"
+msgstr "%s %s 從 %s，過帳於 %s，金額 %s"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:4762
 msgid "Several documents are linked with this transaction. Please choose one:"
@@ -9608,7 +9608,7 @@ msgstr "對帳的日期"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:2729
 msgid "Date Posted / Entered / Reconciled"
-msgstr "張貼 / 輸入 / 對帳日期"
+msgstr "過帳 / 輸入 / 對帳日期"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:2750
 #: gnucash/gtkbuilder/dialog-order.glade:270
@@ -10235,7 +10235,7 @@ msgstr "稅是否包含在此類型的分錄中。此設定將會被新的客戶
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:112
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:154
 msgid "Auto pay when posting."
-msgstr "張貼時自動付款。"
+msgstr "過帳時自動付款。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:113
 #: gnucash/gtkbuilder/business-prefs.glade:198
@@ -10246,7 +10246,7 @@ msgid ""
 "are documents with opposite sign. For example for an invoice, customer "
 "credit notes and negative invoices are considered counter documents."
 msgstr ""
-"在張貼時，自動嘗試在未清預付款和沖銷單據中支付客戶單據。當然，預付款和文件必"
+"在過帳時，自動嘗試在未清預付款和沖銷單據中支付客戶單據。當然，預付款和文件必"
 "須是同一個客戶。沖銷單據是具有相反符號的文件。例如，對於客戶發票而言，客戶信"
 "用單或負金額的客戶發票是沖銷單據。"
 
@@ -10327,7 +10327,7 @@ msgid ""
 "opposite sign. For example for a bill, vendor credit notes and negative "
 "bills are considered counter documents."
 msgstr ""
-"在張貼時，自動嘗試在未清預付款和沖銷單據中支付供應商單據。當然，預付款和文件"
+"在過帳時，自動嘗試在未清預付款和沖銷單據中支付供應商單據。當然，預付款和文件"
 "必須來自同一供應商。沖銷單據是具有相反符號的文件。例如，對於供應商帳單而言，"
 "供應商貸項通知單或負金額的供應商帳單是沖銷單據。"
 
@@ -11625,7 +11625,7 @@ msgid ""
 "Show the date when the transaction was entered below the posted date and "
 "reconciled date on split row."
 msgstr ""
-"在交易張貼日期下方顯示輸入日期，並在分割列顯示對帳日期。"
+"在交易過帳日期下方顯示輸入日期，並在分割列顯示對帳日期。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:320
 msgid "Show entered and reconciled dates on selection"
@@ -13335,7 +13335,7 @@ msgstr "選擇要載入的 QIF 檔案"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:213
 msgid "_Start"
-msgstr "開始"
+msgstr "開始(_S)"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:283
 msgid "Load QIF files"
@@ -13878,7 +13878,7 @@ msgstr ""
 
 #: gnucash/gtkbuilder/business-prefs.glade:103
 msgid "_Accumulate splits on post"
-msgstr "張貼時整合分割(_A)"
+msgstr "過帳時整合分割(_A)"
 
 #: gnucash/gtkbuilder/business-prefs.glade:109
 msgid ""
@@ -13886,8 +13886,8 @@ msgid ""
 "should be accumulated into a single split by default. This setting can be "
 "changed in the Post dialog."
 msgstr ""
-"如果發票中有多筆分錄都是轉帳到同一個科目，則預設在張貼時，將其整合至同一個分"
-"割中。這個設定可以在「張貼」的對話盒中更動。"
+"如果發票中有多筆分錄都是轉帳到同一個科目，則預設在過帳時，將其整合至同一個分"
+"割中。這個設定可以在「過帳」的對話盒中更動。"
 
 #: gnucash/gtkbuilder/business-prefs.glade:134
 msgid "<b>Invoices</b>"
@@ -13919,7 +13919,7 @@ msgstr "稅是否包含在帳單中的分錄。此設定將會被新的客戶和
 #. See the tooltip "At post time..." for details.
 #: gnucash/gtkbuilder/business-prefs.glade:192
 msgid "_Process payments on posting"
-msgstr "張貼時處理付款(_P)"
+msgstr "過帳時處理付款(_P)"
 
 #: gnucash/gtkbuilder/business-prefs.glade:223
 msgid "<b>Bills</b>"
@@ -13942,7 +13942,7 @@ msgstr "稅是否包含在發票中的分錄。此設定將會被新的客戶和
 #. See the tooltip "At post time..." for details.
 #: gnucash/gtkbuilder/business-prefs.glade:269
 msgid "Pro_cess payments on posting"
-msgstr "張貼時處理付款(_C)"
+msgstr "過帳時處理付款(_C)"
 
 #: gnucash/gtkbuilder/business-prefs.glade:289
 msgid "Days in ad_vance"
@@ -14143,8 +14143,8 @@ msgid ""
 "Transactions may not be posted to this account, only to sub-accounts of this "
 "account."
 msgstr ""
-"這個科目是用來在科目體系中做為佔位符(placeholder)的。您不能將交易張貼到這個科"
-"目，只能張貼到它的子科目。"
+"這個科目是用來在科目體系中做為佔位符(placeholder)的。您不能將交易過帳到這個科"
+"目，只能過帳到它的子科目。"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1464
 msgid "H_idden"
@@ -14340,7 +14340,7 @@ msgstr "在新頁籤中開啟匯入的文件"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:392
 msgid "Open not yet posted documents in tabs "
-msgstr "在新頁籤中開啟尚未張貼的文件"
+msgstr "在新頁籤中開啟尚未過帳的文件"
 
 #: gnucash/gtkbuilder/dialog-bi-import-gui.glade:410
 msgid "Don't open imported documents in tabs"
@@ -14376,11 +14376,11 @@ msgstr "早期付款所享的折扣百分比。"
 msgid ""
 "The number of days after the post date during which a discount will be "
 "applied for early payment."
-msgstr "在張貼日期之後單期付款享有折扣期間的日數。"
+msgstr "在過帳日期之後單期付款享有折扣期間的日數。"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:154
 msgid "The number of days to pay the bill after the post date."
-msgstr "在張貼日期之後支付此帳單的日數。"
+msgstr "在過帳日期之後支付此帳單的日數。"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:210
 msgid "Due Day"
@@ -15352,7 +15352,7 @@ msgstr "通用匯入交易配對器"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:119
 msgid "Posted Account"
-msgstr "張貼的科目"
+msgstr "過帳的科目"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:231
 #: gnucash/gtkbuilder/dialog-invoice.glade:890
@@ -15391,8 +15391,8 @@ msgid ""
 "Unposting this Invoice will delete the posted transaction.\n"
 "Are you sure you want to unpost it?"
 msgstr ""
-"解除張貼這張發票會刪除已張貼的交易。\n"
-"您確定要將它解除張貼？"
+"解除過帳這張發票會刪除已過帳的交易。\n"
+"您確定要將它解除過帳？"
 
 #: gnucash/gtkbuilder/dialog-invoice.glade:1292
 msgid "Yes, reset the Tax Tables"
@@ -15589,7 +15589,7 @@ msgstr "伙伴"
 
 #: gnucash/gtkbuilder/dialog-payment.glade:204
 msgid "Post To"
-msgstr "張貼到"
+msgstr "過帳到"
 
 #: gnucash/gtkbuilder/dialog-payment.glade:331
 msgid "Documents"
@@ -19273,7 +19273,7 @@ msgstr "第 %d 行，發票 %s/%u: 客戶 %s 不存在。\n"
 #: gnucash/import-export/bi-import/dialog-bi-import.c:372
 #, c-format
 msgid "Row %d, invoice %s/%u: %s is not a valid posting date.\n"
-msgstr "第 %d 行，發票 %s/%u: %s 不是有效的張貼日期。\n"
+msgstr "第 %d 行，發票 %s/%u: %s 不是有效的過帳日期。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:380
 #, c-format
@@ -19322,7 +19322,7 @@ msgstr ""
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:716
 msgid "Invoice %s created.\n"
-msgstr "已建立發票 %s。"
+msgstr "已建立發票 %s。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:731
 msgid "Do you want to update existing bills/invoices?"
@@ -19341,22 +19341,22 @@ msgstr ""
 #: gnucash/import-export/bi-import/dialog-bi-import.c:767
 #, c-format
 msgid "Invoice %s updated.\n"
-msgstr "已更新發票 %s。"
+msgstr "已更新發票 %s。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:885
 #, c-format
 msgid "Invoice %s posted.\n"
-msgstr "已張貼發票 %s。"
+msgstr "已過帳發票 %s。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:890
 #, c-format
 msgid "Invoice %s NOT posted because currencies don't match.\n"
-msgstr "「未」張貼發票 %s，貨幣不符合。\n"
+msgstr "「未」過帳發票 %s，貨幣不符合。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:896
 #, c-format
 msgid "Invoice %s NOT posted because it requires currency conversion.\n"
-msgstr "「未」張貼發票 %s，需要進行貨幣轉換。\n"
+msgstr "「未」過帳發票 %s，需要進行貨幣轉換。\n"
 
 #: gnucash/import-export/bi-import/dialog-bi-import.c:920
 #, c-format
@@ -19407,11 +19407,11 @@ msgstr "稅務表格"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:163
 msgid "Account-posted"
-msgstr "已張貼科目"
+msgstr "已過帳科目"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:164
 msgid "Memo-posted"
-msgstr "已張貼備忘錄"
+msgstr "已過帳備忘錄"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:165
 msgid "Accu-splits"
@@ -22057,7 +22057,7 @@ msgstr "顯示零結餘的項目"
 #: gnucash/report/reports/standard/new-owner-report.scm:46
 #: gnucash/report/reports/standard/owner-report.scm:41
 msgid "Due or Post Date"
-msgstr "到期或張貼日期"
+msgstr "到期或過帳日期"
 
 #: gnucash/report/reports/aging.scm:47
 #: gnucash/report/reports/standard/new-aging.scm:46
@@ -28566,11 +28566,11 @@ msgstr "額外的簽帳卡"
 
 #: libgnucash/engine/gncInvoice.c:1735
 msgid "Generated from an invoice. Try unposting the invoice."
-msgstr "從發票產生。試著解除張貼此發票。"
+msgstr "從發票產生。試著解除過帳此發票。"
 
 #: libgnucash/engine/gncInvoice.c:2158
 msgid " (posted)"
-msgstr " (已張貼)"
+msgstr " (已過帳)"
 
 #: libgnucash/engine/gncOrder.c:550
 msgid " (closed)"
