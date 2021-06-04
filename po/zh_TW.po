@@ -17332,9 +17332,8 @@ msgid "<b>_TXF Categories</b>"
 msgstr "<b>_TXF 分類</b>"
 
 #: gnucash/gtkbuilder/dialog-tax-info.glade:615
-#, fuzzy
 msgid "<b>Payer Name Source</b>"
-msgstr "付款人姓名"
+msgstr "<b>付款人姓名來源</b>"
 
 #: gnucash/gtkbuilder/dialog-tax-info.glade:626
 msgid "C_urrent Account"
