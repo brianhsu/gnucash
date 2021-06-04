@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-04 16:39+0800\n"
+"PO-Revision-Date: 2021-06-04 18:36+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -10345,6 +10345,8 @@ msgid ""
 "due invoices. Its value is only used if the \"Notify when due\" setting is "
 "active."
 msgstr ""
+"此欄位定義了 GnuCash 會提前多少天檢查到期發票。此值只有在「到期時通知」選項啟"
+"用時才會被使用。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.business.gschema.xml.in:127
 msgid "Enable extra toolbar buttons for business"
@@ -10425,6 +10427,8 @@ msgid ""
 "due bills. Its value is only used if the \"Notify when due\" setting is "
 "active."
 msgstr ""
+"此欄位定義了 GnuCash 會提前多少天檢查到期帳單。此值只有在「到期時通知」選項啟"
+"用時才會被使用。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:5
 msgid "GUID of predefined check format to use"
@@ -10460,7 +10464,7 @@ msgstr "使用的日期格式"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:21
 msgid "This is the numerical identifier of the predefined date format to use."
-msgstr ""
+msgstr "這是一個數值類型的 ID，用來表示使用哪種事先定義好的日期格式。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:25
 msgid "Custom date format"
@@ -10671,6 +10675,8 @@ msgid ""
 "This field contains the last pathname used by this window. It will be used "
 "as the initial filename/pathname the next time this window is opened."
 msgstr ""
+"此欄位含有這個視最新的路徑名稱。將會用做下一次此視窗被開啟時預設的檔案/路徑名"
+"稱。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.export.csv.gschema.xml.in:17
 msgid "Window geometry"
@@ -11095,7 +11101,7 @@ msgstr "交易資訊"
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:26
 msgid ""
 "This is the path head for the Transaction Linked Files with relative paths"
-msgstr ""
+msgstr "這是針對以相對路徑表示的交易連件文件，其相對路徑的開頭。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:30
 msgid "Compress the data file"
@@ -11662,6 +11668,10 @@ msgid ""
 "transaction to show all splits. The \"journal\" setting shows all "
 "transactions in expanded form."
 msgstr ""
+"此欄位指定了當開啟新的登計簿時，要使用哪種檢視風格。可用的值為「ledger」、"
+"「auto-ledger」與「journal」。「ledger」代表針對一筆交易，使用一或兩行兩顯"
+"示。「auto-ledger」也相同，但同時會將目前所在的交易展開，顯示的所有分割。"
+"「journal」會將所有交易以全部展開的方式顯示。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:295
 #: gnucash/gtkbuilder/dialog-preferences.glade:2777
@@ -11881,7 +11891,7 @@ msgstr "最近開啟的檔案"
 
 #: gnucash/gschemas/org.gnucash.history.gschema.xml.in:11
 msgid "This field contains the full path of the most recently opened file."
-msgstr ""
+msgstr "此欄位含有最新一個被開啟的檔案路徑。"
 
 #: gnucash/gschemas/org.gnucash.history.gschema.xml.in:15
 #: gnucash/gschemas/org.gnucash.history.gschema.xml.in:20
@@ -11906,7 +11916,7 @@ msgstr "第二近開啟的檔案"
 #: gnucash/gschemas/org.gnucash.history.gschema.xml.in:56
 msgid ""
 "This field contains the full path of the next most recently opened file."
-msgstr ""
+msgstr "此欄位含有第二新的最近被開啟的檔案路徑。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:9
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:112
@@ -11919,7 +11929,7 @@ msgstr "符合所有科目"
 msgid ""
 "This dialog is presented if you try to print checks from multiple accounts "
 "at the same time."
-msgstr ""
+msgstr "這個對話盒會在您嚐試從多個科目列印支票時顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:14
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:117
@@ -11929,7 +11939,7 @@ msgstr "確認關閉視窗"
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:15
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:118
 msgid "This dialog is presented when there is more than one window."
-msgstr ""
+msgstr "這個對話盒會在有多個視窗時顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:19
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:122
@@ -11942,6 +11952,8 @@ msgid ""
 "This dialog is presented when you attempt to move out of a modified invoice "
 "entry. The changed data must be either saved or discarded."
 msgstr ""
+"這個對話盒會在您嚐試移除發票中修改過的項目時顯示。必須儲存變更的資料，或此移"
+"除會被取消。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:24
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:127
@@ -11955,6 +11967,8 @@ msgid ""
 "This dialog is presented when you attempt to duplicate a modified invoice "
 "entry. The changed data must be saved or the duplication canceled."
 msgstr ""
+"這個對話盒會在您嚐試複製一份修改過的發票時顯示。必須儲存變更的資料，或此複製"
+"會被取消。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:29
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:132
@@ -11990,7 +12004,7 @@ msgstr "刪除多筆報價"
 msgid ""
 "This dialog is presented before allowing you to delete multiple price quotes "
 "at one time."
-msgstr ""
+msgstr "這個對話盒會在允許您一次刪除多筆報價前顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:44
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:147
@@ -12001,7 +12015,7 @@ msgstr "取代現有價格"
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:148
 msgid ""
 "This dialog is presented before allowing you to replace an existing price."
-msgstr ""
+msgstr "這個對話盒會在允許您取代價格前顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:49
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:152
@@ -12016,6 +12030,8 @@ msgid ""
 "accounts receivable account. These account types are reserved for the "
 "business features and should rarely be manipulated manually."
 msgstr ""
+"這個對話盒會在允許您編輯應付 / 應收帳款科目前顯示。這類型的科目是給商務功能使"
+"用的，一般而言不應該手動操作。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:54
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:157
@@ -12026,7 +12042,7 @@ msgstr "準備好建立"
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:55
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:158
 msgid "This dialog is presented when a read-only register is opened."
-msgstr ""
+msgstr "這個對話盒會在打開唯讀登記簿時顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:59
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:162
@@ -12055,6 +12071,8 @@ msgid ""
 "unreconciled. Doing so will throw off the reconciled value of the register "
 "and can make it hard to perform future reconciliations."
 msgstr ""
+"這個對話盒會在允許您將交易分割標記為未對帳前顯示。這麼做會丟棄登記簿中已對帳"
+"的金額，並且使得未來對帳時有困難。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:69
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:172
@@ -12066,7 +12084,7 @@ msgstr "刪除交易中的一個分割"
 msgid ""
 "This dialog is presented before allowing you to remove a split from a "
 "transaction."
-msgstr ""
+msgstr "這個對話盒會在允許您將分割從交易中移除前顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:74
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:177
@@ -12080,6 +12098,8 @@ msgid ""
 "from a transaction. Doing so will throw off the reconciled value of the "
 "register and can make it hard to perform future reconciliations."
 msgstr ""
+"這個對話盒會在允許您將已對帳的分割從交易中移除前顯示。這麼做會丟棄登記簿中已"
+"對帳的金額，並且使得未來對帳時有困難。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:79
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:84
@@ -12094,6 +12114,8 @@ msgid ""
 "This dialog is presented before allowing you to remove all splits from a "
 "transaction."
 msgstr ""
+"這個對話盒會在允許您將所有分割從交易中移除前顯示。這麼做會丟棄登記簿中已對帳"
+"的金額，並且使得未來對帳時有困難。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:85
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:188
@@ -12103,6 +12125,7 @@ msgid ""
 "reconciled value of the register and can make it hard to perform future "
 "reconciliations."
 msgstr ""
+"這個對話盒會在允許您將所有分割（且含有某些已對帳的分割）從交易中移除前顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:89
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:192
@@ -12112,7 +12135,7 @@ msgstr "刪除交易"
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:90
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:193
 msgid "This dialog is presented before allowing you to delete a transaction."
-msgstr ""
+msgstr "此對話盒會在允許您刪除交易前顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:94
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:197
@@ -12127,6 +12150,8 @@ msgid ""
 "contains reconciled splits. Doing so will throw off the reconciled value of "
 "the register and can make it hard to perform future reconciliations."
 msgstr ""
+"這個對話盒會在允許您刪除含有已對帳分割的交易前顯示。這麼做會丟棄登記簿中的已"
+"對帳金額並且使得未來執行對帳時變得困難。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:99
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:202
@@ -12140,6 +12165,8 @@ msgid ""
 "This dialog is presented when you attempt to duplicate a modified "
 "transaction. The changed data must be saved or the duplication canceled."
 msgstr ""
+"這個對話盒會在您嚐試複製一份修改過的交易時顯示。必須儲存變更的資料，或此複製"
+"會被取消。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:104
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:207
@@ -12152,6 +12179,8 @@ msgid ""
 "This dialog is presented when you attempt to move out of a modified "
 "transaction. The changed data must be either saved or discarded."
 msgstr ""
+"這個對話盒會在您嚐試移除修改過的交易時顯示。必須儲存變更的資料，或此移除會被"
+"取消。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:5
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:6
@@ -28514,7 +28543,7 @@ msgstr ""
 #: libgnucash/app-utils/gnc-ui-util.c:702
 #, c-format
 msgid "Tax type %s: invalid code %s for account type"
-msgstr ""
+msgstr "稅明 %s：對科目類型而言 %s 是無效代碼"
 
 #: libgnucash/app-utils/gnc-ui-util.c:706
 #, c-format
