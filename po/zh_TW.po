@@ -1948,7 +1948,7 @@ msgstr "金額"
 #: gnucash/report/reports/standard/register.scm:158
 #: gnucash/report/reports/standard/register.scm:407
 msgid "Value"
-msgstr "值"
+msgstr "價值"
 
 #: gnucash/gnome/dialog-find-transactions2.c:128
 #: gnucash/gnome/dialog-find-transactions.c:126
