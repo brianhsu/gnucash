@@ -2144,9 +2144,8 @@ msgid "Bayesian"
 msgstr "貝氏比對法"
 
 #: gnucash/gnome/dialog-imap-editor.c:718
-#, fuzzy
 msgid "Description Field"
-msgstr "描述"
+msgstr "描述欄位"
 
 #: gnucash/gnome/dialog-imap-editor.c:721
 msgid "Memo Field"
@@ -3131,7 +3130,7 @@ msgstr "具有變數或含有多種商品的排程交易不能被自動建立。
 #: gnucash/gnome/dialog-sx-editor.c:674
 #, c-format
 msgid "Couldn't parse %s for split \"%s\"."
-msgstr "無法解析分割「%1$s」中的 %2$s。"
+msgstr "無法解析分割「%2$s」中的 %1$s。"
 
 #: gnucash/gnome/dialog-sx-editor.c:738
 #, c-format
@@ -4954,14 +4953,12 @@ msgid "Create a new employee"
 msgstr "建立新員工"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:177
-#, fuzzy
 msgid "_Delete Owner..."
-msgstr "刪除科目(_D)..."
+msgstr "刪除所有者(_D)..."
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:178
-#, fuzzy
 msgid "Delete selected owner"
-msgstr "刪除選定的科目"
+msgstr "刪除選定的所有者"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:197
 msgid "Create a new bill"
@@ -6568,9 +6565,8 @@ msgid "Business"
 msgstr "商務"
 
 #: gnucash/gnome/window-autoclear.c:115
-#, fuzzy
 msgid "Cleared Transactions"
-msgstr "已建立交易"
+msgstr "已結清的交易"
 
 #: gnucash/gnome/window-reconcile2.c:417 gnucash/gnome/window-reconcile.c:458
 msgid "Interest Payment"
@@ -9029,7 +9025,6 @@ msgstr "新增頂端層級科目"
 
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2847
 #: gnucash/register/ledger-core/split-register.c:2542
-#, fuzzy
 msgctxt "Action Column"
 msgid "Deposit"
 msgstr "存款"
@@ -11938,9 +11933,8 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:19
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:122
-#, fuzzy
 msgid "Commit changes to a invoice entry"
-msgstr "如何處理空的交易"
+msgstr "儲存發票項目的更動"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:20
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:123
@@ -12149,9 +12143,8 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:104
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:207
-#, fuzzy
 msgid "Commit changes to a transaction"
-msgstr "如何處理空的交易"
+msgstr "儲存交易的更動"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:105
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:208
@@ -12321,14 +12314,12 @@ msgid "Press 'Close' to Exit."
 msgstr "按下「關閉」離開。"
 
 #: gnucash/gtkbuilder/assistant-acct-period.glade:266
-#, fuzzy
 msgid "Summary Page"
-msgstr "摘要列(_M)"
+msgstr "摘要頁"
 
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:13
-#, fuzzy
 msgid "CSV Import Assistant"
-msgstr "GnuCash 資料檔匯入精靈"
+msgstr "CSV 匯入精靈"
 
 #. Run the assistant in your language to see GTK's translation of the button labels.
 #: gnucash/gtkbuilder/assistant-csv-account-import.glade:42
@@ -12428,9 +12419,8 @@ msgid "Import Summary"
 msgstr "匯入摘要"
 
 #: gnucash/gtkbuilder/assistant-csv-export.glade:8
-#, fuzzy
 msgid "CSV Export Assistant"
-msgstr "抵押/貸款精靈"
+msgstr "CSV 匯出精靈"
 
 #: gnucash/gtkbuilder/assistant-csv-export.glade:34
 msgid ""
@@ -12595,9 +12585,8 @@ msgid "Export Summary"
 msgstr "匯出摘要"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:38
-#, fuzzy
 msgid "CSV Price Import"
-msgstr "交易報表"
+msgstr "CSV 價格匯入"
 
 #. You should localize the (british) examples to your region.
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:65
@@ -14503,19 +14492,16 @@ msgid "The number of days to pay the bill after the post date."
 msgstr "在張貼日期之後支付此帳單的日數。"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:210
-#, fuzzy
 msgid "Due Day"
-msgstr "到期日數"
+msgstr "到期日"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:223
-#, fuzzy
 msgid "Discount Day"
-msgstr "折扣日數"
+msgstr "折扣日"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:249
-#, fuzzy
 msgid "Cutoff Day"
-msgstr "截止日: "
+msgstr "截止日:"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:263
 msgid ""
@@ -14568,9 +14554,8 @@ msgstr "<b>條款定義</b>"
 #: gnucash/gtkbuilder/dialog-billterms.glade:574
 #: gnucash/gtkbuilder/dialog-billterms.glade:911
 #: gnucash/gtkbuilder/dialog-billterms.glade:1148
-#, fuzzy
 msgid "De_scription"
-msgstr "敘述(_S)："
+msgstr "描述(_S)："
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:589
 #: gnucash/gtkbuilder/dialog-billterms.glade:926
@@ -15687,14 +15672,12 @@ msgid "Order Entry"
 msgstr "訂單項目"
 
 #: gnucash/gtkbuilder/dialog-order.glade:58
-#, fuzzy
 msgid "_Invoices"
-msgstr "發票"
+msgstr "發票(_I)"
 
 #: gnucash/gtkbuilder/dialog-order.glade:74
-#, fuzzy
 msgid "Close _Order"
-msgstr "關閉訂單"
+msgstr "關閉訂單(_O)"
 
 #: gnucash/gtkbuilder/dialog-order.glade:229
 #: gnucash/gtkbuilder/dialog-order.glade:578
@@ -16999,14 +16982,12 @@ msgid "Enter report row/column span"
 msgstr "輸入報表跨列/欄"
 
 #: gnucash/gtkbuilder/dialog-report.glade:550
-#, fuzzy
 msgid "_Row span"
-msgstr "跨列(_R)："
+msgstr "跨列(_R)"
 
 #: gnucash/gtkbuilder/dialog-report.glade:565
-#, fuzzy
 msgid "_Column span"
-msgstr "跨欄(_C)："
+msgstr "跨欄(_C)"
 
 #: gnucash/gtkbuilder/dialog-report.glade:594
 msgid "Select HTML Style Sheet"
@@ -18074,9 +18055,8 @@ msgid "Budget Notes"
 msgstr "預算筆記"
 
 #: gnucash/gtkbuilder/gnc-plugin-page-budget.glade:923
-#, fuzzy
 msgid "Enter Note"
-msgstr "額外備註"
+msgstr "輸入筆記"
 
 #. Duplicate Transaction Dialog
 #: gnucash/gtkbuilder/gnc-plugin-page-register2.glade:13
@@ -18541,23 +18521,20 @@ msgid "Progress"
 msgstr "進度"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:105
-#, fuzzy
 msgid "Current _Job"
-msgstr "目前工作"
+msgstr "目前工作(_J)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:161
-#, fuzzy
 msgid "Current _Action"
-msgstr "目前動作"
+msgstr "目前動作(_A)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:210
 msgid "<b>_Log Messages</b>"
 msgstr "<b>日誌訊息(_L)</b>"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:253
-#, fuzzy
 msgid "Close when _finished"
-msgstr "完成後關閉"
+msgstr "完成後關閉(_F)"
 
 #: gnucash/import-export/aqb/dialog-ab.glade:289
 msgid "Get Transactions Online"
@@ -19559,14 +19536,12 @@ msgid "Quantity"
 msgstr "數量"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:154
-#, fuzzy
 msgid "Disc-type"
 msgstr "折扣類型"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:155
-#, fuzzy
 msgid "Disc-how"
-msgstr "折扣"
+msgstr "折扣方式"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:157
 #: gnucash/report/reports/standard/invoice.scm:100
@@ -20211,9 +20186,8 @@ msgstr ""
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:520
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:575
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:583
-#, fuzzy
 msgid "Column '{1}' could not be understood.\n"
-msgstr "檔案無法重新開啟"
+msgstr "無法理解欄位「{1}」。\n"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:280
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:328
@@ -20373,7 +20347,6 @@ msgid "Import Customers from csv"
 msgstr "從 CSV 檔案中匯入客戶"
 
 #: gnucash/import-export/customer-import/dialog-customer-import-gui.c:192
-#, fuzzy
 msgid "customers"
 msgstr "客戶"
 
@@ -22945,9 +22918,8 @@ msgid "You have selected no accounts."
 msgstr "您沒有選擇科目。"
 
 #: gnucash/report/reports/example/hello-world.scm:469
-#, fuzzy
 msgid "Display help"
-msgstr "顯示"
+msgstr "顯示說明"
 
 #: gnucash/report/reports/example/hello-world.scm:498
 msgid "Sample Report with Examples"
@@ -24282,9 +24254,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:102
-#, fuzzy
 msgid "Display amounts as hyperlinks"
-msgstr "以超連結顯示科目"
+msgstr "以超連結顯示金額"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:103
 msgid "Shows each amounts in the table as a hyperlink to a register or report."
@@ -24322,21 +24293,18 @@ msgid "Common Currency"
 msgstr "統一貨幣單位"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:117
-#, fuzzy
 msgid "Convert all amounts to a single currency."
-msgstr "轉換全部的交易使用統一的貨幣單位"
+msgstr "轉換全部的金額至統一的貨幣單位。"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:123
 #: gnucash/report/trep-engine.scm:104
-#, fuzzy
 msgid "Show original currency amount"
-msgstr "顯示非貨幣商品"
+msgstr "顯示原本的貨幣金額"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:124
 #: gnucash/report/trep-engine.scm:529
-#, fuzzy
 msgid "Also show original currency amounts"
-msgstr "顯示科目中外來貨幣的總額？"
+msgstr "也顯示原本的貨幣金額？"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:126
 msgid "If more than 1 period column, include overall period?"
@@ -27379,9 +27347,8 @@ msgstr "次-副標題/合計細格顏色"
 
 #: gnucash/report/stylesheets/footer.scm:163
 #: gnucash/report/stylesheets/head-or-tail.scm:209
-#, fuzzy
 msgid "Color for subsubtotals."
-msgstr "小小計顏色"
+msgstr "小小計顏色。"
 
 #: gnucash/report/stylesheets/footer.scm:170
 #: gnucash/report/stylesheets/head-or-tail.scm:216
@@ -27390,9 +27357,8 @@ msgstr "「總和」細格顏色"
 
 #: gnucash/report/stylesheets/footer.scm:171
 #: gnucash/report/stylesheets/head-or-tail.scm:217
-#, fuzzy
 msgid "Color for grand totals."
-msgstr "「總和」的顏色"
+msgstr "「總和」的顏色。"
 
 #: gnucash/report/stylesheets/footer.scm:177
 #: gnucash/report/stylesheets/footer.scm:183
