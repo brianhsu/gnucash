@@ -6356,14 +6356,13 @@ msgstr ""
 "如果您要編輯這個登記簿的交易，請開啟科目選項並且關閉佔位符號核取方塊。"
 
 #: gnucash/gnome/gnc-split-reg.c:2531
-#, fuzzy
 msgid ""
 "The transactions in one of the selected sub-accounts may not be edited.\n"
 "If you want to edit transactions in this register, please open the sub-"
 "account options and turn off the placeholder checkbox.\n"
 "You may also open an individual account instead of a set of accounts."
 msgstr ""
-"選擇的子科目中有不編輯交易的子科目。\n"
+"選擇的子科目中有不能編輯交易的子科目。\n"
 "如果您要編輯這個登記簿的交易，請開啟子科目選項並且關閉佔位符號核取方塊。"
 "您也可以開啟個別的科目而不是一次開啟一組科目。"
 
@@ -10695,49 +10694,44 @@ msgid "Minimum score to be displayed"
 msgstr "最低顯示分數"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:21
-#, fuzzy
 msgid ""
 "This field specifies the minimum matching score a potential matching "
 "transaction must have to be displayed in the match list."
-msgstr "可能的配對必須顯示在比對清單中的最小分數。"
+msgstr "此欄位指定了一筆可能交易配對，要顯示在配對清單中的最低分數。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:25
-#, fuzzy
 msgid "Add matching transactions below this score"
-msgstr "找不到相符的交易"
+msgstr "新增低於這個分數的交易配對"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:26
-#, fuzzy
 msgid ""
 "This field specifies the threshold below which a matching transaction will "
 "be added automatically. A transaction whose best match's score is in the red "
 "zone (above the display minimum score but below or equal to the Add match "
 "score) will be added to the GnuCash file by default."
 msgstr ""
-"其最高配對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
-"已加入。"
+"此欄位指定了交易配對會被自動加入的門檻值。任何在紅色區域(高於最低顯示分數但低"
+"於或等於新增分數)的交易，會預設新增至 GnuCash 檔案。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:30
 msgid "Clear matching transactions above this score"
 msgstr "將超過此配對分數的交易結清"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:31
-#, fuzzy
 msgid ""
 "This field specifies the threshold above which a matching transaction will "
 "be cleared by default. A transaction whose best match's score is in the "
 "green zone (above or equal to this Clear threshold) will be cleared by "
 "default."
 msgstr ""
-"其最高配對分數在紅色區（高於顯示門檻但低於或等於自動新增門檻）的交易會預設為"
-"已加入。"
+"此欄位指定了交易配對會被自動結清的門檻值。任何在綠色區域(等於或高於自動"
+"結清門檻)的交易，會預設為已結清。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:35
 msgid "Maximum ATM fee amount in your area"
 msgstr "您所在的地區 ATM 手續費最高金額"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:36
-#, fuzzy
 msgid ""
 "This field specifies the extra fee that is taken into account when matching "
 "imported transactions. In some places commercial ATMs (not belonging to a "
@@ -10749,11 +10743,12 @@ msgid ""
 "whatever is the maximum such fee in your area (in units of your local "
 "currency), so the transaction will be recognised as a match."
 msgstr ""
+"這個欄位指定了當配對交易時，要考慮進去的手續費。"
 "在某些地方商用的 ATM（不屬於公家金融機構）是設置在便利商店裡的。這些 ATM 會將"
 "它的費用直接加到總額裡，而不會在您每月的銀行費用中顯示為分開的個別交易。舉例"
-"來說，您提款 100$ ，但是加上手續費總共要收費 101,50$。如果您自己輸入 100$，總"
+"來說，您提款 $100 ，但是加上手續費總共要收費 $115 。如果您自己輸入 $100，總"
 "額將會不符。您應該要把這個數值設為您所處地區對這種收費的最大值（以您當地貨幣"
-"的單位），這樣一來交易便會識別為相符。"
+"的單位計算），這樣一來交易便會識別為相符。"
 
 #. Preferences->Online Banking:Generic
 #: gnucash/gschemas/org.gnucash.dialogs.import.generic.gschema.xml.in:40
@@ -10862,23 +10857,21 @@ msgid "Run \"since last run\" dialog when a file is opened."
 msgstr "當檔案被打開時，執行「自上次執行後」的動作。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.sxs.gschema.xml.in:18
-#, fuzzy
 msgid ""
 "This setting controls whether the scheduled transactions \"since last run\" "
 "processing is run automatically when a data file is opened. This includes "
 "the initial opening of the data file when GnuCash starts. If this setting is "
 "active, run the \"since last run\" process, otherwise it is not run."
 msgstr ""
-"此選項控制是否在資料檔被打開時，自動顯示排程交易的「自上次運行對話框」。這包"
-"括 GnuCash 啟動時自動開啟的資料檔。如果此選項被勾選則會顯示對話框，否則不會顯"
-"示。"
+"此選項控制是否在資料檔被打開時，自動執行排程交易的「自上次運行」裡的動作。這包"
+"括 GnuCash 啟動時自動開啟的資料檔。如果此選項被勾選則會執行「自上次運行」的動作，"
+"否則不會執行。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.sxs.gschema.xml.in:22
 msgid "Show \"since last run\" notification dialog when a file is opened."
 msgstr "當檔案開啟時，顯示「自上次執行後」的動作的通知視窗。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.sxs.gschema.xml.in:23
-#, fuzzy
 msgid ""
 "This setting controls whether the scheduled transactions notification-only "
 "\"since last run\" dialog is shown when a data file is opened (if \"since "
@@ -10886,8 +10879,9 @@ msgid ""
 "opening of the data file when GnuCash starts. If this setting is active, "
 "show the dialog, otherwise it is not shown."
 msgstr ""
-"此選項控制是否在資料檔被打開時，自動顯示排程交易的「自上次運行對話框」。這包"
-"括 GnuCash 啟動時自動開啟的資料檔。如果此選項被勾選則會顯示對話框，否則不會顯"
+"此選項控制是否在資料檔被打開時，自動顯示排程交易的「自上次運行」通知對話框"
+"（如果有設定打開檔案時執行「自上次執行後」的動作）。"
+"這包括 GnuCash 啟動時自動開啟的資料檔。如果此選項被勾選則會顯示對話框，否則不會顯"
 "示。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.sxs.gschema.xml.in:27
@@ -10995,9 +10989,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:20
-#, fuzzy
 msgid "Character to use as separator between account names"
-msgstr "用於分隔完全合格科目名稱的字元"
+msgstr "用於分隔各個科目名稱間的字元"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:21
 msgid ""
@@ -11008,9 +11001,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:25
-#, fuzzy
 msgid "Transaction Linked Files head path"
-msgstr "交易資訊"
+msgstr "交易連結文件的預設開頭路徑"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:26
 msgid ""
@@ -11083,12 +11075,12 @@ msgid "Automatically insert a decimal point"
 msgstr "自動小數點"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:61
-#, fuzzy
 msgid ""
 "If active, GnuCash will automatically insert a decimal point into values "
 "that are entered without one. Otherwise GnuCash will not modify entered "
 "numbers."
-msgstr "自動為不足 1 的數值插入小數點。"
+msgstr "如果啟用，GnuCash 會自動插入小數點到未輸入小數位數的數值中。"
+"否則的話，GnuCash 不會更動輸入的數字。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:65
 msgid "Number of automatic decimal places"
@@ -11313,16 +11305,14 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:170
-#, fuzzy
 msgid ""
 "In a sliding 12-month window starting a configurable number of months before "
 "the current month"
-msgstr "用 12 個月的區間，自本月往前多久開始計算:"
+msgstr "用 12 個月的區間，自本月往前多久開始計算的一個可調整的數字。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:175
-#, fuzzy
 msgid "Maximum number of months to go back."
-msgstr "圖表中條的最大數量"
+msgstr "最多可往回推算幾個月。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:176
 #: gnucash/gtkbuilder/dialog-preferences.glade:1134
@@ -11333,9 +11323,8 @@ msgstr ""
 "日期會使用離目前日期最近的日期補完。請輸入自動補完時，最久往回推幾個月。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:180
-#, fuzzy
 msgid "Show Horizontal Grid Lines"
-msgstr "預設上，顯示細格的水平邊線。"
+msgstr "顯示水平格線"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:181
 msgid ""
@@ -11344,9 +11333,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:185
-#, fuzzy
 msgid "Show Vertical Grid Lines"
-msgstr "顯示細格的垂直邊線"
+msgstr "顯示垂直格線"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:186
 msgid ""
@@ -11502,9 +11490,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:265
-#, fuzzy
 msgid "Create a new window for each new register"
-msgstr "為每個報表或科目體系建立新的頂端層級視窗"
+msgstr "為每個登記簿開啟新的視窗"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:266
 msgid ""
@@ -11513,9 +11500,8 @@ msgid ""
 msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:270
-#, fuzzy
 msgid "Color all lines of a transaction the same"
-msgstr "交易清單"
+msgstr "同一筆交易使用相同的顏色"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:271
 msgid ""
@@ -11551,9 +11537,8 @@ msgstr ""
 "邊界將不會被標式出來。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:285
-#, fuzzy
 msgid "Show future transactions after the blank transaction in a register"
-msgstr "移至此登記簿底端的空白交易處"
+msgstr "在登記簿中將未來交易顯示在空白交易之後"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:286
 msgid ""
