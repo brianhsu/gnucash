@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-04 15:43+0800\n"
+"PO-Revision-Date: 2021-06-04 16:39+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -2259,9 +2259,8 @@ msgstr "合計收費："
 #: gnucash/gtkbuilder/dialog-invoice.glade:857
 #: gnucash/report/reports/standard/invoice.scm:780
 #: libgnucash/engine/gncInvoice.c:1088
-#, fuzzy
 msgid "Credit Note"
-msgstr "貸方科目"
+msgstr "貸項通知單"
 
 #: gnucash/gnome/dialog-invoice.c:2096
 msgid "PAID"
@@ -2606,7 +2605,7 @@ msgstr "只有作用中的？"
 #: gnucash/gtkbuilder/dialog-job.glade:204
 #: gnucash/register/ledger-core/split-register-model.c:369
 msgid "Rate"
-msgstr "稅率"
+msgstr "利率"
 
 #: gnucash/gnome/dialog-job.c:579 gnucash/gnome-utils/gnc-tree-view-owner.c:357
 #: gnucash/gtkbuilder/dialog-job.glade:102
@@ -2835,9 +2834,8 @@ msgid "Warning"
 msgstr "警告"
 
 #: gnucash/gnome/dialog-payment.c:1599 gnucash/gnome/dialog-payment.c:1717
-#, fuzzy
 msgid "Continue"
-msgstr "連續"
+msgstr "繼續"
 
 #: gnucash/gnome/dialog-payment.c:1600
 #: gnucash/gnome/gnc-plugin-page-invoice.c:453
@@ -2865,11 +2863,11 @@ msgstr ""
 
 #. Translators: %d is the number of prices. This is a ngettext(3) message.
 #: gnucash/gnome/dialog-price-edit-db.c:193
-#, fuzzy, c-format
+#, c-format
 msgid "Are you sure you want to delete the selected price?"
 msgid_plural "Are you sure you want to delete the %d selected prices?"
-msgstr[0] "您確定要刪除這 %d 個選擇的價格？"
-msgstr[1] "您確定要刪除這 %d 個選擇的價格？"
+msgstr[0] "您確定要刪除選擇的價格？"
+msgstr[1] "您確定要刪除選擇的 %d 個價格？"
 
 #: gnucash/gnome/dialog-price-edit-db.c:201
 msgid "Delete prices?"
@@ -3044,14 +3042,14 @@ msgid ""
 msgstr "這個排程交易已經改變了；您確定要取消？"
 
 #: gnucash/gnome/dialog-sx-editor2.c:635
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't parse credit formula for split \"%s\"."
-msgstr "輸入實際交易的貸方公式"
+msgstr "無法解析分割「%s」中的借方公式。"
 
 #: gnucash/gnome/dialog-sx-editor2.c:657
 #, c-format
 msgid "Couldn't parse debit formula for split \"%s\"."
-msgstr "無法解析分割「%s」借方的公式。"
+msgstr "無法解析分割「%s」中貸方的公式。"
 
 #: gnucash/gnome/dialog-sx-editor2.c:690 gnucash/gnome/dialog-sx-editor.c:873
 #: gnucash/gnome/dialog-sx-from-trans.c:261
@@ -3125,16 +3123,15 @@ msgid "Scheduled Transactions"
 msgstr "已排程的交易"
 
 #: gnucash/gnome/dialog-sx-editor.c:615
-#, fuzzy
 msgid ""
 "Scheduled Transactions with variables or involving more than one commodity "
 "cannot be automatically created."
-msgstr "具有變數的排程交易不能被自動建立。"
+msgstr "具有變數或含有多種商品的排程交易不能被自動建立。"
 
 #: gnucash/gnome/dialog-sx-editor.c:674
-#, fuzzy, c-format
+#, c-format
 msgid "Couldn't parse %s for split \"%s\"."
-msgstr "輸入實際交易的貸方公式"
+msgstr "無法解析分割「%1$s」中的 %2$s。"
 
 #: gnucash/gnome/dialog-sx-editor.c:738
 #, c-format
@@ -3142,9 +3139,8 @@ msgid "Split with memo %s has an invalid account."
 msgstr "備忘錄為「%s」的分割，沒有有效的科目。"
 
 #: gnucash/gnome/dialog-sx-editor.c:741
-#, fuzzy
 msgid "Invalid Account in Split"
-msgstr "包含總合(_G)"
+msgstr "分割中的科目無效"
 
 #: gnucash/gnome/dialog-sx-editor.c:753
 #, c-format
@@ -3205,19 +3201,18 @@ msgid "(Need Value)"
 msgstr "(需填值)"
 
 #: gnucash/gnome/dialog-sx-since-last-run.c:829
-#, fuzzy
 msgid "Invalid Transactions"
-msgstr "還原無效交易(_U)"
+msgstr "無效的交易"
 
 #: gnucash/gnome/dialog-sx-since-last-run.c:876
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "There are no Scheduled Transactions to be entered at this time. (One "
 "transaction automatically created)"
 msgid_plural ""
 "There are no Scheduled Transactions to be entered at this time. (%d "
 "transactions automatically created)"
-msgstr[0] "現在沒有要輸入的排程交易。(%d 個交易被自動建立)"
+msgstr[0] "現在沒有要輸入的排程交易。(1 個交易被自動建立)"
 msgstr[1] "現在沒有要輸入的排程交易。(%d 個交易被自動建立)"
 
 #: gnucash/gnome/dialog-sx-since-last-run.c:1008
@@ -3276,7 +3271,7 @@ msgstr ""
 
 #: gnucash/gnome/dialog-tax-info.c:1394
 msgid "Form"
-msgstr "表格"
+msgstr "表單"
 
 #: gnucash/gnome/dialog-vendor.c:214
 msgid ""
@@ -4970,14 +4965,12 @@ msgid "Delete selected owner"
 msgstr "刪除選定的科目"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:197
-#, fuzzy
 msgid "Create a new bill"
-msgstr "建立新檔案"
+msgstr "建立新帳單"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:202
-#, fuzzy
 msgid "Create a new invoice"
-msgstr "建立新檔案"
+msgstr "建立新發票"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:206
 #, fuzzy
@@ -4985,9 +4978,8 @@ msgid "New _Voucher..."
 msgstr "新增消費憑證(_E)..."
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:207
-#, fuzzy
 msgid "Create a new voucher"
-msgstr "建立新預算"
+msgstr "建立新消費憑證"
 
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:211
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:294
@@ -9222,9 +9214,8 @@ msgid "Fee"
 msgstr "費用"
 
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2883
-#, fuzzy
 msgid "ATM Withdraw"
-msgstr "提款"
+msgstr "ATM 提款"
 
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2913
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:2984
@@ -9887,9 +9878,8 @@ msgid "* Indicates the transaction Commodity."
 msgstr "是否顯示交易日期？"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3304
-#, fuzzy
 msgid "Enter the rate"
-msgstr "利率"
+msgstr "輸入匯率"
 
 #: gnucash/gnome-utils/gnc-tree-view-split-reg.c:3314
 #: gnucash/register/ledger-core/split-register-model.c:1411
@@ -10879,9 +10869,8 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:5
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:10
-#, fuzzy
 msgid "Default QIF transaction status"
-msgstr "刪除交易"
+msgstr "預設的 QIF 交易狀態"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:6
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:11
@@ -11982,7 +11971,7 @@ msgstr "刪除一個商品"
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:30
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:133
 msgid "This dialog is presented before allowing you to delete a commodity."
-msgstr ""
+msgstr "這個對話框會在您刪除商品前顯示。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:34
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:137
@@ -11996,12 +11985,12 @@ msgid ""
 "This dialog is presented before allowing you to delete a commodity that has "
 "price quotes attached. Deleting the commodity will delete the quotes as well."
 msgstr ""
+"這個對話盒會在允許你刪除含有報價的商品前顯示。刪除商品也會一併刪除報價。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:39
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:142
-#, fuzzy
 msgid "Delete multiple price quotes"
-msgstr "刪除所有分割"
+msgstr "刪除多筆報價"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:40
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:143
@@ -12058,6 +12047,8 @@ msgid ""
 "reconciled split. Allowing these changes can make it hard to perform future "
 "reconciliations."
 msgstr ""
+"這個對話盒會在您嚐試修改已對帳的交易時顯示。允許這些變更可能會讓未來的對帳變"
+"困難。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:64
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:167
@@ -22835,9 +22826,8 @@ msgid "Good option."
 msgstr "好的選項"
 
 #: gnucash/report/reports/example/hello-world.scm:207
-#, fuzzy
 msgid "Bad option."
-msgstr "壞的選項"
+msgstr "壞的選項。"
 
 #: gnucash/report/reports/example/hello-world.scm:210
 #, fuzzy
@@ -23395,9 +23385,9 @@ msgid "Weekly Average"
 msgstr "週平均"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:539
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "Balance at ~a"
-msgstr "%s 的結算"
+msgstr "~a 的結算"
 
 #: gnucash/report/reports/standard/account-summary.scm:69
 msgid "Account Summary"
@@ -25359,10 +25349,10 @@ msgid ""
 "liability, A/Payable or A/Receivable accounts, a split to a tax account, e."
 "g. Income:Sales -$1000, A/Receivable $1100, Liability:GST on Sales -$100."
 msgstr ""
-"此報報可用於計算當局應繳/應收的定期營業稅。請從「編輯報表選項」中選取您的業"
-"業銷售與採購科目。每筆交易除了在資產、負債、應付帳款與應收帳款之外，也可以"
-"含有與稅務相關的科目的分割。例如收入:銷售 -$1000, 應收帳款 $1000，負債:銷售"
-"商品和服務稅 -$100。"
+"此報報可用於計算當局應繳/應收的定期營業稅。請從「編輯報表選項」中選取您的業業"
+"銷售與採購科目。每筆交易除了在資產、負債、應付帳款與應收帳款之外，也可以含有"
+"與稅務相關的科目的分割。例如收入:銷售 -$1000, 應收帳款 $1000，負債:銷售商品和"
+"服務稅 -$100。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:56
 msgid ""
@@ -25382,10 +25372,10 @@ msgid ""
 "ASSET for taxes paid on expenses, and type LIABILITY for taxes collected on "
 "sales."
 msgstr ""
-"您必須在報表選項中選取記錄了已收和已付的商品與服務稅 / 加值稅的科目。"
-"這些科目必須含有在商品與服務稅 / 加值稅申報期間中，已繳納或應扣除"
-"的稅金金額。對於支出時所付的稅金，必須是「資產」科目，對於銷售時收取"
-"的稅金，則必須是「負債」科目。"
+"您必須在報表選項中選取記錄了已收和已付的商品與服務稅 / 加值稅的科目。這些科目"
+"必須含有在商品與服務稅 / 加值稅申報期間中，已繳納或應扣除的稅金金額。對於支出"
+"時所付的稅金，必須是「資產」科目，對於銷售時收取的稅金，則必須是「負債」科"
+"目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:66
 msgid ""
@@ -25393,8 +25383,8 @@ msgid ""
 "in the VAT account description. EU Goods sales and purchase accounts may be "
 "tagged with *EUGOODS* in the account description."
 msgstr ""
-"注意英國的格式中，可能指定了歐盟加值稅科目的描述中必須標上 *EUVAT* 的標籤。"
-"歐盟貨物銷售或採購科目可以在科目的描述中標上 *EUGOODS* 標籤。"
+"注意英國的格式中，可能指定了歐盟加值稅科目的描述中必須標上 *EUVAT* 的標籤。歐"
+"盟貨物銷售或採購科目可以在科目的描述中標上 *EUGOODS* 標籤。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:71
 msgid "This message will be removed when tax accounts are specified."
@@ -25485,8 +25475,7 @@ msgstr "預設格式"
 msgid ""
 "Australia Business Activity Statement. Specify sales, purchase and tax "
 "accounts."
-msgstr ""
-"澳洲商業活動報表。指定銷售、採購和稅務科目。"
+msgstr "澳洲商業活動報表。指定銷售、採購和稅務科目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:165
 msgid ""
@@ -25494,9 +25483,8 @@ msgid ""
 "used. Denote EU VAT accounts *EUVAT* in account description, and denote EU "
 "goods sales and purchases accounts with *EUGOODS* in the account description."
 msgstr ""
-"英國加值稅申報。指定銷售、採購和稅務科目。可使用歐盟規則。"
-"在科目描述中標記 *EUVAT* 代表歐盟加值稅科目，標記 *EUGOODS* 代表"
-"貨物銷售或採購科目。"
+"英國加值稅申報。指定銷售、採購和稅務科目。可使用歐盟規則。在科目描述中標記 "
+"*EUVAT* 代表歐盟加值稅科目，標記 *EUGOODS* 代表貨物銷售或採購科目。"
 
 #: gnucash/report/reports/standard/income-gst-statement.scm:172
 msgid "Australia BAS"
@@ -25548,8 +25536,7 @@ msgstr "包含交易科目結餘"
 #: gnucash/report/reports/standard/income-statement.scm:99
 msgid ""
 "Whether or not to include a line indicating total trading accounts balance."
-msgstr ""
-"是否在報表中包括交易科目結餘。"
+msgstr "是否在報表中包括交易科目結餘。"
 
 #: gnucash/report/reports/standard/income-statement.scm:517
 #: libgnucash/engine/Account.cpp:4407 libgnucash/engine/Scrub.c:486
@@ -27429,7 +27416,6 @@ msgstr "細格空間"
 #: gnucash/report/stylesheets/footer.scm:178
 #: gnucash/report/stylesheets/head-or-tail.scm:224
 #: gnucash/report/stylesheets/plain.scm:69
-#, fuzzy
 msgid "Space between table cells."
 msgstr "細格間距"
 
@@ -27442,9 +27428,8 @@ msgstr "表格框內距"
 #: gnucash/report/stylesheets/footer.scm:184
 #: gnucash/report/stylesheets/head-or-tail.scm:230
 #: gnucash/report/stylesheets/plain.scm:74
-#, fuzzy
 msgid "Space between table cell edge and content."
-msgstr "表格格線與內容之間的距離"
+msgstr "表格格線與內容之間的距離。"
 
 #: gnucash/report/stylesheets/footer.scm:190
 #: gnucash/report/stylesheets/head-or-tail.scm:236
@@ -27455,9 +27440,8 @@ msgstr "框線寬度"
 #: gnucash/report/stylesheets/footer.scm:190
 #: gnucash/report/stylesheets/head-or-tail.scm:236
 #: gnucash/report/stylesheets/plain.scm:79
-#, fuzzy
 msgid "Bevel depth on tables."
-msgstr "表格斜角深度"
+msgstr "表格斜角深度。"
 
 #: gnucash/report/stylesheets/footer.scm:371
 #: gnucash/report/stylesheets/head-or-tail.scm:425
@@ -27955,9 +27939,8 @@ msgstr "轉帳 從/到"
 #. Translators: Balance b/f stands for "Balance
 #. brought forward".
 #: gnucash/report/trep-engine.scm:1408
-#, fuzzy
 msgid "Balance b/f"
-msgstr "結算"
+msgstr "餘額承前"
 
 #: gnucash/report/trep-engine.scm:1575
 #, fuzzy
