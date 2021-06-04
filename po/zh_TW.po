@@ -25676,24 +25676,20 @@ msgid "Display the price per item?"
 msgstr "顯示每個項目的價格？"
 
 #: gnucash/report/reports/standard/invoice.scm:225
-#, fuzzy
 msgid "Display the entry's discount?"
-msgstr "顯示項目的折扣"
+msgstr "顯示項目的折扣？"
 
 #: gnucash/report/reports/standard/invoice.scm:230
-#, fuzzy
 msgid "Display the entry's taxable status?"
-msgstr "顯示項目的含稅狀態"
+msgstr "顯示項目的含稅狀態？"
 
 #: gnucash/report/reports/standard/invoice.scm:235
-#, fuzzy
 msgid "Display each entry's total total tax?"
-msgstr "顯示每個項目全部稅金總額"
+msgstr "顯示每個項目總計稅金總額？"
 
 #: gnucash/report/reports/standard/invoice.scm:240
-#, fuzzy
 msgid "Display the entry's value?"
-msgstr "顯示項目的價值"
+msgstr "顯示項目的價值？"
 
 #: gnucash/report/reports/standard/invoice.scm:245
 msgid "Display due date?"
@@ -25708,9 +25704,8 @@ msgid "Payable to"
 msgstr "應付給"
 
 #: gnucash/report/reports/standard/invoice.scm:255
-#, fuzzy
 msgid "Display the Payable to: information."
-msgstr "顯示應付: 資訊"
+msgstr "顯示應付：資訊"
 
 #: gnucash/report/reports/standard/invoice.scm:262
 msgid "Payable to string"
@@ -25729,9 +25724,8 @@ msgid "Company contact"
 msgstr "公司連絡方式"
 
 #: gnucash/report/reports/standard/invoice.scm:269
-#, fuzzy
 msgid "Display the Company contact information."
-msgstr "是否顯示公司聯絡資訊"
+msgstr "顯示公司聯絡資訊。"
 
 #: gnucash/report/reports/standard/invoice.scm:275
 msgid "Company contact string"
@@ -26213,15 +26207,13 @@ msgstr "是否顯示稅額欄位？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:932
 #: gnucash/report/reports/standard/owner-report.scm:597
-#, fuzzy
 msgid "Display the period debits column?"
-msgstr "顯示項目的折扣"
+msgstr "顯示期間的借方欄？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:937
 #: gnucash/report/reports/standard/owner-report.scm:592
-#, fuzzy
 msgid "Display the period credits column?"
-msgstr "顯示項目的折扣"
+msgstr "顯示期間的貸方欄？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:942
 #: gnucash/report/reports/standard/register.scm:413
