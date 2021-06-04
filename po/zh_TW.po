@@ -1631,9 +1631,8 @@ msgid "Enter URL like http://www.gnucash.org:"
 msgstr "請輸入像 http://www.gnucash.org 的 URL："
 
 #: gnucash/gnome/dialog-doclink.c:256
-#, fuzzy
 msgid "Existing Document Link is"
-msgstr "現有資產"
+msgstr "現有文件連結為"
 
 #: gnucash/gnome/dialog-doclink.c:525 gnucash/gnome/dialog-doclink.c:570
 msgid "File Found"
@@ -2152,9 +2151,8 @@ msgid "Memo Field"
 msgstr "備忘錄欄位"
 
 #: gnucash/gnome/dialog-imap-editor.c:724
-#, fuzzy
 msgid "CSV Account Map"
-msgstr "科目名稱"
+msgstr "CSV 科目對應"
 
 #: gnucash/gnome/dialog-imap-editor.c:764
 msgid "Online Id"
@@ -2272,9 +2270,8 @@ msgstr "未支付"
 
 #: gnucash/gnome/dialog-invoice.c:2146 gnucash/gnome/dialog-invoice.c:2165
 #: gnucash/gnome/dialog-invoice.c:2184
-#, fuzzy
 msgid "New Credit Note"
-msgstr "貸方科目"
+msgstr "新貸項通知單"
 
 #: gnucash/gnome/dialog-invoice.c:2147
 #: gnucash/gnome/gnc-plugin-page-owner-tree.c:292
@@ -2285,9 +2282,8 @@ msgstr "新增發票"
 
 #: gnucash/gnome/dialog-invoice.c:2152 gnucash/gnome/dialog-invoice.c:2171
 #: gnucash/gnome/dialog-invoice.c:2190
-#, fuzzy
 msgid "Edit Credit Note"
-msgstr "編輯報表選項"
+msgstr "編輯貸項通知單"
 
 #: gnucash/gnome/dialog-invoice.c:2153
 msgid "Edit Invoice"
@@ -2330,9 +2326,8 @@ msgid "View Expense Voucher"
 msgstr "檢視消費憑證"
 
 #: gnucash/gnome/dialog-invoice.c:2517
-#, fuzzy
 msgid "Open Linked Document:"
-msgstr "新增科目"
+msgstr "開啟連結文件："
 
 #: gnucash/gnome/dialog-invoice.c:2631 gnucash/gnome/dialog-invoice.c:2856
 msgid "Bill Information"
@@ -2353,9 +2348,8 @@ msgid "Voucher ID"
 msgstr "憑證 ID"
 
 #: gnucash/gnome/dialog-invoice.c:3196
-#, fuzzy
 msgid "Date of duplicated entries"
-msgstr "重複相同的項目(_L)"
+msgstr "重複相同的項目的日期"
 
 #: gnucash/gnome/dialog-invoice.c:3251
 msgid ""
@@ -3358,9 +3352,8 @@ msgid "Transfer"
 msgstr "轉帳"
 
 #: gnucash/gnome/gnc-budget-view.c:508
-#, fuzzy
 msgid "Remaining to Budget"
-msgstr "開啟已存在的預算"
+msgstr "剩餘預算"
 
 #: gnucash/gnome/gnc-budget-view.c:1652 gnucash/gnome/window-reconcile2.c:1069
 #: gnucash/gnome/window-reconcile.c:1122
@@ -3907,14 +3900,12 @@ msgid "Open the selected account"
 msgstr "開啟選定的科目"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:214
-#, fuzzy
 msgid "Open _Old Style Register Account"
-msgstr "開啟選定的科目"
+msgstr "開啟舊式的科目登記簿(_O)"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:215
-#, fuzzy
 msgid "Open the old style register selected account"
-msgstr "開啟選定的科目"
+msgstr "以舊式的登記簿開啟選定的科目"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:228
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:239
@@ -3929,14 +3920,12 @@ msgid "Open the selected account and all its subaccounts"
 msgstr "開啟選定的科目及其所有的子科目"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:233
-#, fuzzy
 msgid "Open Old St_yle Subaccounts"
-msgstr "開啟子科目(_S)"
+msgstr "開啟舊式子科目登記簿(_S)"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:234
-#, fuzzy
 msgid "Open the old style register selected account and all its subaccounts"
-msgstr "開啟選定的科目及其所有的子科目"
+msgstr "以舊式的登記簿開啟選定的科目及其所有的子科目"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:247
 #: gnucash/gnome/gnc-plugin-page-register2.c:245
@@ -3963,9 +3952,8 @@ msgid "_Cascade Account Properties..."
 msgstr "設定科目及子科目(_C)"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:258
-#, fuzzy
 msgid "Cascade selected properties for account"
-msgstr "請選擇有效的貸款科目。"
+msgstr "將所選的屬性套用到該科目及以下所有的子科目"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:262
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:267
@@ -4114,9 +4102,8 @@ msgstr "檢查並修復所有科目中未結算的交易與無主的分割"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:342
 #: gnucash/gnome/gnc-plugin-register2.c:64
-#, fuzzy
 msgid "_Register2"
-msgstr "登記簿"
+msgstr "登記簿 v2 (_R)"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:405
 msgid "Open2"
@@ -4189,17 +4176,17 @@ msgid "Accounts"
 msgstr "科目"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:1429
-#, fuzzy, c-format
+#, c-format
 msgid ""
 "Account %s does not have the same currency as the one you're moving "
 "transactions from.\n"
 "Are you sure you want to do this?"
-msgstr "您即將覆蓋一個既存的交易。您確定要這麼做？"
+msgstr "「%s」科目和您想要轉自的科目使用不同的貨幣。\n"
+"您確定要這樣做嗎？"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:1437
-#, fuzzy
 msgid "_Pick another account"
-msgstr "選擇轉帳科目(_S)"
+msgstr "選擇另一個科目(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:1438
 msgid "_Do it anyway"
@@ -4243,12 +4230,12 @@ msgid "All transactions in this account will be deleted."
 msgstr "在這個科目中所有的交易將會被刪除。"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:1753
-#, fuzzy, c-format
+#, c-format
 msgid "Its sub-account will be moved to the account %s."
 msgstr "這個科目的所有子科目將會移到科目 %s。"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:1759
-#, fuzzy, c-format
+#, c-format
 msgid "Its subaccount will be deleted."
 msgstr "這個科目的所有子科目將會被刪除。"
 
@@ -4267,9 +4254,8 @@ msgid "Are you sure you want to do this?"
 msgstr "您確定要這麼作嗎？"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:147
-#, fuzzy
 msgid "Open the selected account."
-msgstr "開啟選定的科目"
+msgstr "開啟選定的科目。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:152
 msgid "Open _Subaccounts"
@@ -4387,9 +4373,8 @@ msgid "You must select at least one account to edit."
 msgstr "您必須選擇至少一個科目以進行編輯。"
 
 #: gnucash/gnome/gnc-plugin-page-budget.c:1252
-#, fuzzy
 msgid "You must select one budget cell to edit."
-msgstr "您必須選擇科目類型。"
+msgstr "您必須選定預算細格才能編輯。"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:109
 msgid "Sort _Order"
@@ -4656,39 +4641,32 @@ msgid "_Reset Default Layout for Employee Documents"
 msgstr "重設員工文件的預設排版(_R)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:359
-#, fuzzy
 msgid "_Print Credit Note"
-msgstr "編輯報表選項"
+msgstr "列印貸項通知單(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:360
-#, fuzzy
 msgid "_Edit Credit Note"
-msgstr "編輯報表選項"
+msgstr "編輯貸項通知單(_E)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:361
-#, fuzzy
 msgid "_Duplicate Credit Note"
-msgstr "編輯報表選項"
+msgstr "重複相同的貸項通知單(_D)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:362
-#, fuzzy
 msgid "_Post Credit Note"
-msgstr "編輯報表選項"
+msgstr "張貼貸項通知單(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:363
-#, fuzzy
 msgid "_Unpost Credit Note"
-msgstr "編輯報表選項"
+msgstr "取消張貼貸項通知單(_U)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:364
-#, fuzzy
 msgid "New _Credit Note"
-msgstr "貸方科目"
+msgstr "新增貸項通知單(_C)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:365
-#, fuzzy
 msgid "_Pay Credit Note"
-msgstr "貸方科目"
+msgstr "支付貸項通知單(_P)"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:373
 msgid "Make a printable invoice"
@@ -4843,9 +4821,8 @@ msgid "Make a printable credit note"
 msgstr "製作可列印的貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:437
-#, fuzzy
 msgid "Edit this credit note"
-msgstr "編輯報表選項"
+msgstr "編輯此貸項通知單"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:438
 #, fuzzy
@@ -4853,14 +4830,12 @@ msgid "Create a new credit note as a duplicate of the current one"
 msgstr "為每個報表或科目體系建立新的頂端層級視窗"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:439
-#, fuzzy
 msgid "Post this credit note to your Chart of Accounts"
-msgstr "將這張發票張貼到您的會計科目表"
+msgstr "將這張貸項通知單張貼到您的會計科目表"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:440
-#, fuzzy
 msgid "Unpost this credit note and make it editable"
-msgstr "取消張貼這張發票並且讓它變為可編輯的"
+msgstr "取消張貼這張貸項通知單並且讓它變為可編輯的"
 
 #: gnucash/gnome/gnc-plugin-page-invoice.c:441
 #, fuzzy
