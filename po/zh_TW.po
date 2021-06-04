@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-04 10:35+0800\n"
+"PO-Revision-Date: 2021-06-04 12:51+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -11124,7 +11124,7 @@ msgstr "啟用寫入資料檔時的壓縮功能。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:35
 msgid "Show auto-save explanation"
-msgstr ""
+msgstr "顯示自動存檔的說明"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:36
 msgid ""
@@ -11313,7 +11313,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:125
 msgid "Show close buttons on notebook tabs"
-msgstr ""
+msgstr "在頁籤上顯示關閉按鈕"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:126
 msgid ""
@@ -11562,7 +11562,7 @@ msgstr ""
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:245
 msgid "Superseded by \"use-gnucash-color-theme\""
-msgstr ""
+msgstr "被 use-gnucash-color-theme 抑制"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:246
 msgid ""
@@ -11748,7 +11748,7 @@ msgstr "顯示名稱欄位"
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:326
 #: gnucash/gtkbuilder/dialog-preferences.glade:2956
 msgid "Show the calendar buttons Cancel, Today and Select."
-msgstr ""
+msgstr "在日曆中顯示「取消」、「今天」、「選擇」按鈕。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:330
 #, fuzzy
@@ -12714,12 +12714,12 @@ msgstr "減號 (-)"
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:466
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:461
 msgid "Double-click anywhere on the table below to insert a column break"
-msgstr ""
+msgstr "在下方表格任何位置點兩下以新增欄位分隔"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:492
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:487
 msgid "Right-click anywhere in a column to modify it (widen, narrow, merge)"
-msgstr ""
+msgstr "在任意欄按右鍵變更（放寬、縮小、合併）"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:534
 msgid "Allow existing prices to be over written."
@@ -19040,6 +19040,12 @@ msgid ""
 "\n"
 "Do you want to enter the job again?"
 msgstr ""
+"後端程式在準備這個工作時發生錯誤。無法執行此項工作。\n"
+"\n"
+"這很有可能是你的銀行不支援您選擇的工作，或您的網路銀行沒有足夠的權限執行此工"
+"作。詳細的錯誤訊息，可能會顯示在您的主控台日誌中。\n"
+"\n"
+"您要重新輸入此項工作嗎？"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:210
 #, fuzzy
@@ -19093,6 +19099,12 @@ msgid ""
 "\n"
 "Do you want to enter the job again?"
 msgstr ""
+"後端程式在準備這個工作時發生錯誤。無法執行此項工作。\n"
+"\n"
+"這很有可能是你的銀行不支援您選擇的工作，或您的網路銀行沒有足夠的權限執行此工"
+"作。詳細的錯誤訊息，可能會顯示在您的主控台日誌中。\n"
+"\n"
+"您要重新輸入此項工作嗎？"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:913
 msgid ""
@@ -19163,11 +19175,11 @@ msgstr "現在進行科目對帳？"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1279
 msgid "The bank has sent a message in its response."
-msgstr ""
+msgstr "銀行在回應中包含訊息。"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1280
 msgid "Subject:"
-msgstr ""
+msgstr "主旨："
 
 #: gnucash/import-export/aqb/gnc-file-aqb-import.c:96
 msgid "Select a file to import"
@@ -19386,7 +19398,7 @@ msgstr ""
 
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:45
 msgid "SWIFT MT940 import data format"
-msgstr ""
+msgstr "SWIFT MT940 匯入資料格式"
 
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:46
 msgid ""
@@ -19397,7 +19409,7 @@ msgstr ""
 
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:50
 msgid "SWIFT MT942 import data format"
-msgstr ""
+msgstr "SWIFT MT942 匯入資料格式"
 
 #: gnucash/import-export/aqb/gschemas/org.gnucash.dialogs.import.hbci.gschema.xml.in:51
 msgid ""
@@ -19643,7 +19655,7 @@ msgstr ""
 
 #: gnucash/import-export/bi-import/gnc-plugin-bi-import.c:58
 msgid "Import Bills & _Invoices..."
-msgstr "匯入帳單與發票...(_I)"
+msgstr "匯入帳單與發票(_I)..."
 
 #: gnucash/import-export/bi-import/gnc-plugin-bi-import.c:58
 msgid "Import bills and invoices from a CSV text file"
@@ -19862,28 +19874,23 @@ msgstr ""
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:904
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:871
-#, fuzzy
 msgid "Delete the Import Settings."
-msgstr "選擇匯出格式"
+msgstr "刪除匯入設定。"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:938
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:905
 msgid "Setting name already exists, overwrite?"
-msgstr ""
+msgstr "設定名稱已存在，要覆蓋嗎？"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:952
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:919
-#, fuzzy
 msgid "The settings have been saved."
-msgstr "某些交易可能會被丟棄。"
+msgstr "這些設定已被儲存。"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:977
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:944
-#, fuzzy
 msgid "There was a problem saving the settings, please try again."
-msgstr ""
-"選項 %s:%s 有誤。\n"
-"%s"
+msgstr "儲存設定時發生問題，請次再嚐試。"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1143
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:1118
@@ -19893,12 +19900,12 @@ msgstr "選取了無效的編碼"
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1304
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:1228
 msgid "Merge with column on _left"
-msgstr ""
+msgstr "與左側欄位合併(_L)"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1308
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:1232
 msgid "Merge with column on _right"
-msgstr ""
+msgstr "與右側欄位合併(_R)"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:1313
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:1237
@@ -20309,7 +20316,7 @@ msgstr "GnuCash 預設匯出格式"
 
 #: gnucash/import-export/csv-imp/gnc-plugin-csv-import.c:50
 msgid "Import _Accounts from CSV..."
-msgstr "從 CSV 檔匯入科目...(_A)"
+msgstr "從 CSV 檔匯入科目(_A)..."
 
 #: gnucash/import-export/csv-imp/gnc-plugin-csv-import.c:51
 msgid "Import Accounts from a CSV file"
@@ -20317,7 +20324,7 @@ msgstr "從 CSV 檔案匯入科目"
 
 #: gnucash/import-export/csv-imp/gnc-plugin-csv-import.c:55
 msgid "Import _Transactions from CSV..."
-msgstr "從 CSV 檔匯入交易...(_T)"
+msgstr "從 CSV 檔匯入交易(_T)..."
 
 #: gnucash/import-export/csv-imp/gnc-plugin-csv-import.c:56
 msgid "Import Transactions from a CSV file"
@@ -25059,7 +25066,7 @@ msgstr ""
 
 #: gnucash/report/reports/standard/customer-summary.scm:70
 msgid "Show Lines with All Zeros"
-msgstr ""
+msgstr "顯示全部為零的資料列"
 
 #: gnucash/report/reports/standard/customer-summary.scm:71
 msgid ""
@@ -26356,21 +26363,18 @@ msgid "Plot commodity per currency rather than currency per commodity."
 msgstr "畫出每一單位貨幣所能兌換的商品數量，而非每單位商品數量所需的貨幣。"
 
 #: gnucash/report/reports/standard/price-scatter.scm:104
-#, fuzzy
 msgid "Color of the marker."
-msgstr "標記的顏色"
+msgstr "標記的顏色。"
 
 #: gnucash/report/reports/standard/price-scatter.scm:124
 msgid "Double-Weeks"
 msgstr "雙週"
 
 #: gnucash/report/reports/standard/price-scatter.scm:126
-#, fuzzy
 msgid "Quarters"
 msgstr "季"
 
 #: gnucash/report/reports/standard/price-scatter.scm:127
-#, fuzzy
 msgid "Half Years"
 msgstr "半年"
 
@@ -26951,41 +26955,38 @@ msgstr "試算表"
 
 #: gnucash/report/reports/standard/trial-balance.scm:71
 msgid "Start of Adjusting/Closing"
-msgstr ""
+msgstr "調整 / 關帳日期起始"
 
 #: gnucash/report/reports/standard/trial-balance.scm:72
 msgid "Date of Report"
 msgstr "報表日期"
 
 #: gnucash/report/reports/standard/trial-balance.scm:73
-#, fuzzy
 msgid "Report variation"
-msgstr "報表錯誤"
+msgstr "報表種類"
 
 #: gnucash/report/reports/standard/trial-balance.scm:74
 msgid "Kind of trial balance to generate."
-msgstr ""
+msgstr "要處理的試算表種類"
 
 #: gnucash/report/reports/standard/trial-balance.scm:83
-#, fuzzy
 msgid "Merchandising"
-msgstr "遞減"
+msgstr "商品銷售"
 
 #: gnucash/report/reports/standard/trial-balance.scm:84
-#, fuzzy
 msgid "Gross adjustment accounts."
-msgstr "歸類此科目"
+msgstr "總額調整科目"
 
 #: gnucash/report/reports/standard/trial-balance.scm:86
 msgid ""
 "Do not net, but show gross debit/credit adjustments to these accounts. "
 "Merchandising businesses will normally select their inventory accounts here."
-msgstr ""
+msgstr "不進行淨額計算，但顯示針對這些科目的借方、貸方調整總額。"
+"銷售業通常會在此選擇他們的庫存科目。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:87
-#, fuzzy
 msgid "Income summary accounts"
-msgstr "收入科目"
+msgstr "收入摘要科目"
 
 #: gnucash/report/reports/standard/trial-balance.scm:89
 msgid ""
@@ -26993,18 +26994,20 @@ msgid ""
 "Adjustments, Adjusted Trial Balance, and Income Statement columns. Mostly "
 "useful for merchandising businesses."
 msgstr ""
+"在調整表、經調整試算表與損益表的欄位中，這些科目的調整，是經過總額調整的（見上方）。"
+"主要用於銷售業。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:92
 msgid "Adjusting Entries pattern"
-msgstr "調整分錄格式"
+msgstr "調整分錄模式"
 
 #: gnucash/report/reports/standard/trial-balance.scm:94
 msgid "Any text in the Description column which identifies adjusting entries."
-msgstr ""
+msgstr "交易描述的欄位裡，用來標示該分錄為調整分錄的文字。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:96
 msgid "Adjusting Entries pattern is case-sensitive"
-msgstr ""
+msgstr "比對調整分錄模式與交易描述時，區分大小寫。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:98
 msgid "Causes the Adjusting Entries Pattern match to be case-sensitive."
@@ -27012,31 +27015,28 @@ msgstr "比對調整分錄模式與交易描述時，區分大小寫。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:100
 msgid "Adjusting Entries Pattern is regular expression"
-msgstr ""
+msgstr "調整分錄模式採用正規表示式"
 
 #: gnucash/report/reports/standard/trial-balance.scm:102
 msgid ""
 "Causes the Adjusting Entries Pattern to be treated as a regular expression."
-msgstr "調整分錄模式採用正規表示式。"
+msgstr "將「調整分錄模式」視為正規表示式。"
 
 #: gnucash/report/reports/standard/trial-balance.scm:203
-#, fuzzy
 msgid "General journal exact balances"
 msgstr "一般日記帳報表"
 
 #: gnucash/report/reports/standard/trial-balance.scm:204
-#, fuzzy
 msgid "No adjusting/closing entries"
-msgstr "忽略調整分錄/結帳分錄"
+msgstr "忽略調整 / 關帳分錄"
 
 #: gnucash/report/reports/standard/trial-balance.scm:205
 msgid "Full end-of-period work sheet"
-msgstr ""
+msgstr "完整的期末工作表"
 
 #: gnucash/report/reports/standard/trial-balance.scm:273
-#, fuzzy
 msgid "Adjusting Entries"
-msgstr "訂單項目"
+msgstr "調整分錄"
 
 #: gnucash/report/reports/standard/trial-balance.scm:565
 msgid "Adjustments"
