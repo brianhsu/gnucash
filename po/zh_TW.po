@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-04 18:36+0800\n"
+"PO-Revision-Date: 2021-06-04 18:44+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -491,7 +491,7 @@ msgid ""
 "Just locate the triangle at the far right of the column headings, and click "
 "it to see the different columns available."
 msgstr ""
-"你可以更改科目體系裡所顯示的欄位。找到欄位名稱那行最右邊的箭頭，點選後可以看"
+"您可以更改科目體系裡所顯示的欄位。找到欄位名稱那行最右邊的箭頭，點選後可以看"
 "到可以選擇的欄位。"
 
 #: doc/tip_of_the_day.list.c:27
@@ -524,7 +524,7 @@ msgid ""
 "select \"View\" in the menu bar and check \"Double Line\" or\n"
 "check \"Double Line Mode\" in Preferences:Register Defaults."
 msgstr ""
-"每筆交易都有一個「筆記」欄位可以讓你記錄有用的資訊。\n"
+"每筆交易都有一個「筆記」欄位可以讓您記錄有用的資訊。\n"
 "\n"
 "要看見他的話，請點選工具列上的「檢視」選單並點選「雙行」。或者在「偏好設定:登"
 "記簿預設值」中，選則雙行模式。"
@@ -622,8 +622,8 @@ msgid ""
 "use. Click the triangle at the far right of the column headings to change "
 "the display."
 msgstr ""
-"你可以在證券編輯器裡顯示價格來原，讓你更清楚你的證券所使用的價格來源。按下欄"
-"位名稱最右邊的三角選，並且選擇你要顯示的欄位。"
+"您可以在證券編輯器裡顯示價格來原，讓您更清楚您的證券所使用的價格來源。按下欄"
+"位名稱最右邊的三角選，並且選擇您要顯示的欄位。"
 
 #: doc/tip_of_the_day.list.c:90
 msgid ""
@@ -648,7 +648,7 @@ msgid ""
 "To raise the accounts menu in the transfer field of a register page, press "
 "the Menu key or the Ctrl-Down key combination."
 msgstr ""
-"你可以按下鍵盤上的 MENU鍵或是使用 Ctrl+下 組合鍵，來打開登記簿裡的轉帳欄位的"
+"您可以按下鍵盤上的 MENU鍵或是使用 Ctrl+下 組合鍵，來打開登記簿裡的轉帳欄位的"
 "下拉式選單。"
 
 #: doc/tip_of_the_day.list.c:102
@@ -667,7 +667,7 @@ msgstr ""
 "排程交易編輯器具有非常靈活的頻率選項。除了基本的每日、每週每月等選項，也可以"
 "設定更進階的排程。例如：\n"
 "\n"
-"透過選擇「每週」的選項，並設定「每三週」，你可以排定一個固定每三週執行一次的"
+"透過選擇「每週」的選項，並設定「每三週」，您可以排定一個固定每三週執行一次的"
 "交易。\n"
 "\n"
 "透過選擇「每月」排程，並設定「每十二個月一次」，可以排定一個固定每年執行一次"
@@ -679,7 +679,7 @@ msgid ""
 "after midnight, to get the new date as default for new transactions. It is "
 "not necessary to restart GnuCash."
 msgstr ""
-"如果你熬夜工作，你應該關閉再重新打開你的登記簿，以取得用於新交易的新日期。不"
+"如果您熬夜工作，您應該關閉再重新打開您的登記簿，以取得用於新交易的新日期。不"
 "需要重新啟動 GnuCash。"
 
 #: doc/tip_of_the_day.list.c:115
@@ -688,7 +688,7 @@ msgid ""
 "the main accounts hierarchy page. To limit your search to a single account, "
 "start the search from that account's register."
 msgstr ""
-"要從你所有交易中尋找特定的交易，可以從科目列表頁籤中，執行搜尋功能(編輯 -> 尋"
+"要從您所有交易中尋找特定的交易，可以從科目列表頁籤中，執行搜尋功能(編輯 -> 尋"
 "找)。如果只要搜尋某個特定科目中的交易，則從該科目的登記簿中執行搜尋功能。"
 
 #: doc/tip_of_the_day.list.c:119
@@ -747,7 +747,7 @@ msgid ""
 "Amend the Title and Notes or Click on \"Next\" to proceed.\n"
 "Click on \"Back\" to adjust the dates or \"Cancel\"."
 msgstr ""
-"你要求建立一本帳簿。這本帳簿會包含至 %s 午夜為止的所有交易，其中包含 %d 筆交"
+"您要求建立一本帳簿。這本帳簿會包含至 %s 午夜為止的所有交易，其中包含 %d 筆交"
 "易，分佈在 %d 個科目中。\n"
 "\n"
 "修改標是或筆記，或按下「下一步」繼續。\n"
@@ -857,7 +857,7 @@ msgid ""
 "new accounts. Accounts in other currencies must be\n"
 "added manually."
 msgstr ""
-"你選擇了帳本的貨幣類型，他會被用在所有新的科目中。\n"
+"您選擇了帳本的貨幣類型，他會被用在所有新的科目中。\n"
 "使用其他貨幣的科目必須手動建立。"
 
 #: gnucash/gnome/assistant-hierarchy.c:1491
@@ -1398,7 +1398,7 @@ msgid ""
 "Identification - Company Name, and\n"
 "Payment Address - Name."
 msgstr ""
-"你必須輸入公司名稱。若客戶是個人而非公司，請在「識別 - 公司名稱」跟「連絡地"
+"您必須輸入公司名稱。若客戶是個人而非公司，請在「識別 - 公司名稱」跟「連絡地"
 "址 - 名稱」填相同的名字。"
 
 #: gnucash/gnome/dialog-customer.c:341
@@ -1817,13 +1817,13 @@ msgstr "尋找員工"
 msgid ""
 "This program can only calculate one value at a time. You must enter values "
 "for all but one quantity."
-msgstr "此程式一次只能計算一個數值，你必須輸入除了某個數值以外的所有數值。"
+msgstr "此程式一次只能計算一個數值，您必須輸入除了某個數值以外的所有數值。"
 
 #: gnucash/gnome/dialog-fincalc.c:330
 msgid ""
 "GnuCash cannot determine the value in one of the fields. You must enter a "
 "valid expression."
-msgstr "GnuCash 無法求出其中一個欄位的值，你得輸入有效的運算式。"
+msgstr "GnuCash 無法求出其中一個欄位的值，您得輸入有效的運算式。"
 
 #: gnucash/gnome/dialog-fincalc.c:373
 msgid "The interest rate cannot be zero."
@@ -1867,9 +1867,9 @@ msgstr "與稅相關"
 #. Translators: %s is a full account name.
 #. This is a label in Search Account from context menu.
 #: gnucash/gnome/dialog-find-account.c:474
-#, fuzzy, c-format
+#, c-format
 msgid "Su_b-accounts of '%s'"
-msgstr "'%s' 所對應的科目"
+msgstr "「%s」的子科目(_B)"
 
 #: gnucash/gnome/dialog-find-transactions2.c:107
 #: gnucash/gnome/dialog-find-transactions.c:105
@@ -2228,7 +2228,7 @@ msgid ""
 "One or more of the entries are for accounts different from the invoice/bill "
 "currency. You will be asked a conversion rate for each."
 msgstr ""
-"一或多筆資料是使用和發票/帳單不同的幣值的科目，你將會被詢問每筆資料的匯率。"
+"一或多筆資料是使用和發票/帳單不同的幣值的科目，您將會被詢問每筆資料的匯率。"
 
 #: gnucash/gnome/dialog-invoice.c:1135
 msgid "The post action was canceled because not all exchange rates were given."
@@ -2363,7 +2363,7 @@ msgid ""
 "Re-check your selection."
 msgstr ""
 "一或多張發票已被張貼過了。\n"
-"請重新檢查你的選擇。"
+"請重新檢查您的選擇。"
 
 #: gnucash/gnome/dialog-invoice.c:3255
 msgid "Do you really want to post these invoices?"
@@ -2807,8 +2807,8 @@ msgid ""
 "\" before you continue to process this payment. Perhaps you want to create "
 "an Invoice or Bill first?"
 msgstr ""
-"你沒有有效的「應收付」科目。在繼續處理此支付前，請先建立「%s」類型的科目。也"
-"許你想要先建立「發票」或「帳單」？"
+"您沒有有效的「應收付」科目。在繼續處理此支付前，請先建立「%s」類型的科目。也"
+"許您想要先建立「發票」或「帳單」？"
 
 #: gnucash/gnome/dialog-payment.c:1579
 msgid ""
@@ -2855,10 +2855,10 @@ msgid ""
 "Do you wish to continue and ignore these splits?"
 msgstr ""
 "此筆交易至少有一個分割，是屬於商務科目但卻不是商務交易。\n"
-"如果你繼續的話，下面的分割將會被忽略：\n"
+"如果您繼續的話，下面的分割將會被忽略：\n"
 "\n"
 "%s\n"
-"你確定要繼續並忽略這些分割嗎？"
+"您確定要繼續並忽略這些分割嗎？"
 
 #. Translators: %d is the number of prices. This is a ngettext(3) message.
 #: gnucash/gnome/dialog-price-edit-db.c:193
@@ -3103,7 +3103,7 @@ msgstr "您試圖建立永遠不會發生的排程交易。您真的要這麼做
 msgid ""
 "Note: If you have already accepted changes to the Template, Cancel will not "
 "revoke them."
-msgstr "註：如果你已經接受了範本的變更，「取消」並不會回復這些變更。"
+msgstr "註：如果您已經接受了範本的變更，「取消」並不會回復這些變更。"
 
 #: gnucash/gnome/dialog-sx-editor2.c:1346 gnucash/gnome/dialog-sx-editor.c:1405
 msgid "(never)"
@@ -3159,7 +3159,7 @@ msgstr "備忘錄為「%s」的分割，其借方公式無法解析。"
 msgid ""
 "The Scheduled Transaction is unbalanced. You are strongly encouraged to "
 "correct this situation."
-msgstr "排程的交易借貸不平衡。強烈建議你修正這個狀況。"
+msgstr "排程的交易借貸不平衡。強烈建議您修正這個狀況。"
 
 #: gnucash/gnome/dialog-sx-from-trans.c:789
 msgid ""
@@ -3264,7 +3264,7 @@ msgid ""
 "CAUTION: If you set TXF categories, and later change 'Type', you will need "
 "to manually reset those categories one at a time"
 msgstr ""
-"小心：如果你選擇了 TXF 分類，而後修改了「類型」，那你必須手動一個一個重設分"
+"小心：如果您選擇了 TXF 分類，而後修改了「類型」，那您必須手動一個一個重設分"
 "類。"
 
 #: gnucash/gnome/dialog-tax-info.c:1394
@@ -3278,7 +3278,7 @@ msgid ""
 "Identification - Company Name, and\n"
 "Payment Address - Name."
 msgstr ""
-"你必須輸入公司名稱。若廠商是個人而非公司，請在「識別 - 公司名稱」跟「連絡地"
+"您必須輸入公司名稱。若廠商是個人而非公司，請在「識別 - 公司名稱」跟「連絡地"
 "址 - 名稱」填相同的名字。"
 
 #: gnucash/gnome/dialog-vendor.c:226
@@ -4150,7 +4150,7 @@ msgstr "刪除"
 #: gnucash/gnome/gnc-plugin-page-register.c:1962
 #: gnucash/gnome/gnc-plugin-page-register.c:5066
 msgid "'Check & Repair' is currently running, do you want to abort it?"
-msgstr "「檢查和修復」正在執行中，你確定要中斷嗎？"
+msgstr "「檢查和修復」正在執行中，您確定要中斷嗎？"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:520
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:526
@@ -4224,8 +4224,8 @@ msgid ""
 "modify them so they make use\n"
 "of another account"
 msgstr ""
-"下面的列表列出了使用到你想刪除的科目的東西。\n"
-"在你刪除科目前，你必須刪除這些東西，或編輯這些相目，讓他們使用別的科目。"
+"下面的列表列出了使用到您想刪除的科目的東西。\n"
+"在您刪除科目前，您必須刪除這些東西，或編輯這些相目，讓他們使用別的科目。"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:1728
 #, c-format
@@ -5446,7 +5446,7 @@ msgstr "自動結清"
 msgid ""
 "You have tried to open an account in the new register while it is open in "
 "the old register."
-msgstr "你試著在一個科目已經被舊的登記簿打開時，在新的登記簿中打開這個科目。"
+msgstr "您試著在一個科目已經被舊的登記簿打開時，在新的登記簿中打開這個科目。"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:755
 msgid "General Journal2"
@@ -5595,7 +5595,7 @@ msgid ""
 "This search result contains splits from more than one account. Do you want "
 "to print the checks even though they are not all from the same account?"
 msgstr ""
-"這個搜尋包含了一個以上的科目裡的分割。你確定要列印支票，即使他們不是全部都在"
+"這個搜尋包含了一個以上的科目裡的分割。您確定要列印支票，即使他們不是全部都在"
 "同一個科目中嗎？"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2665
@@ -5607,7 +5607,7 @@ msgstr "列印支票(_P)"
 #: gnucash/gnome/gnc-plugin-page-register.c:3794
 msgid ""
 "You can only print checks from a bank account register or search results."
-msgstr "你只能從銀行科目或搜尋結果中，列印支票。"
+msgstr "您只能從銀行科目或搜尋結果中，列印支票。"
 
 #: gnucash/gnome/gnc-plugin-page-register2.c:2897
 #: gnucash/gnome/gnc-plugin-page-register.c:3991
@@ -5663,7 +5663,7 @@ msgstr "不要列印帳戶交易明細"
 msgid ""
 "You have tried to open an account in the old register while it is open in "
 "the new register."
-msgstr "你試著在一個科目已經被舊的登記簿打開時，在新的登記簿中打開這個科目。"
+msgstr "您試著在一個科目已經被舊的登記簿打開時，在新的登記簿中打開這個科目。"
 
 #: gnucash/gnome/gnc-plugin-page-register.c:3406
 #, fuzzy
@@ -6246,7 +6246,7 @@ msgid ""
 "from this window, or you may navigate to a register that shows another side "
 "of this same transaction and remove the split from that register."
 msgstr ""
-"這是將此交易錨定到這個登記簿的分割，你不可以在這個登記簿視窗中移除它。但你可"
+"這是將此交易錨定到這個登記簿的分割，您不可以在這個登記簿視窗中移除它。但您可"
 "以在這個視窗中移除整筆交易，或移動到顯示此交易另一側的登記簿，並從那個登記簿"
 "裡移除這個分割。"
 
@@ -6345,7 +6345,7 @@ msgid ""
 "from this window, or you may navigate to a register that shows another side "
 "of this same transaction and delete the split from that register."
 msgstr ""
-"這是將此交易錨定到這個登記簿的分割，你不可以在這個登記簿視窗中刪除它。但你可"
+"這是將此交易錨定到這個登記簿的分割，您不可以在這個登記簿視窗中刪除它。但您可"
 "以在這個視窗中刪除整筆交易，或移動到顯示此交易另一側的登記簿，並從那個登記簿"
 "裡刪除這個分割。"
 
@@ -6390,7 +6390,7 @@ msgid ""
 "You need to open each account individually to edit transactions."
 msgstr ""
 "無法編輯這個科目中的交易，因為其子科目具有不一致的商品或貨幣。\n"
-"你必須打開各自的科目並且編輯交易。"
+"您必須打開各自的科目並且編輯交易。"
 
 #: gnucash/gnome/gnc-split-reg.c:2524
 #, fuzzy
@@ -6421,7 +6421,7 @@ msgstr "GnuCash"
 #: gnucash/gnome/gnucash.appdata.xml.in.in:6
 #: gnucash/gnome/gnucash.desktop.in.in:8
 msgid "Manage your finances, accounts, and investments"
-msgstr "管理你的財務、帳目和投資"
+msgstr "管理您的財務、帳目和投資"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:8
 msgid ""
@@ -6436,13 +6436,13 @@ msgid ""
 "principles like double-entry accounting to ensure balanced books and "
 "accurate reports."
 msgstr ""
-"設計成簡單易用，但又強大並具有彈性。GnuCash 可以讓你追蹤銀行帳戶、股票、收入"
+"設計成簡單易用，但又強大並具有彈性。GnuCash 可以讓您追蹤銀行帳戶、股票、收入"
 "和開支。雖然和記帳簿一樣直覺和快速，但它使用了專業的會計原則，像是複式計帳，"
 "以確保帳本平衡，以及精確的報表。"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:15
 msgid "With GnuCash you can (but are not limited to):"
-msgstr "透過 GnuCash，你可以做到以下的事情(以及更多)："
+msgstr "透過 GnuCash，您可以做到以下的事情(以及更多)："
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:17
 msgid "Keep track of your day to day personal income and expenses"
@@ -6450,7 +6450,7 @@ msgstr "追蹤日常的收入和開支"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:18
 msgid "Manage your stock, bond and mutual fund accounts with ease"
-msgstr "輕鬆管理你的股票、債券以及共同基金"
+msgstr "輕鬆管理您的股票、債券以及共同基金"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:19
 msgid "Keep your small business' accounting up to date"
@@ -6458,7 +6458,7 @@ msgstr "替您的小企業的會計資訊維持在最新的狀態"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:20
 msgid "Create accurate reports and graphs from your financial data"
-msgstr "從你的財務資料中建立精確的報表與圖表"
+msgstr "從您的財務資料中建立精確的報表與圖表"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:21
 msgid "Set up scheduled transactions to avoid repeated data entry"
@@ -6512,7 +6512,7 @@ msgstr "儀表板"
 
 #: gnucash/gnome/report-menus.scm:118
 msgid "A basic dashboard for your accounting data"
-msgstr "你的會計資料的基本儀表板"
+msgstr "您的會計資料的基本儀表板"
 
 #: gnucash/gnome/search-owner.c:136
 msgid "You have not selected an owner"
@@ -6787,15 +6787,15 @@ msgstr[1] "結帳日期比今天晚 %d 天"
 #, c-format
 msgid "The statement date you have chosen is %d day in the future."
 msgid_plural "The statement date you have chosen is %d days in the future."
-msgstr[0] "你選則的結帳日期，比今天的日期晚 %d 天"
-msgstr[1] "你選則的結帳日期，比今天的日期晚 %d 天"
+msgstr[0] "您選則的結帳日期，比今天的日期晚 %d 天"
+msgstr[1] "您選則的結帳日期，比今天的日期晚 %d 天"
 
 #: gnucash/gnome/window-reconcile.c:369
 msgid ""
 "This may cause issues for future reconciliation actions on this account. "
 "Please double-check this is the date you intended."
 msgstr ""
-"這可能會造成未來對帳此科目時有問題，請再次確認這個日期是你想選擇的日期。"
+"這可能會造成未來對帳此科目時有問題，請再次確認這個日期是您想選擇的日期。"
 
 #: gnucash/gnome/window-reconcile.c:1852
 msgid ""
@@ -6811,7 +6811,7 @@ msgid ""
 "reconcile."
 msgstr ""
 "此科目含有對帳日期比結帳日期晚的分割，這些分割可能會造成對帳的困難。如果是這"
-"樣，你可以使用「尋找交易」來找到他們，取消對帳並重新對帳。"
+"樣，您可以使用「尋找交易」來找到他們，取消對帳並重新對帳。"
 
 #: gnucash/gnome/window-report.c:112
 msgid "Set the report options you want using this dialog."
@@ -7063,17 +7063,17 @@ msgid ""
 "file.\n"
 msgstr ""
 "\n"
-"你嘗試讀取的檔案是來自較舊版本的 GnuCash。較舊版本的檔案格式沒有關於所使用的"
+"您嘗試讀取的檔案是來自較舊版本的 GnuCash。較舊版本的檔案格式沒有關於所使用的"
 "字元編碼的詳細資訊，這代表了檔案裡的文字可能會有多種不同的解讀方式。這種不確"
 "定性沒有辦法自動解決，但 GnuCash 2.0 的檔案格式，包含了所有需要的字元編碼的資"
-"訊，所以你不用再重新經歷這個步驟。\n"
+"訊，所以您不用再重新經歷這個步驟。\n"
 "\n"
-"GnuCash 會試著去猜測你的檔案裡的字元編碼。在下一頁裡，GnuCash 會顯示出我們猜"
-"測出的文字，你必須檢查這些文字看起來對不對。如果一切看起來正常，你可以直接按"
-"下「下一步」。如果他包含了亂碼，那你應該選擇不同的字元編碼，並看看結果如何。"
-"你可以透過點選相對應的按鈕，來編輯字元編輯列表。\n"
+"GnuCash 會試著去猜測您的檔案裡的字元編碼。在下一頁裡，GnuCash 會顯示出我們猜"
+"測出的文字，您必須檢查這些文字看起來對不對。如果一切看起來正常，您可以直接按"
+"下「下一步」。如果他包含了亂碼，那您應該選擇不同的字元編碼，並看看結果如何。"
+"您可以透過點選相對應的按鈕，來編輯字元編輯列表。\n"
 "\n"
-"現在請按下「下一步」，並為你的檔案選擇正確的字元編碼。\n"
+"現在請按下「下一步」，並為您的檔案選擇正確的字元編碼。\n"
 
 #: gnucash/gnome-utils/assistant-xml-encoding.c:198
 msgid "Ambiguous character encoding"
@@ -7087,11 +7087,11 @@ msgid ""
 "\n"
 "You can also go back and verify your selections by clicking on \"Back\"."
 msgstr ""
-"此檔案已被成功讀取。如果你按下「套用」，他將會被儲存並且重新讀取到主程式中。"
-"透過這個方式，你也會在同個資料夾中有可以正常使用的備份檔案。\n"
+"此檔案已被成功讀取。如果您按下「套用」，他將會被儲存並且重新讀取到主程式中。"
+"透過這個方式，您也會在同個資料夾中有可以正常使用的備份檔案。\n"
 "\n"
 "\n"
-"你也可以按下「返回」回到上一個步驟，再次確認你的選擇。"
+"您也可以按下「返回」回到上一個步驟，再次確認您的選擇。"
 
 #: gnucash/gnome-utils/assistant-xml-encoding.c:226
 msgid "European"
@@ -7278,7 +7278,7 @@ msgstr "您必須選擇轉帳的科目或選定起始結餘資產淨值科目。
 #: gnucash/gnome-utils/dialog-account.c:1328
 msgid ""
 "An account with opening balance already exists for the desired currency."
-msgstr "你所選擇的貨幣，已經有具有起始餘額的科目。"
+msgstr "您所選擇的貨幣，已經有具有起始餘額的科目。"
 
 #: gnucash/gnome-utils/dialog-account.c:1329
 msgid "Cannot change currency"
@@ -7483,7 +7483,7 @@ msgstr "使用現有的"
 
 #: gnucash/gnome-utils/dialog-dup-trans.c:148
 msgid "You can type '+' or '-' to increment or decrement the number."
-msgstr "你可以使用鍵盤上的 '+' 或 '-' 按鍵，來增加或減少號碼"
+msgstr "您可以使用鍵盤上的 '+' 或 '-' 按鍵，來增加或減少號碼"
 
 #: gnucash/gnome-utils/dialog-dup-trans.c:297
 msgid "Action/Number"
@@ -7543,7 +7543,7 @@ msgid ""
 "dialog (via File->Properties), after account setup, if you want to set a "
 "default gain/loss account."
 msgstr ""
-"由於目前你並未設定任何科目，如果您想要設定預設的獲利/虧損科目，需要在設定好科"
+"由於目前您並未設定任何科目，如果您想要設定預設的獲利/虧損科目，需要在設定好科"
 "目後，重新回到這個對話盒。(透過檔案->內容選單)"
 
 #: gnucash/gnome-utils/dialog-options.c:701
@@ -7564,7 +7564,7 @@ msgid ""
 "default gain/loss account."
 msgstr ""
 "針對所選擇的記帳貨幣，沒有相對應的收入與開支科目。\n"
-"你需要在設定好科目後，重新回到這個對話盒(透過檔案->內容)，\n"
+"您需要在設定好科目後，重新回到這個對話盒(透過檔案->內容)，\n"
 "來選擇預設的獲利/虧損科目。"
 
 #: gnucash/gnome-utils/dialog-options.c:869
@@ -7899,17 +7899,17 @@ msgid_plural ""
 "Should your file be saved automatically?"
 msgstr[0] ""
 "您的資料檔案必須存檔到硬碟上以儲存您的變更。GnuCash 有每 %d 分鐘自動存檔的功"
-"能，就如同你每次按下「儲存檔案」按鈕一樣。\n"
+"能，就如同您每次按下「儲存檔案」按鈕一樣。\n"
 "\n"
-"你可以透過「編輯->偏好設定->一般->自動存檔時間間隔」，來更改自動存檔的間隔或"
+"您可以透過「編輯->偏好設定->一般->自動存檔時間間隔」，來更改自動存檔的間隔或"
 "關閉這個功能。\n"
 "\n"
 "要幫您的自動儲存您的檔案嗎？"
 msgstr[1] ""
 "您的資料檔案必須存檔到硬碟上以儲存您的變更。GnuCash 有每 %d 分鐘自動存檔的功"
-"能，就如同你每次按下「儲存檔案」按鈕一樣。\n"
+"能，就如同您每次按下「儲存檔案」按鈕一樣。\n"
 "\n"
-"你可以透過「編輯->偏好設定->一般->自動存檔時間間隔」，來更改自動存檔的間隔或"
+"您可以透過「編輯->偏好設定->一般->自動存檔時間間隔」，來更改自動存檔的間隔或"
 "關閉這個功能。\n"
 "\n"
 "要幫您的自動儲存您的檔案嗎？"
@@ -8133,7 +8133,7 @@ msgid ""
 "system, you may not have write permission for the directory or your anti-"
 "virus software is preventing this action."
 msgstr ""
-"GnuCash 無法寫入 %s。可能是資料庫放在唯讀的檔案系統，或是你沒有該目錄的寫入權"
+"GnuCash 無法寫入 %s。可能是資料庫放在唯讀的檔案系統，或是您沒有該目錄的寫入權"
 "限。"
 
 #: gnucash/gnome-utils/gnc-file.c:385
@@ -8269,8 +8269,8 @@ msgid ""
 "installing a different version of \"libdbi\". Please see https://bugs."
 "gnucash.org/show_bug.cgi?id=611936 for more information."
 msgstr ""
-"在你系統上安裝的 libdbi 函式庫，無法正確儲存天文數字。這表式 GnuCash 無法正確"
-"使用 SQL 資料庫。GnuCash 將不會開啟或儲存你的資料庫，直到您透過安裝不同版本"
+"在您系統上安裝的 libdbi 函式庫，無法正確儲存天文數字。這表式 GnuCash 無法正確"
+"使用 SQL 資料庫。GnuCash 將不會開啟或儲存您的資料庫，直到您透過安裝不同版本"
 "的 libdbi 來解決這個問題。請參閱 https://bugs.gnucash.org/show_bug.cgi?"
 "id=611936 以獲得詳情。"
 
@@ -8294,7 +8294,7 @@ msgid ""
 msgstr ""
 "這個檔案是來自較舊版本的 GnuCash，並且會在此版本的 GnuCash 儲存時升級檔案格"
 "式。您將無法在舊版的 GnuCash 中載入這個檔案(它會顯示「無法解析檔案」的錯誤訊"
-"息)。如果你希望保留舊版的檔案，離開並且不要存檔。"
+"息)。如果您希望保留舊版的檔案，離開並且不要存檔。"
 
 #: gnucash/gnome-utils/gnc-file.c:548
 #, c-format
@@ -8337,7 +8337,7 @@ msgid ""
 "action. If you proceed you may not be able to save any changes. What would "
 "you like to do?"
 msgstr ""
-"這個資料庫可能放在唯讀的檔案系統，或是您沒有該目錄的寫入權限，或是你的防毒軟"
+"這個資料庫可能放在唯讀的檔案系統，或是您沒有該目錄的寫入權限，或是您的防毒軟"
 "體阻檔了這個動作。您若繼續操作，可能會無法存下任何資料修改。您想要怎麼做？"
 
 #: gnucash/gnome-utils/gnc-file.c:849
@@ -8385,11 +8385,10 @@ msgstr ""
 "%s"
 
 #: gnucash/gnome-utils/gnc-file.c:1396
-#, fuzzy
 msgid ""
 "The database was opened read-only. Do you want to save it to a different "
 "place?"
-msgstr "資料庫 %s 似乎不存在。您要建立它嗎？"
+msgstr "資料庫是以唯讀模式開啟。您想要存檔到不同的地方嗎？"
 
 #: gnucash/gnome-utils/gnc-file.c:1691
 #, fuzzy, c-format
@@ -8829,7 +8828,7 @@ msgstr "永不"
 msgid ""
 "You can not change this transaction, the Book or Register is set to Read "
 "Only."
-msgstr "你無法更動筆交易，此帳本或登錄簿被設成唯讀。"
+msgstr "您無法更動筆交易，此帳本或登錄簿被設成唯讀。"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:131
 #, fuzzy
@@ -8837,11 +8836,10 @@ msgid "Save Transaction before proceeding?"
 msgstr "匯入交易中具相同點者"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:133
-#, fuzzy
 msgid ""
 "The current transaction has been changed. Would you like to record the "
 "changes before proceeding, or cancel?"
-msgstr "目前的交易已經變更。您想要在複製前先記錄它的變更還是要取消複製？"
+msgstr "目前的交易已經變更。繼續前您想要記錄變更，或是取消？"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:149
 #: gnucash/register/ledger-core/gncEntryLedger.c:932
@@ -8921,7 +8919,7 @@ msgstr "<b>新分割資訊</b>"
 msgid ""
 "This is the split anchoring this transaction to the register. You can not "
 "duplicate it from this register window."
-msgstr "這是將此交易定錨到這個登記簿的分割。你不能從這個登錄簿複製他。"
+msgstr "這是將此交易定錨到這個登記簿的分割。您不能從這個登錄簿複製他。"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:1357
 #: gnucash/gnome-utils/gnc-tree-util-split-reg.c:477
@@ -11056,7 +11054,7 @@ msgid ""
 "To retrieve online quotes from Alphavantage, this key needs to be set. A key "
 "can be retrieved from the Alpha Vantage website."
 msgstr ""
-"為了能夠從 Alphavantage 取得報價，需要設定此金鑰。你可以從 Alphavantage的網站"
+"為了能夠從 Alphavantage 取得報價，需要設定此金鑰。您可以從 Alphavantage的網站"
 "上取得一把金鑰。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:10
@@ -11829,7 +11827,7 @@ msgid ""
 "allows you to scale reports up by the set factor. For example setting this "
 "to 2.0 will display reports at twice their typical size."
 msgstr ""
-"在高解析度的螢幕上，報表可能會較難閱讀。這個選項允許你依比例放大報表。例如當"
+"在高解析度的螢幕上，報表可能會較難閱讀。這個選項允許您依比例放大報表。例如當"
 "設定成 2.0 時，報表會比他們一般的大小大兩倍。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:378
@@ -11992,7 +11990,7 @@ msgid ""
 "This dialog is presented before allowing you to delete a commodity that has "
 "price quotes attached. Deleting the commodity will delete the quotes as well."
 msgstr ""
-"這個對話盒會在允許你刪除含有報價的商品前顯示。刪除商品也會一併刪除報價。"
+"這個對話盒會在允許您刪除含有報價的商品前顯示。刪除商品也會一併刪除報價。"
 
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:39
 #: gnucash/gschemas/org.gnucash.warnings.gschema.xml.in:142
@@ -12927,9 +12925,8 @@ msgid "Account ID"
 msgstr "科目 ID"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1028
-#, fuzzy
 msgid "Error text."
-msgstr "錯誤"
+msgstr "錯誤文字。"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1038
 #: gnucash/gtkbuilder/assistant-qif-import.glade:633
@@ -12991,8 +12988,8 @@ msgstr ""
 "這個精靈會幫助您建立一組 GnuCash 科目，包括您的資產(像是投資、支票或儲蓄帳"
 "號)、債務(像是貸款)與您可能會有的各種不同的收入和支出。\n"
 "\n"
-"你可以在這邊選擇看起來和你需要相近的科目。當此精靈完成時，你可以在之後任何的"
-"時間新增、重新命名、修改或刪除科目。你也可以建立子科目，或者移動目科(包含其子"
+"您可以在這邊選擇看起來和您需要相近的科目。當此精靈完成時，您可以在之後任何的"
+"時間新增、重新命名、修改或刪除科目。您也可以建立子科目，或者移動目科(包含其子"
 "科目)到其他母科目中。\n"
 "如果您現在不希望建立任何新科目，點選「取消」。"
 
@@ -13018,7 +13015,7 @@ msgid ""
 "that you foresee you will use GnuCash. Each category you select will cause "
 "several accounts to be created."
 msgstr ""
-"選擇和你預計的 GnuCash 用途相對應的語言和地區中的科目類型。每一個你選定的科目"
+"選擇和您預計的 GnuCash 用途相對應的語言和地區中的科目類型。每一個您選定的科目"
 "類型，都會產生其所指定的會計科目。"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:169
@@ -13054,7 +13051,7 @@ msgid ""
 "account hierarchy. Accounts can be added, renamed, moved, or deleted by hand "
 "later at any time."
 msgstr ""
-"您在此處所選擇的，只是你個人的科目體系的起跑點。您隨時可以在稍後手動新增、重"
+"您在此處所選擇的，只是您個人的科目體系的起跑點。您隨時可以在稍後手動新增、重"
 "新命名、移動、刪除科目。"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:507
@@ -13087,9 +13084,9 @@ msgstr ""
 "如果您想修改科目名稱，點選該科目再點科目名就能修改。\n"
 "\n"
 "有些科目被標記為「佔位符號」，這種科目只是為了建立科目體系用的，通常不會有交"
-"易或起始餘額。如果你想讓一個科目如此，點選該科目的核取方塊。\n"
+"易或起始餘額。如果您想讓一個科目如此，點選該科目的核取方塊。\n"
 "\n"
-"如果你希望一個帳路有起始餘額，點選該科目再點起始餘額那欄就能輸入一開始的餘"
+"如果您希望一個帳路有起始餘額，點選該科目再點起始餘額那欄就能輸入一開始的餘"
 "額。\n"
 "\n"
 "<b>注意</b>: 除了淨值 (Equity) 跟佔位符號之外，所有科目都可以有起始餘額。\n"
@@ -13107,7 +13104,7 @@ msgid ""
 "\n"
 "Press 'Cancel' to close this dialog without creating any new accounts."
 msgstr ""
-"按下「套用」以建立您的新科目。你接下來便能將它們存到檔案或資料庫。\n"
+"按下「套用」以建立您的新科目。您接下來便能將它們存到檔案或資料庫。\n"
 "\n"
 "按下「返回」以檢查您的選擇。\n"
 "\n"
@@ -14295,8 +14292,8 @@ msgid ""
 "allow you to select the account and reopen this dialog."
 msgstr ""
 "這個科目(以及其所有的子科目)，將會在科目體系中隱藏，也不會在登錄簿中的科目選"
-"單中出現。要重設這個選項，你必須先打開「過濾依...」對話盒，並且在勾選「顯示被"
-"隱藏的科目」的選項。透過這個方式，你可以選擇這個科目並且重新打開這個對話視"
+"單中出現。要重設這個選項，您必須先打開「過濾依...」對話盒，並且在勾選「顯示被"
+"隱藏的科目」的選項。透過這個方式，您可以選擇這個科目並且重新打開這個對話視"
 "窗。"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1480
@@ -14613,7 +14610,7 @@ msgstr "關閉此視窗"
 #: gnucash/gtkbuilder/dialog-billterms.glade:800
 #: gnucash/gtkbuilder/dialog-billterms.glade:980
 msgid "Cancel your changes"
-msgstr "取消你的變更"
+msgstr "取消您的變更"
 
 #: gnucash/gtkbuilder/dialog-billterms.glade:818
 #: gnucash/gtkbuilder/dialog-billterms.glade:998
@@ -14691,7 +14688,7 @@ msgid ""
 "retrieving quotes online, this field must exactly match the ticker symbol "
 "used by the quote source (including case). "
 msgstr ""
-"輸入此商品/股票的代碼 (例如 CSCO 或 AAPL)。如果你使用線上取價功能，則此欄位必"
+"輸入此商品/股票的代碼 (例如 CSCO 或 AAPL)。如果您使用線上取價功能，則此欄位必"
 "須與使用的來源所用的代碼完全一致(包括大小寫)。 "
 
 #: gnucash/gtkbuilder/dialog-commodity.glade:165
@@ -16377,7 +16374,7 @@ msgid ""
 "GnuCash uses a yellow/green theme by default for register windows. Uncheck "
 "this if you want to use the system color theme instead."
 msgstr ""
-"GnuCash 預設使用黃色/綠色做為登記簿的顏色主題。如果你想使用系統預設的顏色主"
+"GnuCash 預設使用黃色/綠色做為登記簿的顏色主題。如果您想使用系統預設的顏色主"
 "題，取消勾選此選項。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:2595
@@ -16485,7 +16482,7 @@ msgid ""
 "option implies that you use unique leaf names."
 msgstr ""
 "如果勾選，則登錄簿中的科目選擇選單中，只會顯示最底層的科目名稱。預設的行為是"
-"顯示完整的科目名稱，包括科目體系中所有的路徑。勾選此選項，隱含著你最底層的所"
+"顯示完整的科目名稱，包括科目體系中所有的路徑。勾選此選項，隱含著您最底層的所"
 "有科目名稱，都必須是不同的。"
 
 #. Register2 feature
@@ -18425,7 +18422,7 @@ msgstr "銀行代碼  %s (%s)，帳號 %s (%s)"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.c:858
 msgid "Online Banking Account Name"
-msgstr "線上銀行帳戶名稱"
+msgstr "網路銀行帳戶名稱"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.c:863
 msgid "GnuCash Account Name"
@@ -18799,7 +18796,7 @@ msgid ""
 "If active, the window will be closed automatically when you finish the HBCI/"
 "AqBanking import process. Otherwise it will stay open."
 msgstr ""
-"如果勾選，則視窗會在你完成 HBCI/AqBanking 匯入流程後自動關閉。不然的話，它會"
+"如果勾選，則視窗會在您完成 HBCI/AqBanking 匯入流程後自動關閉。不然的話，它會"
 "維持開啟的狀態。"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:51
@@ -18814,7 +18811,7 @@ msgid ""
 "during a session when it is needed."
 msgstr ""
 "如果勾選，則 HBCI/AqBanking 所使用的 PIN 碼會在工作階段中被儲存在記憶體中。不"
-"然的話，你必須在工作階段期中，每次需要的時候都輸入 PIN 碼。"
+"然的話，您必須在工作階段期中，每次需要的時候都輸入 PIN 碼。"
 
 #: gnucash/import-export/aqb/dialog-ab-pref.glade:69
 msgid "_Verbose debug messages"
@@ -18972,7 +18969,7 @@ msgstr "您確定要刪除這個名為「%s」的交易範本？"
 #: gnucash/import-export/aqb/gnc-ab-gettrans.c:137
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:113
 msgid "No valid online banking account assigned."
-msgstr "未指定有效的線上銀行帳戶"
+msgstr "未指定有效的網路銀行帳戶"
 
 #: gnucash/import-export/aqb/gnc-ab-getbalance.c:100
 msgid "Online action \"Get Balance\" not available for this account."
@@ -19043,7 +19040,7 @@ msgid ""
 msgstr ""
 "後端程式在準備這個工作時發生錯誤。無法執行此項工作。\n"
 "\n"
-"這很有可能是你的銀行不支援您選擇的工作，或您的網路銀行沒有足夠的權限執行此工"
+"這很有可能是您的銀行不支援您選擇的工作，或您的網路銀行沒有足夠的權限執行此工"
 "作。詳細的錯誤訊息，可能會顯示在您的主控台日誌中。\n"
 "\n"
 "您要重新輸入此項工作嗎？"
@@ -19055,7 +19052,7 @@ msgstr "線上 HBCI 直接債務備註"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:215
 msgid "Online Banking Bank-Internal Transfer"
-msgstr "線上銀行行內轉帳"
+msgstr "網路銀行行內轉帳"
 
 #: gnucash/import-export/aqb/gnc-ab-transfer.c:220
 #, fuzzy
@@ -19102,7 +19099,7 @@ msgid ""
 msgstr ""
 "後端程式在準備這個工作時發生錯誤。無法執行此項工作。\n"
 "\n"
-"這很有可能是你的銀行不支援您選擇的工作，或您的網路銀行沒有足夠的權限執行此工"
+"這很有可能是您的銀行不支援您選擇的工作，或您的網路銀行沒有足夠的權限執行此工"
 "作。詳細的錯誤訊息，可能會顯示在您的主控台日誌中。\n"
 "\n"
 "您要重新輸入此項工作嗎？"
@@ -19117,7 +19114,7 @@ msgstr ""
 msgid ""
 "No Online Banking account found for this gnucash account. These transactions "
 "will not be executed by Online Banking."
-msgstr "未找到此 GnuCash 科目的線上銀行帳號。此轉帳將不會由線上銀行進行。"
+msgstr "未找到此 GnuCash 科目的網路銀行帳號。此轉帳將不會由網路銀行進行。"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1042
 msgid ""
@@ -19133,7 +19130,6 @@ msgstr ""
 #. in your country, you may safely ignore strings from the
 #. import-export/hbci subdirectory.
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1139
-#, fuzzy
 msgid ""
 "The downloaded Online Banking Balance was zero.\n"
 "\n"
@@ -19143,11 +19139,11 @@ msgid ""
 "(AqBanking or HBCI) Setup. After that, try again to download the Online "
 "Banking Balance."
 msgstr ""
-"下載的 HBCI 結餘為零。\n"
-"這似乎是因為您的銀行不支援這個 HBCI 版本的\n"
-"結餘下載。您應該在 HBCI 設定中選擇更高的\n"
-"HBCI 版號。在那之後，再次嘗試下載 HBCI\n"
-"結餘。\n"
+"下載的網路銀行結餘為零。\n"
+"\n"
+"這有可能是這是正確的結餘，或您的銀行不支援這個網路銀行版本的結餘下載。如果是"
+"後者，您應該在網路銀行 (AqBanking 或 HBCI) 設定中選擇不同的網路銀行版本。設定"
+"完成後，再重新下載網路銀行結餘。"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1156
 #, fuzzy, c-format
@@ -19579,14 +19575,12 @@ msgid "Taxable"
 msgstr "應納稅的"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:158
-#, fuzzy
 msgid "Taxincluded"
-msgstr "含稅(_X)"
+msgstr "含稅"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:159
-#, fuzzy
 msgid "Tax-table"
-msgstr "應納稅的"
+msgstr "稅務表格"
 
 #: gnucash/import-export/bi-import/dialog-bi-import-gui.c:163
 #, fuzzy
@@ -19671,7 +19665,7 @@ msgid ""
 "Select the settings you require for the file and then click \"Next\" to "
 "proceed or \"Cancel\" to abort the export.\n"
 msgstr ""
-"這個精靈將會協助你將科目體系，匯出到外部檔案，並使用下列設定的分格符號。\n"
+"這個精靈將會協助您將科目體系，匯出到外部檔案，並使用下列設定的分格符號。\n"
 "\n"
 "選擇您需要的檔案格式，並且點選「下一步」繼續。或點選「取消」來中止匯出。\n"
 
@@ -20755,7 +20749,7 @@ msgid ""
 "are no errors or warnings, you will automatically proceed to the next step. "
 "Otherwise, the details will be shown below for your review."
 msgstr ""
-"當您按下開始按鈕，GnuCash 會載入你的 QIF 檔案。如果沒有任何錯誤或警告，會自動"
+"當您按下開始按鈕，GnuCash 會載入您的 QIF 檔案。如果沒有任何錯誤或警告，會自動"
 "進入下一個步驟。否則的話，會顯示詳情供您檢查。"
 
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2649
@@ -21148,7 +21142,7 @@ msgstr "目前的交易已經變更。您想要在複製前先記錄它的變更
 msgid ""
 "Invalid Entry: You need to supply an account in the right currency for this "
 "position."
-msgstr "無效的分錄：在這個位位你應該輸入具有正確幣別的科目。"
+msgstr "無效的分錄：在這個位位您應該輸入具有正確幣別的科目。"
 
 #: gnucash/register/ledger-core/gncEntryLedgerControl.c:184
 msgid "This account should usually be of type income."
@@ -21845,7 +21839,7 @@ msgstr[1] "匯率"
 
 #: gnucash/report/html-utilities.scm:304
 msgid "No budgets exist. You must create at least one budget."
-msgstr "沒有已存在的預算。你必須至少建立一個預算。"
+msgstr "沒有已存在的預算。您必須至少建立一個預算。"
 
 #: gnucash/report/html-utilities.scm:337
 #: gnucash/report/reports/standard/balsheet-pnl.scm:154
@@ -22868,14 +22862,14 @@ msgstr ""
 "式。"
 
 #: gnucash/report/reports/example/hello-world.scm:344
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "The current time is ~a."
-msgstr "現在時刻是 %s。"
+msgstr "現在時刻是 ~a。"
 
 #: gnucash/report/reports/example/hello-world.scm:349
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "The boolean option is ~a."
-msgstr "布林選項是 %s。"
+msgstr "布林選項是 ~a。"
 
 #: gnucash/report/reports/example/hello-world.scm:350
 msgid "true"
@@ -22901,14 +22895,14 @@ msgid "The string option is ~a."
 msgstr "字串選項是 %s。"
 
 #: gnucash/report/reports/example/hello-world.scm:369
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "The date option is ~a."
-msgstr "日期選項是 %s。"
+msgstr "日期選項是 ~a。"
 
 #: gnucash/report/reports/example/hello-world.scm:374
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "The date and time option is ~a."
-msgstr "日期與時間選項是 %s。"
+msgstr "日期與時間選項是 ~a。"
 
 #: gnucash/report/reports/example/hello-world.scm:379
 #, fuzzy, scheme-format
@@ -22916,9 +22910,9 @@ msgid "The relative date option is ~a."
 msgstr "相關日期選項是 %s。"
 
 #: gnucash/report/reports/example/hello-world.scm:384
-#, fuzzy, scheme-format
+#, scheme-format
 msgid "The combination date option is ~a."
-msgstr "結合日期選項是 %s。"
+msgstr "結合日期選項是 ~a。"
 
 #: gnucash/report/reports/example/hello-world.scm:389
 #, fuzzy, scheme-format
@@ -28178,7 +28172,7 @@ msgstr "您網站的網址。"
 
 #: libgnucash/app-utils/business-prefs.scm:116
 msgid "The ID for your company (eg 'Tax-ID: 00-000000)."
-msgstr "你的公司 ID (例如統一編號：12345678)"
+msgstr "您的公司 ID (例如統一編號：12345678)"
 
 #: libgnucash/app-utils/business-prefs.scm:121
 msgid "Default Customer TaxTable"
