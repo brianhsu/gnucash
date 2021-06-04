@@ -25221,7 +25221,7 @@ msgstr "號碼/動作"
 #: gnucash/report/trep-engine.scm:933 gnucash/report/trep-engine.scm:1063
 #: gnucash/report/trep-engine.scm:1359
 msgid "Running Balance"
-msgstr "進行結算"
+msgstr "逐筆結計餘額"
 
 #: gnucash/report/reports/standard/general-journal.scm:103
 #: gnucash/report/reports/standard/general-ledger.scm:83
@@ -25734,25 +25734,23 @@ msgstr "公司聯絡字串"
 
 #: gnucash/report/reports/standard/invoice.scm:276
 msgid "The phrase used to introduce the company contact."
-msgstr ""
+msgstr "用來介紹公司連絡人的文字。"
 
 #: gnucash/report/reports/standard/invoice.scm:277
-#, fuzzy
 msgid "Please direct all enquiries to"
-msgstr "將所有詢問導向"
+msgstr "請將所有詢問導向"
 
 #: gnucash/report/reports/standard/invoice.scm:281
 msgid "Minimum # of entries"
-msgstr ""
+msgstr "最低項目數量"
 
 #: gnucash/report/reports/standard/invoice.scm:282
-#, fuzzy
 msgid "The minimum number of invoice entries to display."
-msgstr "最少顯示多少發票項目。(-1)"
+msgstr "最少顯示多少發票項目。"
 
 #: gnucash/report/reports/standard/invoice.scm:287
 msgid "Use Detailed Tax Summary"
-msgstr ""
+msgstr "使用詳細的稅額摘要"
 
 #: gnucash/report/reports/standard/invoice.scm:288
 msgid ""
@@ -25781,14 +25779,12 @@ msgid "Display the billing id?"
 msgstr "是否顯示記帳 id？"
 
 #: gnucash/report/reports/standard/invoice.scm:309
-#, fuzzy
 msgid "Invoice owner ID"
-msgstr "發票所有人"
+msgstr "發票所有人 ID"
 
 #: gnucash/report/reports/standard/invoice.scm:310
-#, fuzzy
 msgid "Display the customer/vendor id?"
-msgstr "是否顯示動作？"
+msgstr "是否顯示客戶 / 廠商 ID ？"
 
 #: gnucash/report/reports/standard/invoice.scm:315
 msgid "Display the invoice notes?"
@@ -25807,12 +25803,10 @@ msgid "Job Details"
 msgstr "工作詳情"
 
 #: gnucash/report/reports/standard/invoice.scm:325
-#, fuzzy
 msgid "Display the job name for this invoice?"
-msgstr "是否顯示此發票的付款？"
+msgstr "是否顯示此發票的工作名稱？"
 
 #: gnucash/report/reports/standard/invoice.scm:330
-#, fuzzy
 msgid "Extra notes to put on the invoice."
 msgstr "發票上的額外備註"
 
@@ -25968,9 +25962,8 @@ msgstr "是否顯示交易描述？"
 
 #: gnucash/report/reports/standard/job-report.scm:395
 #: gnucash/report/reports/standard/owner-report.scm:602
-#, fuzzy
 msgid "Display the transaction amount?"
-msgstr "是否顯示交易日期？"
+msgstr "是否顯示交易金額？"
 
 #: gnucash/report/reports/standard/job-report.scm:508
 #: gnucash/report/reports/standard/new-owner-report.scm:1229
@@ -26096,9 +26089,8 @@ msgstr "有應收或應付帳款科目，但沒有適合的交易。"
 
 #: gnucash/report/reports/standard/new-aging.scm:329
 #: gnucash/report/reports/standard/new-owner-report.scm:546
-#, fuzzy
 msgid "Please note some transactions were not processed"
-msgstr "要取回的交易的日期範圍:"
+msgstr "請注意有些交易沒有被處理"
 
 #: gnucash/report/reports/standard/new-aging.scm:362
 #, scheme-format
@@ -26206,15 +26198,13 @@ msgstr "此報表的公司。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:922
 #: gnucash/report/reports/standard/owner-report.scm:582
-#, fuzzy
 msgid "Display the sale amount column?"
-msgstr "是否顯示總額？"
+msgstr "是否顯示銷售額欄位？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:927
 #: gnucash/report/reports/standard/owner-report.scm:587
-#, fuzzy
 msgid "Display the tax column?"
-msgstr "是否顯示科目？"
+msgstr "是否顯示稅額欄位？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:932
 #: gnucash/report/reports/standard/owner-report.scm:597
@@ -26231,14 +26221,12 @@ msgstr "顯示項目的折扣"
 #: gnucash/report/reports/standard/new-owner-report.scm:942
 #: gnucash/report/reports/standard/register.scm:413
 #: gnucash/report/trep-engine.scm:933
-#, fuzzy
 msgid "Display a running balance?"
-msgstr "顯示進行中的結算"
+msgstr "顯示逐筆結計的餘額？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:950
-#, fuzzy
 msgid "Show linked transactions"
-msgstr "只顯示無效的交易"
+msgstr "顯示連結的交易"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:951
 msgid "Linked transactions are hidden."
@@ -26254,33 +26242,28 @@ msgid ""
 msgstr ""
 
 #: gnucash/report/reports/standard/new-owner-report.scm:957
-#, fuzzy
 msgid "Simple"
-msgstr "範例："
+msgstr "簡單"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:958
-#, fuzzy
 msgid "Detailed"
-msgstr "失敗"
+msgstr "詳細"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:963
-#, fuzzy
 msgid "Display document link?"
-msgstr "以超連結顯示科目"
+msgstr "顯示文件連結？"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1082
 msgid "No valid account found"
 msgstr "找不到有效的科目"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1083
-#, fuzzy
 msgid "This report requires a valid AP/AR account to be available."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有有效的應收 / 應付科目才能使用。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1106
-#, fuzzy
 msgid "No transactions found."
-msgstr "找不到相符的交易"
+msgstr "找不到交易。"
 
 #: gnucash/report/reports/standard/new-owner-report.scm:1107
 #: gnucash/report/trep-engine.scm:130
@@ -26292,18 +26275,16 @@ msgid "No valid company selected."
 msgstr "未選擇有效的公司"
 
 #: gnucash/report/reports/standard/owner-report.scm:91
-#, fuzzy
 msgid "This report requires a company to be selected."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有選定的公司。"
 
 #: gnucash/report/reports/standard/owner-report.scm:107
 msgid "No valid account selected"
 msgstr "末選擇有效的科目"
 
 #: gnucash/report/reports/standard/owner-report.scm:108
-#, fuzzy
 msgid "This report requires a valid account to be selected."
-msgstr "這個報表需要有選定的科目。"
+msgstr "這個報表需要有選定的有效科目。"
 
 #: gnucash/report/reports/standard/owner-report.scm:768
 msgid "Report:"
@@ -26314,9 +26295,8 @@ msgid "Payable Account"
 msgstr "應付科目"
 
 #: gnucash/report/reports/standard/payables.scm:47
-#, fuzzy
 msgid "The payable account you wish to examine."
-msgstr "您希望檢驗的應付科目"
+msgstr "您希望檢驗的應付科目。"
 
 #: gnucash/report/reports/standard/portfolio.scm:33
 msgid "Investment Portfolio"
