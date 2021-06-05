@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-05 19:09+0800\n"
+"PO-Revision-Date: 2021-06-05 21:09+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -9991,7 +9991,7 @@ msgstr "通用選項"
 
 #: gnucash/gnucash-core-app.cpp:330
 msgid "Show this help message"
-msgstr "顯示這個幫助訊息"
+msgstr "顯示這個說明訊息"
 
 #: gnucash/gnucash-core-app.cpp:332
 msgid "Show GnuCash version"
@@ -10603,6 +10603,7 @@ msgid ""
 "The default font to use when printing checks. This value will be overridden "
 "by any font specified in a check description file."
 msgstr ""
+"列印支標時預設使用的字體。此數值可以被在任何指定了字型的支票描述檔覆寫。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:105
 #: gnucash/gschemas/org.gnucash.dialogs.checkprinting.gschema.xml.in:106
@@ -11028,6 +11029,8 @@ msgid ""
 "This is used internally to determine whether some preferences may need "
 "conversion when switching to a newer version of GnuCash."
 msgstr ""
+"此設定為內部用來決定某些偏好設定在切換到新版本的 GnuCash 時是否要進行轉換之"
+"用。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:15
 msgid "Save window sizes and locations"
@@ -11096,6 +11099,7 @@ msgid ""
 "The number of minutes until saving of the data file to harddisk will be "
 "started automatically. If zero, no saving will be started automatically."
 msgstr ""
+"在自動存檔功能開始儲存檔案到硬碟前等待幾分鐘。如果設定成零，則不會自動存檔。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:45
 #: gnucash/gtkbuilder/dialog-preferences.glade:1773
@@ -11181,6 +11185,9 @@ msgid ""
 "keep old files for a number of days. How many days is defined in key 'retain-"
 "days'"
 msgstr ""
+"此設定指定了要如何處理舊的日誌 / 備份檔案。「forever」代表保留所有舊檔案。"
+"「never」代表不保留舊的日誌 / 備份檔，每次存檔時舊版的檔案都會被刪除。"
+"「days」代表將舊檔保留幾天，保留的天數由「retain-days」此鍵定義。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:80
 #: gnucash/gtkbuilder/dialog-preferences.glade:1743
@@ -11218,6 +11225,9 @@ msgid ""
 "status of the account. The setting \"none\" doesn't reverse the sign on any "
 "balances."
 msgstr ""
+"這個設定允許某些科目的餘額使用相反的正負號。想要看到帶負號的開支與帶正號的收"
+"入的使用者，可以使用「income-expense」選項。想要看到科目餘額反應出「借 / 貸」"
+"狀態的使用者，可以使用「credit」選項。「none」選項則不更動任何正負號。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:100
 #: gnucash/gtkbuilder/dialog-preferences.glade:659
@@ -11321,6 +11331,9 @@ msgid ""
 "the user's locale setting. If set to \"other\", GnuCash will use the setting "
 "specified by the currency-other key."
 msgstr ""
+"此設定控制了新建科目時預設使用的貨幣來源。若設定成「locale」，則 GnuCash 會從"
+"使用者的地區設定取得預設的貨幣類型。若設定為「other」，則 GnuCash 會使用在"
+"「currency-other」此鍵中所指定的貨幣。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:145
 #: gnucash/gtkbuilder/dialog-preferences.glade:906
@@ -11337,6 +11350,8 @@ msgid ""
 "currency-choice setting is set to \"other\". This field must contain the "
 "three letter ISO 4217 code for a currency (e.g. USD, GBP, RUB)."
 msgstr ""
+"此設定指定了若貨幣選項被設成「other」時，建立新科目時的預設貨幣。此欄位必須使"
+"用 ISO 4217 所定義的以三個字母所組成的代碼（例如 USD、GBP、RUB）。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:155
 msgid "Use 24 hour time format"
@@ -11358,6 +11373,9 @@ msgid ""
 "Continental Europe style dates, \"iso\" for ISO 8601 standard dates , \"uk\" "
 "for United Kingdom style dates, and \"us\" for United States style dates."
 msgstr ""
+"此設定定義了在 GnuCash 中日期的顯示方式。可使用的值為：「locale」代表使用系統"
+"地區設定，「ce」為歐洲大陸風格的日期，「iso」為 ISO 8061 的標準日期，「uk」為"
+"英式風格的日期，而「us」則是美式風格的日期。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:165
 #: gnucash/gtkbuilder/dialog-preferences.glade:1108
@@ -11786,6 +11804,9 @@ msgid ""
 "locale setting. If set to \"other\", GnuCash will use the setting specified "
 "by the currency-other key."
 msgstr ""
+"此設定控制了報表預設使用的貨幣來源。若設定成「locale」，則 GnuCash 會從使用者"
+"的地區設定取得預設的貨幣類型。若設定為「other」，則 GnuCash 會使用在"
+"「currency-other」此鍵中所指定的貨幣。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:358
 #: gnucash/gtkbuilder/dialog-preferences.glade:3173
@@ -11825,6 +11846,10 @@ msgid ""
 "in filenames, such as '/', will be replaced with underscores '_' in the "
 "resulting file name."
 msgstr ""
+"此設定定義了匯出 PDF 時的檔案名稱。這是一個含有三個參數的 sprintf(3) 字串："
+"「%1$s」是像「發票」之類的報表名稱、「%2$s」則是報表號碼，以發票報表而言就是"
+"發票號碼。「%3$s」是依照「filename-date-format」所定義的格式表達的報表日期。"
+"註：任何在檔名中不允許出現的字元，像是「/」，會在輸出的檔名中被替換為「_」。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:383
 msgid "PDF export file name date format choice"
@@ -11838,6 +11863,9 @@ msgid ""
 "standard dates , \"uk\" for United Kingdom style dates, and \"us\" for "
 "United States style dates."
 msgstr ""
+"此設定定義了在 GnuCash 匯出 PDF 的檔案名稱中的日期格式。可使用的值為："
+"「locale」代表使用系統地區設定，「ce」為歐洲大陸風格的日期，「iso」為 ISO "
+"8061 的標準日期，「uk」為英式風格的日期，而「us」則是美式風格的日期。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:390
 msgid "Allow file incompatibility with older versions."
@@ -12185,6 +12213,9 @@ msgid ""
 "date specified by the start-date key. If set to anything else, GnuCash will "
 "retrieve the starting date specified by the start-period key."
 msgstr ""
+"此設定控制了獲利 / 虧損計算方式所使用的開始日期的種類。如果設定成"
+"「absolute」，GnuCash 會從「start-date」此鍵中取得開始日期。如果是其他值，則 "
+"GnuCash 會從「start-period」此鍵中取得開始日期。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:20
 msgid "Use absolute profit/loss starting date"
@@ -12200,6 +12231,8 @@ msgid ""
 "the start-choice setting is set to \"absolute\". This field should contain a "
 "date as represented in seconds from January 1st, 1970."
 msgstr ""
+"若「start-choice」設定成「absolute」，則此設定定義了計算獲利 / 虧損時所使用的"
+"開始日期。這個欄位應該用從 1970 年 1 月 1 號所經過的秒數來表達開始日期。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:30
 msgid "Starting time period identifier"
@@ -12211,6 +12244,8 @@ msgid ""
 "the start-choice setting is set to anything other than \"absolute\". This "
 "field should contain a value between 0 and 8."
 msgstr ""
+"若「start-choice」設定成「absolute」之外的值，則此設定定義了計算獲利 / 虧損時"
+"所使用的開始日期。此欄位應該使用 0 到 8 之間的數值表示。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:35
 msgid "Use relative profit/loss ending date"
@@ -12224,6 +12259,9 @@ msgid ""
 "date specified by the end-date key. If set to anything else, GnuCash will "
 "retrieve the ending date specified by the end-period key."
 msgstr ""
+"此設定控制了獲利 / 虧損計算方式所使用的結束日期的種類。如果設定成"
+"「absolute」，GnuCash 會從「start-date」此鍵中取得結束日期。如果是其他值，則 "
+"GnuCash 會從「start-period」此鍵中取得結束日期。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:40
 msgid "Use absolute profit/loss ending date"
@@ -12239,6 +12277,8 @@ msgid ""
 "end-choice setting is set to \"absolute\". This field should contain a date "
 "as represented in seconds from January 1st, 1970."
 msgstr ""
+"若「start-choice」設定成「absolute」，則此設定定義了計算獲利 / 虧損時所使用的"
+"結束日期。這個欄位應該用從 1970 年 1 月 1 號所經過的秒數來表達結束日期。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.account.tree.gschema.xml.in:50
 msgid "Ending time period identifier"
@@ -12250,6 +12290,8 @@ msgid ""
 "end-choice setting is set to anything other than \"absolute\". This field "
 "should contain a value between 0 and 8."
 msgstr ""
+"若「start-choice」設定成「absolute」之外的值，則此設定定義了計算獲利 / 虧損時"
+"所使用的結束日期。此欄位應該使用 0 到 8 之間的數值表示。"
 
 #: gnucash/gschemas/org.gnucash.window.pages.gschema.xml.in:5
 msgid "Display this column"
@@ -12277,6 +12319,10 @@ msgid ""
 "development. It will probably damage your data in such a way that it cannot "
 "be repaired!"
 msgstr ""
+"這個精靈將會協助您設定會計週期。\n"
+"\n"
+"危險：這個功能目前無法正常運作，仍在開發當中。它很有可能對您的資料造成無法修"
+"復的損壞！"
 
 #: gnucash/gtkbuilder/assistant-acct-period.glade:27
 msgid "Setup Account Period"
@@ -12880,6 +12926,13 @@ msgid ""
 "* if 'Leading Lines to Skip' is set to 4, the first line to import will be "
 "line 5. Lines 6, 8, 10,... will be skipped."
 msgstr ""
+"從真正匯入的第一行算起，會每兩行才進行匯入。此選項也會將「略過開頭多少行」也"
+"考慮進去。\n"
+"例如\n"
+"* 若「略過開頭多少行」設定為 3，則第一筆被匯入的資料會在檔案第 4 行。第 5, "
+"7, 9,... 行會被忽略。\n"
+"* 若「略過開頭多少行」設定為 4，則第一筆被匯入的資料會在檔案第 5 行。第 6, "
+"8, 10,... 行會被忽略。"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:833
 msgid "<b>Account</b>"
@@ -12955,7 +13008,7 @@ msgid ""
 "\n"
 "Click 'Cancel' if you do not wish to create any new accounts now."
 msgstr ""
-"這個精靈會幫助您建立一組 GnuCash 科目，包括您的資產(像是投資、支票或儲蓄帳"
+"這個精靈會協助您建立一組 GnuCash 科目，包括您的資產(像是投資、支票或儲蓄帳"
 "號)、債務(像是貸款)與您可能會有的各種不同的收入和支出。\n"
 "\n"
 "您可以在這邊選擇看起來和您需要相近的科目。當此精靈完成時，您可以在之後任何的"
@@ -13775,7 +13828,7 @@ msgstr "股票分割精靈"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:31
 msgid "This assistant will help you record a stock split or stock merger.\n"
-msgstr "這個精靈會幫助您記錄股票的分割或合併。\n"
+msgstr "這個精靈會協助您記錄股票的分割或合併。\n"
 
 #: gnucash/gtkbuilder/assistant-stock-split.glade:53
 msgid ""
@@ -18404,7 +18457,7 @@ msgstr "AqBanking 初始化精靈"
 msgid ""
 "This assistant helps you setting up your Online Banking connection with your "
 "bank."
-msgstr ""
+msgstr "這個精靈將會協助您設定您的網路銀行連線。"
 
 #. See https://wiki.gnucash.org/wiki/AqBanking for the used terminology and replace the link, if a localized version exists.
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:47
@@ -19133,7 +19186,7 @@ msgstr "供您參考：此帳戶還有另一個值被記錄的餘額 (noted bala
 msgid ""
 "The booked balance is identical to the current reconciled balance of the "
 "account."
-msgstr ""
+msgstr "帳面餘額與目前科目的已對帳結餘相同。"
 
 #: gnucash/import-export/aqb/gnc-ab-utils.c:1184
 msgid "Reconcile account now?"
@@ -19791,6 +19844,9 @@ msgid ""
 "You can verify your selections by clicking on 'Back' or 'Cancel' to Abort "
 "Import.\n"
 msgstr ""
+"當您按下「套用」後，將會從「%s」檔案中匯入科目。\n"
+"\n"
+"您可以按下「返回」確認您的選擇，或按下「取消」中止匯入。\n"
 
 #: gnucash/import-export/csv-imp/assistant-csv-account-import.c:75
 #, c-format
@@ -19806,6 +19862,14 @@ msgid ""
 "Note: After import, you may need to use 'View / Filter By / Other' menu "
 "option and select to show unused Accounts.\n"
 msgstr ""
+"當您按下「套用」後，將會從「%s」檔案中匯入科目。\n"
+"\n"
+"您可以按下「返回」確認您的選擇，或按下「取消」中止匯入。\n"
+"\n"
+"如果您是直接匯入至新建立的檔案，則一開始您會見到設定帳本選項的對話盒，因為這"
+"些選項可能會影響到匯入的資料要如何轉換成 GnuCash 的交易。\n"
+"註：在匯入後，您可能需要使用「檢視 / 過濾依 / 其他」的選單選項，選擇您要如何"
+"顯示未被使用的科目。\n"
 
 #: gnucash/import-export/csv-imp/assistant-csv-account-import.c:528
 #, c-format
@@ -20256,7 +20320,7 @@ msgstr "沒有存入或提出欄位。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:602
 msgid "Split is reconciled but reconcile date column is missing or invalid."
-msgstr ""
+msgstr "分割已對帳但沒有對帳日期欄位或該欄無效。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-tx.cpp:609
 msgid ""
@@ -21448,6 +21512,8 @@ msgid ""
 "overwrite it from this register window. You may overwrite it if you navigate "
 "to a register that shows another side of this same transaction."
 msgstr ""
+"這是將此交易定錨到登記簿的分割，您無法從這個登記簿視窗中覆寫他。您可以切換到"
+"相同交易的另一側科目的登記簿視窗，來覆寫這個分割。"
 
 #: gnucash/register/ledger-core/split-register.c:1005
 msgid ""
@@ -24213,6 +24279,9 @@ msgid ""
 "account. If this option is disabled, subtotals are displayed below parent "
 "and children groups."
 msgstr ""
+"如果勾選此選項，則子科目小計的金額會包含在母科目金額中，且母科目若本身有其金"
+"額，會以子科目的型式顯示在下一行。若未勾選此選項，則小計會顯示在母科目與子科"
+"目群組下方。"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:102
 msgid "Display amounts as hyperlinks"
@@ -24967,13 +25036,13 @@ msgstr "沒有可匯出的資料"
 
 #: gnucash/report/reports/standard/customer-summary.scm:51
 msgid "The income accounts where the sales and income was recorded."
-msgstr ""
+msgstr "登記了銷售與收入的收入科目。"
 
 #: gnucash/report/reports/standard/customer-summary.scm:61
 msgid ""
 "The expense accounts where the expenses are recorded which are subtracted "
 "from the sales to give the profit."
-msgstr ""
+msgstr "登記了開支的支出科目，將會與銷售相減以計算獲利。"
 
 #: gnucash/report/reports/standard/customer-summary.scm:63
 msgid "Show Expense Column"
