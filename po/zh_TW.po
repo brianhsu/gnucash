@@ -803,7 +803,7 @@ msgstr "科目類型"
 #: gnucash/gnome/assistant-hierarchy.c:868
 #, c-format
 msgid "Accounts in '%s'"
-msgstr "'%s' 所對應的科目"
+msgstr "「%s」中的科目"
 
 #: gnucash/gnome/assistant-hierarchy.c:876
 msgid "No description provided."
