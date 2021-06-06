@@ -27160,7 +27160,7 @@ msgstr "自訂多欄報表"
 
 #: gnucash/report/reports/support/balsheet-eg.eguile.scm:167
 msgid "Assets Accounts"
-msgstr "資産科目"
+msgstr "資產科目"
 
 #: gnucash/report/reports/support/balsheet-eg.eguile.scm:173
 msgid "Liability Accounts"
