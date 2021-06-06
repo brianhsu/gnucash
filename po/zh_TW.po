@@ -10,7 +10,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: https://bugs.gnucash.org/enter_bug.cgi?"
 "product=GnuCash&component=Translations\n"
 "POT-Creation-Date: 2021-06-02 12:03+0800\n"
-"PO-Revision-Date: 2021-06-05 21:09+0800\n"
+"PO-Revision-Date: 2021-06-05 23:43+0800\n"
 "Last-Translator: Brian Hsu <brianhsu.hsu@gmail.com>\n"
 "Language-Team: Chinese (Traditional) <https://hosted.weblate.org/projects/"
 "gnucash/gnucash/zh_Hant/>\n"
@@ -10825,7 +10825,7 @@ msgstr "顯示或隱藏已對帳的配對"
 msgid ""
 "Shows or hides transactions from the match picker which are already of some "
 "reconciled state."
-msgstr ""
+msgstr "在配對挑選器中顯示或隱藏已經有對帳狀態的交易。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:5
 #: gnucash/gschemas/org.gnucash.dialogs.import.qif.gschema.xml.in:10
@@ -12664,6 +12664,28 @@ msgid ""
 "\n"
 "Click on \"Next\" to proceed or \"Cancel\" to Abort Import."
 msgstr ""
+"這個精靈將會協助您從 CSV 檔中匯入價格。\n"
+"\n"
+"若要成功匯入，須要以下這些必填的欄位：日期、金額、商品命名空間、商品代號與報"
+"價貨幣別。如果所有項目都是針對同一個商品 / 報價貨幣別，則您可以從下拉選單中選"
+"取它們，且必填欄位會是日期與金額。\n"
+"可以選擇使用不同的選擇來指定分隔符號，也可以選擇使用固定寬度的欄位。當選擇使"
+"用固定寬度欄位的選擇時，在表格上的資料列點兩下將可以設定欄位寬度，並且點選滑"
+"鼠右鍵可以在需要時修改他們。\n"
+"範例：\"FTSE\",\"RR.L\",\"21/11/2016\",5.345,\"GBP\" 或 CURRENCY;"
+"USD;2016-11-21;1.56;GBP\n"
+"\n"
+"有選項可以指定要跳過檔案開頭和結尾多少列，或是略過檔案中的交替行數，這可以在"
+"您的檔案有標頭時使用。此外若有需要，也有選項可以讓您選擇覆蓋掉某日已存在的價"
+"格。\n"
+"\n"
+"最後，對於重複的匯入，在預覽頁中有載入和儲存設定按鈕。您可以儲存調整過後的設"
+"定並且在之後的匯入中使用。另外在載入您的設定之後，您也可以針對相似的匯入進行"
+"微調並以其他名稱儲存。注意您無法儲存至預設的設定。\n"
+"\n"
+"這個操作無法還原，請確認您有可用的備份。\n"
+"\n"
+"點選「下一步」繼續，或點選「取消」中止匯入。"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:84
 msgid "Price Import Assistant"
@@ -12829,7 +12851,7 @@ msgstr "<b>來源商品</b>"
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:898
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:57
 msgid "Currency To"
-msgstr "報價幣值"
+msgstr "報價貨幣別"
 
 #: gnucash/gtkbuilder/assistant-csv-price-import.glade:965
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:900
@@ -12890,6 +12912,24 @@ msgid ""
 "imports. After loading your settings you can also tweak them again for "
 "similar imports and save them under another name."
 msgstr ""
+"這個精靈將會協助您匯入含有欄位分隔的交易列表檔案。它同時支援以分隔符號（例如"
+"以逗號區隔或以分號區隔）或以固定寬度分隔欄位的檔案。\n"
+"\n"
+"若要成功匯入，匯入的檔案必須具有以下三個欄位：\n"
+"• 日期欄\n"
+"• 描述欄\n"
+"• 存入或提出欄\n"
+"\n"
+"如果檔案內沒有科目相關的資訊，可以選擇所有匯入的資料預設使用的科目。\n"
+"\n"
+"除了可選擇分隔符號之外，匯入精靈也有一些其他的選項。例如檔案開頭或結尾要跳過"
+"的行數，或跳過奇數行。支援數種日期和數字格式，亦可指定檔案編碼。\n"
+"\n"
+"此匯入精靈可以處理將單筆交以單行表示，每行代表一個交易分割的檔案。\n"
+"\n"
+"最後，對於重覆匯入，在預覽頁有載入和儲存設定的按鈕。您可以將您修改的設定儲"
+"存，並在之後的匯入中重復使用他們。在載入設定後，您也可以針對相似的匯入微調設"
+"定，並以不同的名稱儲存這些設定。"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:74
 msgid "Transaction Import Assistant"
@@ -12914,6 +12954,14 @@ msgid ""
 "information is empty or the same as the first transaction line the importer "
 "will consider this line part of the same transaction."
 msgstr ""
+"一般而言匯入精靈會假設匯入的檔案裡每一行對應到一個交易。每一行都含有一筆交易"
+"的一或兩個分割。\n"
+"\n"
+"當勾選「多個分割」時，匯入精靈會假設一筆交易會連續以多行來表示，每行提供了該"
+"交易中的其中一個分割的資訊，第一行則提供了該交易的整體資訊。\n"
+"要知道哪些行屬於同一筆交易，匯入精靈會比對每一行中提供的交易資訊。如果該資訊"
+"是空值，或是和第一個交易行相同，則匯入精靈會認為該行是屬於同一個交易的一部"
+"份。"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:767
 msgid ""
@@ -12985,6 +13033,22 @@ msgid ""
 "\n"
 "More information can be displayed by using the help button."
 msgstr ""
+"如果您點選「下一步」，GnuCash 將會進行多項檢查。\n"
+"\n"
+"如果<i>檢查失敗</i>則您會自動被導向預覽頁並且您可以進行修正。\n"
+"\n"
+"在下一頁中，您可以將各筆交易關連到類別中。\n"
+"\n"
+"如果這是您<i>首次匯入到新建立的檔案</i>，您將會看到設定帳本選項的對話盒，因為"
+"這些選項會影響到您匯入的資料要如何轉換成 GnuCash 的交易。如果這是一個既有的檔"
+"案，則不會顯示該對話盒。\n"
+"\n"
+"如果這是您<i>首次匯入</i>，則您會發現所有資料都要進行關聯。在之後的匯入中，匯"
+"入精靈會試著依照上一次的匯入來自動關連交易。\n"
+"\n"
+"關連正確性的信心程度，則會以色條顯示。\n"
+"\n"
+"可以使用「說明」按鈕顯示更多資訊。"
 
 #: gnucash/gtkbuilder/assistant-csv-trans-import.glade:1102
 msgid "Transaction Information"
@@ -13685,6 +13749,9 @@ msgid ""
 "setting book options will not be shown a second time when you go forward. "
 "You can access it directly from the menu via File->Properties."
 msgstr ""
+"由於您正在建立新的檔案，接下來您將會看到帳本設定對話盒。這會影響到 GnuCash 如"
+"何匯入交易。若您在並非取消且重頭開始的情況下，則從第二次開始，您回到這一頁之"
+"後帳本選項將不會在下一步出現。您可以直接從「檔案->內容」選單開啟它。"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1001
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2642
@@ -15380,6 +15447,9 @@ msgid ""
 "rows and then Right Click to select a transfer account. Only rows with \"A\" "
 "checked can be added to a selection."
 msgstr ""
+"您可以選擇多筆交易並且統一指定所有選擇的交易要指定的科目。使用「Ctrl+滑鼠左"
+"鍵」或「Shift+滑鼠左鍵」以選取多行，並且點選滑鼠右鍵選擇轉帳科目。只有被標記"
+"為「新增」的交易可以加入到選擇中。"
 
 #: gnucash/gtkbuilder/dialog-import.glade:466
 msgid ""
@@ -16084,7 +16154,7 @@ msgstr "自動小數會填入的位數多寡。"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:1372
 msgid "Numbers, Date, Time"
-msgstr "數值、日期、時間"
+msgstr "數字、日期、時間"
 
 #: gnucash/gtkbuilder/dialog-preferences.glade:1403
 msgid "Perform account list _setup on new file"
@@ -18486,6 +18556,21 @@ msgid ""
 "Online Banking, because sometimes the bank does not give you correct "
 "feedback when a transfer is rejected."
 msgstr ""
+"不同的 AqBanking 後端對網路銀行有不同的要求，但通常您需要：\n"
+"* 您的銀行需要授權您進行線上操作。請參考他們的網站或詢問客服如何取得權限。\n"
+"他們應該會告訴您：\n"
+"* 您的使用者 ID，用來告訴伺服器您的身份，這通常會是您的帳號；\n"
+"* 他們的網路銀行伺服器的 URL；\n"
+"* 某些情況下，您的銀行分行的路由號碼會對這個精靈很有幫助；\n"
+"* 認證方式將會依後端以及選擇的方式有所不同：\n"
+" * FinTS PIN/TAN：某些方法需要特別的設備，像是讀卡機或手機；\n"
+" * FinTS HBCI：您必須和銀行交換非對稱加密金鑰中公鑰的部份（Ini-Letter）\n"
+" * PayPal：註冊的電子郵件地址、密碼和 API 簽名；\n"
+"\n"
+"詳細資訊請見 https://wiki.gnucash.org/wiki/AqBanking。\n"
+"\n"
+"註：不保證任何事情。有些銀行的線上銀行伺服器實作得很爛。您不應該依賴網路銀行"
+"進行時間緊迫的轉帳，因為有時這些銀行在轉帳被拒絕時不會給您正確的回應。"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:71
 msgid "Initial Online Banking Setup"
@@ -19705,18 +19790,31 @@ msgid ""
 "Select the settings you require for the file and then click \"Next\" to "
 "proceed or \"Cancel\" to abort the export.\n"
 msgstr ""
+"這個精靈會協助您將交易匯到以下方指定的分隔符做分隔的檔案。\n"
+"\n"
+"%s\n"
+"\n"
+"雖然有些交易可能會有多個分割散落在所選擇的科目中，但他們只會被匯出一次。他們"
+"會出現在第一個被處理，且具有該交易的分割的科目下。\n"
+"\n"
+"價格 / 費率欄位的格式由偏好設定內的\n"
+"「數字、日期、時間」->「強制使用小數點顯示價格」控制。\n"
+"\n"
+"選擇您的檔案所需的設定，並且按下「下一步」繼續，或按下「取消」中止匯出。\n"
 
 #: gnucash/import-export/csv-exp/assistant-csv-export.c:99
 msgid ""
 "There will be multiple rows for each transaction with each row representing "
 "one split."
-msgstr ""
+msgstr "每筆交易會有多行，每行代表了一個分割。"
 
 #: gnucash/import-export/csv-exp/assistant-csv-export.c:103
 msgid ""
 "There will be one row for each transaction, equivalent to a single row in a "
 "register in 'Basic Ledger' mode. As such some transfer detail could be lost."
 msgstr ""
+"每筆交易僅會有一行，和登記簿中的「基本分類帳」模式相同。因此，有些交易細節可"
+"能會遺失。"
 
 #. Translators: %s is the file name.
 #: gnucash/import-export/csv-exp/assistant-csv-export.c:109
@@ -19903,6 +20001,8 @@ msgid ""
 "There were problems reading some saved settings, continuing to load.\n"
 "Please review and save again."
 msgstr ""
+"讀取某些已儲存的設定時發生錯誤，將繼續載入。\n"
+"請檢查並內容並再次儲存。"
 
 #: gnucash/import-export/csv-imp/assistant-csv-price-import.cpp:904
 #: gnucash/import-export/csv-imp/assistant-csv-trans-import.cpp:871
@@ -20096,7 +20196,7 @@ msgstr "請選擇金額欄位。"
 msgid ""
 "Please select a 'Currency to' column or set a Currency in the 'Currency To' "
 "field."
-msgstr "請選擇「報價幣值」欄位，或在「報價幣值」中設定貨幣種類。"
+msgstr "請選擇「報價貨幣別」欄位，或在「報價貨幣別」中設定貨幣種類。"
 
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:466
 msgid ""
@@ -20115,7 +20215,7 @@ msgstr "請選擇「商品命名空間」欄位，或在「來源商品」中設
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:210
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:288
 msgid "'Commodity From' can not be the same as 'Currency To'."
-msgstr "「來源商品」和「報價幣值」不能是相同的。"
+msgstr "「來源商品」和「報價貨幣別」不能是相同的。"
 
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:502
 #: gnucash/import-export/csv-imp/gnc-import-tx.cpp:524
@@ -20143,7 +20243,7 @@ msgid ""
 "No 'Currency to' column selected and no selected Currency specified either.\n"
 "This should never happen. Please report this as a bug."
 msgstr ""
-"未選定「報價幣值」欄位，且未指定貨幣欄位。\n"
+"未選定「報價貨幣別」欄位，且未指定貨幣欄位。\n"
 "這不應該發生，請將此回報為 BUG。"
 
 #: gnucash/import-export/csv-imp/gnc-import-price.cpp:597
@@ -20232,7 +20332,7 @@ msgstr "「商品命名空間」不能是空的。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:223
 msgid "'Currency To' can not be the same as 'Commodity From'."
-msgstr "「報價幣值」和「來源商品」不能是相同的。"
+msgstr "「報價貨幣別」和「來源商品」不能是相同的。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:225
 msgid "Value parsed into an invalid currency for a currency column type."
@@ -20260,7 +20360,7 @@ msgstr "無金額欄位。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:284
 msgid "No 'Currency to'."
-msgstr "無「報價幣值」欄位。"
+msgstr "無「報價貨幣別」欄位。"
 
 #: gnucash/import-export/csv-imp/gnc-imp-props-price.cpp:286
 msgid "No 'Commodity from'."
@@ -23454,7 +23554,7 @@ msgstr "如果有超過深度的科目，針對這些科目要如何處理。"
 msgid ""
 "Show the total balance, including balances in subaccounts, of any account at "
 "the depth limit."
-msgstr ""
+msgstr "顯示餘額，包括任何到達深度限制的科目及其子科目的餘額。"
 
 #: gnucash/report/reports/standard/account-summary.scm:97
 msgid "Raise accounts deeper than the depth limit to the depth limit."
@@ -24246,7 +24346,7 @@ msgstr "不使用金額縮排"
 msgid ""
 "Selecting this option will disable amount indenting, and condense amounts "
 "into a single column."
-msgstr ""
+msgstr "勾選此選項將會不使用金額縮排，所有的金額會在同一欄顯示。"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:75
 #: gnucash/report/trep-engine.scm:98
@@ -25068,7 +25168,7 @@ msgstr "顯示全部為零的資料列"
 msgid ""
 "Show the table lines with customers which did not have any transactions in "
 "the reporting period, hence would show all zeros in the columns."
-msgstr ""
+msgstr "在表格中顯示報表週期中沒有任何交易的客戶，由此所有的欄位都會顯示零。"
 
 #: gnucash/report/reports/standard/customer-summary.scm:72
 msgid "Show Inactive Customers"
@@ -27721,6 +27821,8 @@ msgid ""
 "match Expenses:Travel:Holiday and Expenses:Business:Travel. It can be left "
 "blank, which will disable the filter."
 msgstr ""
+"只顯示科目全名符合這個過濾器的科目。例如「旅行」會找「支出:旅行:渡假」或「支"
+"出:商務:旅行」。可以留白，如此一來將不會使用過濾器。"
 
 #: gnucash/report/trep-engine.scm:569
 msgid ""
@@ -27740,6 +27842,9 @@ msgid ""
 "e.g. '#gift' will find all transactions with #gift in description, notes or "
 "memo. It can be left blank, which will disable the filter."
 msgstr ""
+"只顯示描述、筆記或備註符合這個過濾器的交易。\n"
+"例如「#gift」會找到所有在描述、筆記或備註有 #gift 字樣的交易。可以留白，如此"
+"一來將不會使用此過濾器。"
 
 #: gnucash/report/trep-engine.scm:587
 msgid ""
