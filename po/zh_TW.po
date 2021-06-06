@@ -716,7 +716,7 @@ msgstr ""
 
 #: gnucash/gnome/assistant-acct-period.c:188
 msgid "The book was closed successfully."
-msgstr "帳本已成功關閉。"
+msgstr "帳簿已成功關閉。"
 
 #. Translators: %s is a date string. %d is the number of books
 #. that will be created. This is a ngettext(3) message (but
@@ -730,10 +730,10 @@ msgid_plural ""
 "The earliest transaction date found in this book is %s. Based on the "
 "selection made above, this book will be split into %d books."
 msgstr[0] ""
-"這本帳本中最早的交易日期是 %s，根據上面所選的模式，這個帳本會被分割成 %d 本帳"
+"這本帳簿中最早的交易日期是 %s，根據上面所選的模式，這個帳簿會被分割成 %d 本帳"
 "本。"
 msgstr[1] ""
-"這本帳本中最早的交易日期是 %s，根據上面所選的模式，這個帳本會被分割成 %d 本帳"
+"這本帳簿中最早的交易日期是 %s，根據上面所選的模式，這個帳簿會被分割成 %d 本帳"
 "本。"
 
 #. Translators: Run the assistant in your language to see GTK's translation of the button labels.
@@ -775,7 +775,7 @@ msgid ""
 "Congratulations! You are done closing books!\n"
 msgstr ""
 "%s\n"
-"恭喜！您已成功關閉帳本！\n"
+"恭喜！您已成功關帳！\n"
 
 #: gnucash/gnome/assistant-acct-period.c:589
 #: gnucash/gtkbuilder/dialog-fincalc.glade:637
@@ -857,7 +857,7 @@ msgid ""
 "new accounts. Accounts in other currencies must be\n"
 "added manually."
 msgstr ""
-"您選擇了帳本的貨幣類型，他會被用在所有新的科目中。\n"
+"您選擇了帳簿的貨幣類型，他會被用在所有新的科目中。\n"
 "使用其他貨幣的科目必須手動建立。"
 
 #: gnucash/gnome/assistant-hierarchy.c:1491
@@ -868,7 +868,7 @@ msgstr "請選擇用於新科目的貨幣。"
 #: gnucash/gnome/assistant-hierarchy.c:1555
 #: gnucash/gnome-utils/dialog-utils.c:809
 msgid "New Book Options"
-msgstr "帳本選項"
+msgstr "帳簿選項"
 
 #: gnucash/gnome/assistant-loan.cpp:128
 msgid "Taxes"
@@ -3510,7 +3510,7 @@ msgstr "預算(_U)"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:183
 msgid "Close _Books"
-msgstr "關閉帳本(_B)"
+msgstr "關閉帳簿(_B)"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:184
 msgid "Archive old data using accounting periods"
@@ -3542,11 +3542,11 @@ msgstr "使用貸款償還計算機"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:206
 msgid "_Close Book"
-msgstr "關閉帳本(_C)"
+msgstr "關閉帳簿(_C)"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:207
 msgid "Close the Book at the end of the Period"
-msgstr "在會計週期結束時關閉帳本"
+msgstr "在會計週期結束時關閉帳簿"
 
 #: gnucash/gnome/gnc-plugin-basic-commands.c:211
 msgid "_Import Map Editor"
@@ -3889,7 +3889,7 @@ msgstr "新增科目體系(_H)..."
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:204
 msgid "Extend the current book by merging with new account type categories"
-msgstr "透過合併新的科目體系，來擴充目前的帳本"
+msgstr "透過合併新的科目體系，來擴充目前的帳簿"
 
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:209
 #: gnucash/gnome/gnc-plugin-page-account-tree.c:220
@@ -6247,7 +6247,7 @@ msgid ""
 "The date of this transaction is older than the \"Read-Only Threshold\" set "
 "for this book. This setting can be changed in File->Properties->Accounts."
 msgstr ""
-"此筆交易的日期，超過了帳本設定的「交易唯讀日期門檻」。這個設定可以從「檔案->"
+"此筆交易的日期，超過了帳簿設定的「交易唯讀日期門檻」。這個設定可以從「檔案->"
 "內容->科目」中變更。"
 
 #: gnucash/gnome/gnc-split-reg.c:1208
@@ -6393,7 +6393,7 @@ msgid ""
 msgstr ""
 "設計成簡單易用，但又強大並具有彈性。GnuCash 可以讓您追蹤銀行帳戶、股票、收入"
 "和開支。雖然和記帳簿一樣直覺和快速，但它使用了專業的會計原則，像是複式計帳，"
-"以確保帳本平衡，以及精確的報表。"
+"以確保帳簿平衡，以及精確的報表。"
 
 #: gnucash/gnome/gnucash.appdata.xml.in.in:15
 msgid "With GnuCash you can (but are not limited to):"
@@ -7529,7 +7529,7 @@ msgstr "科目 %s 是佔位符號並且不允許交易。請選擇另一個科�
 
 #: gnucash/gnome-utils/dialog-options.c:1278
 msgid "Book currency"
-msgstr "帳本貨幣"
+msgstr "帳簿貨幣"
 
 #: gnucash/gnome-utils/dialog-options.c:1303
 msgid "Default lot tracking policy"
@@ -8623,7 +8623,7 @@ msgstr "(唯讀)"
 
 #: gnucash/gnome-utils/gnc-main-window.c:1597
 msgid "Unsaved Book"
-msgstr "未儲存的帳本"
+msgstr "未儲存的帳簿"
 
 #: gnucash/gnome-utils/gnc-main-window.c:1760
 msgid "Last modified on %a, %b %d, %Y at %I:%M %p"
@@ -8646,12 +8646,12 @@ msgstr "無法存到資料庫。"
 
 #: gnucash/gnome-utils/gnc-main-window.c:2977
 msgid "Unable to save to database: Book is marked read-only."
-msgstr "無法存到資料庫：帳本已標為唯讀。"
+msgstr "無法存到資料庫：帳簿已標為唯讀。"
 
 #: gnucash/gnome-utils/gnc-main-window.c:4322
 #: gnucash/gtkbuilder/assistant-qif-import.glade:975
 msgid "Book Options"
-msgstr "帳本選項"
+msgstr "帳簿選項"
 
 #. Translators: %s will be replaced with the current year
 #: gnucash/gnome-utils/gnc-main-window.c:4706
@@ -8776,7 +8776,7 @@ msgstr "永不"
 msgid ""
 "You can not change this transaction, the Book or Register is set to Read "
 "Only."
-msgstr "您無法更動筆交易，此帳本或登錄簿被設成唯讀。"
+msgstr "您無法更動筆交易，此帳簿或登錄簿被設成唯讀。"
 
 #: gnucash/gnome-utils/gnc-tree-control-split-reg.c:131
 msgid "Save Transaction before proceeding?"
@@ -8879,7 +8879,7 @@ msgid ""
 "Threshold\" set for this book. This setting can be changed in File-"
 ">Properties->Accounts."
 msgstr ""
-"輸入的重覆的交易日期，超過了帳本中設定的「交易唯讀日期門檻」。這個設定可以從"
+"輸入的重覆的交易日期，超過了帳簿中設定的「交易唯讀日期門檻」。這個設定可以從"
 "「檔案->內容->科目」中變更。"
 
 #. Translators: This message will be presented when a user
@@ -9241,7 +9241,7 @@ msgid ""
 "Threshold\" set for this book. This setting can be changed in File-"
 ">Properties->Accounts."
 msgstr ""
-"輸入的新交易的日期，超過了帳本設定的「交易唯讀日期門檻」。這個設定可以從「檔"
+"輸入的新交易的日期，超過了帳簿設定的「交易唯讀日期門檻」。這個設定可以從「檔"
 "案->內容->科目」中變更。"
 
 #: gnucash/gnome-utils/gnc-tree-util-split-reg.c:861
@@ -11511,7 +11511,7 @@ msgid ""
 "Set book option on new files to use split \"action\" field for \"Num\" field "
 "on registers/reports"
 msgstr ""
-"設定開檔檔案時，將帳本設定為在登記簿/報表中，「號碼」欄位顯示分割中的「動作」"
+"設定開檔檔案時，將帳簿設定為在登記簿/報表中，「號碼」欄位顯示分割中的「動作」"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:231
 #: gnucash/gtkbuilder/dialog-preferences.glade:1427
@@ -12340,16 +12340,16 @@ msgstr ""
 "選擇會計週期以及關帳日期，關帳日期不能是未來時間，且必須大於上一次的關帳日"
 "期。\n"
 "\n"
-"帳本將會在選擇的日期關帳。"
+"帳簿將會在選擇的日期關帳。"
 
 #: gnucash/gtkbuilder/assistant-acct-period.glade:85
 msgid "Book Closing Dates"
-msgstr "帳本關閉日期"
+msgstr "帳簿關閉日期"
 
 #: gnucash/gtkbuilder/assistant-acct-period.glade:214
 #: gnucash/gtkbuilder/dialog-book-close.glade:7
 msgid "Close Book"
-msgstr "關閉帳本"
+msgstr "關帳"
 
 #: gnucash/gtkbuilder/assistant-acct-period.glade:228
 msgid "Account Period Finish"
@@ -13039,7 +13039,7 @@ msgstr ""
 "\n"
 "在下一頁中，您可以將各筆交易關連到類別中。\n"
 "\n"
-"如果這是您<i>首次匯入到新建立的檔案</i>，您將會看到設定帳本選項的對話盒，因為"
+"如果這是您<i>首次匯入到新建立的檔案</i>，您將會看到設定帳簿選項的對話盒，因為"
 "這些選項會影響到您匯入的資料要如何轉換成 GnuCash 的交易。如果這是一個既有的檔"
 "案，則不會顯示該對話盒。\n"
 "\n"
@@ -13749,14 +13749,14 @@ msgid ""
 "setting book options will not be shown a second time when you go forward. "
 "You can access it directly from the menu via File->Properties."
 msgstr ""
-"由於您正在建立新的檔案，接下來您將會看到帳本設定對話盒。這會影響到 GnuCash 如"
+"由於您正在建立新的檔案，接下來您將會看到帳簿設定對話盒。這會影響到 GnuCash 如"
 "何匯入交易。若您在並非取消且重頭開始的情況下，則從第二次開始，您回到這一頁之"
-"後帳本選項將不會在下一步出現。您可以直接從「檔案->內容」選單開啟它。"
+"後帳簿選項將不會在下一步出現。您可以直接從「檔案->內容」選單開啟它。"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1001
 #: gnucash/import-export/qif-imp/assistant-qif-import.c:2642
 msgid "Choose the QIF file currency and select Book Options"
-msgstr "選擇 QIF 檔案貨幣與帳本選項"
+msgstr "選擇 QIF 檔案貨幣與帳簿選項"
 
 #: gnucash/gtkbuilder/assistant-qif-import.glade:1022
 msgid ""
@@ -19964,7 +19964,7 @@ msgstr ""
 "\n"
 "您可以按下「返回」確認您的選擇，或按下「取消」中止匯入。\n"
 "\n"
-"如果您是直接匯入至新建立的檔案，則一開始您會見到設定帳本選項的對話盒，因為這"
+"如果您是直接匯入至新建立的檔案，則一開始您會見到設定帳簿選項的對話盒，因為這"
 "些選項可能會影響到匯入的資料要如何轉換成 GnuCash 的交易。\n"
 "註：在匯入後，您可能需要使用「檢視 / 過濾依 / 其他」的選單選項，選擇您要如何"
 "顯示未被使用的科目。\n"
@@ -21871,7 +21871,7 @@ msgid ""
 "\" set for this book. This setting can be changed in File->Properties-"
 ">Accounts, resetting to the threshold."
 msgstr ""
-"輸入的此筆交易的日期，超過了帳本設定的「交易唯讀日期門檻」。這個設定可以從"
+"輸入的此筆交易的日期，超過了帳簿設定的「交易唯讀日期門檻」。這個設定可以從"
 "「檔案->內容->科目」中變更。"
 
 #: gnucash/register/register-gnome/gnucash-item-list.c:530
@@ -28968,7 +28968,7 @@ msgstr "貨幣會計"
 
 #: libgnucash/engine/qofbookslots.h:68
 msgid "Book Currency"
-msgstr "帳本貨幣"
+msgstr "帳簿貨幣"
 
 #: libgnucash/engine/qofbookslots.h:69
 msgid "Default Gains Policy"
