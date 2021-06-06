@@ -13176,7 +13176,7 @@ msgstr ""
 "如果您希望一個帳路有起始餘額，點選該科目再點起始餘額那欄就能輸入一開始的餘"
 "額。\n"
 "\n"
-"<b>注意</b>: 除了淨值 (Equity) 跟佔位符號之外，所有科目都可以有起始餘額。\n"
+"<b>注意</b>: 除了淨值（股東權益）跟佔位符號之外，所有科目都可以有起始餘額。\n"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:575
 msgid "Setup selected accounts"
