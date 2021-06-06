@@ -912,7 +912,7 @@ msgstr "... 付「%s」？"
 
 #: gnucash/gnome/assistant-loan.cpp:779
 msgid "via Escrow account?"
-msgstr "透過代管帳號？"
+msgstr "透過代管科目？"
 
 #: gnucash/gnome/assistant-loan.cpp:926
 #: gnucash/gnome-utils/gnc-tree-model-split-reg.c:2894
@@ -13173,10 +13173,10 @@ msgstr ""
 "有些科目被標記為「佔位符號」，這種科目只是為了建立科目體系用的，通常不會有交"
 "易或起始餘額。如果您想讓一個科目如此，點選該科目的核取方塊。\n"
 "\n"
-"如果您希望一個帳路有起始餘額，點選該科目再點起始餘額那欄就能輸入一開始的餘"
+"如果您希望一個科目有起始餘額，點選該科目再點起始餘額那欄就能輸入一開始的餘"
 "額。\n"
 "\n"
-"<b>注意</b>: 除了淨值（股東權益）跟佔位符號之外，所有科目都可以有起始餘額。\n"
+"<b>注意</b>: 除了財產淨值（股東權益）跟佔位符號之外，所有科目都可以有起始餘額。\n"
 
 #: gnucash/gtkbuilder/assistant-hierarchy.glade:575
 msgid "Setup selected accounts"
@@ -13359,11 +13359,11 @@ msgstr ""
 
 #: gnucash/gtkbuilder/assistant-loan.glade:479
 msgid "... utilize an escrow account for payments?"
-msgstr "... 利用代管帳號？"
+msgstr "... 利用代管科目？"
 
 #: gnucash/gtkbuilder/assistant-loan.glade:504
 msgid "Escrow Account"
-msgstr "代管帳號"
+msgstr "代管科目"
 
 #: gnucash/gtkbuilder/assistant-loan.glade:540
 msgid "Loan Repayment Options"
@@ -13415,7 +13415,7 @@ msgstr "指定來源科目"
 
 #: gnucash/gtkbuilder/assistant-loan.glade:854
 msgid "Use Escrow Account"
-msgstr "使用代管帳號"
+msgstr "使用代管科目"
 
 #: gnucash/gtkbuilder/assistant-loan.glade:945
 msgid "Part of Payment Transaction"
@@ -18613,7 +18613,7 @@ msgstr "刪除選定的配對(_D)"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:200
 msgid "Match Online accounts with GnuCash accounts"
-msgstr "以 GnuCash 科目配對網路銀行帳號"
+msgstr "配對網路銀行帳號與 GnuCash 科目"
 
 #: gnucash/import-export/aqb/assistant-ab-initial.glade:215
 msgid ""
@@ -23286,7 +23286,7 @@ msgstr "不要列印交易明細"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:241
 msgid "Do not print transaction detail for accounts."
-msgstr "不要列印帳戶交易明細。"
+msgstr "不要列印科目交易明細。"
 
 #: gnucash/report/reports/locale-specific/us/taxtxf.scm:245
 msgid "Do not use special date processing"
@@ -28854,7 +28854,7 @@ msgstr "已實現獲利 / 虧損"
 msgid ""
 "Realized Gains or Losses from Commodity or Trading Accounts that haven't "
 "been recorded elsewhere."
-msgstr "商品或交易帳戶中，尚未在其他地方被記錄的已實現獲利 / 虧損。"
+msgstr "商品或交易科目中，尚未在其他地方被記錄的已實現獲利 / 虧損。"
 
 #: libgnucash/engine/gnc-commodity.h:118
 msgid "All non-currency"
