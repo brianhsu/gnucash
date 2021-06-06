@@ -845,7 +845,7 @@ msgstr "佔位符號"
 #: gnucash/gtkbuilder/dialog-account.glade:1861
 #: libgnucash/app-utils/gnc-ui-util.c:1105
 msgid "Opening Balance"
-msgstr "起始結餘"
+msgstr "期初餘額"
 
 #: gnucash/gnome/assistant-hierarchy.c:1366
 msgid "Use Existing"
@@ -6577,7 +6577,7 @@ msgstr "您確定要刪除選擇的交易？"
 #: gnucash/gnome/window-reconcile2.c:1769 gnucash/gnome/window-reconcile.c:1962
 #: gnucash/gtkbuilder/window-reconcile.glade:105
 msgid "Starting Balance"
-msgstr "起始結餘"
+msgstr "期初餘額"
 
 #: gnucash/gnome/window-reconcile2.c:1779 gnucash/gnome/window-reconcile.c:1972
 msgid "Ending Balance"
@@ -7174,7 +7174,7 @@ msgstr "這是個無效的編碼。"
 
 #: gnucash/gnome-utils/dialog-account.c:531
 msgid "Could not create opening balance."
-msgstr "無法建立起始結餘。"
+msgstr "無法建立期初餘額。"
 
 #: gnucash/gnome-utils/dialog-account.c:739
 msgid "Give the children the same type?"
@@ -7219,13 +7219,13 @@ msgstr "您必須選擇一個商品。"
 
 #: gnucash/gnome-utils/dialog-account.c:952
 msgid "You must enter a valid opening balance or leave it blank."
-msgstr "您必須輸入有效的起始結餘或保持空白。"
+msgstr "您必須輸入有效的期初餘額或保持空白。"
 
 #: gnucash/gnome-utils/dialog-account.c:976
 msgid ""
 "You must select a transfer account or choose the opening balances equity "
 "account."
-msgstr "您必須選擇轉帳的科目或選定起始結餘資產淨值科目。"
+msgstr "您必須選擇轉帳的科目或選定期初餘額資產淨值科目。"
 
 #: gnucash/gnome-utils/dialog-account.c:1328
 msgid ""
@@ -9397,7 +9397,7 @@ msgstr "隱藏"
 #: gnucash/gnome-utils/gnc-tree-view-account.c:997
 msgctxt "Column header for 'Opening Balance'"
 msgid "O"
-msgstr "起始"
+msgstr "期初餘額"
 
 #. Translators: %s is a currency mnemonic.
 #: gnucash/gnome-utils/gnc-tree-view-account.c:1819
@@ -13649,7 +13649,7 @@ msgstr ""
 "您不喜歡建議的 GnuCash科目，點選以改變它。\n"
 "\n"
 "注意 GnuCash 將會建立許多不存在於您其他個人財務程式的科目，包括您的每一個持股"
-"都有個別的科目、佣金的個別科目、做為您的起始結餘來源的「資產淨值」科目(預設上"
+"都有個別的科目、佣金的個別科目、做為您的期初餘額來源的「資產淨值」科目(預設上"
 "是保留收入的子科目)、其他。這些科目全部會出現在下一頁，因此如果有需要您可以改"
 "變他們，但是不管他們也是安全的。\n"
 
@@ -14400,13 +14400,13 @@ msgstr ""
 
 #: gnucash/gtkbuilder/dialog-account.glade:1513
 msgid "Opening balance"
-msgstr "起始結餘"
+msgstr "期初餘額"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1517
 msgid ""
 "This account holds opening balance transactions. Only one account per "
 "commodity can hold opening balance transactions."
-msgstr "這個科目含有起始結餘的交易。每個商品只能有一個科目中有起始結餘的交易。"
+msgstr "這個科目含有期初餘額的交易。每個商品只能有一個科目中有期初餘額的交易。"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1564
 msgid "<b>Acco_unt Type</b>"
@@ -14427,7 +14427,7 @@ msgstr "<b>期初餘額轉帳</b>"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1778
 msgid "_Use equity 'Opening Balances' account"
-msgstr "使用起始結餘淨值科目(_U)"
+msgstr "使用期初餘額淨值科目(_U)"
 
 #: gnucash/gtkbuilder/dialog-account.glade:1795
 msgid "_Select transfer account"
@@ -28715,7 +28715,7 @@ msgstr "f"
 
 #: libgnucash/app-utils/gnc-ui-util.c:950
 msgid "Opening Balances"
-msgstr "起始結餘"
+msgstr "期初餘額"
 
 #. Translators: the 3 ~a below refer to (1) option type (2) unknown
 #. new option name, (3) fallback option name. The order is
