@@ -10880,7 +10880,7 @@ msgid ""
 "Liability accounts."
 msgstr ""
 "在對帳會有利息支出或收入的科目之前，提示使用者輸入利息支出或收入的交易。目前"
-"只能用在銀行、信用卡、共同基金、資產、應收、應付與債務科目。"
+"只能用在銀行、信用卡、共同基金、資產、應收、應付與負債科目。"
 
 #: gnucash/gschemas/org.gnucash.dialogs.reconcile.gschema.xml.in:15
 msgid "Prompt for credit card payment"
@@ -11234,7 +11234,7 @@ msgstr ""
 msgid ""
 "Sign reverse balances on the following: Credit Card, Payable, Liability, "
 "Equity, and Income."
-msgstr "改變以下科目結餘的正負號：信用卡、應付、債務、資產淨值與收入科目。"
+msgstr "改變以下科目結餘的正負號：信用卡、應付、負債、資產淨值與收入科目。"
 
 #: gnucash/gschemas/org.gnucash.gschema.xml.in:105
 #: gnucash/gtkbuilder/dialog-preferences.glade:678
@@ -13073,7 +13073,7 @@ msgid ""
 "Click 'Cancel' if you do not wish to create any new accounts now."
 msgstr ""
 "這個精靈會協助您建立一組 GnuCash 科目，包括您的資產(像是投資、支票或儲蓄帳"
-"號)、債務(像是貸款)與您可能會有的各種不同的收入和支出。\n"
+"號)、負債(像是貸款)與您可能會有的各種不同的收入和支出。\n"
 "\n"
 "您可以在這邊選擇看起來和您需要相近的科目。當此精靈完成時，您可以在之後任何的"
 "時間新增、重新命名、修改或刪除科目。您也可以建立子科目，或者移動目科(包含其子"
@@ -17411,7 +17411,7 @@ msgstr "資產(_A)"
 
 #: gnucash/gtkbuilder/dialog-tax-info.glade:314
 msgid "_Liability/Equity"
-msgstr "債務/淨值(_L)"
+msgstr "負債 / 淨值(_L)"
 
 #: gnucash/gtkbuilder/dialog-tax-info.glade:468
 msgid "<b>Account Tax Information</b>"
@@ -22218,7 +22218,7 @@ msgstr "顯示小計"
 
 #: gnucash/report/report-core.scm:150
 msgid "_Assets & Liabilities"
-msgstr "資產 & 債務(_A)"
+msgstr "資產 & 負債(_A)"
 
 #: gnucash/report/report-core.scm:151
 msgid "_Income & Expense"
@@ -23356,7 +23356,7 @@ msgstr "證券圓餅圖"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:40
 msgid "Liability Piechart"
-msgstr "債務圓餅圖"
+msgstr "負債圓餅圖"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:45
 msgid "Shows a piechart with the Income per given time interval"
@@ -23376,7 +23376,7 @@ msgstr "顯示券證資產分佈的圓餅圖"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:53
 msgid "Shows a piechart with the Liabilities balance at a given time"
-msgstr "顯示特定時間的債務結餘圓餅圖"
+msgstr "顯示特定時間的負債結餘圓餅圖"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:59
 #: gnucash/report/reports/standard/customer-summary.scm:48
@@ -23406,7 +23406,7 @@ msgstr "資產"
 #: gnucash/report/reports/standard/net-charts.scm:417
 #: gnucash/report/report-utilities.scm:200
 msgid "Liabilities"
-msgstr "債務"
+msgstr "負債"
 
 #: gnucash/report/reports/standard/account-piecharts.scm:73
 msgid "Show long names"
@@ -24130,7 +24130,7 @@ msgstr "是否在報表中包含一行淨值總額的資訊。"
 #: gnucash/report/reports/standard/balance-sheet.scm:390
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:717
 msgid "Total Liabilities"
-msgstr "總債務"
+msgstr "總負債"
 
 #: gnucash/report/reports/standard/balance-sheet.scm:488
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:686
@@ -24174,7 +24174,7 @@ msgstr "全部資產淨值"
 #: gnucash/report/reports/standard/balance-sheet.scm:534
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:781
 msgid "Total Liabilities & Equity"
-msgstr "全部債務&資產淨值"
+msgstr "全部負債 & 資產淨值"
 
 #: gnucash/report/reports/standard/balsheet-eg.scm:136
 msgid "Balance Sheet (eguile)"
@@ -24467,11 +24467,11 @@ msgstr "資產"
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1079
 #: libgnucash/engine/Account.cpp:4397
 msgid "Liability"
-msgstr "債務"
+msgstr "負債"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1097
 msgid "Liability and Equity"
-msgstr "債務/淨值"
+msgstr "負債 / 淨值"
 
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1115
 #: gnucash/report/reports/standard/balsheet-pnl.scm:1258
@@ -24539,7 +24539,7 @@ msgstr "現有負債"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:714
 msgid "New Liabilities"
-msgstr "新增債務"
+msgstr "新增負債"
 
 #: gnucash/report/reports/standard/budget-balance-sheet.scm:740
 msgid "Existing Retained Earnings"
@@ -25052,7 +25052,7 @@ msgstr "資產圖"
 #: gnucash/report/reports/standard/category-barchart.scm:44
 #: gnucash/report/reports/standard/net-charts.scm:384
 msgid "Liability Chart"
-msgstr "債務圖"
+msgstr "負債圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:49
 msgid "Shows a chart with the Income per interval developing over time"
@@ -25068,7 +25068,7 @@ msgstr "顯示資產隨時間變化的長條圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:57
 msgid "Shows a chart with the Liabilities developing over time"
-msgstr "顯示債務隨時間變化的長條圖"
+msgstr "顯示負債隨時間變化的長條圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:63
 msgid "Income Over Time"
@@ -25084,7 +25084,7 @@ msgstr "資產對時間變化圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:66
 msgid "Liabilities Over Time"
-msgstr "債務對時間變化圖"
+msgstr "負債對時間變化圖"
 
 #: gnucash/report/reports/standard/category-barchart.scm:78
 msgid "Show long account names"
@@ -26106,7 +26106,7 @@ msgstr "顯示收益淨額"
 
 #: gnucash/report/reports/standard/net-charts.scm:50
 msgid "Show Asset & Liability"
-msgstr "顯示資產與債務"
+msgstr "顯示資產與負債"
 
 #: gnucash/report/reports/standard/net-charts.scm:51
 msgid "Show Net Worth"
@@ -26130,7 +26130,7 @@ msgstr "顯示收入與支出？"
 
 #: gnucash/report/reports/standard/net-charts.scm:117
 msgid "Show the Asset and the Liability bars?"
-msgstr "顯示資產與債務？"
+msgstr "顯示資產與負債？"
 
 #: gnucash/report/reports/standard/net-charts.scm:126
 msgid "Show the net profit?"
